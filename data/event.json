@@ -1,0 +1,674 @@
+{
+  "eventFocus": {
+    "1": {
+      "value": [1,7],
+      "name": "Événement distant",
+      "description": "Quelque chose d'important s'est produit et concerne l'aventure, mais les joueurs n'étaient pas présents lorsque l'événement s'est produit, ils ne l'apprennent qu'à distance",
+      "need": "Non"
+    },
+    "2": {
+      "value": [8,28],
+      "name": "Action d'un PNJ",
+      "description": "Un PNJ existant fait une action surprise",
+      "need": "PNJ"
+    },
+    "3": {
+      "value": [29,35],
+      "name": "Introduit un nouveau PNJ",
+      "description": "Un tout nouveau visage est impliqué dans l'aventure. C'est peut-être quelqu'un que les joueurs s'attendaient à rencontrer, ou une surprise",
+      "need": "Non"
+    },
+    "4": {
+      "value": [36,45],
+      "name": "Se déplacer vers une intrigue",
+      "description": "Les intrigues sont les objectifs que les joueurs poursuivent. Ce sont les missions non résolues que les joueurs tentent de résoudre. Il peut y avoir plus d'une intrigue dans une aventure",
+      "need": "Intrigue"
+    },
+    "5": {
+      "value": [46,52],
+      "name": "Éloignez-vous d'une intrigue",
+      "description": "Cet événement aléatoire rendra les choses plus difficiles",
+      "need": "Intrigue"
+    },
+    "6": {
+      "value": [53,55],
+      "name": "Fermer une intrigue",
+      "description": "L'événement aléatoire est si important qu'il ferme une intrigue ouverte. Pour fermer une intrigue, l'intrigue est soit résolue, soit le problème disparaît",
+      "need": "Intrigue"
+    },
+    "7": {
+      "value": [56,67],
+      "name": "Joueur négatif",
+      "description": "Quelque chose de mauvais arrive à un joueur",
+      "need": "Joueur"
+    },
+    "8": {
+      "value": [68,75],
+      "name": "Joueur positif",
+      "description": "Quelque chose de bon arrive à un joueur",
+      "need": "Joueur"
+    },
+    "9": {
+      "value": [76,83],
+      "name": "Événement ambigu",
+      "description": "Il s'agit d'une catégorie fourre-tout pour tout ce qui n'a pas d'impact direct sur les joueurs ou les PNJs. L'événement n'est pas nécessairement mauvais ou bon. L'événement peut être important, mais il est souvent plus atmosphérique à la scène. Cette focalisation événementielle aléatoire vous offre la possibilité d'injecter des éléments moins importants ou même des éléments comiques dans votre aventure. Le contexte de l’aventure n’a pas tant d’importance puisque l’événement ambigu n’a peut-être rien à voir avec le déroulement de l’aventure",
+      "need": "Non"
+    },
+    "10": {
+      "value": [84,92],
+      "name": "PNJ négatif",
+      "description": "Quelque chose de mauvais arrive à un PNJ",
+      "need": "PNJ"
+    },
+    "11": {
+      "value": [93,100],
+      "name": "PNJ positif",
+      "description": "Quelque chose de bon arrive à un PNJ",
+      "need": "PNJ"
+    }
+  },
+  "eventAction": {
+    "1": {
+      "name": "Réaliser ou Achever"
+    },
+    "2": {
+      "name": "Commencer"
+    },
+    "3": {
+      "name": "Négliger"
+    },
+    "4": {
+      "name": "Lutter ou Combattre"
+    },
+    "5": {
+      "name": "Recruter"
+    },
+    "6": {
+      "name": "Triompher"
+    },
+    "7": {
+      "name": "Enfreindre"
+    },
+    "8": {
+      "name": "S'opposer"
+    },
+    "9": {
+      "name": "Malice, Méchanceté ou Malveillance"
+    },
+    "10": {
+      "name": "Communiquer"
+    },
+    "11": {
+      "name": "Persécuter"
+    },
+    "12": {
+      "name": "Augmenter ou Accroître"
+    },
+    "13": {
+      "name": "Diminuer ou Réduire"
+    },
+    "14": {
+      "name": "Abandonner"
+    },
+    "15": {
+      "name": "Satisfaire ou Assouvir"
+    },
+    "16": {
+      "name": "(Se) Renseigner"
+    },
+    "17": {
+      "name": "Contrarier"
+    },
+    "18": {
+      "name": "Déplacer"
+    },
+    "19": {
+      "name": "Perdre ou Gaspiller"
+    },
+    "20": {
+      "name": "Trêve"
+    },
+    "21": {
+      "name": "Sortie ou Libération"
+    },
+    "22": {
+      "name": "Se lier d'amitié"
+    },
+    "23": {
+      "name": "Juger"
+    },
+    "24": {
+      "name": "Déserter ou Abandonner"
+    },
+    "25": {
+      "name": "Dominer"
+    },
+    "26": {
+      "name": "Remettre à plus tard, Tergiverser ou Temporiser"
+    },
+    "27": {
+      "name": "Louer"
+    },
+    "28": {
+      "name": "Séparer"
+    },
+    "29": {
+      "name": "Prendre ou Emporter"
+    },
+    "30": {
+      "name": "Briser, Rompre ou Casser"
+    },
+    "31": {
+      "name": "Guérir"
+    },
+    "32": {
+      "name": "Retarder"
+    },
+    "33": {
+      "name": "Arrêter ou Cesser"
+    },
+    "34": {
+      "name": "Mentir"
+    },
+    "35": {
+      "name": "Retourner ou Revenir"
+    },
+    "36": {
+      "name": "Imiter"
+    },
+    "37": {
+      "name": "Lutter"
+    },
+    "38": {
+      "name": "Informer ou Avertir"
+    },
+    "39": {
+      "name": "Donner ou Accorder"
+    },
+    "40": {
+      "name": "Reporter ou Retarder"
+    },
+    "41": {
+      "name": "Exposer"
+    },
+    "42": {
+      "name": "Marchander"
+    },
+    "43": {
+      "name": "Emprisonner"
+    },
+    "44": {
+      "name": "Libérer"
+    },
+    "45": {
+      "name": "Célébrer ou Fêter"
+    },
+    "46": {
+      "name": "Développer"
+    },
+    "47": {
+      "name": "Voyager"
+    },
+    "48": {
+      "name": "Bloquer"
+    },
+    "49": {
+      "name": "Nuire"
+    },
+    "50": {
+      "name": "Avilir"
+    },
+    "51": {
+      "name": "Abuser"
+    },
+    "52": {
+      "name": "Ajourner"
+    },
+    "53": {
+      "name": "Adversité"
+    },
+    "54": {
+      "name": "Tuer"
+    },
+    "55": {
+      "name": "Perturber"
+    },
+    "56": {
+      "name": "Usurper"
+    },
+    "57": {
+      "name": "Créer"
+    },
+    "58": {
+      "name": "Trahir"
+    },
+    "59": {
+      "name": "Accepter, Approuver ou Consentir"
+    },
+    "60": {
+      "name": "Abuser"
+    },
+    "61": {
+      "name": "Opprimer"
+    },
+    "62": {
+      "name": "Inspecter"
+    },
+    "63": {
+      "name": "Embuscade"
+    },
+    "64": {
+      "name": "Espionner ou Épier"
+    },
+    "65": {
+      "name": "Joindre ou Attacher"
+    },
+    "66": {
+      "name": "Porter ou Transporter"
+    },
+    "67": {
+      "name": "Ouvrir"
+    },
+    "68": {
+      "name": "Négligence ou Imprudence"
+    },
+    "69": {
+      "name": "Ruiner, Gâcher ou Abîmer"
+    },
+    "70": {
+      "name": "Extravagance"
+    },
+    "71": {
+      "name": "Truc, Astuce ou Tour"
+    },
+    "72": {
+      "name": "Arriver"
+    },
+    "73": {
+      "name": "Proposer"
+    },
+    "74": {
+      "name": "Diviser ou Répartir"
+    },
+    "75": {
+      "name": "Refuser"
+    },
+    "76": {
+      "name": "Méfiance ou Défiance"
+    },
+    "77": {
+      "name": "Tromper"
+    },
+    "78": {
+      "name": "Cruauté"
+    },
+    "79": {
+      "name": "Intolérance"
+    },
+    "80": {
+      "name": "Faire confiance"
+    },
+    "81": {
+      "name": "Excitation"
+    },
+    "82": {
+      "name": "Activité"
+    },
+    "83": {
+      "name": "Aider ou Assister"
+    },
+    "84": {
+      "name": "Soins"
+    },
+    "85": {
+      "name": "Négligence"
+    },
+    "86": {
+      "name": "Passion"
+    },
+    "87": {
+      "name": "Travailler dur"
+    },
+    "88": {
+      "name": "Contrôle"
+    },
+    "89": {
+      "name": "Attirer"
+    },
+    "90": {
+      "name": "Echec ou Défaillance"
+    },
+    "91": {
+      "name": "Poursuivre"
+    },
+    "92": {
+      "name": "Vengeance"
+    },
+    "93": {
+      "name": "Procédures"
+    },
+    "94": {
+      "name": "Contester"
+    },
+    "95": {
+      "name": "Punir"
+    },
+    "96": {
+      "name": "Guider ou Orienter"
+    },
+    "97": {
+      "name": "Transformer"
+    },
+    "98": {
+      "name": "Renverser"
+    },
+    "99": {
+      "name": "Opprimer"
+    },
+    "100": {
+      "name": "Changer ou Modifier"
+    }
+  },
+  "eventSubject": {
+    "1": {
+      "name": "Buts"
+    },
+    "2": {
+      "name": "Rêves"
+    },
+    "3": {
+      "name": "Environnement ou Milieu"
+    },
+    "4": {
+      "name": "Extérieur ou Dehors"
+    },
+    "5": {
+      "name": "Intérieur"
+    },
+    "6": {
+      "name": "Réalité"
+    },
+    "7": {
+      "name": "Alliés"
+    },
+    "8": {
+      "name": "Ennemies"
+    },
+    "9": {
+      "name": "Mal ou Mauvais"
+    },
+    "10": {
+      "name": "Bon ou Bien"
+    },
+    "11": {
+      "name": "Emotions"
+    },
+    "12": {
+      "name": "Opposition"
+    },
+    "13": {
+      "name": "Guerre"
+    },
+    "14": {
+      "name": "Paix"
+    },
+    "15": {
+      "name": "L'innocent"
+    },
+    "16": {
+      "name": "Amour"
+    },
+    "17": {
+      "name": "Le Spirituel"
+    },
+    "18": {
+      "name": "L'Intellectuel"
+    },
+    "19": {
+      "name": "Nouvelles idées"
+    },
+    "20": {
+      "name": "Joie"
+    },
+    "21": {
+      "name": "Messages"
+    },
+    "22": {
+      "name": "Energie"
+    },
+    "23": {
+      "name": "Equilibre ou Balance"
+    },
+    "24": {
+      "name": "Tension"
+    },
+    "25": {
+      "name": "Amitié ou Relation amicale"
+    },
+    "26": {
+      "name": "Le Physique"
+    },
+    "27": {
+      "name": "Un Projet"
+    },
+    "28": {
+      "name": "Les Plaisirs"
+    },
+    "29": {
+      "name": "Douleur"
+    },
+    "30": {
+      "name": "Les Possessions ou les Biens"
+    },
+    "31": {
+      "name": "Avantages"
+    },
+    "32": {
+      "name": "Plans"
+    },
+    "33": {
+      "name": "Mensonges"
+    },
+    "34": {
+      "name": "Attentes"
+    },
+    "35": {
+      "name": "Affaires légales"
+    },
+    "36": {
+      "name": "Bureaucratie"
+    },
+    "37": {
+      "name": "Entreprise ou Affaires"
+    },
+    "38": {
+      "name": "Un Chemin"
+    },
+    "39": {
+      "name": "Nouvelles ou Actualités"
+    },
+    "40": {
+      "name": "Facteurs Extérieurs"
+    },
+    "41": {
+      "name": "Conseils ou Avis"
+    },
+    "42": {
+      "name": "Un Terrain, une Parcelle, une Intrigue ou un Complot"
+    },
+    "43": {
+      "name": "Concurrence, Compétition ou Concours"
+    },
+    "44": {
+      "name": "Prison"
+    },
+    "45": {
+      "name": "Maladie"
+    },
+    "46": {
+      "name": "Nourriture ou Alimentation"
+    },
+    "47": {
+      "name": "Attention"
+    },
+    "48": {
+      "name": "Succès ou Réussite"
+    },
+    "49": {
+      "name": "Echec ou Défaillance"
+    },
+    "50": {
+      "name": "Voyage"
+    },
+    "51": {
+      "name": "Jalousie"
+    },
+    "52": {
+      "name": "Différend ou Conflit"
+    },
+    "53": {
+      "name": "Maison ou Domicile"
+    },
+    "54": {
+      "name": "Investissement ou Placement"
+    },
+    "55": {
+      "name": "Souffrance"
+    },
+    "56": {
+      "name": "Voeux"
+    },
+    "57": {
+      "name": "Tactique"
+    },
+    "58": {
+      "name": "Impasse"
+    },
+    "59": {
+      "name": "Hasard"
+    },
+    "60": {
+      "name": "Malheur ou Infortune"
+    },
+    "61": {
+      "name": "Mort"
+    },
+    "62": {
+      "name": "Perturbation ou Interruption"
+    },
+    "63": {
+      "name": "Puissance, Pouvoir ou Energie"
+    },
+    "64": {
+      "name": "Un Fardeau"
+    },
+    "65": {
+      "name": "Intrigues"
+    },
+    "66": {
+      "name": "Craintes"
+    },
+    "67": {
+      "name": "Embuscade"
+    },
+    "68": {
+      "name": "Rumeur"
+    },
+    "69": {
+      "name": "Plaie ou Blessure"
+    },
+    "70": {
+      "name": "Extravagance"
+    },
+    "71": {
+      "name": "Un Représentant"
+    },
+    "72": {
+      "name": "Adversités"
+    },
+    "73": {
+      "name": "Opulence"
+    },
+    "74": {
+      "name": "Liberté"
+    },
+    "75": {
+      "name": "Militaire"
+    },
+    "76": {
+      "name": "Le Banal"
+    },
+    "77": {
+      "name": "Procès ou Essai"
+    },
+    "78": {
+      "name": "Masses"
+    },
+    "79": {
+      "name": "Véhicule"
+    },
+    "80": {
+      "name": "Art"
+    },
+    "81": {
+      "name": "Victoire"
+    },
+    "82": {
+      "name": "Différend ou Conflit"
+    },
+    "83": {
+      "name": "Richesse"
+    },
+    "84": {
+      "name": "Statu Quo"
+    },
+    "85": {
+      "name": "Technologie"
+    },
+    "86": {
+      "name": "Espoir ou Espérance"
+    },
+    "87": {
+      "name": "Magie"
+    },
+    "88": {
+      "name": "Illusions"
+    },
+    "89": {
+      "name": "Portails"
+    },
+    "90": {
+      "name": "Danger ou Risque"
+    },
+    "91": {
+      "name": "Armes"
+    },
+    "92": {
+      "name": "Animaux"
+    },
+    "93": {
+      "name": "Temps ou Météo"
+    },
+    "94": {
+      "name": "Eléments"
+    },
+    "95": {
+      "name": "Nature"
+    },
+    "96": {
+      "name": "Le Public"
+    },
+    "97": {
+      "name": "Leadership ou Direction"
+    },
+    "98": {
+      "name": "Gloire ou Célébrité"
+    },
+    "99": {
+      "name": "Colère ou Courroux"
+    },
+    "100": {
+      "name": "Information ou Renseignements"
+    }
+  }
+}
