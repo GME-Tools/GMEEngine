@@ -3,18 +3,19 @@ const Campaign = require('../models/campaign');
 const fateCheck = require('../rules/mythic/fatecheck');
 
 const fatecheck = (req, res) => {
-  Campaign.findById(req.body.campaignId).exec()
+  // Campaign.findById(req.body.campaignId).exec()
+  Campaign.find({campaignID: req.body.campaignId}).exec()
     .then(campaign => {
-      const chaos = campaign.chaosFactor;
+      const chaos = campaign[0].chaosFactor;
       const odd = req.body.odd;
       const yesorno = req.body.yesorno;
-      const checkres = fateCheck(chaos, odd, yesorno);
+      const fateres = fateCheck(chaos, odd, yesorno);
 
-      if (checkres.hasOwnProperty('error')) {
-        res.status(400).send(checkres.error);
+      if (fateres.hasOwnProperty('error')) {
+        res.status(400).send(fateres.error);
       }
       else {
-        res.status(200).json(checkres);
+        res.status(200).json(fateres);
       }
     })
     .catch(error => {console.log(error)});

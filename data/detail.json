@@ -1,0 +1,698 @@
+{
+  "detailCheck": {
+    "1": {
+      "value": [-2,4],
+      "name": "COLÈRE",
+      "description": "La réponse est quelque chose qui provoque la colère chez le joueur le plus directement impliqué dans la question. Le degré de colère est à ton estimation, tout ce qui te semble le plus approprié, allant de découvrant qu'un allié travaille actuellement pour un ennemi jusqu'à être contrarié que le barrista n'a pas réussi à fouetter la crème sur le macchiato caramel",
+      "need": "Non"
+    },
+    "2": {
+      "value": [5,5],
+      "name": "TRISTESSE",
+      "description": "La réponse est quelque chose qui cause de la tristesse chez le joueur le plus directement impliqué dans la Question. Comme avec la colère et les autres émotions, la tristesse peut être interprété largement, du chagrin de découvrir un cher ami mort jusqu'à avoir perdu un objet qu'on voulait",
+      "need": "Non"
+    },
+    "3": {
+      "value": [6,6],
+      "name": "PEUR",
+      "description": "La réponse est quelque chose qui fait peur au joueur le plus directement impliqué. C'est peut-être l'émotion la plus facilement interprétée dans le tableau car de nombreuses choses peuvent provoquer la peur, d'un adversaire tirant son arme et attaquant jusqu'à entendre un bruit de cognement effrayant les morts de la nuit",
+      "need": "Non"
+    },
+    "4": {
+      "value": [7,7],
+      "name": "DÉFAVEURS INTRIGUE",
+      "description": "S'il y a plus d'une intrigue, déterminer aléatoirement quelle intrigue ce résultat désavantage. La réponse à votre question sera le résultat le plus évident qui fonctionne contre l'objectif de cette intrigue",
+      "need": "Intrigue"
+    },
+    "5": {
+      "value": [8,8],
+      "name": "DÉFAVEURS JOUEUR",
+      "description": "La réponse à cette question fonctionne contre un joueur aléatoire. Le résultat défavorable devrait être le plus évident qui vient à l'esprit, interprété dans le contexte de l'histoire et le joueur impliqué",
+      "need": "Joueur"
+    },
+    "6": {
+      "value": [9,9],
+      "name": "FOCUS PNJ",
+      "description": "La réponse se concentre autour d'un PNJ de la liste des PNJs. S'il y a plusieurs PNJs on détermine alors au hasard lequel. Cela ne signifie pas nécessairement que quelque chose arrive directement à ce PNJ, ou que le PNJ est même directement impliqué dans la réponse à la question, cela signifie simplement que la réponse a quelque chose à voir avec ce PNJ. Les résultats Focus se distinguent des résultats Faveurs et Défaveurs en ce sens que la réponse ne doit pas nécessairement se pencher vers ou loin du sujet. Un résultat Focus peut être négatif ou positif, il peut s'agir de n'importe quoi du moment qu'il concerne le Focus, mais vous ne penchez pas initialement dans cette direction comme vous le faites pour les résultats Faveurs et Défaveurs",
+      "need": "PNJ"
+    },
+    "7": {
+      "value": [10,10],
+      "name": "FAVEURS PNJ",
+      "description": "La réponse à cette question concerne un PNJ déterminé au hasard sur la liste des personnages d'une manière favorable. Les «faveurs» peuvent être quelque chose qui aide directement ce PNJ ou que le résultat soit semblable au PNJ (quelque chose que ce PNJ à déjà rencontré ou qui lui ressemble). D'une certaine manière, la réponse a un lien favorable avec le PNJ",
+      "need": "PNJ"
+    },
+    "8": {
+      "value": [11,11],
+      "name": "FOCUS JOUEUR",
+      "description": "La réponse se concentre autour d'un joueur de la liste des joueurs. S'il y a plusieurs joueurs on détermine alors au hasard lequel. Cela ne signifie pas nécessairement que quelque chose arrive directement à ce joueur, ou que le joueur est même directement impliqué dans la réponse à la question, cela signifie simplement que la réponse a quelque chose à voir avec ce joueur. Les résultats Focus se distinguent des résultats Faveurs et Défaveurs en ce sens que la réponse ne doit pas nécessairement se pencher vers ou loin du sujet. Un résultat Focus peut être négatif ou positif, il peut s'agir de n'importe quoi du moment qu'il concerne le Focus, mais vous ne penchez pas initialement dans cette direction comme vous le faites pour les résultats Faveurs et Défaveurs",
+      "need": "Joueur"
+    },
+    "9": {
+      "value": [12,12],
+      "name": "DÉFAVEURS PNJ",
+      "description": "La réponse à cette question fonctionne contre un PNJ aléatoire. Le résultat défavorable devrait être le plus évident qui vient à l'esprit, interprété dans le contexte de l'histoire et le PNJ impliqué",
+      "need": "PNJ"
+    },
+    "10": {
+      "value": [13,13],
+      "name": "FOCUS INTRIGUE",
+      "description": "Ce focus concerne une intrigue déterminée. Puisque les intrigues sont les objectifs que les joueurs poursuivent, le résultat du FOCUS INTRIGUE sera souvent une information sur l'intrigue ou un rappel de l'intrigue. Les résultats Focus se distinguent des résultats Faveurs et Défaveurs en ce sens que la réponse ne doit pas nécessairement se pencher vers ou loin du sujet. Un résultat Focus peut être négatif ou positif, il peut s'agir de n'importe quoi du moment qu'il concerne le Focus, mais vous ne penchez pas initialement dans cette direction comme vous le faites pour les résultats Faveurs et Défaveurs",
+      "need": "Intrigue"
+    },
+    "11": {
+      "value": [14,14],
+      "name": "FAVEURS JOUEUR",
+      "description": "La réponse à cette question concerne un joueur déterminé au hasard sur la liste des personnages d'une manière favorable. Les «faveurs» peuvent être quelque chose qui aide directement ce joueur ou que le résultat soit semblable au joueur (quelque chose que ce joueur à déjà rencontré ou qui lui ressemble). D'une certaine manière, la réponse a un lien favorable avec le joueur",
+      "need": "Joueur"
+    },
+    "12": {
+      "value": [15,15],
+      "name": "FAVEURS INTRIGUE",
+      "description": "La réponse à cette question entraînera probablement les joueurs à faire un pas de plus pour terminer l'intrigue en question, sinon donnez-leur la possibilité de l'achever ou, il peut simplement y avoir quelque chose en commun avec l'intrigue",
+      "need": "Intrigue"
+    },
+    "13": {
+      "value": [16,16],
+      "name": "COURAGE",
+      "description": "C'est un autre résultat d'émotion, le revers de la médaille d'avoir peur. Celle-ci concerne le joueur le plus directement lié à la question posée. Le résultat devrait être quelque chose qui renforce le courage du joueur comme l'apparition soudaine d'une armée alliée ou la découverte d'une arme utile",
+      "need": "Non"
+    },
+    "14": {
+      "value": [17,17],
+      "name": "BONHEUR",
+      "description": "La réponse à ce Check Detail rend le joueur le plus directement lié à la question BONHEUR en quelque sorte. C'est le contraire du résultat Tristesse. Comme pour les autres émotions, le bonheur peut varier largement du fait d'avoir découvert qu'un ami qu'on pensait mort et qui est toujours vivant jusqu'à mettre la main sur une bière après un long voyage fatiguant",
+      "need": "Non"
+    },
+    "15": {
+      "value": [18,22],
+      "name": "CALME",
+      "description": "La réponse à cette question rend le joueur directement impliqué dans la question CALME d'une certaine manière. C'est l'opposé du résultat de la colère. Calme peut être tout ce qui produit la paix ou diminue une situation tendue. Les affects peuvent varier largement. Peut-être qu’une tempête qui secoue un navire dans lequel ils voyagent s'achève, ou un monstre qu’ils pensaient attaquer se retire",
+      "need": "Non"
+    }
+  },
+  "descriptionTable1": {
+    "1": {
+      "name": "Anormalement"
+    },
+    "2": {
+      "name": "Aventureux"
+    },
+    "3": {
+      "name": "Agressivement"
+    },
+    "4": {
+      "name": "Avec colère"
+    },
+    "5": {
+      "name": "Anxieusement ou Avec impatience"
+    },
+    "6": {
+      "name": "Maladroitement"
+    },
+    "7": {
+      "name": "Magnifiquement"
+    },
+    "8": {
+      "name": "Tristement"
+    },
+    "9": {
+      "name": "Audacieusement ou Hardiment"
+    },
+    "10": {
+      "name": "Bravement ou Courageusement"
+    },
+    "11": {
+      "name": "Activement"
+    },
+    "12": {
+      "name": "Calmement"
+    },
+    "13": {
+      "name": "Soigneusement, Avec précaution ou Avec soin"
+    },
+    "14": {
+      "name": "Négligemment"
+    },
+    "15": {
+      "name": "Avec prudence ou Avec précaution"
+    },
+    "16": {
+      "name": "Sans cesse"
+    },
+    "17": {
+      "name": "Gaiement"
+    },
+    "18": {
+      "name": "Combativement"
+    },
+    "19": {
+      "name": "Froidement"
+    },
+    "20": {
+      "name": "Follement"
+    },
+    "21": {
+      "name": "Avec curiosité"
+    },
+    "22": {
+      "name": "Délicatement"
+    },
+    "23": {
+      "name": "Dangereusement"
+    },
+    "24": {
+      "name": "Avec défi"
+    },
+    "25": {
+      "name": "Délibérément"
+    },
+    "26": {
+      "name": "Délicieusement"
+    },
+    "27": {
+      "name": "Faiblement"
+    },
+    "28": {
+      "name": "Efficacement"
+    },
+    "29": {
+      "name": "Énergiquement"
+    },
+    "30": {
+      "name": "Énormément ou Extrêmement"
+    },
+    "31": {
+      "name": "Avec enthousiasme"
+    },
+    "32": {
+      "name": "Excité"
+    },
+    "33": {
+      "name": "Craintivement ou Terriblement"
+    },
+    "34": {
+      "name": "Férocement"
+    },
+    "35": {
+      "name": "Violemment"
+    },
+    "36": {
+      "name": "Bêtement ou Sottement"
+    },
+    "37": {
+      "name": "Heureusement"
+    },
+    "38": {
+      "name": "Frénétiquement"
+    },
+    "39": {
+      "name": "Librement"
+    },
+    "40": {
+      "name": "Effrayant"
+    },
+    "41": {
+      "name": "Pleinement ou Complètement"
+    },
+    "42": {
+      "name": "Généreusement"
+    },
+    "43": {
+      "name": "Doucement"
+    },
+    "44": {
+      "name": "Volontier"
+    },
+    "45": {
+      "name": "Gracieusement"
+    },
+    "46": {
+      "name": "Avec gratitude ou Avec reconnaissance"
+    },
+    "47": {
+      "name": "Heureusement"
+    },
+    "48": {
+      "name": "Hâtivement"
+    },
+    "49": {
+      "name": "Sainement"
+    },
+    "50": {
+      "name": "Utile"
+    },
+    "51": {
+      "name": "Impuissant"
+    },
+    "52": {
+      "name": "Désespérément"
+    },
+    "53": {
+      "name": "Naïvement"
+    },
+    "54": {
+      "name": "Intensément"
+    },
+    "55": {
+      "name": "De façon intéressante"
+    },
+    "56": {
+      "name": "Irritant"
+    },
+    "57": {
+      "name": "Jovialement"
+    },
+    "58": {
+      "name": "Joyeusement"
+    },
+    "59": {
+      "name": "Jugement"
+    },
+    "60": {
+      "name": "Gentiment"
+    },
+    "61": {
+      "name": "Bizarrement "
+    },
+    "62": {
+      "name": "Paresseusement"
+    },
+    "63": {
+      "name": "Légèrement"
+    },
+    "64": {
+      "name": "Librement ou Lâchement"
+    },
+    "65": {
+      "name": "Bruyamment"
+    },
+    "66": {
+      "name": "Avec amour"
+    },
+    "67": {
+      "name": "Loyalement"
+    },
+    "68": {
+      "name": "Majestueusement"
+    },
+    "69": {
+      "name": "Significativement"
+    },
+    "70": {
+      "name": "Mécaniquement"
+    },
+    "71": {
+      "name": "Misérablement ou Lamentablement"
+    },
+    "72": {
+      "name": "Moqueur"
+    },
+    "73": {
+      "name": "Mystérieusement"
+    },
+    "74": {
+      "name": "Naturellement"
+    },
+    "75": {
+      "name": "Soigneusement ou Proprement"
+    },
+    "76": {
+      "name": "Bien ou Joliment"
+    },
+    "77": {
+      "name": "Bizarrement ou Etrangement"
+    },
+    "78": {
+      "name": "Offensivement"
+    },
+    "79": {
+      "name": "Officiellement"
+    },
+    "80": {
+      "name": "Partiellement ou En partie"
+    },
+    "81": {
+      "name": "Pacifiquement ou Paisiblement"
+    },
+    "82": {
+      "name": "A la perfection ou Parfaitement"
+    },
+    "83": {
+      "name": "Ludique"
+    },
+    "84": {
+      "name": "Poliment"
+    },
+    "85": {
+      "name": "Positivement"
+    },
+    "86": {
+      "name": "Puissant"
+    },
+    "87": {
+      "name": "Bizarrement"
+    },
+    "88": {
+      "name": "Querelleur"
+    },
+    "89": {
+      "name": "Tranquillement ou Doucement"
+    },
+    "90": {
+      "name": "À peu près"
+    },
+    "91": {
+      "name": "Rudement"
+    },
+    "92": {
+      "name": "Impitoyablement"
+    },
+    "93": {
+      "name": "Tout doucement ou Lentement"
+    },
+    "94": {
+      "name": "Doucement"
+    },
+    "95": {
+      "name": "Rapidement"
+    },
+    "96": {
+      "name": "Menaçant"
+    },
+    "97": {
+      "name": "Très"
+    },
+    "98": {
+      "name": "Violemment"
+    },
+    "99": {
+      "name": "Follement"
+    },
+    "100": {
+      "name": "Cédant"
+    }
+  },
+  "descriptionTable2": {
+    "1": {
+      "name": "Abandonné"
+    },
+    "2": {
+      "name": "Anormal"
+    },
+    "3": {
+      "name": "Amusant"
+    },
+    "4": {
+      "name": "Ancien ou Antique"
+    },
+    "5": {
+      "name": "Aromatique"
+    },
+    "6": {
+      "name": "Moyen"
+    },
+    "7": {
+      "name": "Magnifique ou Beau"
+    },
+    "8": {
+      "name": "Bizarre"
+    },
+    "9": {
+      "name": "Chic"
+    },
+    "10": {
+      "name": "Propre"
+    },
+    "11": {
+      "name": "Froid"
+    },
+    "12": {
+      "name": "Coloré"
+    },
+    "13": {
+      "name": "Sinistre"
+    },
+    "14": {
+      "name": "Mignon"
+    },
+    "15": {
+      "name": "Endommagé"
+    },
+    "16": {
+      "name": "Sombre"
+    },
+    "17": {
+      "name": "Vaincu ou Battu"
+    },
+    "18": {
+      "name": "Délicat"
+    },
+    "19": {
+      "name": "Délicieux ou Charmant"
+    },
+    "20": {
+      "name": "Sale"
+    },
+    "21": {
+      "name": "Désagréable"
+    },
+    "22": {
+      "name": "Dégoûtant ou Dégueulasse"
+    },
+    "23": {
+      "name": "Terne"
+    },
+    "24": {
+      "name": "Sec"
+    },
+    "25": {
+      "name": "Terne ou Mat"
+    },
+    "26": {
+      "name": "Vide"
+    },
+    "27": {
+      "name": "Énorme"
+    },
+    "28": {
+      "name": "Exotique"
+    },
+    "29": {
+      "name": "Délavé"
+    },
+    "30": {
+      "name": "Familier"
+    },
+    "31": {
+      "name": "Fantaisie"
+    },
+    "32": {
+      "name": "Gras ou Graisse"
+    },
+    "33": {
+      "name": "Faible"
+    },
+    "34": {
+      "name": "Féminin"
+    },
+    "35": {
+      "name": "De fête"
+    },
+    "36": {
+      "name": "Sans défaut ou Parfait"
+    },
+    "37": {
+      "name": "Frais, Fraîche ou Douce"
+    },
+    "38": {
+      "name": "Complet ou Plein"
+    },
+    "39": {
+      "name": "Glorieux"
+    },
+    "40": {
+      "name": "Bon"
+    },
+    "41": {
+      "name": "Gracieux"
+    },
+    "42": {
+      "name": "Difficile ou Dur"
+    },
+    "43": {
+      "name": "Rude, Dur ou Sévère"
+    },
+    "44": {
+      "name": "En bonne santé ou Sain"
+    },
+    "45": {
+      "name": "Lourd"
+    },
+    "46": {
+      "name": "Historique"
+    },
+    "47": {
+      "name": "Horrible"
+    },
+    "48": {
+      "name": "Important"
+    },
+    "49": {
+      "name": "Intéressant"
+    },
+    "50": {
+      "name": "Juvénile"
+    },
+    "51": {
+      "name": "Manquant"
+    },
+    "52": {
+      "name": "Boiteux"
+    },
+    "53": {
+      "name": "Grand ou Large"
+    },
+    "54": {
+      "name": "Somptueux"
+    },
+    "55": {
+      "name": "Maigre ou Pauvre"
+    },
+    "56": {
+      "name": "Moins"
+    },
+    "57": {
+      "name": "Mortel ou Létal"
+    },
+    "58": {
+      "name": "Seul ou Solitaire"
+    },
+    "59": {
+      "name": "Beau ou Charmant"
+    },
+    "60": {
+      "name": "Macabre"
+    },
+    "61": {
+      "name": "Magnifique"
+    },
+    "62": {
+      "name": "Masculin"
+    },
+    "63": {
+      "name": "Mature ou Mûr"
+    },
+    "64": {
+      "name": "Désordonné, Malpropre, Salissant ou En désordre"
+    },
+    "65": {
+      "name": "Puissant"
+    },
+    "66": {
+      "name": "Militaire"
+    },
+    "67": {
+      "name": "Moderne"
+    },
+    "68": {
+      "name": "Extravagant"
+    },
+    "69": {
+      "name": "Banal"
+    },
+    "70": {
+      "name": "Mystérieux"
+    },
+    "71": {
+      "name": "Naturel"
+    },
+    "72": {
+      "name": "Quelconque ou Indéfinissable"
+    },
+    "73": {
+      "name": "Etrange ou Bizarre"
+    },
+    "74": {
+      "name": "Pâle"
+    },
+    "75": {
+      "name": "Menu"
+    },
+    "76": {
+      "name": "Pauvre"
+    },
+    "77": {
+      "name": "Puissant"
+    },
+    "78": {
+      "name": "Pittoresque"
+    },
+    "79": {
+      "name": "Rare"
+    },
+    "80": {
+      "name": "Rassurant"
+    },
+    "81": {
+      "name": "Remarquable"
+    },
+    "82": {
+      "name": "Pourri"
+    },
+    "83": {
+      "name": "Rugueux ou rude"
+    },
+    "84": {
+      "name": "Ruiné ou Ruiné"
+    },
+    "85": {
+      "name": "Rustique"
+    },
+    "86": {
+      "name": "Effrayant"
+    },
+    "87": {
+      "name": "Simple"
+    },
+    "88": {
+      "name": "Petit"
+    },
+    "89": {
+      "name": "Malodorant ou Qui sent mauvais"
+    },
+    "90": {
+      "name": "Lisse"
+    },
+    "91": {
+      "name": "Doux"
+    },
+    "92": {
+      "name": "Fort ou Solide"
+    },
+    "93": {
+      "name": "Tranquille"
+    },
+    "94": {
+      "name": "Moche ou Laid"
+    },
+    "95": {
+      "name": "Précieux ou De valeur"
+    },
+    "96": {
+      "name": "Guerrier ou Belliqueux"
+    },
+    "97": {
+      "name": "Chaleureux ou Chaud"
+    },
+    "98": {
+      "name": "Aqueux"
+    },
+    "99": {
+      "name": "Faible"
+    },
+    "100": {
+      "name": "Jeune"
+    }
+  }
+}

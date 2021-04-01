@@ -1,0 +1,148 @@
+{
+  "disposition": {
+    "1": {
+      "value": [-8,5],
+      "name": "Passif",
+      "description": "Le personnage prend l'approche la plus douce pour ses actions",
+      "modifier": -2
+    },
+    "2": {
+      "value": [6,10],
+      "name": "Modéré",
+      "description": "Le personnage agit de manière modéré, ni trop intense, ni trop passif",
+      "modifier": 0
+    },
+    "3": {
+      "value": [11,15],
+      "name": "Actif",
+      "description": "Le personnage veut faire connaître ses actions",
+      "modifier": 2
+    },
+    "4": {
+      "value": [16,28],
+      "name": "Agressif",
+      "description": "Le personnage agit avec la plus grande urgence et intensité",
+      "modifier": 4
+    }
+  },
+  "actionTable1": {
+    "1": {
+      "value": [-2,3],
+      "name": "Action de Thème",
+      "description": "Le PNJ prend une Action en accord avec le Thème, la Disposition et les Descripteurs Activés actuels. Si le PNJ effectuait déjà une Action, le PNJ arrête cette action et passe à une autre action attendue",
+      "modifierDisposition": 0,
+      "modifierAction": 0,
+      "action2": false
+    },
+    "2": {
+      "value": [4,5],
+      "name": "Le PNJ continue",
+      "description": "Le PNJ continuera son action actuelle, ou passera au niveau suivant, selon ce qui a le plus de sens. Si le PNJ n'a pas encore agi dans cette scène, alors traitez le résultat comme une Action de Thème",
+      "modifierDisposition": 0,
+      "modifierAction": 0,
+      "action2": false
+    },
+    "3": {
+      "value": [6,6],
+      "name": "Le PNJ continue",
+      "description": "Le PNJ va continuer son action actuelle, ou l'amener au niveau suivant, selon ce qui a le plus de sens. Appliquez un ajustement de +2 à son Score de Disposition, représentant un possible changement dans son attitude actuelle. Si le PNJ n'a pas encore joué dans cette scène, traitez le résultat en tant qu'Action de Thème +2",
+      "modifierDisposition": 2,
+      "modifierAction": 0,
+      "action2": false
+    },
+    "4": {
+      "value": [7,7],
+      "name": "Le PNJ continue",
+      "description": "Le PNJ va continuer son action actuelle, ou l'amener au niveau suivant, selon ce qui a le plus de sens. Appliquez un ajustement de -2 à son Score de Disposition, représentant un possible changement dans son attitude actuelle. Si le PNJ n'a pas encore joué dans cette scène, traitez le résultat en tant qu'Action de Thème -2",
+      "modifierDisposition": -2,
+      "modifierAction": 0,
+      "action2": false
+    },
+    "5": {
+      "value": [8,8],
+      "name": "Action du PNJ",
+      "description": "Le PNJ prend une nouvelle, peut-être inattendue, Action déterminée en lançant les dés sur la Table d'Action des PNJ 2 et en appliquant le Modificateur de Disposition (le cas échéant) à ce jet",
+      "modifierDisposition": 0,
+      "modifierAction": 0,
+      "action2": true
+    },
+    "6": {
+      "value": [9,9],
+      "name": "Action du PNJ",
+      "description": "Le PNJ prend une nouvelle, peut-être inattendue, Action déterminée en lançant les dés sur la Table d'Action des PNJ 2, en appliquant un modificateur de -4 et le Modificateur de Disposition (le cas échéant) à ce jet",
+      "modifierDisposition": 0,
+      "modifierAction": -4,
+      "action2": true
+    },
+    "7": {
+      "value": [10,14],
+      "name": "Action du PNJ",
+      "description": "Le PNJ prend une nouvelle, peut-être inattendue, Action déterminée en lançant les dés sur la Table d'Action des PNJ 2, en appliquant un modificateur de +4 et le Modificateur de Disposition (le cas échéant) à ce jet",
+      "modifierDisposition": 0,
+      "modifierAction": 4,
+      "action2": true
+    }
+  },
+  "actionTable2": {
+    "1": {
+      "value": [-8,6],
+      "name": "Pourpalers, Exposition",
+      "description": "Le PNJ décide d'engager une conversation. Si le PNJ faisait quelque chose de physique, comme se battre ou couper un arbre par exemple, il arrête de faire ça pour parler ou fais les deux, selon ce qui semble le plus logique. S'il parlait déjà, alors il change de sujet et parle d'autre chose. Vous avez deux options pour savoir ce qu'il dit précisément. La première consiste à continuer votre chemin en utilisant le Thème, la Disposition, et les Descripteurs activés et continuez avec ce que vous vous attendrez à ce qu'il dit. Votre deuxième option est de faire un jet de dés sur les Meaning Tables du chapitre Detail Check, en jetant les dés sur l'ensemble des Tables de Descripteur. Utilisez le résultat comme source d'inspiration pour trouver une interprétation de ce que dit le PNJ",
+      "need": ["description"]
+    },
+    "2": {
+      "value": [7,8],
+      "name": "Effectue une action ambigüe",
+      "description": "Le PNJ fait quelque chose qui n'a rien à voir avec son action actuelle et ne semble pas liée au Thème, à la Disposition ou aux descripteurs activés. C’est une action neutre. Pour déterminer ce qu'est l'action, faites un jet de dés sur les Meaning Tables du chapitre Detail Check. Alors qu'une action ambiguë doit être abordée depuis un point de vue qui n'est ni bon ni mauvais pour les joueurs ou les PNJs, le résultat final peut être soit avantageux ou désavantageux pour quelqu'un. Ne vous sentez pas contraint de proposer quelque chose qui est complètement et totalement neutre, allez-y avec la première idée qui vous vient le long de cette ligne inspirée par les Meaning Tables",
+      "need": ["action"]
+    },
+    "3": {
+      "value": [9,10],
+      "name": "Agit dans l'intérêt du joueur",
+      "description": "Le PNJ fait quelque chose qui est dans le meilleur intérêt du joueur.  S'il y a plus d'un joueur, soit le résultat se réfère au joueur qui traite le plus directement avec le PNJ ou soit déterminez le au hasard. Ce qui constitue un «intérêt pour le joueur» peut être beaucoup de choses, mais c'est quelque chose qui aidera le personnage, l'aidant probablement dans l'achèvement d'une Intrigue. Vous pouvez soit choisir la plus logique et le comportement probable du PNJ, ou lancez des dés sur les Description et Action Meaning Tables pour trouver l'inspiration pour ce que c'est",
+      "need": ["joueur", "intrigue", "description", "action"]
+    },
+    "4": {
+      "value": [11,11],
+      "name": "Donne quelque chose",
+      "description": "Le PNJ donne au joueur quelque chose.  S'il y a plus d'un joueur, soit ce résultat se réfère au joueur qui traite le plus directement avec le PNJ ou déterminez-le au hasard. Ce qui est donné n'est pas nécessairement utile. Le «quelque chose» en question peut être n'importe quoi, d'un objet à une information. Quoi qu'il en soit, le PNJ communique quelque chose au joueur et ce quelque chose devrait avoir de la pertinence dans l'histoire. Choisissez la chose la plus logique que cela puisse être (surtout si cette logique est quelque chose qui vous vient à l'esprit immédiatement), ou lancez des dés sur le Descriptor Meaning Tables pour trouver l'inspiration pour ce que c'est",
+      "need": ["joueur", "description"]
+    },
+    "5": {
+      "value": [12,12],
+      "name": "Cherche à terminer la rencontre",
+      "description": "Le PNJ en a assez de cette rencontre et souhaite y mettre fin. Cela peut signifier mettre fin à une conversation, marcher loin d'une situation, arrêter un combat, etc. Ce résultat ne signifie pas nécessairement que la rencontre se termine réellement, juste que le PNJ essaie d'y mettre fin. S'il y a une interprétation logique de cela qui vous vient à l'esprit alors vous pouvez y aller. Si une réponse logique évidente ne vous vient pas à l'esprit, lancez les dés sur les Action Meaning Tables pour voir comment le PNJ essaie de mettre fin à la rencontre",
+      "need": ["action"]
+    },
+    "6": {
+      "value": [13,13],
+      "name": "Modifie le thème",
+      "description": "Le PNJ change la nature actuelle de la rencontre. N'oubliez pas que le thème est un simple résumé de ce dans quoi le PNJ est engagé. Le PNJ se bat, le PNJ fait le dîner, le PNJ essaie de convaincre les joueurs de se lancer dans une quête. Peu importe sur quoi le PNJ se concentre actuellement ou quoi se concentre sur lui, cette attention se déplace vers autre chose. S'il y a une interprétation évidente et logique de cela, alors continuez avec ça. Si ce n'est pas le cas, jetez les dés sur les Action Meaning Tables pour l'inspiration",
+      "need": ["action"]
+    },
+    "7": {
+      "value": [14,14],
+      "name": "Modifie un descripteur",
+      "description": "Déterminez la catégorie du descripteur au hasard en lançant n'importe quel jeu de dés qui peut vous donner un résultat de 1 à 3, ce qui entraîne soit Identité, Personnalité ou Activité. Déterminez le nouveau descripteur en jetant les dés sur les Description Meaning Tables pour l'identité et la personnalité, et les Action Meaning Tables pour l'activité. Une fois déterminé, enregistrez le nouveau descripteur à côté du descripteur original et considérez-le comme un descripteur secondaire pour ce PNJ. Une fois le descripteur connu, considérez-le comme activé (avec un ajustement de -2 ou +2 à la disposition, comme tout descripteur activé entraînerait, et faire des ajustements pour désactiver le descripteur précédent). La prochaine action du PNJ devrait refléter ce changement dans le descripteur",
+      "need": ["descripteur"]
+    },
+    "8": {
+      "value": [15,17],
+      "name": "Agit sans intérêt",
+      "description": "Le PNJ fait quelque chose qui est clairement pour son propre profit. Vous pouvez consulter ses Descripteurs activés, sa Disposition et le Thème pour comprendre ce que veut le PNJ. Si une interprétation logique vous saute aux yeux sur la base de ces facteurs, alors continuez avec. Sinon, lancez les dés sur la Action Meaning Table pour déterminer ce que fait le PNJ. Quoi qu'il en soit, il devrait servir ses propres intérêts",
+      "need": ["action"]
+    },
+    "9": {
+      "value": [18,18],
+      "name": "Prend quelque chose",
+      "description": "Le PNJ prend quelque chose au joueur. S'il y a plus d'un joueur, soit le PNJ prend quelque chose au joueur avec qui il est le plus directement lié ou lancer les dés pour obtenir un joueur au hasard. Peu importe ce que le PNJ prend mais cela devrait être quelque chose de valeur pour le joueur et constitue une perte. Peut-être que le PNJ essaie de désarmer le joueur, peut-être qu'il prend un objet de valeur ou essaie de facturer une grosse quantité d'argent pour quelque chose. Le fait que le PNJ prend quelque chose ne veut pas dire qu'il réussit, ça signifie juste qu'il essaie de prendre quelque chose comme action",
+      "need": ["joueur", "description"]
+    },
+    "10": {
+      "value": [19,30],
+      "name": "Cause des dommages",
+      "description": "Ce résultat est simple par nature : le PNJ essaie de blesser le joueur. S'il y a plus d'un joueur, soit le PNJ fait mal au joueur avec qui il est le plus directement lié ou lancer les dés pour obtenir un joueur au hasard. S'il n'y a pas de logique rapide pour déterminer l'interprétation, alors jetez les dés sur les Action Meaning Tables pour l'inspiration pour l'action entreprise par le PNJ. Cela ne signifie pas nécessairement que le préjudice causé est physique. Peut-être que le PNJ dit quelque chose de méchant au joueur. Peut-être qu'il a laissé une note méchante. Peut-être qu'ils ont juste lancé un mauvais regard sur le joueur. Laissez le Thème, la Disposition et les Descripteurs activés vous guider.",
+      "need": ["joueur", "action"]
+    }
+  }
+}
