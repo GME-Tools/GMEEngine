@@ -1,0 +1,254 @@
+{
+  "tavernName": {
+    "1": {
+      "value": [1,1],
+      "name1": "L'Enclume (et)",
+      "name2": "Doré(e)"
+    },
+    "2": {
+      "value": [2,2],
+      "name1": "La Grenouille (et)",
+      "name2": "(l')Oeil"
+    },
+    "3": {
+      "value": [3,3],
+      "name1": "Le Marteau (et)",
+      "name2": "(le) Voyou"
+    },
+    "4": {
+      "value": [4,4],
+      "name1": "L'Assassin (et)",
+      "name2": "D'or"
+    },
+    "5": {
+      "value": [5,5],
+      "name1": "La Dague (et)",
+      "name2": "Noir(e)"
+    },
+    "6": {
+      "value": [6,6],
+      "name1": "Œil (de la/du) (et)",
+      "name2": "(la) Spatule"
+    },
+    "7": {
+      "value": [7,7],
+      "name1": "L'Épée (et)",
+      "name2": "(le) Blagueur"
+    },
+    "8": {
+      "value": [8,8],
+      "name1": "Le Roi (et)",
+      "name2": "Sal(e)"
+    },
+    "9": {
+      "value": [9,9],
+      "name1": "Le Sorcier (et)",
+      "name2": "(du) Mal/Mauvais(e)"
+    },
+    "10": {
+      "value": [10,10],
+      "name1": "Le Crapaud (et)",
+      "name2": "Bon(ne)"
+    },
+    "11": {
+      "value": [11,11],
+      "name1": "Le Bœuf (et)",
+      "name2": "Arrogant(e)"
+    },
+    "12": {
+      "value": [12,12],
+      "name1": "La Connerie (et)",
+      "name2": "Graisseux(se)"
+    },
+    "13": {
+      "value": [13,13],
+      "name1": "La Croupe (et)",
+      "name2": "Vilain(e)"
+    },
+    "14": {
+      "value": [14,14],
+      "name1": "La Reine (et)",
+      "name2": "(le) Cocu"
+    },
+    "15": {
+      "value": [15,15],
+      "name1": "Le Lépreux (et)",
+      "name2": "(le) Sabre"
+    },
+    "16": {
+      "value": [16,16],
+      "name1": "Le Chien (et)",
+      "name2": "(la) Catin"
+    },
+    "17": {
+      "value": [17,17],
+      "name1": "Le Branleur (et)",
+      "name2": "En Sueur"
+    },
+    "18": {
+      "value": [18,18],
+      "name1": "Le Scélérat (et)",
+      "name2": "Béni(e)"
+    },
+    "19": {
+      "value": [19,19],
+      "name1": "Le Fripon (et)",
+      "name2": "Rusé(e)"
+    },
+    "20": {
+      "value": [20,20],
+      "name1": "Le Coq (et)",
+      "name2": "des/les Chevaliers"
+    }
+  },
+  "tavernDescription": {
+    "1": {
+      "value": [1,1],
+      "rooms": 0,
+      "quality": "Atroce",
+      "innkeep": "Gnome mâle",
+      "rumours": 0,
+      "customerService": "Hostile"
+    },
+    "2": {
+      "value": [2,2],
+      "rooms": 1,
+      "quality": "Pauvre",
+      "innkeep": "Halfelin (Semi-homme) femelle",
+      "rumours": 1,
+      "customerService": "Neutre"
+    },
+    "3": {
+      "value": [3,3],
+      "rooms": 2,
+      "quality": "Pauvre",
+      "innkeep": "Nain mâle",
+      "rumours": 1,
+      "customerService": "Neutre"
+    },
+    "4": {
+      "value": [4,4],
+      "rooms": 3,
+      "quality": "Moyenne",
+      "innkeep": "Tieffelin",
+      "rumours": 2,
+      "customerService": "Aimable"
+    },
+    "5": {
+      "value": [5,5],
+      "rooms": 4,
+      "quality": "Moyenne",
+      "innkeep": "Humain mâle",
+      "rumours": 2,
+      "customerService": "Aimable"
+    },
+    "6": {
+      "value": [6,6],
+      "rooms": 5,
+      "quality": "Moyenne",
+      "innkeep": "Humain femelle",
+      "rumours": 2,
+      "customerService": "Chaleureux"
+    },
+    "7": {
+      "value": [7,7],
+      "rooms": 6,
+      "quality": "Bonne",
+      "innkeep": "Halfelin (Semi-homme) femelle",
+      "rumours": 3,
+      "customerService": "Chaleureux"
+    },
+    "8": {
+      "value": [8,8],
+      "rooms": 8,
+      "quality": "Bonne",
+      "innkeep": "Gnome femelle",
+      "rumours": 3,
+      "customerService": "Très chaleureux et accueillant"
+    },
+    "9": {
+      "value": [9,9],
+      "rooms": 10,
+      "quality": "Excellente",
+      "innkeep": "Orc ou Demi-orc",
+      "rumours": 4,
+      "customerService": "Très chaleureux et accueillant"
+    },
+    "10": {
+      "value": [10,10],
+      "rooms": 20,
+      "quality": "Exceptionnelle",
+      "innkeep": "Choix du joueur",
+      "rumours": 4,
+      "customerService": "Traité comme un monarque !"
+    }
+  },
+  "rumoursGenerate": {
+    "1": {
+      "value": [1,1],
+      "subject": "Personne"
+    },
+    "2": {
+      "value": [2,2],
+      "subject": "Créature"
+    },
+    "3": {
+      "value": [3,3],
+      "subject": "Endroit"
+    },
+    "4": {
+      "value": [4,4],
+      "subject": "Chose"
+    }
+  },
+  "rumoursLocation": {
+    "1": {
+      "value": [1,1],
+      "place": "Dans cet établissement/zone"
+    },
+    "2": {
+      "value": [2,2],
+      "place": "Juste à l'extérieur de l'établissement"
+    },
+    "3": {
+      "value": [3,3],
+      "place": "1d4 km de distance, dans une structure"
+    },
+    "4": {
+      "value": [4,4],
+      "place": "Dans la forêt la plus proche"
+    },
+    "5": {
+      "value": [5,5],
+      "place": "Dans les collines les plus proches"
+    },
+    "6": {
+      "value": [6,6],
+      "place": "Dans les montagnes les plus proches"
+    },
+    "7": {
+      "value": [7,7],
+      "place": "Dans le marais le plus proche"
+    },
+    "8": {
+      "value": [8,8],
+      "place": "Dans/à côté du plan d'eau le plus proche"
+    },
+    "9": {
+      "value": [9,9],
+      "place": "Dans le prochain village"
+    },
+    "10": {
+      "value": [10,10],
+      "place": "Dans la prochaine grande ville"
+    },
+    "11": {
+      "value": [11,11],
+      "place": "Dans la capitale du royaume"
+    },
+    "12": {
+      "value": [12,12],
+      "place": "Dans le prochain royaume"
+    }
+  }
+}

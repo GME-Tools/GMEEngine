@@ -1,0 +1,2122 @@
+{
+  "lootOdds": {
+    "1": {
+      "alias": "nw",
+      "name": "Humanoïde non-aventurier avec un sac, des poches ...",
+      "modifier": 0
+    },
+    "2": {
+      "alias": "no",
+      "name": "Humanoïde non-aventurier sans sac, poches ...",
+      "modifier": -2
+    },
+    "3": {
+      "alias": "aw",
+      "name": "Humanoïde aventurier avec un sac, des poches ...",
+      "modifier": 4
+    },
+    "4": {
+      "alias": "ao",
+      "name": "Humanoïde aventurier sans sac, poches ...",
+      "modifier": 2
+    },
+    "5": {
+      "alias": "wa",
+      "name": "Animaux sauvages",
+      "modifier": -6
+    },
+    "6": {
+      "alias": "lo",
+      "name": "Loot",
+      "modifier": 20
+    }
+  }, 
+  "lootNumber": {
+    "1": {
+      "value": [1,50],
+      "number": 1
+    },
+    "2": {
+      "value": [51,75],
+      "number": 2
+    },
+    "3": {
+      "value": [76,87], 
+      "number": 3
+    },
+    "4": {
+      "value": [88,93], 
+      "number": 4
+    }, 
+    "5": {
+      "value": [94,96],
+      "number": 5
+    },
+    "6": {
+      "value": [97,98],
+      "number": 6
+    },
+    "7": {
+      "value": [99,99],
+      "number": 7
+    },
+    "8": {
+      "value": [100,100],
+      "number": 8
+    }
+  },
+  "lootItems": {
+    "1": {
+      "valueCommon": [1,30],
+      "valueMilitary": [1,10],
+      "valueDungeon": [1,5],
+      "name": "Marchandise commerciale"
+    },
+    "2": {
+      "valueCommon": [31,50],
+      "valueMilitary": [11,25],
+      "valueDungeon": [6,20],
+      "name": "Équipement"
+    },
+    "3": {
+      "valueCommon": [51,59],
+      "valueMilitary": [26,42],
+      "valueDungeon": [21,33],
+      "name": "Arme de corps à corps"
+    },
+    "4": {
+      "valueCommon": [60,60],
+      "valueMilitary": [43,46],
+      "valueDungeon": [34,38],
+      "name": "Arme de corps à corps enchantée"
+    },
+    "5": {
+      "valueCommon": [61,69],
+      "valueMilitary": [47,63],
+      "valueDungeon": [39,51],
+      "name": "Arme à distance"
+    },
+    "6": {
+      "valueCommon": [70,70],
+      "valueMilitary": [64,67],
+      "valueDungeon": [52,56],
+      "name": "Arme à distance enchantée"
+    },
+    "7": {
+      "valueCommon": [71,71],
+      "valueMilitary": [68,68],
+      "valueDungeon": [57,57],
+      "name": "Bâton"
+    },
+    "8": {
+      "valueCommon": [72,81],
+      "valueMilitary": [69,76],
+      "valueDungeon": [58,65],
+      "name": "Armure"
+    },
+    "9": {
+      "valueCommon": [82,82],
+      "valueMilitary": [77,79],
+      "valueDungeon": [66,69],
+      "name": "Armure enchantée"
+    },
+    "10": {
+      "valueCommon": [83,83],
+      "valueMilitary": [80,80],
+      "valueDungeon": [70,71],
+      "name": "Anneau"
+    },
+    "11": {
+      "valueCommon": [84,84],
+      "valueMilitary": [81,81],
+      "valueDungeon": [72,73],
+      "name": "Collier"
+    },
+    "12": {
+      "valueCommon": [85,93],
+      "valueMilitary": [82,90],
+      "valueDungeon": [74,85],
+      "name": "Potion"
+    },
+    "13": {
+      "valueCommon": [94,97],
+      "valueMilitary": [91,94],
+      "valueDungeon": [86,93],
+      "name": "Poison"
+    },
+    "14": {
+      "valueCommon": [98,99],
+      "valueMilitary": [95,97],
+      "valueDungeon": [94,97],
+      "name": "Parchemin magique"
+    },
+    "15": {
+      "valueCommon": [100,100],
+      "valueMilitary": [98,100],
+      "valueDungeon": [98,100],
+      "name": "Gemme"
+    }
+  }, 
+  "lootGoods": {
+    "1": {
+      "value": [1,3], 
+      "name": "0,5 kg de blé"
+    }, 
+    "2": {
+      "value": [4,6],
+      "name": "0,5 kg de farine"
+    }, 
+    "3": {
+      "value": [7,8],
+      "name": "1 lingot de fer"
+    },
+    "4": {
+      "value": [9,10],
+      "name": "0,5 kg d'orge"
+    }, 
+    "5": {
+      "value": [11,12],
+      "name": "0,5 kg de seigle"
+    }, 
+    "6": {
+      "value": [13,14],
+      "name": "0,03 kg de basilic"
+    }, 
+    "7": {
+      "value": [15,16],
+      "name": "0,03 kg de cardamome"
+    }, 
+    "8": {
+      "value": [17,18],
+      "name": "0,03 kg de canelle"
+    }, 
+    "9": {
+      "value": [19,19],
+      "name": "0,03 kg de clous de girofle"
+    }, 
+    "10": {
+      "value": [20,21],
+      "name": "0,03 kg de coriandre"
+    },
+    "11": {
+      "value": [22,22],
+      "name": "0,03 kg de cubèbe"
+    },
+    "12": {
+      "value": [23,24],
+      "name": "0,03 kg de cumin"
+    },
+    "13": {
+      "value": [25,26],
+      "name": "0,03 kg d'aneth"
+    },
+    "14": {
+      "value": [27,28],
+      "name": "0,03 kg d'ail"
+    },
+    "15": {
+      "value": [29,29],
+      "name": "0,03 kg de gingembre"
+    },
+    "16": {
+      "value": [30,31],
+      "name": "0,03 kg de genévrier"
+    }, 
+    "17": {
+      "value": [32,32],
+      "name": "0,03 kg de laurier"
+    },
+    "18": {
+      "value": [33,34],
+      "name": "0,03 kg de menthe"
+    },
+    "19": {
+      "value": [35,35],
+      "name": "0,03 kg de noix de muscade"
+    },
+    "20": {
+      "value": [36,37],
+      "name": "0,03 kg d'origan"
+    },
+    "21": {
+      "value": [38,38],
+      "name": "0,03 kg de poivre"
+    },
+    "22": {
+      "value": [39,39],
+      "name": "0,03 kg de psilocybine"
+    },
+    "23": {
+      "value": [40,40],
+      "name": "0,03 kg de graines de pavot"
+    },
+    "24": {
+      "value": [41,42],
+      "name": "0,03 kg de romarin"
+    },
+    "25": {
+      "value": [43,43],
+      "name": "0,03 kg de safran"
+    },
+    "26": {
+      "value": [44,45],
+      "name": "0,03 kg de sauge"
+    },
+    "27": {
+      "value": [46,46],
+      "name": "0,03 kg de sel"
+    }, 
+    "28": {
+      "value": [47,48],
+      "name": "0,03 kg d'estragon"
+    },
+    "29": {
+      "value": [49,50],
+      "name": "0,03 kg de thym"
+    },
+    "30": {
+      "value": [51,51],
+      "name": "0,03 kg de curcuma"
+    },
+    "31": {
+      "value": [52,52],
+      "name": "0,5 kg d'herbe à pipe"
+    },
+    "32": {
+      "value": [53,54],
+      "name": "0,5 kg de tabac"
+    }, 
+    "33": {
+      "value": [55,55],
+      "name": "0,03 kg de paprika"
+    }, 
+    "34": {
+      "value": [56,56],
+      "name": "0,03 kg de lotus"
+    },
+    "35": {
+      "value": [57,57],
+      "name": "0,5 kg de café"
+    }, 
+    "36": {
+      "value": [58,58],
+      "name": "0,5 kg de piments rouges"
+    },
+    "37": {
+      "value": [59,60],
+      "name": "0,5 kg de noix"
+    },
+    "38": {
+      "value": [61,61],
+      "name": "0,5 kg d'amandes"
+    },
+    "39": {
+      "value": [62,62],
+      "name": "0,5 kg de noix de cajou"
+    },
+    "40": {
+      "value": [63,64],
+      "name": "0,5 kg de noisettes"
+    },
+    "41": {
+      "value": [65,65],
+      "name": "0,5 kg de pignons de pin"
+    },
+    "42": {
+      "value": [66,66],
+      "name": "0,5 kg de pistaches"
+    },
+    "43": {
+      "value": [67,69],
+      "name": "0,5 kg de châtaignes"
+    },
+    "44": {
+      "value": [70,70],
+      "name": "0,03 kg de piments"
+    }, 
+    "45": {
+      "value": [71,71],
+      "name": "1 pinte de mélasse"
+    },
+    "46": {
+      "value": [72,73],
+      "name": "0,5 kg de sucre"
+    },
+    "47": {
+      "value": [74,74],
+      "name": "0,03 kg de pâte d'amandes"
+    },
+    "48": {
+      "value": [75,76],
+      "name": "0,03 kg de miel"
+    },
+    "49": {
+      "value": [77,78],
+      "name": "Produits séchés (Commun)"
+    },
+    "50": {
+      "value": [79,79],
+      "name": "Produits séchés (Rare)"
+    },
+    "51": {
+      "value": [80,82],
+      "name": "1 Pinte de bière"
+    },
+    "52": {
+      "value": [83,83],
+      "name": "1 Bouteille de vin"
+    },
+    "53": {
+      "value": [84,84],
+      "name": "1 Bouteille de vin (Raffiné)"
+    },
+    "54": {
+      "value": [85,85],
+      "name": "1 Pinte d'hydromel elfique"
+    },
+    "55": {
+      "value": [86,87],
+      "name": "Morceau de tissu (Commun)"
+    },
+    "56": {
+      "value": [88,88],
+      "name": "Morceau de tissu (Raffiné)"
+    },
+    "57": {
+      "value": [89,89],
+      "name": "Morceau de tissu (Exotique)"
+    },
+    "58": {
+      "value": [90,90],
+      "name": "Teinture (Commun)" 
+    },
+    "59": {
+      "value": [91,91],
+      "name": "Teinture (Rare)"
+    },
+    "60": {
+      "value": [92,93],
+      "name": "Fourrure animale (Commun)"
+    },
+    "61": {
+      "value": [94,95],
+      "name": "Livre (Commun)"
+    },
+    "62": {
+      "value": [96,96],
+      "name": "Livre (Rare)"
+    },
+    "63": {
+      "value": [97,97],
+      "name": "Livre (Exotique)"
+    },
+    "64": {
+      "value": [98,98],
+      "name": "Fourrure animale (Rare)"
+    },
+    "65": {
+      "value": [99,99],
+      "name": "Boîte à musique"
+    },
+    "66": {
+      "value": [100,100],
+      "name": "0,03 kg de drogues"
+    }
+  },
+  "lootEquipments": {
+    "1": {
+      "value": [1,5],
+      "name": "Pied de biche"
+    },
+    "2": {
+      "value": [6,8],
+      "name": "Lanterne à capote"
+    },
+    "3": {
+      "value": [9,10],
+      "name": "Lanterne sourde"
+    },
+    "4": {
+      "value": [11,16],
+      "name": "Lampe"
+    },
+    "5": {
+      "value": [17,18],
+      "name": "Serrure, Moyenne"
+    }, 
+    "6": {
+      "value": [19,19],
+      "name": "Serrure, Bon"
+    },
+    "7": {
+      "value": [20,20],
+      "name": "Serrure, Supérieure"
+    },
+    "8": {
+      "value": [21,23],
+      "name": "Fers"
+    },
+    "9": {
+      "value": [24,24],
+      "name": "Petit miroir"
+    },
+    "10": {
+      "value": [25,30],
+      "name": "Corde (15 m)"
+    },
+    "11": {
+      "value": [31,34],
+      "name": "Grappin"
+    },
+    "12": {
+      "value": [35,35],
+      "name": "Sablier"
+    },
+    "13": {
+      "value": [36,41],
+      "name": "Outre"
+    },
+    "14": {
+      "value": [42,42],
+      "name": "Outils d'artisan"
+    },
+    "15": {
+      "value": [43,43],
+      "name": "Kit de grimpeur"
+    }, 
+    "16": {
+      "value": [44,44],
+      "name": "Kit de déguisement"
+    },
+    "17": {
+      "value": [45,48],
+      "name": "Kit de guérisseur"
+    },
+    "18": {
+      "value": [49,49],
+      "name": "Kit de dresseur d'animaux"
+    },
+    "19": {
+      "value": [50,50],
+      "name": "Kit de falsification"
+    },
+    "20": {
+      "value": [51,51],
+      "name": "Kit de navigateur"
+    },
+    "21": {
+      "value": [52,52],
+      "name": "Kit d'entretien d'armure"
+    },
+    "22": {
+      "value": [53,53],
+      "name": "Kit de voleur"
+    },
+    "23": {
+      "value": [54,59],
+      "name": "Fiole, vide"
+    },
+    "24": {
+      "value": [60,63],
+      "name": "Scie à métaux"
+    },
+    "25": {
+      "value": [64,66],
+      "name": "Coupe-boulons"
+    },
+    "26": {
+      "value": [67,67],
+      "name": "Flacon d'encre"
+    },
+    "27": {
+      "value": [68,68],
+      "name": "Texte sacré"
+    },
+    "28": {
+      "value": [69,69],
+      "name": "Symbole sacrée"
+    },
+    "29": {
+      "value": [70,70],
+      "name": "Petit aimant"
+    },
+    "30": {
+      "value": [71,73],
+      "name": "Moulin à main"
+    },
+    "31": {
+      "value": [74,76],
+      "name": "Pilon et mortier"
+    },
+    "32": {
+      "value": [77,81],
+      "name": "Bougie"
+    },
+    "33": {
+      "value": [82,84],
+      "name": "Silex et acier"
+    },
+    "34": {
+      "value": [85,89],
+      "name": "Parchemin"
+    },
+    "35": {
+      "value": [90,94],
+      "name": "Rations (1 jour)"
+    },
+    "36": {
+      "value": [95,97],
+      "name": "Torche"
+    },
+    "37": {
+      "value": [98,98],
+      "name": "Longue-vue"
+    },
+    "38": {
+      "value": [99,99],
+      "name": "Loupe"
+    },
+    "39": {
+      "value": [100,100],
+      "name": "Stylo à encre"
+    }
+  },
+  "lootMeleeWeapons": {
+    "1": {
+      "value": [1,8],
+      "name": "Hache"
+    },
+    "2": {
+      "value": [9,11],
+      "name": "Hache Spéciale"
+    },
+    "3": {
+      "value": [12,20],
+      "name": "Bâton"
+    },
+    "4": {
+      "value": [21,24],
+      "name": "Bâton Spécial"
+    },
+    "5": {
+      "value": [25,29],
+      "name": "Fléau"
+    },
+    "6": {
+      "value": [30,32],
+      "name": "Fléau Spécial"
+    },
+    "7": {
+      "value": [33,39],
+      "name": "Gants"
+    },
+    "8": {
+      "value": [40,43],
+      "name": "Gants Spéciaux"
+    },
+    "9": {
+      "value": [44,53],
+      "name": "Couteau"
+    },
+    "10": {
+      "value": [54,60],
+      "name": "Couteau Spécial"
+    },
+    "11": {
+      "value": [61,68],
+      "name": "Masse"
+    },
+    "12": {
+      "value": [69,73],
+      "name": "Masse Spéciale"
+    },
+    "13": {
+      "value": [74,79],
+      "name": "Arme d'hast"
+    },
+    "14": {
+      "value": [80,84],
+      "name": "Arme d'hast Spéciale"
+    },
+    "15": {
+      "value": [85,93],
+      "name": "Épée"
+    },
+    "16": {
+      "value": [94,100],
+      "name": "Épée Spéciale"
+    }
+  },
+  "lootRangedWeapons": {
+    "1": {
+      "value": [1,10],
+      "name": "Flèches/Carreaux"
+    },
+    "2": {
+      "value": [11,15],
+      "name": "Flèches/Carreaux Spéciaux"
+    },
+    "3": {
+      "value": [16,19],
+      "name": "Bolas"
+    },
+    "4": {
+      "value": [20,20],
+      "name": "Bolas Spéciaux"
+    },
+    "5": {
+      "value": [21,28],
+      "name": "Arbalète"
+    },
+    "6": {
+      "value": [29,33],
+      "name": "Arbalète Spéciale"
+    },
+    "7": {
+      "value": [34,39],
+      "name": "Fléchette"
+    },
+    "8": {
+      "value": [40,46],
+      "name": "Fléchette Speciale"
+    },
+    "9": {
+      "value": [47,49],
+      "name": "Javelot"
+    },
+    "10": {
+      "value": [50,52],
+      "name": "Javelot Spécial"
+    },
+    "11": {
+      "value": [53,60],
+      "name": "Arc anglais"
+    },
+    "12": {
+      "value": [61,65],
+      "name": "Arc anglais Spécial"
+    },
+    "13": {
+      "value": [66,76],
+      "name": "Filet"
+    },
+    "14": {
+      "value": [77,84],
+      "name": "Arc court"
+    },
+    "15": {
+      "value": [85,89],
+      "name": "Arc court Spécial"
+    },
+    "16": {
+      "value": [90,93],
+      "name": "Shuriken"
+    },
+    "17": {
+      "value": [94,95],
+      "name": "Shuriken Spécial"
+    },
+    "18": {
+      "value": [96,99],
+      "name": "Fronde"
+    },
+    "19": {
+      "value": [100,100],
+      "name": "Fronde Spéciale"
+    }
+  },
+  "lootArmor": {
+    "1": {
+      "value": [1,7],
+      "name": "Armure rembourrée"
+    },
+    "2": {
+      "value": [8,12],
+      "name": "Armure en cuir clouté"
+    },
+    "3": {
+      "value": [13,14],
+      "name": "Armure d'écorce"
+    },
+    "4": {
+      "value": [15,19],
+      "name": "Armure osseuse"
+    },
+    "5": {
+      "value": [20,26],
+      "name": "Armure cordée"
+    },
+    "6": {
+      "value": [27,33],
+      "name": "Armure en écailles de cuir"
+    },
+    "7": {
+      "value": [34,40],
+      "name": "Armure en osier"
+    },
+    "8": {
+      "value": [41,44],
+      "name": "Armure en bois"
+    },
+    "9": {
+      "value": [45,51],
+      "name": "Armure avec chemise de mailles"
+    },
+    "10": {
+      "value": [52,57],
+      "name": "Armure en Fourrure et peau"
+    },
+    "11": {
+      "value": [58,62],
+      "name": "Armure brigandine"
+    },
+    "12": {
+      "value": [63,67],
+      "name": "Armure broigne"
+    },
+    "13": {
+      "value": [68,69],
+      "name": "Armure de coquille"
+    },
+    "14": {
+      "value": [70,75],
+      "name": "Armure en écailles de mailles"
+    },
+    "15": {
+      "value": [76,80],
+      "name": "Armure cotte de mailles"
+    },
+    "16": {
+      "value": [81,86],
+      "name": "Armure plastron"
+    },
+    "17": {
+      "value": [87,92],
+      "name": "Armure de mailles bagués"
+    },
+    "18": {
+      "value": [93,93],
+      "name": "Armure de corail"
+    },
+    "19": {
+      "value": [94,98],
+      "name": "Demi armure de plates"
+    },
+    "20": {
+      "value": [99,100],
+      "name": "Armure complète de plates"
+    }
+  },
+  "lootAxe": {
+    "1": {
+      "value": [1,18],
+      "name": "Hache à lancer"
+    },
+    "2": {
+      "value": [19,35],
+      "name": "Biface"
+    },
+    "3": {
+      "value": [36,52],
+      "name": "Hache de guerre"
+    },
+    "4": {
+      "value": [53,69],
+      "name": "Lance-hache"
+    },
+    "5": {
+      "value": [70,86],
+      "name": "Grande hache"
+    },
+    "6": {
+      "value": [87,100],
+      "name": "Kama"
+    }
+  },
+  "lootClub": {
+    "1": {
+      "value": [1,75],
+      "name": "Bâton standard"
+    },
+    "2": {
+      "value": [76,100],
+      "name": "Grand bâton"
+    }
+  },
+  "lootKnife": {
+    "1": {
+      "value": [1,40],
+      "name": "Dague"
+    },
+    "2": {
+      "value": [41,75],
+      "name": "Couteau à poinçon"
+    },
+    "3": {
+      "value": [76,100],
+      "name": "Khukuri"
+    }
+  },
+   "lootFlail": {
+    "1": {
+      "value": [1,40],
+      "name": "Fléau"
+    },
+    "2": {
+      "value": [41,75],
+      "name": "Fléau lourd"
+    },
+    "3": {
+      "value": [76,100],
+      "name": "Fléau terrible"
+    }
+  },
+    "lootMace": {
+    "1": {
+      "value": [1,40],
+      "name": "Masse légère"
+    },
+    "2": {
+      "value": [41,75],
+      "name": "Masse lourde"
+    },
+    "3": {
+      "value": [76,100],
+      "name": "Morgenstern"
+    }
+  },
+  "lootAmmunition": {
+    "1": {
+      "value": [1,50],
+      "name": "Flèches (arc) x10"
+    },
+    "2": {
+      "value": [51,95],
+      "name": "Carreaux (arbalète) x10"
+    },
+    "3": {
+      "value": [96,100],
+      "name": "Balles (fronde) x10"
+    }
+  },
+  "lootPole": {
+    "1": {
+      "value": [1,16],
+      "name": "Lance"
+    },
+    "2": {
+      "value": [17,31],
+      "name": "Hallebarde"
+    },
+    "3": {
+      "value": [32,48],
+      "name": "Naginata"
+    },
+    "4": {
+      "value": [49,59],
+      "name": "Trident"
+    },
+    "5": {
+      "value": [60,76],
+      "name": "Faux"
+    },
+    "6": {
+      "value": [77,91],
+      "name": "Quarterstaff"
+    },
+    "7": {
+      "value": [92,100],
+      "name": "Marteau de guerre"
+    }
+  },
+  "lootSword": {
+    "1": {
+      "value": [1,15],
+      "name": "Épée courte"
+    },
+    "2": {
+      "value": [16,30],
+      "name": "Épée bâtarde"
+    },
+    "3": {
+      "value": [31,41],
+      "name": "Épée longue"
+    },
+    "4": {
+      "value": [42,47],
+      "name": "Faucille"
+    },
+    "5": {
+      "value": [48,53],
+      "name": "Rapière"
+    },
+    "6": {
+      "value": [54,59],
+      "name": "Saï"
+    },
+    "7": {
+      "value": [60,70],
+      "name": "Cimeterre"
+    },
+    "8": {
+      "value": [71,80],
+      "name": "Fauchon"
+    },
+    "9": {
+      "value": [81,95],
+      "name": "Katana"
+    },
+    "10": {
+      "value": [96,100],
+      "name": "Espadon"
+    }
+  },
+  "lootLongbowShortbow": {
+    "1": {
+      "value": [1,65],
+      "name": "Standard"
+    },
+    "2": {
+      "value": [66,100],
+      "name": "Composite"
+    }
+  },
+  "lootCrossbow": {
+    "1": {
+      "value": [1,15],
+      "name": "Arbalète à main"
+    },
+    "2": {
+      "value": [16,46],
+      "name": "Arbalète légère"
+    },
+    "3": {
+      "value": [47,77],
+      "name": "Arbalète lourde"
+    },
+    "4": {
+      "value": [78,90],
+      "name": "Arbalète légère"
+    },
+    "5": {
+      "value": [91,100],
+      "name": "Arbalète lourde"
+    }
+  },
+  "lootWeaponEnchantment": {
+    "1": {
+      "value": [1,3],
+      "name": "Chercheur"
+    },
+    "2": {
+      "value": [4,5],
+      "name": "Dissipant"
+    },
+    "3": {
+      "value": [6,7],
+      "name": "Refuge"
+    },
+    "4": {
+      "value": [8,8],
+      "name": "Catastrophique"
+    },
+    "5": {
+      "value": [9,13],
+      "name": "Fléau"
+    }, 
+    "6": {
+      "value": [14,17],
+      "name": "Sanguinaire"
+    },
+    "7": {
+      "value": [18,21],
+      "name": "Corrosif"
+    },
+    "8": {
+      "value": [22,25],
+      "name": "Flamboyant"
+    },
+    "9": {
+      "value": [26,29],
+      "name": "Oublieux"
+    },
+    "10": {
+      "value": [30,33],
+      "name": "Gel"
+    },
+    "11": {
+      "value": [34,37],
+      "name": "Fléau du mage"
+    },
+    "12": {
+      "value": [38,41],
+      "name": "Choc"
+    },
+    "13": {
+      "value": [42,45],
+      "name": "Frappe silencieuse"
+    },
+    "14": {
+      "value": [46,49],
+      "name": "Lancement"
+    },
+    "15": {
+      "value": [50,53],
+      "name": "Tonnerre"
+    }, 
+    "16": {
+      "value": [54,57],
+      "name": "Né de l'eau"
+    },
+    "17": {
+      "value": [58,60],
+      "name": "Brûlant"
+    },
+    "18": {
+      "value": [61,63],
+      "name": "Précision mortelle"
+    },
+    "19": {
+      "value": [64,66],
+      "name": "Sacré"
+    },
+    "20": {
+      "value": [67,68],
+      "name": "Paralysant"
+    },
+    "21": {
+      "value": [69,71],
+      "name": "Vampirique"
+    },
+    "22": {
+      "value": [72,72],
+      "name": "Dansant"
+    },
+    "23": {
+      "value": [73,76],
+      "name": "Blessures mortelles"
+    },
+    "24": {
+      "value": [77,79],
+      "name": "Déviation"
+    },
+    "25": {
+      "value": [80,83],
+      "name": "Corrompu"
+    },
+    "26": {
+      "value": [84,87],
+      "name": "Béni"
+    },
+    "27": {
+      "value": [88,89],
+      "name": "Rugissement"
+    },
+    "28": {
+      "value": [90,91],
+      "name": "Coup"
+    },
+    "29": {
+      "value": [92,92],
+      "name": "Tranchant"
+    },
+    "30": {
+      "value": [93,93],
+      "name": "Vertueux"
+    },
+    "31": {
+      "value": [94,96],
+      "name": "Impi"
+    },
+    "32": {
+      "value": [97,100],
+      "name": "Métamorphose"
+    }
+  },
+  "lootArmorEnchantment": {
+    "1": {
+      "value": [1,6],
+      "name": "Glamour"
+    },
+    "2": {
+      "value": [7,12],
+      "name": "Ombre"
+    },
+    "3": {
+      "value": [13,13],
+      "name": "Ombre (meilleure)"
+    },
+    "4": {
+      "value": [14,19],
+      "name": "Mouvement silencieux"
+    },
+    "5": {
+      "value": [20,20],
+      "name": "Mouvement silencieux (amélioré)"
+    }, 
+    "6": {
+      "value": [21,22],
+      "name": "Résistance aux acides (10)"
+    },
+    "7": {
+      "value": [23,23],
+      "name": "Résistance aux acides (amélioré)"
+    },
+    "8": {
+      "value": [24,25],
+      "name": "Résistance au froid"
+    },
+    "9": {
+      "value": [26,26],
+      "name": "Résistance au froid (amélioré)"
+    },
+    "10": {
+      "value": [27,27],
+      "name": "Profond"
+    },
+    "11": {
+      "value": [28,29],
+      "name": "Résistance au feu"
+    },
+    "12": {
+      "value": [30,30],
+      "name": "Résistance au feu (amélioré)"
+    },
+    "13": {
+      "value": [31,32],
+      "name": "Résistance sonique"
+    },
+    "14": {
+      "value": [33,33],
+      "name": "Résistance sonique (amélioré)"
+    },
+    "15": {
+      "value": [34,36],
+      "name": "Résistance électrique"
+    }, 
+    "16": {
+      "value": [37,37],
+      "name": "Résistance électrique (amélioré)"
+    },
+    "17": {
+      "value": [38,41],
+      "name": "Angélique"
+    },
+    "18": {
+      "value": [42,47],
+      "name": "Bloqueur de hache"
+    },
+    "19": {
+      "value": [48,48],
+      "name": "Céleste"
+    },
+    "20": {
+      "value": [49,54],
+      "name": "Bloqueur de marteau"
+    },
+    "21": {
+      "value": [55,60],
+      "name": "Résistance aux sorts 10"
+    },
+    "22": {
+      "value": [61,65],
+      "name": "Résistance aux sorts 15"
+    },
+    "23": {
+      "value": [66,69],
+      "name": "Invulnérabilité"
+    },
+    "24": {
+      "value": [70,73],
+      "name": "Demi-poids"
+    },
+    "25": {
+      "value": [74,78],
+      "name": "Fortification (légère)"
+    },
+    "26": {
+      "value": [79,82],
+      "name": "Exalté"
+    },
+    "27": {
+      "value": [83,88],
+      "name": "Bloqueur de lance"
+    },
+    "28": {
+      "value": [89,92],
+      "name": "Fortification (moyenne)"
+    },
+    "29": {
+      "value": [93,99],
+      "name": "Crépuscule"
+    },
+    "30": {
+      "value": [100,100],
+      "name": "Fortification (lourde)"
+    }
+  },
+  "lootWeaponSpecialFeatures": {
+    "1": {
+      "value": [1,9],
+      "name": "+1 Bonus de déviation à l'AC"
+    },
+    "2": {
+      "value": [10,19],
+      "name": "Poison sur commande"
+    },
+    "3": {
+      "value": [20,29],
+      "name": "Relancer l'attaque 1x/jour"
+    },
+    "4": {
+      "value": [30,39],
+      "name": "Double portée critique"
+    },
+    "5": {
+      "value": [40,49],
+      "name": "Mortel en cas de critique"
+    }, 
+    "6": {
+      "value": [50,62],
+      "name": "Fait d'argent"
+    },
+    "7": {
+      "value": [63,73],
+      "name": "Fabriqué en verre trempé"
+    },
+    "8": {
+      "value": [74,80],
+      "name": "En adamantin"
+    },
+    "9": {
+      "value": [81,91],
+      "name": "+1 Attaque"
+    },
+    "10": {
+      "value": [92,96],
+      "name": "+2 Attaque"
+    },
+    "11": {
+      "value": [97,99],
+      "name": "+3 Attaque"
+    },
+    "12": {
+      "value": [100,100],
+      "name": "+4 Attaque"
+    }
+  },
+  "lootPotionsScrolls": {
+    "1": {
+      "value": [1,3], 
+      "name": "Brouiller"
+    }, 
+    "2": {
+      "value": [4,10],
+      "name": "Guérir les blessures légères"
+    }, 
+    "3": {
+      "value": [11,12],
+      "name": "Vision dans le noir"
+    },
+    "4": {
+      "value": [13,17],
+      "name": "Invisibilité"
+    }, 
+    "5": {
+      "value": [18,18],
+      "name": "Petite restauration"
+    }, 
+    "6": {
+      "value": [19,24],
+      "name": "Guérir les plaies modérées"
+    }, 
+    "7": {
+      "value": [25,25],
+      "name": "Supprimer la paralysie"
+    }, 
+    "8": {
+      "value": [26,27],
+      "name": "Bouclier de la foi +3"
+    }, 
+    "9": {
+      "value": [28,28],
+      "name": "Alignement indétectable"
+    }, 
+    "10": {
+      "value": [29,30],
+      "name": "Écorce +3"
+    },
+    "11": {
+      "value": [31,31],
+      "name": "Bouclier de la foi +4"
+    },
+    "12": {
+      "value": [32,32],
+      "name": "Énergie de résistance 20"
+    },
+    "13": {
+      "value": [33,34],
+      "name": "Guérir les blessures graves"
+    },
+    "14": {
+      "value": [35,35],
+      "name": "Lumière du jour (huile)"
+    },
+    "15": {
+      "value": [36,37],
+      "name": "Déplacement"
+    },
+    "16": {
+      "value": [38,38],
+      "name": "Flèche de flamme (huile)"
+    }, 
+    "17": {
+      "value": [39,39],
+      "name": "Voler"
+    },
+    "18": {
+      "value": [40,40],
+      "name": "Forme gazeuse"
+    },
+    "19": {
+      "value": [41,43],
+      "name": "Hâte"
+    },
+    "20": {
+      "value": [44,46],
+      "name": "Héroïsme"
+    },
+    "21": {
+      "value": [47,49],
+      "name": "Bord vif (huile)"
+    },
+    "22": {
+      "value": [50,51],
+      "name": "Cercle de protection"
+    },
+    "23": {
+      "value": [52,56],
+      "name": "Neutraliser le poison"
+    },
+    "24": {
+      "value": [57,59],
+      "name": "Non-détection"
+    },
+    "25": {
+      "value": [60,61],
+      "name": "Protection contre l'énergie"
+    },
+    "26": {
+      "value": [62,62],
+      "name": "Rage"
+    },
+    "27": {
+      "value": [63,63],
+      "name": "Supprimer l'aveuglement/la surdité"
+    }, 
+    "28": {
+      "value": [64,64],
+      "name": "Supprimer la malédiction"
+    },
+    "29": {
+      "value": [65,65],
+      "name": "Supprimer la maladie"
+    },
+    "30": {
+      "value": [66,66],
+      "name": "Langues"
+    },
+    "31": {
+      "value": [67,67],
+      "name": "Respiration aquatique"
+    },
+    "32": {
+      "value": [68,68],
+      "name": "Marcher sur l'eau"
+    }, 
+    "33": {
+      "value": [69,70],
+      "name": "Écorce +4"
+    }, 
+    "34": {
+      "value": [71,71],
+      "name": "Bouclier de la foi +5"
+    },
+    "35": {
+      "value": [72,72],
+      "name": "Bon espoir"
+    }, 
+    "36": {
+      "value": [73,74],
+      "name": "Énergie de résistance 20"
+    },
+    "37": {
+      "value": [75,75],
+      "name": "Écorce +4"
+    },
+    "38": {
+      "value": [76,77],
+      "name": "Croc magique supérieur +2"
+    },
+    "39": {
+      "value": [78,79],
+      "name": "Arme magique supérieure +2"
+    },
+    "40": {
+      "value": [80,82],
+      "name": "Vêtement magique +2"
+    },
+    "41": {
+      "value": [83,83],
+      "name": "Protection contre les flèches 15"
+    },
+    "42": {
+      "value": [84,84],
+      "name": "Croc magique supérieur +3"
+    },
+    "43": {
+      "value": [85,85],
+      "name": "Arme magique supérieure +3"
+    },
+    "44": {
+      "value": [86,88],
+      "name": "Vêtement magique +3"
+    }, 
+    "45": {
+      "value": [89,89],
+      "name": "Croc magique supérieur +4"
+    },
+    "46": {
+      "value": [90,90],
+      "name": "Arme magique supérieure +4"
+    },
+    "47": {
+      "value": [91,92],
+      "name": "Vêtement magique +4"
+    },
+    "48": {
+      "value": [93,94],
+      "name": "Force du taureau"
+    },
+    "49": {
+      "value": [95,96],
+      "name": "Grâce du chat"
+    },
+    "50": {
+      "value": [97,98],
+      "name": "Sagesse du hibou"
+    },
+    "51": {
+      "value": [99,100],
+      "name": "Endurance de l'ours"
+    }
+  },
+  "lootPoisons": {
+    "1": {
+      "value": [1,5], 
+      "name": "Mille-pattes moyen"
+    }, 
+    "2": {
+      "value": [6,10],
+      "name": "Grand mille-pattes"
+    }, 
+    "3": {
+      "value": [11,13],
+      "name": "Mille-pattes énorme"
+    },
+    "4": {
+      "value": [14,14],
+      "name": "Mille-pattes gargantuesque"
+    }, 
+    "5": {
+      "value": [15,15],
+      "name": "Mille-pattes colossal"
+    }, 
+    "6": {
+      "value": [16,18],
+      "name": "Guêpe géante"
+    }, 
+    "7": {
+      "value": [19,20],
+      "name": "Terrinave"
+    }, 
+    "8": {
+      "value": [21,22],
+      "name": "Pâte de racine de malyss"
+    }, 
+    "9": {
+      "value": [23,27],
+      "name": "Scorpion moyen"
+    }, 
+    "10": {
+      "value": [28,32],
+      "name": "Grand scorpion"
+    },
+    "11": {
+      "value": [33,33],
+      "name": "Scorpion énorme"
+    },
+    "12": {
+      "value": [34,34],
+      "name": "Scorpion gargantuesque"
+    },
+    "13": {
+      "value": [35,35],
+      "name": "Scorpion colossal"
+    },
+    "14": {
+      "value": [36,36],
+      "name": "Bile de dragon"
+    },
+    "15": {
+      "value": [37,41],
+      "name": "Araignée moyen"
+    },
+    "16": {
+      "value": [42,46],
+      "name": "Grande araignée"
+    }, 
+    "17": {
+      "value": [47,47],
+      "name": "Araignée énorme"
+    },
+    "18": {
+      "value": [48,48],
+      "name": "Araignée gargantuesque"
+    },
+    "19": {
+      "value": [49,49],
+      "name": "Araignée colossal"
+    },
+    "20": {
+      "value": [50,54],
+      "name": "Poussière de liche"
+    },
+    "21": {
+      "value": [55,55],
+      "name": "Souffle de basilic"
+    },
+    "22": {
+      "value": [56,56],
+      "name": "Fléau de vie"
+    },
+    "23": {
+      "value": [57,57],
+      "name": "Lame de mort"
+    },
+    "24": {
+      "value": [58,58],
+      "name": "Extrait de lotus noir"
+    },
+    "25": {
+      "value": [59,59],
+      "name": "Poison de wyverne"
+    },
+    "26": {
+      "value": [60,65],
+      "name": "Poison drow"
+    },
+    "27": {
+      "value": [66,70],
+      "name": "Venin de vipère noir"
+    }, 
+    "28": {
+      "value": [71,75],
+      "name": "Champignon vénéneux rayé"
+    },
+    "29": {
+      "value": [76,80],
+      "name": "Racine de sang"
+    },
+    "30": {
+      "value": [81,85],
+      "name": "Ciguë"
+    },
+    "31": {
+      "value": [86,89],
+      "name": "Belladone"
+    },
+    "32": {
+      "value": [90,94],
+      "name": "Ange destructeur"
+    }, 
+    "33": {
+      "value": [95,100],
+      "name": "Baies d'if"
+    }
+  },
+  "lootStaffs": {
+    "1": {
+      "value": [1,15], 
+      "name": "Charme"
+    }, 
+    "2": {
+      "value": [16,30],
+      "name": "Feu"
+    }, 
+    "3": {
+      "value": [31,39],
+      "name": "Essaim d'insectes"
+    },
+    "4": {
+      "value": [40,48],
+      "name": "Guérison"
+    }, 
+    "5": {
+      "value": [49,57],
+      "name": "Modification de la taille"
+    }, 
+    "6": {
+      "value": [58,60],
+      "name": "Éclairage"
+    }, 
+    "7": {
+      "value": [60,62],
+      "name": "Gel"
+    }, 
+    "8": {
+      "value": [63,65],
+      "name": "Défense"
+    }, 
+    "9": {
+      "value": [66,68],
+      "name": "Abjuration"
+    }, 
+    "10": {
+      "value": [69,71],
+      "name": "Conjuration"
+    },
+    "11": {
+      "value": [72,74],
+      "name": "Enchantement"
+    },
+    "12": {
+      "value": [75,77],
+      "name": "Évocation"
+    },
+    "13": {
+      "value": [78,80],
+      "name": "Illusion"
+    },
+    "14": {
+      "value": [81,83],
+      "name": "Nécromancie"
+    },
+    "15": {
+      "value": [84,86],
+      "name": "Transmutation"
+    },
+    "16": {
+      "value": [87,89],
+      "name": "Divination"
+    }, 
+    "17": {
+      "value": [90,92],
+      "name": "Terre & Pierre"
+    },
+    "18": {
+      "value": [93,94],
+      "name": "Forêt"
+    },
+    "19": {
+      "value": [95,96],
+      "name": "Vie"
+    },
+    "20": {
+      "value": [97,98],
+      "name": "Passage"
+    },
+    "21": {
+      "value": [99,100],
+      "name": "Pouvoir"
+    }
+  },
+  "lootGemstones": {
+    "1": {
+      "value": [1,2], 
+      "name": "Agate rubanée"
+    }, 
+    "2": {
+      "value": [3,4],
+      "name": "Agate mousse"
+    }, 
+    "3": {
+      "value": [5,7],
+      "name": "Azurite"
+    },
+    "4": {
+      "value": [8,10],
+      "name": "Quartz bleu"
+    }, 
+    "5": {
+      "value": [11,13],
+      "name": "Hématite"
+    }, 
+    "6": {
+      "value": [14,16],
+      "name": "Lapis lazuli"
+    }, 
+    "7": {
+      "value": [17,19],
+      "name": "Malachite"
+    }, 
+    "8": {
+      "value": [20,22],
+      "name": "Obsidienne"
+    }, 
+    "9": {
+      "value": [23,25],
+      "name": "Rhodochrosite"
+    }, 
+    "10": {
+      "value": [26,27],
+      "name": "Oeil de Tigre Turquoise"
+    },
+    "11": {
+      "value": [28,29],
+      "name": "Perle d'eau douce"
+    },
+    "12": {
+      "value": [30,31],
+      "name": "Pierre de sang"
+    },
+    "13": {
+      "value": [32,33],
+      "name": "Cornaline"
+    },
+    "14": {
+      "value": [34,35],
+      "name": "Chrysoprase"
+    },
+    "15": {
+      "value": [36,37],
+      "name": "Citrine"
+    },
+    "16": {
+      "value": [38,39],
+      "name": "Iolite"
+    }, 
+    "17": {
+      "value": [40,41],
+      "name": "Jaspe"
+    },
+    "18": {
+      "value": [42,43],
+      "name": "Pierre de lune"
+    },
+    "19": {
+      "value": [44,45],
+      "name": "Onyx"
+    },
+    "20": {
+      "value": [46,47],
+      "name": "Péridot"
+    },
+    "21": {
+      "value": [48,49],
+      "name": "Cristal de roche"
+    },
+    "22": {
+      "value": [50,51],
+      "name": "Sarde"
+    },
+    "23": {
+      "value": [52,53],
+      "name": "Sardonyx"
+    },
+    "24": {
+      "value": [54,55],
+      "name": "Quartz rose"
+    },
+    "25": {
+      "value": [56,57],
+      "name": "Quartz fumé"
+    },
+    "26": {
+      "value": [58,59],
+      "name": "Quartz rose étoilé"
+    },
+    "27": {
+      "value": [60,61],
+      "name": "Zircon"
+    }, 
+    "28": {
+      "value": [62,62],
+      "name": "Ambre"
+    },
+    "29": {
+      "value": [63,63],
+      "name": "Améthyste"
+    },
+    "30": {
+      "value": [64,64],
+      "name": "Chrysobéryl"
+    },
+    "31": {
+      "value": [65,65],
+      "name": "Corail"
+    },
+    "32": {
+      "value": [66,66],
+      "name": "Grenat rouge"
+    }, 
+    "33": {
+      "value": [67,67],
+      "name": "Grenat Marron-Vert"
+    }, 
+    "34": {
+      "value": [68,68],
+      "name": "Jade"
+    },
+    "35": {
+      "value": [69,69],
+      "name": "Jais"
+    }, 
+    "36": {
+      "value": [70,70],
+      "name": "Perle blanche"
+    },
+    "37": {
+      "value": [71,71],
+      "name": "Perle dorée"
+    },
+    "38": {
+      "value": [72,72],
+      "name": "Perle rose"
+    },
+    "39": {
+      "value": [73,73],
+      "name": "Perle d'argent"
+    },
+    "40": {
+      "value": [74,74],
+      "name": "Spinelle rouge"
+    },
+    "41": {
+      "value": [75,75],
+      "name": "Spinelle rouge-brun"
+    },
+    "42": {
+      "value": [76,76],
+      "name": "Spinelle vert foncé"
+    },
+    "43": {
+      "value": [77,77],
+      "name": "Tourmaline"
+    },
+    "44": {
+      "value": [78,78],
+      "name": "Alexandrite"
+    }, 
+    "45": {
+      "value": [79,79],
+      "name": "Aigue-marine"
+    },
+    "46": {
+      "value": [80,80],
+      "name": "Grenat violet"
+    },
+    "47": {
+      "value": [81,81],
+      "name": "Perle noire"
+    },
+    "48": {
+      "value": [82,82],
+      "name": "Spinelle bleu profond"
+    },
+    "49": {
+      "value": [83,83],
+      "name": "Topaze jaune d'or"
+    },
+    "50": {
+      "value": [84,84],
+      "name": "Émeraude"
+    },
+    "51": {
+      "value": [85,85],
+      "name": "Opale blanche"
+    },
+    "52": {
+      "value": [86,86],
+      "name": "Opale noire"
+    },
+    "53": {
+      "value": [87,87],
+      "name": "Opale de feu"
+    },
+    "54": {
+      "value": [88,88],
+      "name": "Saphir bleu"
+    },
+    "55": {
+      "value": [89,89],
+      "name": "Corindon jaune ardent"
+    },
+    "56": {
+      "value": [90,90],
+      "name": "Corindon violet riche"
+    },
+    "57": {
+      "value": [91,91],
+      "name": "Saphir étoilé bleu"
+    },
+    "58": {
+      "value": [92,92],
+      "name": "Saphir étoilé noir" 
+    },
+    "59": {
+      "value": [93,93],
+      "name": "Rubis étoilé"
+    },
+    "60": {
+      "value": [94,94],
+      "name": "Émeraude vert vif"
+    },
+    "61": {
+      "value": [95,95],
+      "name": "Diamant Bleu-Blanc"
+    },
+    "62": {
+      "value": [96,96],
+      "name": "Diamant des Canaries"
+    },
+    "63": {
+      "value": [97,97],
+      "name": "Diamant rose"
+    },
+    "64": {
+      "value": [98,98],
+      "name": "Diamant Brun"
+    },
+    "65": {
+      "value": [99,99],
+      "name": "Diamant bleu"
+    },
+    "66": {
+      "value": [100,100],
+      "name": "Jacinthe"
+    }
+  },
+  "lootRingsPendants": {
+    "1": {
+      "value": [1,5],
+      "name": "Protection"
+    }, 
+    "2": {
+      "value": [6,7],
+      "name": "Plume qui tombe"
+    }, 
+    "3": {
+      "value": [8,12],
+      "name": "Subsistance"
+    },
+    "4": {
+      "value": [13,16],
+      "name": "Escalade"
+    }, 
+    "5": {
+      "value": [17,20],
+      "name": "Sauter"
+    }, 
+    "6": {
+      "value": [21,24],
+      "name": "Natation"
+    }, 
+    "7": {
+      "value": [25,26],
+      "name": "Contresort"
+    }, 
+    "8": {
+      "value": [27,27],
+      "name": "Protection de l'esprit"
+    }, 
+    "9": {
+      "value": [28,32],
+      "name": "Bouclier de Force"
+    }, 
+    "10": {
+      "value": [33,34],
+      "name": "Bélier"
+    },
+    "11": {
+      "value": [35,39],
+      "name": "Amitié animale"
+    },
+    "12": {
+      "value": [40,45],
+      "name": "Résistance à l'énergie"
+    },
+    "13": {
+      "value": [46,49],
+      "name": "Pouvoir caméléon"
+    },
+    "14": {
+      "value": [50,52],
+      "name": "Marche sur l'eau"
+    },
+    "15": {
+      "value": [53,57],
+      "name": "Stockage de sorts, moindre"
+    },
+    "16": {
+      "value": [58,61],
+      "name": "Invisibilité"
+    }, 
+    "17": {
+      "value": [62,64],
+      "name": "Sorcellerie"
+    },
+    "18": {
+      "value": [65,65],
+      "name": "Évasion"
+    },
+    "19": {
+      "value": [66,69],
+      "name": "Vision aux rayons X"
+    },
+    "20": {
+      "value": [70,73],
+      "name": "Clignement"
+    },
+    "21": {
+      "value": [74,74],
+      "name": "Liberté de mouvement"
+    },
+    "22": {
+      "value": [75,78],
+      "name": "Bouclier d'ami (paire)"
+    },
+    "23": {
+      "value": [79,82],
+      "name": "Étoiles filantes"
+    },
+    "24": {
+      "value": [83,86],
+      "name": "Stockage de sorts"
+    },
+    "25": {
+      "value": [87,88],
+      "name": "Télékinésie"
+    },
+    "26": {
+      "value": [89,92],
+      "name": "Régénération"
+    },
+    "27": {
+      "value": [93,93],
+      "name": "Trois voeux"
+    }, 
+    "28": {
+      "value": [94,96],
+      "name": "Virage de sorts"
+    },
+    "29": {
+      "value": [97,97],
+      "name": "Appel de Djinn"
+    },
+    "30": {
+      "value": [98,100],
+      "name": "Commandement élémentaire"
+    }
+  }
+}

@@ -1,0 +1,1930 @@
+{
+  "terrainTypeTable": {
+    "1": {
+      "value": [1,1],
+      "terrainType": "Arctique",
+      "rollOn": "arcticGlobalTable"
+    },
+    "2": {
+      "value": [2,2],
+      "terrainType": "Côtier",
+      "rollOn": "coastalGlobalTable"
+    },
+    "3": {
+      "value": [3,3],
+      "terrainType": "Désert",
+      "rollOn": "desertGlobalTable"
+    },
+    "4": {
+      "value": [4,4],
+      "terrainType": "Forêt / Jungle",
+      "rollOn": "forestJungleGlobalTable"
+    },
+    "5": {
+      "value": [5,5],
+      "terrainType": "Prairie",
+      "rollOn": "clearingGlobalTable"
+    },
+    "6": {
+      "value": [6,6],
+      "terrainType": "Collines",
+      "rollOn": "hillsGlobalTable"
+    },
+    "7": {
+      "value": [7,7],
+      "terrainType": "Montagnes",
+      "rollOn": "mountainGlobalTable"
+    },
+    "8": {
+      "value": [8,8],
+      "terrainType": "Marais",
+      "rollOn": "swampGlobalTable"
+    }
+  },
+  "wildernessEncountersNumbers": {
+    "1": {
+      "populationDensity": "faible",
+      "day": 2,
+      "night": 1
+    },
+    "2": {
+      "populationDensity": "moyenne",
+      "day": 4,
+      "night": 2
+    },
+    "3": {
+      "populationDensity": "élevée",
+      "day": 6,
+      "night": 3
+    }
+  },
+  "arcticGlobalTable": {
+    "1": {
+      "value": [1,60],
+      "minorFeature": "Terrain arctique continu",
+      "size": 8,
+      "rollOn": "arcticGlobalTable"
+    },
+    "2": {
+      "value": [61,65],
+      "minorFeature": "Collines glacées",
+      "size": 1,
+      "rollOn": "hillsMinorTable"
+    },
+    "3": {
+      "value": [66,70],
+      "minorFeature": "Petite chaîne de montagne / pieds de montagne",
+      "size": 1,
+      "rollOn": "mountainsMinorTable"
+    },
+    "4": {
+      "value": [71,75],
+      "minorFeature": "Voie navigable (probablement gelée)",
+      "size": 1,
+      "rollOn": "waterwayMinorTable"
+    },
+    "5": {
+      "value": [76,80],
+      "minorFeature": "Petit Bois",
+      "size": 1,
+      "rollOn": "woodMinorTable"
+    },
+    "6": {
+      "value": [81,85],
+      "minorFeature": "Affleurement rocheux",
+      "size": 1,
+      "rollOn": "outcropMinorTable"
+    },
+    "7": {
+      "value": [86,90],
+      "minorFeature": "Colonie non marquée",
+      "size": 0,
+      "rollOn": "unmarkedSettlementsTable"
+    },
+    "8": {
+      "value": [91,95],
+      "minorFeature": "1d6 : 1,2 : Structure / 3,4 : Monument / 5,6 : Élément paysager intéressant",
+      "size": 0,
+      "rollOn": ""
+    },
+    "9": {
+      "value": [96,100],
+      "minorFeature": "Repaire de monstres",
+      "size": 0,
+      "rollOn": "monstersTable"
+    }
+  },
+  "coastalGlobalTable": {
+    "1": {
+      "value": [1,60],
+      "minorFeature": "Terrain côtier continu",
+      "size": 8,
+      "rollOn": "coastalGlobalTable"
+    },
+    "2": {
+      "value": [61,65],
+      "minorFeature": "Collines (avec des falaises peut-être)",
+      "size": 1,
+      "rollOn": "hillsMinorTable"
+    },
+    "3": {
+      "value": [66,70],
+      "minorFeature": "Ravine",
+      "size": 1,
+      "rollOn": "gullyMinorTable"
+    },
+    "4": {
+      "value": [71,75],
+      "minorFeature": "Voie navigable",
+      "size": 1,
+      "rollOn": "waterwayMinorTable"
+    },
+    "5": {
+      "value": [76,80],
+      "minorFeature": "Petit Bois",
+      "size": 1,
+      "rollOn": "woodMinorTable"
+    },
+    "6": {
+      "value": [81,85],
+      "minorFeature": "Affleurement rocheux",
+      "size": 1,
+      "rollOn": "outcropMinorTable"
+    },
+    "7": {
+      "value": [86,90],
+      "minorFeature": "Colonie non marquée",
+      "size": 0,
+      "rollOn": "unmarkedSettlementsTable"
+    },
+    "8": {
+      "value": [91,95],
+      "minorFeature": "1d6 : 1,2 : Structure / 3,4 : Monument / 5,6 : Élément paysager intéressant",
+      "size": 0,
+      "rollOn": ""
+    },
+    "9": {
+      "value": [96,100],
+      "minorFeature": "Repaire de monstres",
+      "size": 0,
+      "rollOn": "monstersTable"
+    }
+  },
+  "desertGlobalTable": {
+    "1": {
+      "value": [1,70],
+      "minorFeature": "Désert continu",
+      "size": 8,
+      "rollOn": "desertGlobalTable"
+    },
+    "2": {
+      "value": [71,75],
+      "minorFeature": "Oasis",
+      "size": 1,
+      "rollOn": "oasisMinorTable"
+    },
+    "3": {
+      "value": [76,80],
+      "minorFeature": "Petite chaîne de montagnes (sec, pas de neige)",
+      "size": 1,
+      "rollOn": "mountainMinorTable"
+    },
+    "4": {
+      "value": [81,85],
+      "minorFeature": "Affleurement rocheux",
+      "size": 1,
+      "rollOn": "outcropMinorTable"
+    },
+    "5": {
+      "value": [86,90],
+      "minorFeature": "Colonie non marquée",
+      "size": 0,
+      "rollOn": "unmarkedSettlementsTable"
+    },
+    "6": {
+      "value": [91,95],
+      "minorFeature": "1d6 : 1,2 : Structure / 3,4 : Monument / 5,6 : Élément paysager intéressant",
+      "size": 0,
+      "rollOn": ""
+    },
+    "7": {
+      "value": [96,100],
+      "minorFeature": "Repaire de monstres",
+      "size": 0,
+      "rollOn": "monstersTable"
+    }
+  },
+  "forestJungleGlobalTable": {
+    "1": {
+      "value": [1,52],
+      "minorFeature": "Forêt continue",
+      "size": 8,
+      "rollOn": "forestJungleGlobalTable"
+    },
+    "2": {
+      "value": [53,56],
+      "minorFeature": "Petite clairière",
+      "size": 1,
+      "rollOn": "clearingMinorTable"
+    },
+    "3": {
+      "value": [57,60],
+      "minorFeature": "Grande clairière",
+      "size": 1,
+      "rollOn": "clearingMinorTable"
+    },
+    "4": {
+      "value": [61,64],
+      "minorFeature": "Petit ravin boisé",
+      "size": 1,
+      "rollOn": "gullyMinorTable"
+    },
+    "5": {
+      "value": [65,68],
+      "minorFeature": "Grand ravin boisé",
+      "size": 1,
+      "rollOn": "gullyMinorTable"
+    },
+    "6": {
+      "value": [69,72],
+      "minorFeature": "Voie navigable",
+      "size": 1,
+      "rollOn": "waterwayMinorTable"
+    },
+    "7": {
+      "value": [73,76],
+      "minorFeature": "Lac",
+      "size": 1,
+      "rollOn": "lakeMinorTable"
+    },
+    "8": {
+      "value": [77,80],
+      "minorFeature": "Zone défrichée",
+      "size": 1,
+      "rollOn": "clearfelledMinorTable"
+    },
+    "9": {
+      "value": [81,84],
+      "minorFeature": "Affleurement rocheux",
+      "size": 1,
+      "rollOn": "outcropMinorTable"
+    },
+    "10": {
+      "value": [85,88],
+      "minorFeature": "Marais",
+      "size": 1,
+      "rollOn": "swampMinorTable"
+    },
+    "11": {
+      "value": [89,92],
+      "minorFeature": "Colonie forestière non marquée",
+      "size": 0,
+      "rollOn": "unmarkedSettlementsTable"
+    },
+    "12": {
+      "value": [93,96],
+      "minorFeature": "1d6 : 1,2 : Structure / 3,4 : Monument / 5,6 : Repaire de monstre",
+      "size": 0,
+      "rollOn": ""
+    },
+    "13": {
+      "value": [97,100],
+      "minorFeature": "Caractéristique intéressante du paysage",
+      "size": 0,
+      "rollOn": "landscapeMinorTable"
+    }
+  },
+  "clearingGlobalTable": {
+    "1": {
+      "value": [1,56],
+      "minorFeature": "Prairie continue",
+      "size": 8,
+      "rollOn": "clearingGlobalTable"
+    },
+    "2": {
+      "value": [57,60],
+      "minorFeature": "Collines",
+      "size": 1,
+      "rollOn": "hillsMinorTable"
+    },
+    "3": {
+      "value": [61,64],
+      "minorFeature": "Marais",
+      "size": 1,
+      "rollOn": "swampMinorTable"
+    },
+    "4": {
+      "value": [65,68],
+      "minorFeature": "Ravine",
+      "size": 1,
+      "rollOn": "gullyMinorTable"
+    },
+    "5": {
+      "value": [69,72],
+      "minorFeature": "Voie navigable",
+      "size": 1,
+      "rollOn": "waterwayMinorTable"
+    },
+    "6": {
+      "value": [73,76],
+      "minorFeature": "Lac",
+      "size": 1,
+      "rollOn": "lakeMinorTable"
+    },
+    "7": {
+      "value": [77,80],
+      "minorFeature": "Petit Bois",
+      "size": 1,
+      "rollOn": "woodMinorTable"
+    },
+    "8": {
+      "value": [81,84],
+      "minorFeature": "Affleurement rocheux",
+      "size": 1,
+      "rollOn": "outcropMinorTable"
+    },
+    "9": {
+      "value": [85,88],
+      "minorFeature": "Petite chaîne de montagnes / Pieds de montagne",
+      "size": 1,
+      "rollOn": "mountainMinorTable"
+    },
+    "10": {
+      "value": [89,92],
+      "minorFeature": "Colonie non marquée",
+      "size": 0,
+      "rollOn": "unmarkedSettlementsTable"
+    },
+    "11": {
+      "value": [93,96],
+      "minorFeature": "1d6 : 1,2 : Structure / 3,4 : Monument / 5,6 : Élément paysager intéressant",
+      "size": 0,
+      "rollOn": ""
+    },
+    "12": {
+      "value": [97,100],
+      "minorFeature": "Repaire de monstres",
+      "size": 0,
+      "rollOn": "monstersTable"
+    }
+  },
+  "hillsGlobalTable": {
+    "1": {
+      "value": [1,55],
+      "minorFeature": "Collines continues",
+      "size": 8,
+      "rollOn": "hillsGlobalTable"
+    },
+    "2": {
+      "value": [56,60],
+      "minorFeature": "Ravine",
+      "size": 1,
+      "rollOn": "gullyMinorTable"
+    },
+    "3": {
+      "value": [61,65],
+      "minorFeature": "Voie navigable",
+      "size": 1,
+      "rollOn": "waterwayMinorTable"
+    },
+    "4": {
+      "value": [66,70],
+      "minorFeature": "Lac",
+      "size": 1,
+      "rollOn": "lakeMinorTable"
+    },
+    "5": {
+      "value": [71,75],
+      "minorFeature": "Petit Bois",
+      "size": 1,
+      "rollOn": "woodMinorTable"
+    },
+    "6": {
+      "value": [76,80],
+      "minorFeature": "Affleurement rocheux",
+      "size": 1,
+      "rollOn": "outcropMinorTable"
+    },
+    "7": {
+      "value": [81,85],
+      "minorFeature": "Petite chaîne de montagnes / Pieds de montagne",
+      "size": 1,
+      "rollOn": "mountainMinorTable"
+    },
+    "8": {
+      "value": [86,90],
+      "minorFeature": "Colonie non marquée",
+      "size": 0,
+      "rollOn": "unmarkedSettlementsTable"
+    },
+    "9": {
+      "value": [91,95],
+      "minorFeature": "1d6 : 1,2 : Structure / 3,4 : Monument / 5,6 : Élément paysager intéressant",
+      "size": 0,
+      "rollOn": ""
+    },
+    "10": {
+      "value": [96,100],
+      "minorFeature": "Repaire de monstres",
+      "size": 0,
+      "rollOn": "monstersTable"
+    }
+  },
+  "mountainGlobalTable": {
+    "1": {
+      "value": [1,55],
+      "minorFeature": "Montagnes continues",
+      "size": 8,
+      "rollOn": "mountainGlobalTable"
+    },
+    "2": {
+      "value": [56,60],
+      "minorFeature": "Ravine",
+      "size": 1,
+      "rollOn": "gullyMinorTable"
+    },
+    "3": {
+      "value": [61,65],
+      "minorFeature": "Voie navigable",
+      "size": 1,
+      "rollOn": "waterwayMinorTable"
+    },
+    "4": {
+      "value": [66,70],
+      "minorFeature": "Lac",
+      "size": 1,
+      "rollOn": "lakeMinorTable"
+    },
+    "5": {
+      "value": [71,75],
+      "minorFeature": "Petit Bois",
+      "size": 1,
+      "rollOn": "woodMinorTable"
+    },
+    "6": {
+      "value": [76,80],
+      "minorFeature": "Affleurement rocheux",
+      "size": 1,
+      "rollOn": "outcropMinorTable"
+    },
+    "7": {
+      "value": [81,85],
+      "minorFeature": "Petite chaîne de montagnes / Pieds de montagne",
+      "size": 1,
+      "rollOn": "mountainMinorTable"
+    },
+    "8": {
+      "value": [86,90],
+      "minorFeature": "Colonie non marquée",
+      "size": 0,
+      "rollOn": "unmarkedSettlementsTable"
+    },
+    "9": {
+      "value": [91,95],
+      "minorFeature": "1d6 : 1,2 : Structure / 3,4 : Monument / 5,6 : Élément paysager intéressant",
+      "size": 0,
+      "rollOn": ""
+    },
+    "10": {
+      "value": [96,100],
+      "minorFeature": "Repaire de monstres",
+      "size": 0,
+      "rollOn": "monstersTable"
+    }
+  },
+  "swampGlobalTable": {
+    "1": {
+      "value": [1,51],
+      "minorFeature": "Marécage continu",
+      "size": 8,
+      "rollOn": "swampGlobalTable"
+    },
+    "2": {
+      "value": [52,58],
+      "minorFeature": "Voie navigable",
+      "size": 1,
+      "rollOn": "waterwayMinorTable"
+    },
+    "3": {
+      "value": [59,65],
+      "minorFeature": "Lac",
+      "size": 1,
+      "rollOn": "lakeMinorTable"
+    },
+    "4": {
+      "value": [66,72],
+      "minorFeature": "Petit Bois",
+      "size": 1,
+      "rollOn": "woodMinorTable"
+    },
+    "5": {
+      "value": [73,79],
+      "minorFeature": "Affleurement rocheux",
+      "size": 1,
+      "rollOn": "outcropMinorTable"
+    },
+    "6": {
+      "value": [80,86],
+      "minorFeature": "Colonie non marquée",
+      "size": 0,
+      "rollOn": "unmarkedSettlementsTable"
+    },
+    "7": {
+      "value": [87,93],
+      "minorFeature": "1d6 : 1,2 : Structure / 3,4 : Monument / 5,6 : Élément paysager intéressant",
+      "size": 0,
+      "rollOn": "unmarkedSettlementsTable"
+    },
+    "8": {
+      "value": [94,100],
+      "minorFeature": "Repaire de monstres",
+      "size": 0,
+      "rollOn": "monstersTable"
+    }
+  },
+  "clearfelledMinorTable": {
+    "1": {
+      "value": [1,50],
+      "type": "Zone défrichée",
+      "description": "Grande section de forêt enlevée pour l'industrie locale"
+    },
+    "2": {
+      "value": [51,60],
+      "type": "L'armée coupe des arbres pour fabriquer des armes de siège",
+      "description": "50% de l'armée est toujours là"
+    },
+    "3": {
+      "value": [61,70],
+      "type": "Cette zone dégagée est le résultat d'un feu de forêt, et non d'un abattage actif",
+      "description": ""
+    },
+    "4": {
+      "value": [71,80],
+      "type": "La zone défrichée contient une colonie non marquée",
+      "description": ""
+    },
+    "5": {
+      "value": [81,90],
+      "type": "Zone actuellement défrichée",
+      "description": "Questions/Réponses pour en savoir plus"
+    },
+    "6": {
+      "value": [91,100],
+      "type": "Zone actuellement défrichée",
+      "description": "Camp de travailleurs à proximité"
+    }
+  },
+  "clearingMinorTable": {
+    "1": {
+      "value": [1,52],
+      "type": "Clairière naturelle, dépourvue d'arbres",
+      "description": ""
+    },
+    "2": {
+      "value": [53,58],
+      "type": "Cercle de druide contenant des menhirs",
+      "description": ""
+    },
+    "3": {
+      "value": [59,65],
+      "type": "Des totems et autres symboles sinistres, peut-être de sombres rituels ont lieu ici",
+      "description": ""
+    },
+    "4": {
+      "value": [66,71],
+      "type": "La clairière contient un étang, un point d'eau pour la faune locale",
+      "description": ""
+    },
+    "5": {
+      "value": [72,77],
+      "type": "Campement abandonné",
+      "description": ""
+    },
+    "6": {
+      "value": [78,83],
+      "type": "Campement actif",
+      "description": ""
+    },
+    "7": {
+      "value": [84,89],
+      "type": "La magie à l'œuvre ici - une sorte de faille dimensionnelle ?",
+      "description": "Jets de questions/réponses pour voir ce qui se passe ici !"
+    },
+    "8": {
+      "value": [90,95],
+      "type": "Structure présente dans la clairière",
+      "description": ""
+    },
+    "9": {
+      "value": [96,98],
+      "type": "Réunion de tréants (arbres géants) en cours",
+      "description": ""
+    },
+    "10": {
+      "value": [99,100],
+      "type": "Clairière magique. Un mage ou un autre utilisateur de magie (ou des créatures fées) a une résidence ici",
+      "description": ""
+    }
+  },
+  "gullyMinorTable": {
+    "1": {
+      "value": [1,50],
+      "type": "Ravine standard",
+      "description": "Caractéristique du terrain dominant"
+    },
+    "2": {
+      "value": [51,57],
+      "type": "Ravine avec un cours d'eau",
+      "description": ""
+    },
+    "3": {
+      "value": [58,64],
+      "type": "Ravine rocheuse contenant des grottes",
+      "description": "Jets de questions/réponses pour enquêter sur les grottes"
+    },
+    "4": {
+      "value": [65,71],
+      "type": "Ravine qui semble avoir été causé récemment, peut-être par un tremblement de terre ou une autre catastrophe naturelle… ou par une énorme créature peut-être !",
+      "description": "Jets de questions/réponses pour discerner la cause"
+    },
+    "5": {
+      "value": [72,78],
+      "type": "Ravine sèche contenant les ossements de nombreux animaux. Une sorte de cimetière",
+      "description": "Jets de questions/réponses pour en savoir plus"
+    },
+    "6": {
+      "value": [79,85],
+      "type": "Ravine fortement boisée, une oasis pour une colonie particulière de créatures",
+      "description": "Jets de questions/réponses pour en savoir plus"
+    },
+    "7": {
+      "value": [86,92],
+      "type": "Ravine avec des preuves de l'exploitation minière - une exploitation minière abandonnée",
+      "description": "Les mines peuvent mener assez loin sous terre"
+    },
+    "8": {
+      "value": [93,100],
+      "type": "Ravine boisée magique. Un druide, un sorcier ou des créatures fées vivent ici !",
+      "description": ""
+    }
+  },
+  "hillsMinorTable": {
+    "1": {
+      "value": [1,50],
+      "type": "Des collines basses et vallonnées",
+      "description": "Couvert d'un terrain dominant. Dans une forêt, des collines boisées. Dans les prairies, des collines herbeuses"
+    },
+    "2": {
+      "value": [51,57],
+      "type": "Collines rocheuses regorgeant de grottes, peuvent également posséder un réseau de tunnels naturels",
+      "description": "Jets de questions/réponses pour en savoir plus"
+    },
+    "3": {
+      "value": [58,64],
+      "type": "Collines légèrement plus élevées, offrant une bonne vue sur les environs",
+      "description": "Jets de questions/réponses pour voir si vous pouvez voir quelque chose d'intéressant"
+    },
+    "4": {
+      "value": [65,71],
+      "type": "Collines rocheuses en forte saillie, pratiquement impossibles à escalader",
+      "description": ""
+    },
+    "5": {
+      "value": [72,78],
+      "type": "Plateau bas sec",
+      "description": ""
+    },
+    "6": {
+      "value": [79,85],
+      "type": "Collines légèrement boisées, petites parcelles de forêt",
+      "description": ""
+    },
+    "7": {
+      "value": [86,92],
+      "type": "Pas des collines mais des monticules, peut-être des tumulus !",
+      "description": "Jets de questions/réponses pour déterminer la nature de ces monticules. Peut conduire à des tunnels"
+    },
+    "8": {
+      "value": [93,100],
+      "type": "Les collines abritent une sorte de colonie",
+      "description": "Jets de questions/réponses pour déterminer ce qui se cache ici"
+    }
+  },
+  "landscapeMinorTable": {
+    "1": {
+      "value": [1,1],
+      "type": "Gouffre",
+      "description": ""
+    },
+    "2": {
+      "value": [2,2],
+      "type": "Crevasse causée par un tremblement de terre",
+      "description": ""
+    },
+    "3": {
+      "value": [3,3],
+      "type": "Geiser / Sources chaudes",
+      "description": ""
+    },
+    "4": {
+      "value": [4,4],
+      "type": "Glissement de terrain",
+      "description": ""
+    },
+    "5": {
+      "value": [5,5],
+      "type": "Cascade",
+      "description": ""
+    },
+    "6": {
+      "value": [6,6],
+      "type": "Grotte Forêt",
+      "description": ""
+    },
+    "7": {
+      "value": [7,7],
+      "type": "Évent",
+      "description": ""
+    },
+    "8": {
+      "value": [8,8],
+      "type": "Volcan",
+      "description": ""
+    },
+    "9": {
+      "value": [9,9],
+      "type": "Formations rocheuses intéressantes (causées par une coulée de lave ?)",
+      "description": ""
+    },
+    "10": {
+      "value": [10,10],
+      "type": "Tunnel artificiel",
+      "description": ""
+    },
+    "11": {
+      "value": [11,11],
+      "type": "Cratère (météore ?)",
+      "description": ""
+    },
+    "12": {
+      "value": [12,12],
+      "type": "Fosse de goudron",
+      "description": ""
+    },
+    "13": {
+      "value": [13,13],
+      "type": "Source de la rivière / source / rivière souterraine",
+      "description": ""
+    },
+    "14": {
+      "value": [14,14],
+      "type": "Sables mouvants",
+      "description": ""
+    },
+    "15": {
+      "value": [15,15],
+      "type": "Crâne / formation de roches ressemblant à un visage",
+      "description": ""
+    },
+    "16": {
+      "value": [16,16],
+      "type": "Roches en forme de créature.  Victime du basilic ?",
+      "description": ""
+    },
+    "17": {
+      "value": [17,17],
+      "type": "Forêt pétrifiée",
+      "description": ""
+    },
+    "18": {
+      "value": [18,18],
+      "type": "Un pilier solitaire avec des runes",
+      "description": ""
+    },
+    "19": {
+      "value": [19,19],
+      "type": "Arbre suspendu, avec nœud coulant",
+      "description": ""
+    },
+    "20": {
+      "value": [20,20],
+      "type": "cairns de pierres, disposés symétriquement",
+      "description": ""
+    }
+  },
+  "lakeMinorTable": {
+    "1": {
+      "value": [1,50],
+      "type": "Lac de taille moyenne, non indiqué sur la carte",
+      "description": "Situé sur un terrain dominant"
+    },
+    "2": {
+      "value": [51,55],
+      "type": "Lac de taille moyenne, petite colonie quelque part sur ses rives",
+      "description": ""
+    },
+    "3": {
+      "value": [56,60],
+      "type": "Petit lac / étang / abreuvoir",
+      "description": ""
+    },
+    "4": {
+      "value": [61,65],
+      "type": "Grand lac non cartographié, avec une voie navigable qui en sort. Peut être monté en canoë",
+      "description": ""
+    },
+    "5": {
+      "value": [66,70],
+      "type": "Lac de taille moyenne, petite colonie quelque part sur ses rives",
+      "description": ""
+    },
+    "6": {
+      "value": [71,75],
+      "type": "Grand lac non cartographié, avec une petite chaîne de montagnes sur ses rives",
+      "description": ""
+    },
+    "7": {
+      "value": [76,80],
+      "type": "Grand lac avec de petits bois sur ses rives",
+      "description": ""
+    },
+    "8": {
+      "value": [81,85],
+      "type": "Lacs de taille moyenne avec de nombreux bateaux",
+      "description": "Jets de questions/réponses pour en déterminer plus"
+    },
+    "9": {
+      "value": [86,90],
+      "type": "Petit lac ou étang, sert de repaire à une créature aquatique",
+      "description": ""
+    },
+    "10": {
+      "value": [91,95],
+      "type": "Lac de taille moyenne, saut de poissons",
+      "description": ""
+    },
+    "11": {
+      "value": [96,100],
+      "type": "Piscine sacrée en quelque sorte. De nature magique",
+      "description": ""
+    }
+  },
+  "monumentMinorTable": {
+    "1": {
+      "value": [1,1],
+      "type": "Pierres dressées / Obélisques / Grandes gravures sur pierre",
+      "description": "Jets de questions/réponses pour mieux discerner"
+    },
+    "2": {
+      "value": [2,2],
+      "type": "Monticule de charbon de bois",
+      "description": "Jets de questions/réponses pour déterminer ce qui est brûlé"
+    },
+    "3": {
+      "value": [3,3],
+      "type": "Mât totémique tribal",
+      "description": ""
+    },
+    "4": {
+      "value": [4,4],
+      "type": "Petit sanctuaire",
+      "description": "Jets de questions/réponses pour déterminer le dieu auquel il est dédié"
+    },
+    "5": {
+      "value": [5,5],
+      "type": "Signe pour montrer les colonies à proximité",
+      "description": ""
+    },
+    "6": {
+      "value": [6,6],
+      "type": "Falaise avec visages sculptés de dieux",
+      "description": "Jets de questions/réponses pour déterminer le dieu auquel il est dédié"
+    },
+    "7": {
+      "value": [7,7],
+      "type": "Statue d'un ancien chef",
+      "description": "Q/A / Jets d'histoire pour mieux discerner"
+    },
+    "8": {
+      "value": [8,8],
+      "type": "Statue d'un célèbre aventurier",
+      "description": "Quelque chose de caché ici ?"
+    },
+    "9": {
+      "value": [9,9],
+      "type": "Arbre ou autre élément naturel important/d'importance tribale",
+      "description": "70% gardés par des tribus / barbares"
+    },
+    "10": {
+      "value": [10,10],
+      "type": "Piliers en pierre antiques",
+      "description": "Partie de ruines ? Q/A / Jets d'histoire pour mieux discerner"
+    },
+    "11": {
+      "value": [11,11],
+      "type": "Murs en pierre en ruine",
+      "description": "Q/A / Jets d'Histoire pour mieux discerner"
+    },
+    "12": {
+      "value": [12,12],
+      "type": "Autel / Piédestal",
+      "description": "Sacrificiel ? 50% taché de sang"
+    },
+    "13": {
+      "value": [13,13],
+      "type": "Gros rochers dispersés de formes intéressantes",
+      "description": "Q/A / Jets de Nature pour mieux discerner"
+    },
+    "14": {
+      "value": [14,14],
+      "type": "Tombe seule d'identité notable",
+      "description": "25% déjà pillé"
+    },
+    "15": {
+      "value": [15,15],
+      "type": "Montagne d'os",
+      "description": "Q/R / Jets de Nature pour mieux discerner. Indice 25%"
+    },
+    "16": {
+      "value": [16,16],
+      "type": "Ancien champ de bataille, avec monument à la mémoire des morts",
+      "description": "Q/R / Jets d'Histoire pour mieux discerner. Indice 25%"
+    },
+    "17": {
+      "value": [17,17],
+      "type": "Immeuble incendié",
+      "description": "Indice 50%"
+    },
+    "18": {
+      "value": [18,18],
+      "type": "Monticule de termites ou d'autres insectes",
+      "description": "Jets de Nature pour mieux discerner. 50% rencontre de niveau facile (avec un insecte comme être peut-être ?)"
+    },
+    "19": {
+      "value": [19,19],
+      "type": "Lignes telluriques",
+      "description": "Q/A pour mieux discerner, comme qui les a dessinés ici et il y a combien de temps ?"
+    },
+    "20": {
+      "value": [20,20],
+      "type": "Une arche solitaire au milieu de nulle part !",
+      "description": "Portail ?"
+    }
+  },
+  "oasisMinorTable": {
+    "1": {
+      "value": [1,46],
+      "type": "Oasis avec bassin d'eau rafraîchissante en son centre. Campement idéal",
+      "description": "Bon endroit pour un long repos, surtout dans un désert"
+    },
+    "2": {
+      "value": [47,52],
+      "type": "En l'atteignant, tu découvres que c'est un mirage",
+      "description": "Juste des déserts"
+    },
+    "3": {
+      "value": [53,58],
+      "type": "Oasis avec piscine mais l'eau n'est pas tout à fait correcte. 30% empoisonné, ou autre chose. 50% d'effet favorable",
+      "description": "Q/A Jet de Nature pour en savoir plus"
+    },
+    "4": {
+      "value": [59,64],
+      "type": "Oasis contient une caravane itinérante de marchands du désert",
+      "description": "90% amical. Êtes-vous capable de vous approcher furtivement pour qu'ils ne vous remarquent pas ?"
+    },
+    "5": {
+      "value": [65,70],
+      "type": "Oasis contient un grand camp de nomades du désert",
+      "description": "50% amical. Êtes-vous capable de vous approcher furtivement pour qu'ils ne vous remarquent pas ?"
+    },
+    "6": {
+      "value": [71,76],
+      "type": "Oasis contient un sanctuaire ou un temple quelconque",
+      "description": "Q/A Jet d'Investigation pour en savoir plus"
+    },
+    "7": {
+      "value": [77,82],
+      "type": "Oasis contient une sorte de ruine",
+      "description": "Q/A Jet d'Investigation pour en savoir plus"
+    },
+    "8": {
+      "value": [83,88],
+      "type": "Oasis avec des bandits / voleurs / autres aventuriers l'utilisant comme point d'arrêt",
+      "description": "50% amical. Êtes-vous capable de vous approcher furtivement pour qu'ils ne vous remarquent pas ?"
+    },
+    "9": {
+      "value": [89,94],
+      "type": "Oasis avec étape / chevaux frais / ravitaillement",
+      "description": "Faites le plein de basiques ! Jets Q/A pour mieux discerner"
+    },
+    "10": {
+      "value": [95,100],
+      "type": "Une sorte de barrière magique ici… cela ne pourrait être décrit que comme un Wonderwall",
+      "description": "Q/A Jets d'Arcana pour discerner la nature de la barrière"
+    }
+  },
+  "outcropMinorTable": {
+    "1": {
+      "value": [1,52],
+      "type": "Affleurement rocheux",
+      "description": "Dépassant au-dessus du terrain dominant"
+    },
+    "2": {
+      "value": [53,58],
+      "type": "L'affleurement sert de point de vue pour les éclaireurs humanoïdes",
+      "description": "Jet de Perception DD 14 pour voir si votre Joueur le remarque. Q/R pour mieux discerner"
+    },
+    "3": {
+      "value": [59,65],
+      "type": "Petit bois au sommet de cet affleurement",
+      "description": "Jets sur table Small Wood"
+    },
+    "4": {
+      "value": [66,71],
+      "type": "S'il est escaladé, le Joueur peut trouver une structure ou un monument au-dessus de cet affleurement rocheux",
+      "description": "50% structure, 50% monument"
+    },
+    "5": {
+      "value": [72,77],
+      "type": "L'affleurement rocheux est en fait une île au milieu d'un lac",
+      "description": "Jets sur table Lake"
+    },
+    "6": {
+      "value": [78,83],
+      "type": "L'affleurement rocheux est en fait un assortiment de gros rochers éparpillés",
+      "description": "Q/R pour en savoir plus. Comment sont-ils venus ici ? 50% de rencontre de niveau moyen (éventuellement avec surprise contre vous)"
+    },
+    "7": {
+      "value": [84,89],
+      "type": "Formation intéressante de pierres dressées au sommet de l'affleurement",
+      "description": "Jets Survival DC 12 pour escalader cet affleurement rocheux et approfondir l'enquête"
+    },
+    "8": {
+      "value": [90,95],
+      "type": "Un PNJ se tient au sommet de cet affleurement et vous appelle, vous faisant signe de les rejoindre là-haut",
+      "description": "Q/R pour mieux discerner"
+    },
+    "9": {
+      "value": [96,100],
+      "type": "L'affleurement a été façonné dans le visage ou la forme d'un dieu bien connu",
+      "description": "50% de fidèles présents. Sanctuaire au sommet de l'affleurement ? Q/A pour mieux discerner"
+    }
+  },
+  "mountainMinorTable": {
+    "1": {
+      "value": [1,55],
+      "type": "Petite chaîne de montagnes standard, taille généralement uniforme, pas de pics énormes",
+      "description": "Aura de la neige si c'est l'hiver ou près de l'hiver. Jet Survival DC 16 pour escalader (équipement d'escalade également requis)"
+    },
+    "2": {
+      "value": [56,60],
+      "type": "Petite chaîne de montagnes avec quelques grands sommets",
+      "description": "Aura de la neige si c'est l'hiver ou près de l'hiver. Jet Survival DC 16 pour escalader (équipement d'escalade également requis)"
+    },
+    "3": {
+      "value": [61,65],
+      "type": "Petite chaîne de montagnes qui semble posséder une grande quantité de grottes",
+      "description": "Les grottes peuvent conduire à des tunnels/donjons"
+    },
+    "4": {
+      "value": [66,70],
+      "type": "La chaîne de montagnes semble abriter une colonie / un établissement quelconque. Nain ? Une sorte de créature des montagnes",
+      "description": "Jet sur table Unmarked Settlement"
+    },
+    "5": {
+      "value": [71,75],
+      "type": "Petite chaîne de montagnes couverte de forêt",
+      "description": "Jet sur table Small Wood"
+    },
+    "6": {
+      "value": [76,80],
+      "type": "Petite chaîne de montagnes, accidentée et dangereuse, partiellement boisée. Aigles géants et autres",
+      "description": "Rencontre de niveau difficile 50%"
+    },
+    "7": {
+      "value": [81,85],
+      "type": "Bandits / Voleurs utilisant ces montagnes comme cachette. Mais votre Joueur le sait-il ? Perception DD 18 pour discerner",
+      "description": "Rencontre de niveau difficile 70%"
+    },
+    "8": {
+      "value": [86,90],
+      "type": "Petite chaîne de montagnes au bord du lac",
+      "description": "Jet sur table Lake"
+    },
+    "9": {
+      "value": [91,95],
+      "type": "Petite chaîne de montagnes avec colonie de géants (ou peut-être d'autres humanoïdes) !",
+      "description": "Jets Q/A pour en savoir plus"
+    },
+    "10": {
+      "value": [96,100],
+      "type": "Petite chaîne de montagnes contenant un (d8) 1 : monastère, 2 : tour des sorciers, 3 : ville cachée, 4 : communauté de druides, 5 : royaume secret des nains, 6 : royaume secret des gnomes, 7 : citadelle pour un ordre d'assassin, 8  : Tout ce qui vous plaît !",
+      "description": "Jets Q/A pour déterminer plus"
+    }
+  },
+  "woodMinorTable": {
+    "1": {
+      "value": [1,55],
+      "type": "Type de bois standard pour cette zone",
+      "description": ""
+    },
+    "2": {
+      "value": [56,60],
+      "type": "Arbres morts, comme par une maladie mystérieuse",
+      "description": "Utilisez les jets de questions/réponses pour voir si vous pouvez déterminer la nature de l'affection"
+    },
+    "3": {
+      "value": [61,65],
+      "type": "Bois ancien, arbres tordus et noueux",
+      "description": "Indice 25%"
+    },
+    "4": {
+      "value": [66,70],
+      "type": "Serein, Bois sylvestre",
+      "description": "Jets Q/A pour rechercher des signes de vie"
+    },
+    "5": {
+      "value": [71,75],
+      "type": "Bois sombre et épais, plein de menace",
+      "description": "Rencontre de niveau difficile 20%"
+    },
+    "6": {
+      "value": [76,80],
+      "type": "Bois en cours de coupe à blanc pour le bois",
+      "description": "Jets Q/A pour déterminer qui fait la coupe à blanc et pourquoi"
+    },
+    "7": {
+      "value": [81,85],
+      "type": "Bois qui a été ravagé par un incendie de forêt",
+      "description": "Jets Q/A pour déterminer la cause de l'incendie"
+    },
+    "8": {
+      "value": [86,90],
+      "type": "Bois dans lequel se cache actuellement une bande d'humanoïdes de raid",
+      "description": "Indice 50%. Rencontre de niveau moyen 35%"
+    },
+    "9": {
+      "value": [91,95],
+      "type": "Bois contenant une clairière contenant des totems / menhirs",
+      "description": "Rencontre de niveau moyen 25%, Indice 10%"
+    },
+    "10": {
+      "value": [96,100],
+      "type": "Bois habité par des colonies humanoïdes telles que des elfes, des gnomes, des halfelins",
+      "description": "Jets Q/A pour déterminer si vous les rencontrez"
+    }
+  },
+  "structureMinorTable": {
+    "1": {
+      "value": [1,4],
+      "type": "Mine",
+      "description": "10% habité"
+    },
+    "2": {
+      "value": [5,8],
+      "type": "Cimetière / Tombeau",
+      "description": "30% hanté / mort-vivant"
+    },
+    "3": {
+      "value": [9,12],
+      "type": "Petit château / donjon",
+      "description": "30% déserté (avec des habitants monstres possibles)"
+    },
+    "4": {
+      "value": [13,16],
+      "type": "Manoir",
+      "description": "50% habité"
+    },
+    "5": {
+      "value": [17,20],
+      "type": "Monastère",
+      "description": "90% habité"
+    },
+    "6": {
+      "value": [21,24],
+      "type": "Sanctuaire / Temple",
+      "description": "50% habitants humanoïdes"
+    },
+    "7": {
+      "value": [25,28],
+      "type": "Tour de guet",
+      "description": "50% habités, 50% humains"
+    },
+    "8": {
+      "value": [29,32],
+      "type": "Maison de Ferme",
+      "description": "80% habité, 5% attaqué actuellement"
+    },
+    "9": {
+      "value": [33,36],
+      "type": "Clôture",
+      "description": "Jet Q/A / Jet Nature pour déterminer son objectif"
+    },
+    "10": {
+      "value": [37,40],
+      "type": "Moulin à vent",
+      "description": ""
+    },
+    "11": {
+      "value": [41,44],
+      "type": "Moulin à eau",
+      "description": "Jet sur table Waterway"
+    },
+    "12": {
+      "value": [45,48],
+      "type": "Puits ancien",
+      "description": "50% grotte cachée / tunnel au fond. 30% d'indice"
+    },
+    "13": {
+      "value": [49,52],
+      "type": "Cabane d'ermite / Grotte",
+      "description": "70% habité, 40% indice"
+    },
+    "14": {
+      "value": [53,56],
+      "type": "Taverne / auberge solitaire",
+      "description": "90% habité. Q/R pour mieux discerner"
+    },
+    "15": {
+      "value": [57,60],
+      "type": "Jet d4. 1-2: Cabane de chasse. 3-4 : Cabane de pêche",
+      "description": "25% habité. Peut contenir des fournitures de base. Jet Q/R pour déterminer. S'il s'agit d'une cabane de pêche, (jet d4) 1-2 : Table Waterway, 3-4 : Table Lake"
+    },
+    "16": {
+      "value": [61,64],
+      "type": "Cachette / Bunker",
+      "description": "DC 16 Jet Perception pour remarquer. Si vous êtes en terrain familier/privilégié = avantage"
+    },
+    "17": {
+      "value": [65,68],
+      "type": "Point de passage. Escale coursiers / marchand de chevaux",
+      "description": "Q/A pour mieux discerner. 75% amical ou neutre"
+    },
+    "18": {
+      "value": [69,72],
+      "type": "Camp d'entraînement",
+      "description": "Q/R pour mieux discerner"
+    },
+    "19": {
+      "value": [73,76],
+      "type": "Pont. (Jet d4) 1-2 : Petit, 3 : Moyen, 4 : Grand",
+      "description": "Jet sur table Waterways"
+    },
+    "20": {
+      "value": [77,80],
+      "type": "Pont moyen",
+      "description": "Jet sur table Waterways"
+    },
+    "21": {
+      "value": [81,84],
+      "type": "Grand Pont",
+      "description": "Jet sur table Waterways"
+    },
+    "22": {
+      "value": [85,88],
+      "type": "Grand Château / Donjon",
+      "description": "80% habité (si inhabité, alors quelque chose d'autre aura emménagé)"
+    },
+    "23": {
+      "value": [89,92],
+      "type": "Ruines",
+      "description": "50% de rencontre de niveau difficile. 10% de rencontre de niveau mortelle. Indice 60%"
+    },
+    "24": {
+      "value": [93,96],
+      "type": "Tumulus",
+      "description": "Ce qui se trouve en dessous ?"
+    },
+    "25": {
+      "value": [97,100],
+      "type": "Tour de magicien",
+      "description": "Définitivement habité. 60% amical"
+    }
+  },
+  "swampMinorTable": {
+    "1": {
+      "value": [1,50],
+      "type": "Marais standard",
+      "description": "Terrain difficile (demi-mouvement) 25% rencontre niveau facile"
+    },
+    "2": {
+      "value": [51,57],
+      "type": "Marais épais et dense, presque impossible à traverser, s'étendant dans toutes les directions vers l'avant",
+      "description": "Terrain extrêmement difficile, mouvement ralenti au quart de la normale"
+    },
+    "3": {
+      "value": [58,64],
+      "type": "Marécage inégal avec des zones sèches. Zone parfaite pour les bandits ou les raiders pour avoir un camp",
+      "description": "Rencontre difficile 50%. Indice 30%"
+    },
+    "4": {
+      "value": [65,71],
+      "type": "Zone humide contenant de nombreux étangs et un réseau de cours d'eau. Peut avoir besoin d'un petit bateau pour traverser",
+      "description": "Jet Survival, DC 19, pour fabriquer un petit kayak. Sinon, il faudra peut-être faire le tour, en ajoutant du temps de trajet"
+    },
+    "5": {
+      "value": [72,78],
+      "type": "Marais sombre et étrange, avec une aura surnaturelle",
+      "description": "Quelque chose de mal s'y cache ... Des jets de questions/réponses pour déterminer quoi ! Indice 10%"
+    },
+    "6": {
+      "value": [79,85],
+      "type": "Une terre oubliée du temps ! Ancien marais, petite partie d'une nature sauvage plus primitive qui était ici avant",
+      "description": "Rencontre difficile 50%"
+    },
+    "7": {
+      "value": [86,92],
+      "type": "Oasis de fées",
+      "description": "50% de rencontre avec les fées. Test de Wisdom (DD 16) ou vous êtes totalement retourné, perdu"
+    },
+    "8": {
+      "value": [93,100],
+      "type": "Marais habité par des humanoïdes qui souhaitent rester cachés du monde",
+      "description": "Des jets de questions/réponses pour déterminer si vous les rencontrez"
+    }
+  },
+  "unmarkedSettlementsTable": {
+    "1": {
+      "value": [1,52],
+      "type": "Standard (d4) 1-2: Hameau, 3-4: Village",
+      "description": "Situé sur un terrain dominant. Jets de questions/réponses pour en savoir plus"
+    },
+    "2": {
+      "value": [53,56],
+      "type": "Campement nomade",
+      "description": ""
+    },
+    "3": {
+      "value": [57,60],
+      "type": "Colonie abandonnée. Jet d4: 1-2: Hameau, 3-4: Village",
+      "description": "Jets Q/R pour discerner la cause de l'abandon et aussi depuis combien de temps elle a été abandonnée"
+    },
+    "4": {
+      "value": [61,63],
+      "type": "Tour. Apparaît inhabitée",
+      "description": "Q/A pour discerner si quelque chose se cache ici"
+    },
+    "5": {
+      "value": [64,67],
+      "type": "Tour. Apparaît habitée",
+      "description": "Jets Q/A pour discerner plus"
+    },
+    "6": {
+      "value": [68,70],
+      "type": "Camp de travailleurs",
+      "description": "Approprié au terrain dominant. 70% d'humains, sinon une autre sorte d'humanoïde"
+    },
+    "7": {
+      "value": [71,74],
+      "type": "Hameau, habité",
+      "description": "Colonie fondée sur l'industrie environnante. 70% d'humains, sinon une autre sorte d'humanoïde"
+    },
+    "8": {
+      "value": [75,78],
+      "type": "Hameau, mais une sorte d'affliction sur les habitants",
+      "description": "Jets de Q/A pour mieux discerner. 70% d'humains, sinon une autre sorte d'humanoïde"
+    },
+    "9": {
+      "value": [79,82],
+      "type": "Village non cartographié, habité",
+      "description": "Colonie fondée sur l'industrie environnante. 70% d'humains, sinon une autre sorte d'humanoïde"
+    },
+    "10": {
+      "value": [83,86],
+      "type": "Village, mais en discorde / conflit",
+      "description": "Jets de Q/A pour mieux discerner. 70% d'humains, sinon une autre sorte d'humanoïde"
+    },
+    "11": {
+      "value": [87,90],
+      "type": "Ville cachée / colonie humanoïde. Une bonne quantité d'habitants",
+      "description": "Comment sont-ils restés cachés, et pourquoi ? Jets de Q/A pour mieux discerner. 70% d'humains, sinon une autre sorte d'humanoïde"
+    },
+    "12": {
+      "value": [91,94],
+      "type": "Village cabane dans les arbres",
+      "description": "80% d'habitants humanoïdes (probablement des elfes des bois)"
+    },
+    "13": {
+      "value": [95,120],
+      "type": "Jet d6. 1: La ville est ici comme par magie. 2 : Résultat d'une faille dimensionnelle. 3: La ville est illusoire mais les habitants interagissent toujours avec vous. 4 : Ville flottante, suspendue par magie. 5 : La ville est un paradis pour les morts-vivants. 6 : Tout ce qui vous plaît !",
+      "description": "50% de rencontre de niveau difficile. Jets Q/A pour discerner plus"
+    }
+  },
+  "waterwayMinorTable": {
+    "1": {
+      "value": [1,50],
+      "type": "Ruisseau/rivière qui traverse",
+      "description": "Traverse un terrain dominant. 15% cascade à proximité"
+    },
+    "2": {
+      "value": [51,55],
+      "type": "Rivière légèrement plus grande, peut être difficile à traverser à gué",
+      "description": "Check Survival, DC 12 à gué. En cas d'échec, vous perdez 1d4 marchandises périssables en aval et êtes complètement trempé. S'il fait froid, vous devrez peut-être vous arrêter et faire un feu pour sécher."
+    },
+    "3": {
+      "value": [56,60],
+      "type": "Une voie d'eau artificielle en quelque sorte, un canal d'irrigation peut-être ?",
+      "description": "Jets de questions/réponses pour discerner le but"
+    },
+    "4": {
+      "value": [61,65],
+      "type": "Ruisseau profond mais étroit. Vous voyez quelque chose flotter ! Check Dexterity pour l'attraper",
+      "description": "Indice 50%, sinon juste une branche"
+    },
+    "5": {
+      "value": [66,70],
+      "type": "Grande rivière non cartographiée. Pourrait être praticable en canoë",
+      "description": "Check Survival DC 19 pour fabriquer un bateau (si dans la forêt ou si les arbres sont à proximité). Jets de questions/réponses et check History DC 12 pour en savoir plus sur cette rivière"
+    },
+    "6": {
+      "value": [71,75],
+      "type": "Rivière importante avec des zones d'étang. Probablement assez bon pour la pêche ou la natation",
+      "description": "Rencontre de niveau moyen 50%, Indice 25%"
+    },
+    "7": {
+      "value": [76,80],
+      "type": "Grande rivière non cartographiée, enjambée par un pont",
+      "description": "Rencontre de niveau facile 25%. Lancer de questions/réponses pour discerner qui a construit le pont et dans quel but. 35% Unmarked Settlement à proximité"
+    },
+    "8": {
+      "value": [81,85],
+      "type": "Rivière sinueuse avec embarcadère où sont amarrés de petits bateaux.  Passeur ? ",
+      "description": "Jets de questions/réponses pour déterminer le but des bateaux"
+    },
+    "9": {
+      "value": [86,90],
+      "type": "Cela semble être un canal de drainage pour une colonie voisine",
+      "description": "Jet sur table Unmarked Settlement"
+    },
+    "10": {
+      "value": [91,95],
+      "type": "Humanoïdes ou fées (elfes ? dryades ?) s'ébattant dans l'eau",
+      "description": "25% deviennent bizarres"
+    },
+    "11": {
+      "value": [96,100],
+      "type": "Ruisseau peu profond… qu'est-ce que vous voyez là parmi les cailloux ?",
+      "description": "Butin 20% (utiliser CR de la dernière créature vaincue). Indice 40%"
+    }
+  },
+  "activeAreaTable": {
+    "1": {
+      "value": [1,26],
+      "discovery": "Cette zone contient plus de preuves des rumeurs / pistes sur lesquelles vous enquêtez. Lancez une fois sur la table Clue ou sur les tables du chapitre 14, puis lancez à nouveau sur cette table"
+    },
+    "2": {
+      "value": [26,53],
+      "discovery": "Vous trouvez la bête/le monstre/la cause du problème que vous cherchiez. Lancez 1d6. 1-3 : Rencontre moyenne 4-5 : Rencontre difficile. 6 : Rencontre mortelle (Utilisez le chapitre 16). 50% de chance que vous n'ayez pas été remarqué.  Sur un check de Stealth réussi (DC = perception passive de la créature), attaquez avec surprise"
+    },
+    "3": {
+      "value": [54,80],
+      "discovery": "Vous trouvez la bête/le monstre/la cause du problème que vous recherchiez, et une structure ou une habitation associée, comme un repaire ou des ruines qu'ils ont habité. (Vous pouvez aller au chapitre 8 : Génération des donjons à partir d'ici) Lorsque vous les trouvez, lancez 1d6. 1-3 : Rencontre de niveau moyen 4-5 : Rencontre de niveau difficile 6 : Rencontre de niveau mortel (Utilisez le chapitre 16)"
+    },
+    "4": {
+      "value": [81,82],
+      "discovery": "Vous trouvez un repaire ou une habitation, mais il semble actuellement inhabité. Peut-être que la créature que vous cherchez est en train de causer des méfaits en ce moment !"
+    },
+    "5": {
+      "value": [83,84],
+      "discovery": "Check Stealth de tous les joueurs. Si un check est inférieur à 14, alors la créature a remarqué l'arrivée de vos joueurs et les traque, préparant une attaque. Ils seront probablement surpris !"
+    },
+    "6": {
+      "value": [85,86],
+      "discovery": "Cette zone n'est pas ce qu'on disait. Faites 1d100  S'il est inférieur ou égal à 25, lancez le dé sur la table Wilderness Encounter. Après avoir résolu la rencontre, continuez à explorer la zone et effectuez un check Investigation DD 15. En cas de succès, relancez le dé sur cette table. En cas d'échec, faites un autre jet de d100 (comme ci-dessus)"
+    },
+    "7": {
+      "value": [87,88],
+      "discovery": "Vous trouvez un autre groupe d'aventuriers enquêtant sur les mêmes rumeurs / pistes que vous enquêtez. Ils sont (1d4) 1 : Hostile, 2-4 : Amical. Il y a 1d4 membres dans le groupe. Lancez les dés sur les tables PNJ (ignorez les professions et lancez les dés sur les tables de classe à la place) pour déterminer qui ils sont, puis lancez à nouveau sur cette table"
+    },
+    "8": {
+      "value": [89,90],
+      "discovery": "Vous trouvez un groupe mort de 1d4 aventuriers (utilisez des tables de PNJ si vous le souhaitez). Ils ont été découpés / mutilés sauvagement, et il semble que toutes leurs armes et biens aient été volés"
+    },
+    "9": {
+      "value": [91,92],
+      "discovery": "Vous trouvez un groupe mort d'aventuriers 1d4 (utilisez des tables de PNJ si vous le souhaitez)"
+    },
+    "10": {
+      "value": [93,94],
+      "discovery": "Vous rencontrez un PNJ, qui vous donne des détails sur une autre quête bien plus importante liée à celle-ci. Allez au Chapitre 7 : Quest Generation pour découvrir de quoi il s'agit"
+    },
+    "11": {
+      "value": [95,96],
+      "discovery": "Vous découvrez que la créature ou la cible que vous recherchez a découvert que quelque chose les traque et a quitté la zone. Vous pouvez poursuivre (d'autres lancers sur les tables de génération Wilderness, ci-dessus), ou vous pouvez déclarer le problème résolu (10 % de chances qu'ils reviennent une fois que vous êtes parti)"
+    },
+    "12": {
+      "value": [97,98],
+      "discovery": "Un mystérieux PNJ, un aventurier solitaire, est présent ici et a résolu le problème. Ils en donnent aussi la preuve (carcasse / butin de quête terminée). Ils vous disent que vous pouvez revendiquer la gloire d'avoir accompli cela, tant que vous les accompagnez"
+    },
+    "13": {
+      "value": [99,99],
+      "discovery": "La cible ou la créature que vous cherchez déjà est morte (peut-être par un autre groupe d'aventuriers, que vous rencontrerez peut-être à proximité), mais après enquête, vous découvrirez que la créature ne méritait pas de mourir et était probablement innocente ou ne faisait que s'occuper de ses propres affaires. Celui qui vous a donné ces rumeurs ou vous a lancé dans cette quête est soit trompé, soit vous trompe délibérément pour une raison quelconque"
+    },
+    "14": {
+      "value": [100,100],
+      "discovery": "La rumeur s'avère être une sorte de piège sournois pour attirer les joueurs dans une embuscade !  Niveau de rencontre mortelle approprié"
+    }
+  },
+  "cluesTable": {
+    "1": {
+      "value": [1,1],
+      "clue": "1d4 cadavres, bête"
+    },
+    "2": {
+      "value": [2,2],
+      "clue": "1d4 cadavres, humanoïde"
+    },
+    "3": {
+      "value": [3,3],
+      "clue": "Membre coupé"
+    },
+    "4": {
+      "value": [4,4],
+      "clue": "Extrémité sectionnée"
+    },
+    "5": {
+      "value": [5,5],
+      "clue": "Des trous creusés dans le sol à divers endroits"
+    },
+    "6": {
+      "value": [6,6],
+      "clue": "Odeur étrange dans l'air"
+    },
+    "7": {
+      "value": [7,7],
+      "clue": "Vous trouvez un monument bizarre et obsédant, comme un totem fait de cadavres, ou quelque chose d'aussi effrayant"
+    },
+    "8": {
+      "value": [8,8],
+      "clue": "Un signe grossier est planté dans le sol, avec la tête d'un humanoïde de la même espèce que vous au-dessus. Dans n'importe quelle langue, les mots 'Attention ! Fais demi tour ou meurs !' sont griffonnées de manière criarde sur le morceau de bois qui forme l'enseigne"
+    },
+    "9": {
+      "value": [9,9],
+      "clue": "Traces de la créature que vous recherchez actuellement"
+    },
+    "10": {
+      "value": [10,10],
+      "clue": "Vous rencontrez un PNJ qui a vu la créature ou la cible plus tôt"
+    },
+    "11": {
+      "value": [11,11],
+      "clue": "Vous rencontrez un PNJ qui a eu une altercation avec la cible. Lancez d4. 1-2 : Ils l'ont blessé et ont été blessés par lui.  3-4 : Ils ont fui sauvagement pour sauver leur vie"
+    },
+    "12": {
+      "value": [12,12],
+      "clue": "Une zone de sol brûlée, comme si une boule de feu ou une explosion s'était produite ici"
+    },
+    "13": {
+      "value": [13,13],
+      "clue": "Bête blessée"
+    },
+    "14": {
+      "value": [14,14],
+      "clue": "Crottes d'un animal étrange"
+    },
+    "15": {
+      "value": [15,15],
+      "clue": "Campement abandonné"
+    },
+    "16": {
+      "value": [16,16],
+      "clue": "Les affaires d'un aventurier, éclaboussées de sang"
+    },
+    "17": {
+      "value": [17,17],
+      "clue": "Un nœud coulant accroché à un arbre, mais pas de corps"
+    },
+    "18": {
+      "value": [18,18],
+      "clue": "Un piège déjà déclenché"
+    },
+    "19": {
+      "value": [19,19],
+      "clue": "Pistes de wagon partant du chemin actuel sur lequel vous vous trouvez"
+    },
+    "20": {
+      "value": [20,20],
+      "clue": "Marques d'épée dans le tronc d'un arbre"
+    },
+    "21": {
+      "value": [21,21],
+      "clue": "Marques griffonnées à la hâte dans le sol / sur le tronc d'un arbre… quelqu'un essaie de laisser des directions ? Ou est-ce un avertissement ? Y a-t-il des mots ? Si oui, dans quelle langue ?"
+    },
+    "22": {
+      "value": [22,22],
+      "clue": "Griffonné sur un rocher : « Je les ai trouvés. Continuez vers l'est, tu finiras par m'atteindre »"
+    },
+    "23": {
+      "value": [23,23],
+      "clue": "Une pierre avec des runes anciennes inscrites"
+    },
+    "24": {
+      "value": [24,24],
+      "clue": "Une petite ruine, comme un sanctuaire ou un petit temple.  Inscriptions/graffiti intéressants"
+    },
+    "25": {
+      "value": [25,25],
+      "clue": "Arme cassée"
+    },
+    "26": {
+      "value": [26,26],
+      "clue": "Pièce ancienne"
+    },
+    "27": {
+      "value": [27,27],
+      "clue": "Une cape de la taille d'un halfelin / gnome mais le bord inférieur est fendu et déchiré"
+    },
+    "28": {
+      "value": [28,28],
+      "clue": "Un journal incomplet. Qu'est-ce qu'il y a dedans ? Les entrées s'arrêtent brusquement"
+    },
+    "29": {
+      "value": [29,29],
+      "clue": "Une carte d'un labyrinthe"
+    },
+    "30": {
+      "value": [30,30],
+      "clue": "Un ensemble de parchemin et 3 bouteilles d'encre. Tout le rouge est épuisé"
+    },
+    "31": {
+      "value": [31,31],
+      "clue": "Une perruque de cheveux humains, de n'importe quelle couleur"
+    },
+    "32": {
+      "value": [32,32],
+      "clue": "Une pipe au rebut sentant fortement l'herbe à pipe, récemment utilisée"
+    },
+    "33": {
+      "value": [33,33],
+      "clue": "Plusieurs branches cassées - il semble que quelqu'un ou quelque chose ait chargé imprudemment par ici. Si ce n'est pas en forêt, alors vous remarquez de grandes zones de terre battue"
+    },
+    "34": {
+      "value": [34,34],
+      "clue": "Une affiche qui semble avoir été arrachée d'un mur d'une ville voisine. Avis de recherche ? Des aventuriers recherchés ? Peut-être une source de quête"
+    },
+    "35": {
+      "value": [35,35],
+      "clue": "Un trousseau de clés, apparemment d'origine gobelin ou orque"
+    },
+    "36": {
+      "value": [36,36],
+      "clue": "Une boîte à bijoux vide mais décorée"
+    },
+    "37": {
+      "value": [37,37],
+      "clue": "Un sac de provisions, déchiré et éparpillé"
+    },
+    "38": {
+      "value": [38,38],
+      "clue": "Une botte abandonnée"
+    },
+    "39": {
+      "value": [39,39],
+      "clue": "Une poupée d'enfant"
+    },
+    "40": {
+      "value": [40,40],
+      "clue": "Un lingot d'or (d'une valeur d'environ 100 PO) avec les mots « Imperial Buillion » gravés dans le métal"
+    },
+    "41": {
+      "value": [41,41],
+      "clue": "Une amulette en fer en forme de serpent se mangeant"
+    },
+    "42": {
+      "value": [42,42],
+      "clue": "Une clé en argent sur une lanière en cuir"
+    },
+    "43": {
+      "value": [43,43],
+      "clue": "Un bocal qui semble vide, mais dont le couvercle est bloqué et ne peut pas être ouvert, quelle que soit votre force. Est-ce que c'est fermé comme par magie ?"
+    },
+    "44": {
+      "value": [44,44],
+      "clue": "Un arbre avec l'écorce usée d'un côté"
+    },
+    "45": {
+      "value": [45,45],
+      "clue": "Une grosse touffe de fourrure d'une sorte de créature"
+    },
+    "46": {
+      "value": [46,46],
+      "clue": "Ce qui semble être une grande peau de serpent. Quelque chose a laissé une couche ici"
+    },
+    "47": {
+      "value": [47,47],
+      "clue": "Un gros tas de merde inquiétant"
+    },
+    "48": {
+      "value": [48,48],
+      "clue": "Cette zone est parsemée d'ossements provenant de nombreuses créatures différentes"
+    },
+    "49": {
+      "value": [49,49],
+      "clue": "Un feu de camp, fumant, grand rongeur sur une broche qui est brûlé jusqu’à être croustillant, immangeable"
+    },
+    "50": {
+      "value": [50,50],
+      "clue": "Une boussole, mais le verre est brisé"
+    },
+    "51": {
+      "value": [51,51],
+      "clue": "Un rocher avec une cible dessus, entouré d'un tas de pierres de fronde"
+    },
+    "52": {
+      "value": [52,52],
+      "clue": "Une grande quantité de sang a éclaboussé le sol / les feuilles dans cette zone"
+    },
+    "53": {
+      "value": [53,53],
+      "clue": "Les vestiges d'un bivouac construit naturellement"
+    },
+    "54": {
+      "value": [54,54],
+      "clue": "De loin, un étrange bruit de hurlement"
+    },
+    "55": {
+      "value": [55,55],
+      "clue": "Griffonné sur un rocher à la peinture rouge, grossièrement écrit en Commun : 'Stop ! N'allez pas plus loin si vous tenez à votre vie !!'"
+    },
+    "56": {
+      "value": [56,56],
+      "clue": "Plusieurs outres vides et gobelets jetés"
+    },
+    "57": {
+      "value": [57,57],
+      "clue": "1d10 flèches, de haute qualité, toutes sortant du sol dans cette zone"
+    },
+    "58": {
+      "value": [58,58],
+      "clue": "Invitation à un événement dans une ville voisine"
+    },
+    "59": {
+      "value": [59,59],
+      "clue": "Une petite figurine en onyx d'une bête quelconque (au choix du joueur)"
+    },
+    "60": {
+      "value": [60,60],
+      "clue": "Un bosquet de gros champignons, mais la plupart d'entre eux ont été piétinés ou détruits"
+    },
+    "61": {
+      "value": [61,61],
+      "clue": "Plusieurs plans, comme d'une charrette ou d'un bateau, leurs extrémités brûlées"
+    },
+    "62": {
+      "value": [62,62],
+      "clue": "Un médaillon avec une photo d'une femme humanoïde à l'intérieur"
+    },
+    "63": {
+      "value": [63,63],
+      "clue": "Une pierre parfaitement sphérique. Est-ce que cela se produit naturellement ? Néanmoins, il attire définitivement votre attention."
+    },
+    "64": {
+      "value": [64,64],
+      "clue": "Un livre sur l'apprentissage de la langue Undercommon"
+    },
+    "65": {
+      "value": [65,65],
+      "clue": "Un jeton en bois portant le symbole d'une puissante organisation ou faction"
+    },
+    "66": {
+      "value": [66,66],
+      "clue": "Des marques pionnières"
+    },
+    "67": {
+      "value": [67,67],
+      "clue": "Une fiole pleine d'une sorte de sève d'arbre. Lors de l'inspection, vous voyez qu'il a été collecté sur une espèce particulière d'arbre qui pousse dans cette zone (bien que pas couramment)"
+    },
+    "68": {
+      "value": [68,68],
+      "clue": "Boules d'arbalète à plumes noires qui sortent d'un tronc d'arbre"
+    },
+    "69": {
+      "value": [69,69],
+      "clue": "Une épée à la taille d'un enfant"
+    },
+    "70": {
+      "value": [70,70],
+      "clue": "Un petit sachet de graines"
+    },
+    "71": {
+      "value": [71,71],
+      "clue": "Une zone d'herbe écrasée, comme si un humanoïde s'était allongé ici "
+    },
+    "72": {
+      "value": [72,72],
+      "clue": "Une tente vide et abandonnée"
+    },
+    "73": {
+      "value": [73,73],
+      "clue": "Une rune, écrite en pierres sur le sol"
+    },
+    "74": {
+      "value": [74,74],
+      "clue": "Un pot de bonbons à moitié vide"
+    },
+    "75": {
+      "value": [75,75],
+      "clue": "Une mâchoire d'une créature quelconque"
+    },
+    "76": {
+      "value": [76,76],
+      "clue": "La lame cassée d'une épée"
+    },
+    "77": {
+      "value": [77,77],
+      "clue": "Marques d'épée dans un tronc d'arbre"
+    },
+    "78": {
+      "value": [78,78],
+      "clue": "Une pochette de ceinture pleine de pièces d'argent d'un pays inconnu"
+    },
+    "79": {
+      "value": [79,79],
+      "clue": "Environ 1,5 km devant vous, vous voyez des vautours qui tournent dans les airs"
+    },
+    "80": {
+      "value": [80,80],
+      "clue": "Une tombe fraîchement creusée, vide"
+    },
+    "81": {
+      "value": [81,81],
+      "clue": "Bûcher funéraire. Tout ce qui a été brûlé ici n'est plus que de la cendre"
+    },
+    "82": {
+      "value": [82,82],
+      "clue": "Chariot renversé. Personne ici, juste quelques affaires au hasard"
+    },
+    "83": {
+      "value": [83,83],
+      "clue": "Un loup (ou autre bête parfois domestiquée) commence à vous suivre. Il a l'air triste, comme s'il avait perdu son maître"
+    },
+    "84": {
+      "value": [84,84],
+      "clue": "Un bosquet d'arbres fruitiers"
+    },
+    "85": {
+      "value": [85,85],
+      "clue": "Au loin, le bruit d'un rocher roulant à travers la forêt, des arbres qui craquent ..."
+    },
+    "86": {
+      "value": [86,86],
+      "clue": "De la fumée s'élevant à environ 3 km en avant. Beaucoup de fumée, à partir d'un point précis"
+    },
+    "87": {
+      "value": [87,87],
+      "clue": "Un arbre de taille moyenne abattu et placé au-dessus d'une rivière qui a un fort débit"
+    },
+    "88": {
+      "value": [88,88],
+      "clue": "Champignons cueillis allongés sur une souche pour sécher"
+    },
+    "89": {
+      "value": [89,89],
+      "clue": "Mousse cueillie disposée dans une zone, éventuellement comme un lit"
+    },
+    "90": {
+      "value": [90,90],
+      "clue": "Toile d'araignée énorme avec des affaires d'humanoïdes collés dessus"
+    },
+    "91": {
+      "value": [91,91],
+      "clue": "Des voix désincarnées flottent dans la brise … Que disent-elles ?"
+    },
+    "92": {
+      "value": [92,92],
+      "clue": "Si vous êtes sur l'eau, vous voyez la surface remuer. Si vous êtes sur terre, vous ressentez des vibrations sous vos pieds"
+    },
+    "93": {
+      "value": [93,93],
+      "clue": "Environ 500 mètres plus loin, une volée d'oiseaux s'élève soudainement dans les airs comme si quelque chose les avait dérangés"
+    },
+    "94": {
+      "value": [94,94],
+      "clue": "1d4 cadavres, tous sans tête"
+    },
+    "95": {
+      "value": [95,95],
+      "clue": "Grandes traces de bottes dans la boue"
+    },
+    "96": {
+      "value": [96,96],
+      "clue": "Cabane abandonnée"
+    },
+    "97": {
+      "value": [97,97],
+      "clue": "Enfant humanoïde perdu / traumatisé qui ne dit pas un mot"
+    },
+    "98": {
+      "value": [98,98],
+      "clue": "Grotte vide, récemment habitée"
+    },
+    "99": {
+      "value": [99,99],
+      "clue": "Un pont, soit emporté, soit délibérément détruit/brûlé"
+    },
+    "100": {
+      "value": [100,100],
+      "clue": "Objet magique ! Concerne la quête. Rouler une fois sur la table (d4) 1-2: A, 3-4: B"
+    }
+  }
+}

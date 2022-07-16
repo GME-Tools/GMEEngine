@@ -1,15 +1,24 @@
 const behavior = require('express').Router();
-const Campaign = require('../models/campaign');
-const behaviorCheck = require('../rules/mythic/behaviorcheck');
+const {Campaign} = require('../models/campaign');
+const behaviorDescriptors = require('../rules/mythic/behaviorcheck').behaviorDescriptors;
+const behaviorDisposition = require('../rules/mythic/behaviorcheck').behaviorDisposition;
+const behaviorAction = require('../rules/mythic/behaviorcheck').behaviorAction;
+const behaviorTheme = require('../rules/mythic/behaviorcheck').behaviorTheme;
 
 const behaviorcheck = (req, res) => {
-  // Campaign.findById(req.body.campaignId).exec()
-  Campaign.find({campaignID: req.body.campaignId}).exec()
+  Campaign.find({campaignID: req.body.campaignID}).exec()
     .then(campaign => {
-      // const chaos = campaign[0].chaosFactor;
-      // const odd = req.body.odd;
-      // const yesorno = req.body.yesorno;
-      const behaviorres = behaviorCheck(chaos, odd, yesorno);
+      let behaviorres = "";
+
+      if (req.body.action === "descriptors") {
+        behaviorres = behaviorDescriptors(req.body.campaignID, req.body.character, req.body.activatedDescriptors, campaign);
+      } else if (req.body.action === "disposition") {
+        behaviorres = behaviorDisposition(req.body.campaignID, req.body.character, campaign);
+      } else if (req.body.action === "action") {
+        behaviorres = behaviorAction(req.body.campaignID, req.body.character, campaign);
+      } else if (req.body.action === "theme") {
+        behaviorres = behaviorTheme(req.body.campaignID, req.body.theme, campaign);
+      }
 
       if (behaviorres.hasOwnProperty('error')) {
         res.status(400).send(behaviorres.error);

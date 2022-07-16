@@ -25,7 +25,8 @@ const eventCheck = function() {
     eventFocusName: eventFocusName,
     eventFocusDescription: eventFocusDescription,
     eventAction: eventAction,
-    eventSubject: eventSubject
+    eventSubject: eventSubject,
+    eventFocusNeed: eventFocusNeed
   }
 }
 

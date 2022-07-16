@@ -1,0 +1,867 @@
+{
+  "randomThemesTable": {
+    "1": {
+      "value": [1,2],
+      "name": "ACTION",
+      "description": "Les Points d'Intrigue à Thème d'Action se concentrent sur les éléments qui favorisent une activité instantanée dans l'Aventure. Ces Points d'Intrigue inviteront souvent les personnages à être occupés et à faire quelque chose tout de suite, comme combattre des adversaires ou faire face à une catastrophe mortelle. Les Aventures avec Action comme thème principal comporteront de nombreuses activités, comme les combats et les urgences à gérer"
+    },
+    "2": {
+      "value": [3,4],
+      "name": "TENSION",
+      "description": "Les Points d'Intrigue de Tension sont des éléments d'Aventure conçus pour les Personnages nerveux. C'est le Thème du film d'horreur, où les Aventures qui présentent la Tension comme Thème principal auront beaucoup d'éléments pour effrayer et faire transpirer les personnages"
+    },
+    "3": {
+      "value": [5,6],
+      "name": "MYSTÈRE",
+      "description": "Les Points d'intrigue Mystère consistent à soulever des questions et à y répondre.  Les Aventures avec Mystère comme Thème principal auront probablement beaucoup d'enquête de la part des Personnages"
+    },
+    "4": {
+      "value": [7,8],
+      "name": "SOCIAL",
+      "description": "Le Thème Social concerne les personnes qui interagissent avec les autres et la présence d’institutions sociales. Une Aventure avec Social en tant que Thème principal impliquera probablement de nombreux éléments qui invoquent les objectifs et les aspirations des individus et des groupes, et comment ces ambitions intéragissent avec les autres. Une Aventure sur le Thème Social peut inclure beaucoup de négociations et d'intrigues"
+    },
+    "5": {
+      "value": [9,10],
+      "name": "PERSONNEL",
+      "description": "Le Thème Personnel est tout au sujet de dessiner des caractères individuels dans l'aventure personnellement, avec leur passé et des histoires personnelles ayant des connexions directes avec les Points d'Intrigue de l'Aventure. Les Aventures avec Personnel comme Thème principal incluent probablement des éléments qui lient au moins un Personnage directement dans un Point d'Intrigue"
+    }
+  },
+  "plotsList": {
+    "1": {
+      "value": [1,4],
+      "name": "Choisissez l'intrigue la plus logique"
+    },
+    "2": {
+      "value": [5,8],
+      "name": "Nouvelle intrigue"
+    },
+    "3": {
+      "value": [9,12],
+      "name": "Choisissez l'intrigue la plus logique"
+    },
+    "4": {
+      "value": [13,16],
+      "name": "Choisissez l'intrigue la plus logique"
+    },
+    "5": {
+      "value": [17,20],
+      "name": "Choisissez l'intrigue la plus logique"
+    },
+    "6": {
+      "value": [21,24],
+      "name": "Nouvelle intrigue"
+    },
+    "7": {
+      "value": [25,28],
+      "name": "Choisissez l'intrigue la plus logique"
+    },
+    "8": {
+      "value": [29,32],
+      "name": "Choisissez l'intrigue la plus logique"
+    },
+    "9": {
+      "value": [33,36],
+      "name": "Choisissez l'intrigue la plus logique"
+    },
+    "10": {
+      "value": [37,40],
+      "name": "Nouvelle intrigue"
+    },
+    "11": {
+      "value": [41,44],
+      "name": "Choisissez l'intrigue la plus logique"
+    },
+    "12": {
+      "value": [45,48],
+      "name": "Choisissez l'intrigue la plus logique"
+    },
+    "13": {
+      "value": [49,52],
+      "name": "Choisissez l'intrigue la plus logique"
+    },
+    "14": {
+      "value": [53,56],
+      "name": "Nouvelle intrigue"
+    },
+    "15": {
+      "value": [57,60],
+      "name": "Choisissez l'intrigue la plus logique"
+    },
+    "16": {
+      "value": [61,64],
+      "name": "Choisissez l'intrigue la plus logique"
+    },
+    "17": {
+      "value": [65,68],
+      "name": "Choisissez l'intrigue la plus logique"
+    },
+    "18": {
+      "value": [69,72],
+      "name": "Nouvelle intrigue"
+    },
+    "19": {
+      "value": [73,76],
+      "name": "Choisissez l'intrigue la plus logique"
+    },
+    "20": {
+      "value": [77,80],
+      "name": "Choisissez l'intrigue la plus logique"
+    },
+    "21": {
+      "value": [81,84],
+      "name": "Choisissez l'intrigue la plus logique"
+    },
+    "22": {
+      "value": [85,88],
+      "name": "Nouvelle intrigue"
+    },
+    "23": {
+      "value": [89,92],
+      "name": "Choisissez l'intrigue la plus logique"
+    },
+    "24": {
+      "value": [93,96],
+      "name": "Choisissez l'intrigue la plus logique"
+    },
+    "25": {
+      "value": [97,100],
+      "name": "Choisissez l'intrigue la plus logique"
+    }
+  },
+  "charactersList": {
+    "1": {
+      "value": [1,4],
+      "name": "Nouveau personnage"
+    },
+    "2": {
+      "value": [5,8],
+      "name": "Nouveau personnage"
+    },
+    "3": {
+      "value": [9,12],
+      "name": "Nouveau personnage"
+    },
+    "4": {
+      "value": [13,16],
+      "name": "Choisissez le personnage le plus logique"
+    },
+    "5": {
+      "value": [17,20],
+      "name": "Nouveau personnage"
+    },
+    "6": {
+      "value": [21,24],
+      "name": "Nouveau personnage"
+    },
+    "7": {
+      "value": [25,28],
+      "name": "Nouveau personnage"
+    },
+    "8": {
+      "value": [29,32],
+      "name": "Choisissez le personnage le plus logique"
+    },
+    "9": {
+      "value": [33,36],
+      "name": "Nouveau personnage"
+    },
+    "10": {
+      "value": [37,40],
+      "name": "Nouveau personnage"
+    },
+    "11": {
+      "value": [41,44],
+      "name": "Nouveau personnage"
+    },
+    "12": {
+      "value": [45,48],
+      "name": "Choisissez le personnage le plus logique"
+    },
+    "13": {
+      "value": [49,52],
+      "name": "Nouveau personnage"
+    },
+    "14": {
+      "value": [53,56],
+      "name": "Choisissez le personnage le plus logique"
+    },
+    "15": {
+      "value": [57,60],
+      "name": "Choisissez le personnage le plus logique"
+    },
+    "16": {
+      "value": [61,64],
+      "name": "Choisissez le personnage le plus logique"
+    },
+    "17": {
+      "value": [65,68],
+      "name": "Nouveau personnage"
+    },
+    "18": {
+      "value": [69,72],
+      "name": "Choisissez le personnage le plus logique"
+    },
+    "19": {
+      "value": [73,76],
+      "name": "Choisissez le personnage le plus logique"
+    },
+    "20": {
+      "value": [77,80],
+      "name": "Choisissez le personnage le plus logique"
+    },
+    "21": {
+      "value": [81,84],
+      "name": "Nouveau personnage"
+    },
+    "22": {
+      "value": [85,88],
+      "name": "Choisissez le personnage le plus logique"
+    },
+    "23": {
+      "value": [89,92],
+      "name": "Choisissez le personnage le plus logique"
+    },
+    "24": {
+      "value": [93,96],
+      "name": "Choisissez le personnage le plus logique"
+    },
+    "25": {
+      "value": [97,100],
+      "name": "Nouveau personnage"
+    }
+  },
+  "characterSpecialTraitTable": {
+    "1": {
+      "value": [1,50],
+      "name": "LE PERSONNAGE EST UN INDIVIDU",
+      "description": "Le Personnage est un individu, par opposition à une organisation ou un objet"
+    },
+    "2": {
+      "value": [51,57],
+      "name": "LE PERSONNAGE EST UNE ORGANISATION",
+      "description": "Ce Personnage n'est pas un individu spécifique, mais une organisation ou une communauté. Les membres généraux de cette organisation sont considérés comme faisant partie du personnage en tant que communauté. Par exemple, ce peut être une tribu d'orcs (qui peut être représenté par un petit groupe ou un individu pour certaines actions)"
+    },
+    "3": {
+      "value": [58,64],
+      "name": "LE PERSONNAGE EST UN OBJET",
+      "description": "Ce Personnage est autre chose qu'un individu vivant ou un groupe typique. Le Personnage est un objet quelconque qui pourrait également être considéré comme un Personnage en soi. Les exemples peuvent inclure un vaisseau spatial ancien et capricieux, ou une ville grouillante de culture. Ce peut être aussi une forêt (qui peut être représenté par des loups par exemple pour une action de 'chasse'), un robot, une construction ou un objet inanimé intelligent (épée magique ou anneau sensible)"
+    },
+    "4": {
+      "value": [65,71],
+      "name": "LE PERSONNAGE EST CONNECTÉ À CETTE INTRIGUE",
+      "description": "Ce Personnage entre dans l'Aventure en quelque sorte connecté avec l'Intrigue de ce Tournant"
+    },
+    "5": {
+      "value": [72,78],
+      "name": "LE PERSONNAGE N'EST PAS CONNECTÉ À CETTE INTRIGUE",
+      "description": "Ce Personnage entre dans l'Aventure sans être connecté à l'Intrigue de ce Tournant. Le Personnage peut faire partie de l'Intrigue au cours de ce Tournant, mais ne commence pas de cette façon. Les exemples incluent des spectateurs aux principaux événements d'un Tournant ou des personnes en dehors des événements de l'Intrigue qui sont entraînées dans l'Aventure"
+    },
+    "6": {
+      "value": [79,85],
+      "name": "LE PERSONNAGE AIDE À RÉSOUDRE CETTE INTRIGUE",
+      "description": "Ce Personnage fait obstacle à la résolution de l'Intrigue actuelle d'une manière ou d'une autre, ce qui constitue probablement une complication pour les Joueurs, comme un scélérat par exemple"
+    },
+    "7": {
+      "value": [86,92],
+      "name": "LE PERSONNAGE EMPÊCHE LA RÉSOLUTION DE CETTE INTRIGUE",
+      "description": "Ce Personnage est quelqu'un qui peut aider à résoudre l'Intrigue actuelle d'une manière ou d'une autre, servant probablement d'aide aux Joueurs"
+    },
+    "8": {
+      "value": [93,100],
+      "name": "LE PERSONNAGE EST CONNECTÉ À UN PERSONNAGE EXISTANT",
+      "description": "Ce Personnage a une relation avec un autre Personnage existant dans cette Aventure. Jetez les dés sur la Liste des Personnages pour voir qui.  Un résultat de 'Nouveau Personnage' est changé en 'Choisir le Personnage le plus logique'. La connexion peut être n'importe quoi, les deux Personnages sont liés, ils se connaissent, ils étaient d'anciens amis, ils travaillent tous les deux dans le même domaine ou appartiennent à la même organisation, ils ont l'air ou agissent de la même manière, ils ont des compétences ou des équipements similaires... La connexion peut être aussi proche ou aussi éloignée que vous le souhaitez et on peut attendre de connaître l'identité et la description pour en savoir plus sur cette connexion"
+    }
+  },
+  "characterIdentityTable": {
+    "1": {
+      "value": [1,33],
+      "name": "Jetez les dés pour deux identités"
+    },
+    "2": {
+      "value": [34,34],
+      "name": "Guerrier"
+    },
+    "3": {
+      "value": [35,35],
+      "name": "Guérisseur"
+    },
+    "4": {
+      "value": [36,36],
+      "name": "Protecteur"
+    },
+    "5": {
+      "value": [37,37],
+      "name": "Assistant ou Adjoint"
+    },
+    "6": {
+      "value": [38,38],
+      "name": "Subordonné"
+    },
+    "7": {
+      "value": [39,39],
+      "name": "Souverain, Dirigeant, Gouverneur ou Dominateur"
+    },
+    "8": {
+      "value": [40,40],
+      "name": "Administrateur ou Gestionnaire"
+    },
+    "9": {
+      "value": [41,41],
+      "name": "Victime"
+    },
+    "10": {
+      "value": [42,42],
+      "name": "Savant, Érudit, Lettré ou Écolier"
+    },
+    "11": {
+      "value": [43,43],
+      "name": "Expert, Spécialiste ou Connaisseur"
+    },
+    "12": {
+      "value": [44,44],
+      "name": "Élite"
+    },
+    "13": {
+      "value": [45,45],
+      "name": "Enquêteur, Chercheur, Investigateur ou Inspecteur"
+    },
+    "14": {
+      "value": [46,46],
+      "name": "Criminel ou Malfaiteur"
+    },
+    "15": {
+      "value": [47,47],
+      "name": "Partisan, Supporter ou Adepte"
+    },
+    "16": {
+      "value": [48,48],
+      "name": "Sans défense, Impuissant, Sans ressource, Faible, Incapable ou Impotent"
+    },
+    "17": {
+      "value": [49,49],
+      "name": "Outsider ou Inconnu"
+    },
+    "18": {
+      "value": [50,50],
+      "name": "Médiateur, Intermédiaire, Modérateur ou Entremetteur"
+    },
+    "19": {
+      "value": [51,51],
+      "name": "Chanteur"
+    },
+    "20": {
+      "value": [52,52],
+      "name": "Personnalité mondaine"
+    },
+    "21": {
+      "value": [53,53],
+      "name": "Athlète"
+    },
+    "22": {
+      "value": [54,54],
+      "name": "Interprète ou Acteur"
+    },
+    "23": {
+      "value": [55,55],
+      "name": "Représentant, Mandataire, Député ou Porte-parole"
+    },
+    "24": {
+      "value": [56,56],
+      "name": "Marchand ou Négociant"
+    },
+    "25": {
+      "value": [57,57],
+      "name": "Commerçant"
+    },
+    "26": {
+      "value": [58,58],
+      "name": "Créateur"
+    },
+    "27": {
+      "value": [59,59],
+      "name": "Artiste"
+    },
+    "28": {
+      "value": [60,60],
+      "name": "Serviteur, Domestique ou Servant"
+    },
+    "29": {
+      "value": [61,61],
+      "name": "Ouvrier ou Travailleur"
+    },
+    "30": {
+      "value": [62,62],
+      "name": "Religieux"
+    },
+    "31": {
+      "value": [63,63],
+      "name": "Chasseur, Veneur ou Captateur"
+    },
+    "32": {
+      "value": [64,64],
+      "name": "Leader, Chef, Meneur, Animateur, Guide, Directeur, Commandant, Patron ou Caïd"
+    },
+    "33": {
+      "value": [65,65],
+      "name": "Combattant, Lutteur ou Boxeur"
+    },
+    "34": {
+      "value": [66,66],
+      "name": "Artisan"
+    },
+    "35": {
+      "value": [67,67],
+      "name": "Voleur, Larron, Cambrioleur, Chapardeur ou Pirate"
+    },
+    "36": {
+      "value": [68,68],
+      "name": "Radical"
+    },
+    "37": {
+      "value": [69,69],
+      "name": "Exécutif ou Administratif"
+    },
+    "38": {
+      "value": [70,70],
+      "name": "Voyou, Gangster ou Casseur"
+    },
+    "39": {
+      "value": [71,71],
+      "name": "Garde"
+    },
+    "40": {
+      "value": [72,72],
+      "name": "Gardien ou Tuteur"
+    },
+    "41": {
+      "value": [73,73],
+      "name": "Explorateur"
+    },
+    "42": {
+      "value": [74,74],
+      "name": "Héros"
+    },
+    "43": {
+      "value": [75,75],
+      "name": "Scélérat, Traître ou Vaurien"
+    },
+    "44": {
+      "value": [76,76],
+      "name": "Trompeur ou Dupeur"
+    },
+    "45": {
+      "value": [77,77],
+      "name": "Ingénieur"
+    },
+    "46": {
+      "value": [78,78],
+      "name": "Scout ou Éclaireur"
+    },
+    "47": {
+      "value": [79,79],
+      "name": "Fixateur"
+    },
+    "48": {
+      "value": [80,80],
+      "name": "Vagabond ou Errant"
+    },
+    "49": {
+      "value": [81,81],
+      "name": "Subvertisseur"
+    },
+    "50": {
+      "value": [82,82],
+      "name": "Soldat ou Militaire"
+    },
+    "51": {
+      "value": [83,83],
+      "name": "Forces de l'ordre"
+    },
+    "52": {
+      "value": [84,84],
+      "name": "Scientifique"
+    },
+    "53": {
+      "value": [85,85],
+      "name": "Cueilleur ou Ramasseur"
+    },
+    "54": {
+      "value": [86,86],
+      "name": "Étranger"
+    },
+    "55": {
+      "value": [87,87],
+      "name": "Survivant, Rescapé ou Débrouillard"
+    },
+    "56": {
+      "value": [88,88],
+      "name": "Joueur ou Parieur"
+    },
+    "57": {
+      "value": [89,89],
+      "name": "Coquin, Escroc, Fripon, Gredin, Filou, Fripouille ou Polisson"
+    },
+    "58": {
+      "value": [90,90],
+      "name": "Agriculteur, Fermier, Paysan, Exploitant, Cultivateur ou Éleveur"
+    },
+    "59": {
+      "value": [91,91],
+      "name": "Tueur, Assassin ou Meurtrier"
+    },
+    "60": {
+      "value": [92,92],
+      "name": "Professionnel"
+    },
+    "61": {
+      "value": [93,93],
+      "name": "Conducteur, Chauffeur, Pilote ou Aviateur"
+    },
+    "62": {
+      "value": [94,94],
+      "name": "Étudiant ou Élève"
+    },
+    "63": {
+      "value": [95,95],
+      "name": "Organisateur ou Ordonnateur"
+    },
+    "64": {
+      "value": [96,96],
+      "name": "Livreur"
+    },
+    "65": {
+      "value": [97,97],
+      "name": "Laquais ou Larbin"
+    },
+    "66": {
+      "value": [98,98],
+      "name": "Professeur, Maître, Instituteur ou Éducateur"
+    },
+    "67": {
+      "value": [99,100],
+      "name": "Exotique"
+    }
+  },
+  "characterDescriptorsTable": {
+    "1": {
+      "value": [1,21],
+      "name": "Jetez les dés pour deux identités"
+    },
+    "2": {
+      "value": [22,22],
+      "name": "Laid, Moche, Vilain, Horrible, Déplaisant ou Répugnant"
+    },
+    "3": {
+      "value": [23,23],
+      "name": "Beau"
+    },
+    "4": {
+      "value": [24,24],
+      "name": "Fétide, Sale, Infect, Ignoble, Nauséabond ou Corrompu"
+    },
+    "5": {
+      "value": [25,25],
+      "name": "Doux, Suave, Agréable, Sain, Pur ou Frai"
+    },
+    "6": {
+      "value": [26,26],
+      "name": "Inhabituel, Insolite, Rare, Peu commun, Exceptionnel, Étrange ou Bizarre"
+    },
+    "7": {
+      "value": [27,27],
+      "name": "Commun, Ordinaire, Vulgaire, Populaire, Mauvais, Imbécile ou Impoli"
+    },
+    "8": {
+      "value": [28,28],
+      "name": "Intelligent"
+    },
+    "9": {
+      "value": [29,29],
+      "name": "Ignorant"
+    },
+    "10": {
+      "value": [30,30],
+      "name": "Instruit, Cultivé ou Enseigné"
+    },
+    "11": {
+      "value": [31,31],
+      "name": "Qualifié, Habile, Expérimenté, Expert ou Adroit"
+    },
+    "12": {
+      "value": [32,32],
+      "name": "Qualifié, Professionnel, Diplômé ou Bien Élevé"
+    },
+    "13": {
+      "value": [33,33],
+      "name": "Impoli, Grossier, Rude, Mal Élevé, Brut, Brusque, Insolent, Violent, Ignorant, Indélicat ou Naïf"
+    },
+    "14": {
+      "value": [34,34],
+      "name": "Poli"
+    },
+    "15": {
+      "value": [35,35],
+      "name": "Imaginaire, Déguisé ou Compétent"
+    },
+    "16": {
+      "value": [36,36],
+      "name": "Rugueux, Rude, Grossier, Accidenté, Dur, Brutal, Brusque ou Violent"
+    },
+    "17": {
+      "value": [37,37],
+      "name": "Sale, Vilain, Grossier, Obscène, Salaud ou Imbécile"
+    },
+    "18": {
+      "value": [38,38],
+      "name": "Propre ou Pur"
+    },
+    "19": {
+      "value": [39,39],
+      "name": "Riche ou Fortuné"
+    },
+    "20": {
+      "value": [40,40],
+      "name": "Pauvre, Mauvais, Faible, Médiocre, Indigent, Humble, Malade, Souffrant, Peu doué ou Simple"
+    },
+    "21": {
+      "value": [41,41],
+      "name": "Petit, Faible, Modeste, Limité, Menu, Pauvre ou Svelte"
+    },
+    "22": {
+      "value": [42,42],
+      "name": "Grand, Large, Gros ou Fort"
+    },
+    "23": {
+      "value": [43,43],
+      "name": "Calme, Tranquille, Paisible, Silencieux, Doux ou Petit"
+    },
+    "24": {
+      "value": [44,44],
+      "name": "Fort, Bruyant, Sonore, Grand ou Vigoureux"
+    },
+    "25": {
+      "value": [45,45],
+      "name": "Rapide"
+    },
+    "26": {
+      "value": [46,46],
+      "name": "Lent, Lourd ou Ennuyeux"
+    },
+    "27": {
+      "value": [47,47],
+      "name": "Exotique"
+    },
+    "28": {
+      "value": [48,48],
+      "name": "En uniforme"
+    },
+    "29": {
+      "value": [49,49],
+      "name": "Intéressant"
+    },
+    "30": {
+      "value": [50,50],
+      "name": "Coloré"
+    },
+    "31": {
+      "value": [51,51],
+      "name": "Informatif ou Cultivé"
+    },
+    "32": {
+      "value": [52,52],
+      "name": "Dangereux"
+    },
+    "33": {
+      "value": [53,53],
+      "name": "Inepte, Incompétent, Absurde ou Stupide"
+    },
+    "34": {
+      "value": [54,54],
+      "name": "Maladroit, Gauche, Lourdaud, Empoté, Inégalant, Sans expérience ou Pas convenable"
+    },
+    "35": {
+      "value": [55,55],
+      "name": "Capable, Convenable, Doué ou Intelligent"
+    },
+    "36": {
+      "value": [56,56],
+      "name": "Intrusif, Importun, Indiscret et Intrus"
+    },
+    "37": {
+      "value": [57,57],
+      "name": "Respectueux"
+    },
+    "38": {
+      "value": [58,58],
+      "name": "Primitif"
+    },
+    "39": {
+      "value": [59,59],
+      "name": "Sophistiqué, Raffiné, Élégant, Chic, Subtil ou Blasé"
+    },
+    "40": {
+      "value": [60,60],
+      "name": "Élégant, Chic, Distingué ou Gracieux"
+    },
+    "41": {
+      "value": [61,61],
+      "name": "Armé"
+    },
+    "42": {
+      "value": [62,62],
+      "name": "Différent"
+    },
+    "43": {
+      "value": [63,63],
+      "name": "Jeune, Juvénile, Inexpérimenté ou Naïf"
+    },
+    "44": {
+      "value": [64,64],
+      "name": "Vieux, Ancien, Âgé ou Vétéran"
+    },
+    "45": {
+      "value": [65,65],
+      "name": "Difficile, Dur ou Compliqué"
+    },
+    "46": {
+      "value": [66,66],
+      "name": "Utile, Serviable ou Efficace"
+    },
+    "47": {
+      "value": [67,67],
+      "name": "Nuisible, Nocif, Néfaste ou Malfaisant"
+    },
+    "48": {
+      "value": [68,68],
+      "name": "Discipliné"
+    },
+    "49": {
+      "value": [69,69],
+      "name": "Erratique, Irrégulier, Capricieux, Fantasque ou Errant"
+    },
+    "50": {
+      "value": [70,70],
+      "name": "Sauvage, Farouche, Furieux, Délirant, Insensé, Extragavant, Dingue, Violent, Éperdu, Farfelu, Fantaisiste ou Primitif"
+    },
+    "51": {
+      "value": [71,71],
+      "name": "Fou, Dingue, Cinglé, Loufoque, Farfelu, Détraqué, Maboul, Enthousiaste ou Louf"
+    },
+    "52": {
+      "value": [72,72],
+      "name": "Commandant ou Dominant"
+    },
+    "53": {
+      "value": [73,73],
+      "name": "Doux ou Humble"
+    },
+    "54": {
+      "value": [74,74],
+      "name": "Humoristique ou Amusant"
+    },
+    "55": {
+      "value": [75,75],
+      "name": "Effrayé"
+    },
+    "56": {
+      "value": [76,76],
+      "name": "Brave, Courageux ou Vaillant"
+    },
+    "57": {
+      "value": [77,77],
+      "name": "Fort, Solide, Puissant, Robuste, Vigoureux, Énergique, Gros ou Concentré"
+    },
+    "58": {
+      "value": [78,78],
+      "name": "Faible, Fragile, Léger, Mou, Imprudent ou Prosaïque"
+    },
+    "59": {
+      "value": [79,79],
+      "name": "Impulsif, Impétueux ou Spontané"
+    },
+    "60": {
+      "value": [80,80],
+      "name": "Stratégique"
+    },
+    "61": {
+      "value": [81,81],
+      "name": "Naïf ou Ingénu"
+    },
+    "62": {
+      "value": [82,82],
+      "name": "Confiant, Sûr, Assuré, Vaniteux ou Plein d'assurance"
+    },
+    "63": {
+      "value": [83,83],
+      "name": "Surprenant, Étonnant ou Inattendu"
+    },
+    "64": {
+      "value": [84,84],
+      "name": "Passif ou Inactif"
+    },
+    "65": {
+      "value": [85,85],
+      "name": "Audacieux, Hardi, Intrépide, Osé, Brave ou Franc"
+    },
+    "66": {
+      "value": [86,86],
+      "name": "Négligent, Insouciant, Irréfléchi, Imprudent, Indifférent ou Inconscient"
+    },
+    "67": {
+      "value": [87,87],
+      "name": "Prudent, Circonspect ou Précautionneux"
+    },
+    "68": {
+      "value": [88,88],
+      "name": "Sournois"
+    },
+    "69": {
+      "value": [89,89],
+      "name": "Intimidant"
+    },
+    "70": {
+      "value": [90,90],
+      "name": "Puissant, Efficace, Énergique, Influent ou Énorme"
+    },
+    "71": {
+      "value": [91,91],
+      "name": "Impuissant"
+    },
+    "72": {
+      "value": [92,92],
+      "name": "Blessé, Offensé ou Froissé"
+    },
+    "73": {
+      "value": [93,93],
+      "name": "Rugueux, Rude, Grossier, Accidenté, Dur, Brutal, Brusque ou Violent"
+    },
+    "74": {
+      "value": [94,94],
+      "name": "Doux, Gentil, Tendre, Noble ou Hospitalier"
+    },
+    "75": {
+      "value": [95,95],
+      "name": "Bienveillant"
+    },
+    "76": {
+      "value": [96,96],
+      "name": "Personne de principe"
+    },
+    "77": {
+      "value": [97,97],
+      "name": "Arrogant, Orgueilleux ou Insolent"
+    },
+    "78": {
+      "value": [98,98],
+      "name": "Curieux"
+    },
+    "79": {
+      "value": [99,99],
+      "name": "Solidaire"
+    },
+    "80": {
+      "value": [100,100],
+      "name": "Héroïque, Noble, Fort ou Gros"
+    }
+  }
+}

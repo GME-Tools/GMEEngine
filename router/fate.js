@@ -1,10 +1,9 @@
 const fate = require('express').Router();
-const Campaign = require('../models/campaign');
+const {Campaign} = require('../models/campaign');
 const fateCheck = require('../rules/mythic/fatecheck');
 
 const fatecheck = (req, res) => {
-  // Campaign.findById(req.body.campaignId).exec()
-  Campaign.find({campaignID: req.body.campaignId}).exec()
+  Campaign.find({campaignID: req.body.campaignID}).exec()
     .then(campaign => {
       const chaos = campaign[0].chaosFactor;
       const odd = req.body.odd;

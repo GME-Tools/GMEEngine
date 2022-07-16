@@ -1,0 +1,82 @@
+{
+  "findCamping": {
+    "1": {
+      "terrain": "forêt",
+      "dcCamping": 6,
+      "dcBivouac": 6
+    },
+    "2": {
+      "terrain": "côtier",
+      "dcCamping": 8,
+      "dcBivouac": 8
+    },
+    "3": {
+      "terrain": "désert",
+      "dcCamping": 8,
+      "dcBivouac": 14
+    },
+    "4": {
+      "terrain": "prairie",
+      "dcCamping": 8,
+      "dcBivouac": 10
+    },
+    "5": {
+      "terrain": "collines",
+      "dcCamping": 6,
+      "dcBivouac": 8
+    },
+    "6": {
+      "terrain": "souterrain",
+      "dcCamping": 10,
+      "dcBivouac": 1
+    },
+    "7": {
+      "terrain": "marais",
+      "dcCamping": 12,
+      "dcBivouac": 8
+    },
+    "8": {
+      "terrain": "montagne - steppes glacées",
+      "dcCamping": 14,
+      "dcBivouac": 12
+    }
+  },
+  "wakesYou": {
+    "1": {
+      "value": [1,20],
+      "name": "Bruit fort"
+    },
+    "2": {
+      "value": [21,35],
+      "name": "Animal (indifférent)"
+    },
+    "3": {
+      "value": [36,50],
+      "name": "Animal (hostile)"
+    },
+    "4": {
+      "value": [51,60],
+      "name": "Rêve/vision troublant"
+    },
+    "5": {
+      "value": [61,80],
+      "name": "PNJ (curieux)"
+    },
+    "6": {
+      "value": [81,85],
+      "name": "Bandit/Voleur"
+    },
+    "7": {
+      "value": [86,90],
+      "name": "Monstre"
+    },
+    "8": {
+      "value": [91,91],
+      "name": "Catastrophe naturelle"
+    },
+    "9": {
+      "value": [92,100],
+      "name": "Tempête/Changement de temps"
+    }
+  }
+}

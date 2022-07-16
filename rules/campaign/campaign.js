@@ -1,28 +1,30 @@
-const Campaign = require('../../models/campaign');
+const {Campaign, defaultCampaign, createCampaign} = require('../../models/campaign');
 
-const campaignCreation = (campaignID, isNew) => {
-  if (isNew === true) {
-    const campaignCreated = new Campaign({
-      chaosFactor: 4,
-      campaignID: campaignID
-    });
+const campaignCreation = (campaignID) => {
+  let res = {};
 
-    console.log(campaignCreated);
-
-    campaignCreated.save(function (err) {
-      if (err) return handleError(err);
-    });
+  if (campaignID) {
+    Campaign.find({campaignID: campaignID}).exec()
+      .then(campaign => {
+        console.log(campaign);
+        
+        if (campaign.length === 0) {
+          res = createCampaign({...defaultCampaign, campaignID: campaignID});
+        }
+      })
+      .catch(error => {console.log(error)});
+  }
+  else {
+    res = createCampaign(defaultCampaign);
   }
 
-  return {
-    isNew: isNew
-  }
+  return res;
 }
 
 const campaignDeleting = (campaignID, isDeleted) => {
-    Campaign.deleteOne({ campaignID: campaignID }, function (err) {
-      if (err) return handleError(err);
-    });
+  Campaign.deleteOne({ campaignID: campaignID }, function (err) {
+    if (err) console.log(err);
+  });
 
   return {
     isDeleted: isDeleted

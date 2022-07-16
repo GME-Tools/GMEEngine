@@ -1,0 +1,1908 @@
+{
+  "plotPointsTable": {
+    "1": {
+      "valueAction": [1,8],
+      "valueTension": [1,8],
+      "valueMystery": [1,8],
+      "valueSocial": [1,8],
+      "valuePersonal": [1,8],
+      "name": "CONCLUSION",
+      "description": "Si ce Tournant est actuellement une Intrigue en Développement, alors elle devient une Conclusion d'Intrigue. Intégrer tout ce qui est nécessaire dans ce Tournant pour terminer cette Intrigue et supprimez-la de la liste des Intrigues. Si ce Tournant est une Nouvelle Intrigue ou déjà une Conclusion, alors considérez ce Point d'Intrigue comme Rien",
+      "need": ["Non"]
+    }, 
+    "2": {
+      "valueAction": [9,24],
+      "valueTension": [9,24],
+      "valueMystery": [9,24],
+      "valueSocial": [9,24],
+      "valuePersonal": [9,24],
+      "name": "RIEN",
+      "description": "Laissez ce Point d'Intrigue vide et passez au prochain Point d'Intrigue, à moins que cela ne vous laisse moins de 2 Points d'Intrigue dans ce Tournant, auquel cas relancez",
+      "need": ["Non"]
+    },
+    "3": {
+      "valueAction": [0,0],
+      "valueTension": [25,26],
+      "valueMystery": [25,26],
+      "valueSocial": [0,0],
+      "valuePersonal": [0,0],
+      "name": "DANS L'INCONNU",
+      "description": "Ce Tournant implique des Personnages entrant dans une situation avec des facteurs inconnus. Pour connaître l'inconnu, vous devez vous y engager. Par exemple, un portail magique où il n'y a pas moyen de savoir ce qui se trouve de l’autre côté, sauf en le parcourant. Ou bien vous découvrez une machine très puissante mais vous n'avez aucune idée de ce qu'il fait, sauf si vous l'allumez. La seule façon de découvrir l'inconnu est de s'engager, quand il sera trop tard vous le regretterez",
+      "need": ["Non"]
+    },
+    "4": {
+      "valueAction": [25,26],
+      "valueTension": [0,0],
+      "valueMystery": [0,0],
+      "valueSocial": [0,0],
+      "valuePersonal": [0,0],
+      "name": "UN PERSONNAGE EST ATTAQUÉ DE MANIÈRE NON MORTELLE",
+      "description": "Le personnage est attaqué, mais l'assaillant n'attaquera pas pour tuer",
+      "need": ["Personnage", "Personnage"]
+    },
+    "5": {
+      "valueAction": [0,0],
+      "valueTension": [27,27],
+      "valueMystery": [0,0],
+      "valueSocial": [0,0],
+      "valuePersonal": [0,0],
+      "name": "UNE RESSOURCE NÉCESSAIRE S'ÉPUISE",
+      "description": "Une ressource dont un personnage a besoin est épuisée. Ce manque posera des problèmes. Par exemple, voyager dans une jungle remplie de dinosaures et manquer de munitions",
+      "need": ["Personnage"]
+    },
+    "6": {
+      "valueAction": [0,0],
+      "valueTension": [0,0],
+      "valueMystery": [27,28],
+      "valueSocial": [0,0],
+      "valuePersonal": [0,0],
+      "name": "INFORMATIONS UTILES PROVENANT D'UNE SOURCE INCONNUE",
+      "description": "Un Personnage reçoit des informations utiles d'une source anonyme. Peut-être qu'une note est trouvée sur le pas de votre porte, ou un e-mail apparaît dans votre boîte de réception avec une photo qui révèle quelque chose au Personnage. Quelles que soient les informations, elles devraient avoir un impact sur l'intrigue",
+      "need": ["Personnage"]
+    },
+    "7": {
+      "valueAction": [0,0],
+      "valueTension": [28,28],
+      "valueMystery": [0,0],
+      "valueSocial": [0,0],
+      "valuePersonal": [0,0],
+      "name": "PERTE IMMINENTE",
+      "description": "Quelque chose de terrible va se passer, et il approche.  Par exemple, une armée ennemie progresse pour envahir et sera aux frontières dans une semaine",
+      "need": ["Non"]
+    },
+    "8": {
+      "valueAction": [0,0],
+      "valueTension": [0,0],
+      "valueMystery": [0,0],
+      "valueSocial": [25,26],
+      "valuePersonal": [0,0],
+      "name": "MAL-AIMÉ",
+      "description": "Un Personnage est considéré comme un paria par les autres Personnages pour une raison quelconque. Peut-être que le Personnage fait partie d'un groupe ethnique qui n'ai pas aimé dans la région, ou peut-être le Personnage est généralement considéré comme l'auteur d'un crime odieux",
+      "need": ["Personnage"]
+    },
+    "9": {
+      "valueAction": [0,0],
+      "valueTension": [0,0],
+      "valueMystery": [0,0],
+      "valueSocial": [0,0],
+      "valuePersonal": [25,26],
+      "name": "PERSUASION",
+      "description": "Un Personnage tente de persuader un autre personnage de faire quelque chose. Cette persuasion peut prendre de nombreuses formes, de les supplier jusqu'à les menacer, par exemple",
+      "need": ["Personnage", "Personnage"]
+    },
+    "10": {
+      "valueAction": [0,0],
+      "valueTension": [29,29],
+      "valueMystery": [29,30],
+      "valueSocial": [0,0],
+      "valuePersonal": [0,0],
+      "name": "UN CRIME SANS MOTIF",
+      "description": "Un crime est commis soit dans ce Tournant ou est appris dans ce Tournant, sans raison claire pour laquelle le crime a été commis. Peut-être que quelqu'un a été assassiné sans raison évidente, ou un bâtiment a été cambriolé sans que rien n'ait été volé",
+      "need": ["Non"]
+    },
+    "11": {
+      "valueAction": [27,27],
+      "valueTension": [30,30],
+      "valueMystery": [0,0],
+      "valueSocial": [0,0],
+      "valuePersonal": [0,0],
+      "name": "DOMMAGES COLLATÉRAUX",
+      "description": "Peu importe ce qui se passe dans ce Tournant, l'activité débordera du centre d'intérêt de cette activité vers les choses qui l'entourent. Cela est particulièrement vrai pour les événements dommageables. Par exemple, un super-héros bat un méchant dans une bagarre au centre-ville, mais causant des dommages importants aux bâtiments qui les entourent dans le processus. Les dommages collatéraux ne doivent pas nécessairement être physiques. Par exemple, il pourrait s'agir des retombées juridiques d'une décision judiciaire majeure",
+      "need": ["Non"]
+    }, 
+    "12": {
+      "valueAction": [0,0],
+      "valueTension": [31,32],
+      "valueMystery": [0,0],
+      "valueSocial": [0,0],
+      "valuePersonal": [0,0],
+      "name": "ENDROITS LOUCHES",
+      "description": "Ce Tournant implique un endroit qui n'est pas légitime, comme une ruelle où des transactions de drogue sont couramment effectuées ou une salle de jeu secrète dans un bar",
+      "need": ["Non"]
+    },
+    "13": {
+      "valueAction": [28,29],
+      "valueTension": [0,0],
+      "valueMystery": [0,0],
+      "valueSocial": [0,0],
+      "valuePersonal": [0,0],
+      "name": "UN PERSONNAGE EST ATTAQUÉ DE MANIÈRE MORTELLE",
+      "description": "L'assaillant essaie de tuer un personnage",
+      "need": ["Personnage", "Personnage"]
+    },
+    "14": {
+      "valueAction": [0,0],
+      "valueTension": [33,33],
+      "valueMystery": [0,0],
+      "valueSocial": [0,0],
+      "valuePersonal": [27,27],
+      "name": "FAITES-LE, OU SINON",
+      "description": "Un Personnage reçoit une tâche et est forcé de terminer la tâche avec une menace. Par exemple, un espion oblige un diplomate à remettre des secrets technologiques ou il dénoncera les activités illégales du diplomate et l’enverra en prison. Bien sûr, la forme la plus courante de ce Point d'Intrigue est « Fais ceci ou je vais vous tuer »",
+      "need": ["Personnage"]
+    },
+    "15": {
+      "valueAction": [0,0],
+      "valueTension": [34,34],
+      "valueMystery": [0,0],
+      "valueSocial": [0,0],
+      "valuePersonal": [0,0],
+      "name": "ENDROIT ÉLOIGNÉ",
+      "description": "Ce Tournant implique un endroit éloigné, comme une grotte ou une cabane dans les bois",
+      "need": ["Non"]
+    },
+    "16": {
+      "valueAction": [30,31],
+      "valueTension": [0,0],
+      "valueMystery": [0,0],
+      "valueSocial": [0,0],
+      "valuePersonal": [0,0],
+      "name": "EMBUSCADE",
+      "description": "Tout ce qui se passe dans ce Tournant implique une action soudaine à un moment inattendu",
+      "need": ["Non"]
+    },
+    "17": {
+      "valueAction": [0,0],
+      "valueTension": [0,0],
+      "valueMystery": [0,0],
+      "valueSocial": [27,28],
+      "valuePersonal": [0,0],
+      "name": "VENDU !",
+      "description": "Ce Tournant implique une vente quelconque. Peut-être que des marchandises sont vendues ou que des informations sont achetées. Quoi qu'il se passe, les biens et l'argent s'échangent des mains",
+      "need": ["Non"]
+    },
+    "18": {
+      "valueAction": [32,32],
+      "valueTension": [35,35],
+      "valueMystery": [0,0],
+      "valueSocial": [0,0],
+      "valuePersonal": [0,0],
+      "name": "CATASTROPHE",
+      "description": "À peu près la pire chose qui puisse arriver se produit, et cela se produit de façon spectaculaire et avec beaucoup d'action. Cela pourrait être la forteresse imprenable qui est saccagée, le super-héros imparable qui est vaincu, l'insubmersible navire qui commence à couler",
+      "need": ["Non"]
+    },
+    "19": {
+      "valueAction": [0,0],
+      "valueTension": [36,36],
+      "valueMystery": [0,0],
+      "valueSocial": [0,0],
+      "valuePersonal": [0,0],
+      "name": "TON MACABRE",
+      "description": "Quoi qu'il se passe dans ce Tournant, le ton est macabre, quelque chose qui provoque l'horreur ou le dégoût. Par exemple, si une note est découverte avec un ton macabre, elle peut être maculée dans le sang ou être accompagné d'une main coupée",
+      "need": ["Non"]
+    },
+    "20": {
+      "valueAction": [0,0],
+      "valueTension": [29,29],
+      "valueMystery": [29,30],
+      "valueSocial": [0,0],
+      "valuePersonal": [0,0],
+      "name": "LE PERSONNAGE A UNE IDÉE CLÉ",
+      "description": "Un Personnage a une idée qui a un impact sur ce Tournant. Par exemple, l'escroc prend la parole et connaît juste un chemin secret à travers les égouts dans la ville fortifiée",
+      "need": ["Personnage"]
+    },
+    "21": {
+      "valueAction": [34,37],
+      "valueTension": [0,0],
+      "valueMystery": [0,0],
+      "valueSocial": [0,0],
+      "valuePersonal": [0,0],
+      "name": "QUELQUE CHOSE S'ÉLOIGNE",
+      "description": "Ce Tournant implique une limite de temps où, à la fin, quelque chose s'éloignera. Par exemple, un navire transportant un artefact magique est sur le point de quitter le quai et le Personnage doit se frayer un chemin à travers une meute de crétins armés pour monter à bord du navire avant qu'il ne prenne la mer",
+      "need": ["Non"]
+    }, 
+    "22": {
+      "valueAction": [0,0],
+      "valueTension": [38,39],
+      "valueMystery": [0,0],
+      "valueSocial": [29,30],
+      "valuePersonal": [28,28],
+      "name": "REPRÉSAILLES",
+      "description": "Quoi qu'il se passe dans ce Tournant, il implique un élément de représailles ou de vengeance",
+      "need": ["Non"]
+    },
+    "23": {
+      "valueAction": [0,0],
+      "valueTension": [40,40],
+      "valueMystery": [31,32],
+      "valueSocial": [0,0],
+      "valuePersonal": [0,0],
+      "name": "UN PERSONNAGE DISPARAÎT",
+      "description": "Un Personnage est introuvable. Qu'il y ait des preuves ou non de ce qui est arrivé au Personnage dépend de vous en fonction des autres points d'Intrigue impliqué dans ce Tournant",
+      "need": ["Personnage"]
+    },
+    "24": {
+      "valueAction": [0,0],
+      "valueTension": [33,33],
+      "valueMystery": [0,0],
+      "valueSocial": [0,0],
+      "valuePersonal": [27,27],
+      "name": "CHASSÉ",
+      "description": "Un Personnage est chassé par quelqu'un ou quelque chose qui n'est pas strictement légitime. En d'autres termes, par opposition à Recherché Par La Loi, Chassé peut signifier qu'un tueur à gages poursuit un personnage pour remplir un contrat mafieux sur eux, ou un fantôme peut être après un Personnage. Le chasseur n’a pas besoin de chercher à tuer",
+      "need": ["Personnage"]
+    },
+    "25": {
+      "valueAction": [0,0],
+      "valueTension": [0,0],
+      "valueMystery": [0,0],
+      "valueSocial": [31,31],
+      "valuePersonal": [0,0],
+      "name": "UN RASSEMBLEMENT À HAUTE ÉNERGIE",
+      "description": "Ce Tournant implique un rassemblement social avec beaucoup d'énergie ou d'activité. Cela pourrait être une boîte de nuit animée, une fête bruyante ou un événement sportif, par exemple",
+      "need": ["Non"]
+    },
+    "26": {
+      "valueAction": [0,0],
+      "valueTension": [0,0],
+      "valueMystery": [0,0],
+      "valueSocial": [32,32],
+      "valuePersonal": [0,0],
+      "name": "UN RASSEMBLEMENT SOCIAL RARE OU UNIQUE",
+      "description": "Il s'agit d'un rassemblement dans un but précis et rare. Les exemples incluraient des funérailles ou des mariages",
+      "need": ["Non"]
+    },
+    "27": {
+      "valueAction": [0,0],
+      "valueTension": [42,42],
+      "valueMystery": [0,0],
+      "valueSocial": [0,0],
+      "valuePersonal": [29,29],
+      "name": "MAUVAISE DÉCISION",
+      "description": "Une décision prise par un Personnage s'est avérée être très mauvaise. Cela peut être une décision prise plus tôt dans l'Aventure, ou cela peut être quelque chose d'avant l'Aventure. Cette décision antérieure n'a peut-être pas semblé être mauvaise à l'époque, mais cela s'est avéré être mauvais, soit pour le Personnage, pour les autres, ou pour les deux. Par exemple, peut-être que le capitaine d’un navire a décidé d'examiner une balise de détresse dans l’espace lointain, pour découvrir que c’est un piège posé par des pirates",
+      "need": ["Personnage"]
+    },
+    "28": {
+      "valueAction": [0,0],
+      "valueTension": [0,0],
+      "valueMystery": [33,33],
+      "valueSocial": [0,0],
+      "valuePersonal": [0,0],
+      "name": "CECI NE FONCTIONNE PAS",
+      "description": "Quelque chose qui est censé marcher ne marche pas pour une raison quelconque, ce qui pose un problème. Par exemple, un sort de liaison ne parvient pas à retenir un démon, ou un chef du crime délivre des biens volés via un port d'expédition censé être sécurisé, mais se révèle être grouillant de policiers. Tout ce qui ne fonctionne pas est supposé fonctionner",
+      "need": ["Non"]
+    },
+    "29": {
+      "valueAction": [37,37],
+      "valueTension": [0,0],
+      "valueMystery": [0,0],
+      "valueSocial": [0,0],
+      "valuePersonal": [0,0],
+      "name": "DISTRACTION",
+      "description": "Un personnage est distrait dans ce Tournant de manière à ce que ça impacte les événements. Par exemple, avant qu'un méchant délivre son coup fatal, il est distrait par l’image de son amour perdu, donnant au héros le temps de s'échapper",
+      "need": ["Personnage"]
+    },
+    "30": {
+      "valueAction": [0,0],
+      "valueTension": [0,0],
+      "valueMystery": [0,0],
+      "valueSocial": [0,0],
+      "valuePersonal": [30,31],
+      "name": "ANIMOSITÉ/AMERTUME",
+      "description": "Un Personnage nourrit de mauvaise volonté envers un autre Personnage pour quelque raison qui soit. L'animosité doit être profondément ancrée et colorée les réactions du Personnage en ce qui concerne le Personnage qui ne lui plaît pas. L'aversion peut être réciproque ou non",
+      "need": ["Personnage", "Personnage"]
+    },
+    "31": {
+      "valueAction": [0,0],
+      "valueTension": [0,0],
+      "valueMystery": [0,0],
+      "valueSocial": [33,34],
+      "valuePersonal": [0,0],
+      "name": "UNE ORGANISATION",
+      "description": "Ce Tournant implique une organisation de quelques sortes. Cela peut être une organisation déjà dans la liste des Personnages ou pas. Quoi qu'il se passe dans ce Tournant, l'organisation est officiellement impliquée d'une manière ou d'une autre. Par exemple, un crime a été commis et une guilde locale en a eu connaissance et l'a couvert pour protéger ses propres intérêts",
+      "need": ["Personnage"]
+    }, 
+    "32": {
+      "valueAction": [0,0],
+      "valueTension": [43,43],
+      "valueMystery": [0,0],
+      "valueSocial": [0,0],
+      "valuePersonal": [32,33],
+      "name": "RECHERCHÉ PAR LA LOI",
+      "description": "Un Personnage est recherché pour un crime. Peu importe s'ils ont réellement commis le crime, mais la loi les traque en tant que principal suspect de toute façon",
+      "need": ["Personnage"]
+    },
+    "33": {
+      "valueAction": [0,0],
+      "valueTension": [0,0],
+      "valueMystery": [34,35],
+      "valueSocial": [0,0],
+      "valuePersonal": [0,0],
+      "name": "UNE RESSOURCE DISPARAÎT",
+      "description": "Un objet ou une ressource important est volé par un voleur inconnu. La ressource doit être quelque chose d'utile pour un Personnage, ou elle doit se rapporter à l'Intrigue en question",
+      "need": ["Personnage"]
+    },
+    "34": {
+      "valueAction": [0,0],
+      "valueTension": [0,0],
+      "valueMystery": [0,0],
+      "valueSocial": [0,0],
+      "valuePersonal": [34,35],
+      "name": "C'EST VOTRE DEVOIR",
+      "description": "Un Personnage est chargé d'accomplir un devoir. Cela devrait être quelque chose que le Personnage n'a pas le choix en la matière, qu’ils le veuillent ou non. Peu importe de qui vient le devoir, cette source a autorité sur le Personnage. Par exemple, un soldat veut se joindre à la bataille cruciale mais son commandant lui donne le devoir de garder la porte de la forteresse à la place",
+      "need": ["Personnage"]
+    },
+    "35": {
+      "valueAction": [0,0],
+      "valueTension": [0,0],
+      "valueMystery": [36,36],
+      "valueSocial": [0,0],
+      "valuePersonal": [0,0],
+      "name": "DÉCOUVERTE FORTUITE",
+      "description": "Un Personnage découvre quelque chose de très utile pour résoudre l'Intrigue. Cela peut être une information, un outil utile, une ressource dont on a besoin, une personne qui peut aider... Quoi qu’il en soit, c’est la bonne chose au bon moment, et ça tombe sur les genoux du Personnage",
+      "need": ["Personnage"]
+    },
+    "36": {
+      "valueAction": [0,0],
+      "valueTension": [0,0],
+      "valueMystery": [0,0],
+      "valueSocial": [0,0],
+      "valuePersonal": [36,37],
+      "name": "CONNEXION DE PERSONNAGE COUPÉE",
+      "description": "Un Personnage qui a une connexion avec un autre Personnage coupe cette connexion. Ceci peut se produire pour un certain nombre de raisons, du Personnage abandonnant l'histoire au Personnage se fâchant contre l'autre Personnage pour quelque chose. La connexion interrompue n'a pas besoin d'être permanente",
+      "need": ["Personnage", "Personnage"]
+    },
+    "37": {
+      "valueAction": [0,0],
+      "valueTension": [0,0],
+      "valueMystery": [37,37],
+      "valueSocial": [0,0],
+      "valuePersonal": [0,0],
+      "name": "TOUT EST RÉVÉLÉ !",
+      "description": "Une source dans ce Tournant donne beaucoup de détails sur quelque chose. Par exemple, un garde est capturé et dit où le roi a caché les Rouleaux Sacrés",
+      "need": ["Personnage"]
+    },
+    "38": {
+      "valueAction": [0,0],
+      "valueTension": [0,0],
+      "valueMystery": [0,0],
+      "valueSocial": [0,0],
+      "valuePersonal": [38,38],
+      "name": "HUMILIATION",
+      "description": "Ce Tournant implique qu'un Personnage soit humilié ou confronté à l’humiliation. Quoi qu'il arrive, ça devrait être quelque chose de profondément embarrassant pour le Personnage. Par exemple, un membre d'une communauté impopulaire est victime d'intimidation et de moquerie, ou une personnalité publique a quelque chose de personnel exposé publiquement",
+      "need": ["Personnage"]
+    },
+    "39": {
+      "valueAction": [0,0],
+      "valueTension": [0,0],
+      "valueMystery": [0,0],
+      "valueSocial": [35,35],
+      "valuePersonal": [0,0],
+      "name": "LES GENS SE COMPORTEMENT MAL",
+      "description": "Ce Tournant implique quelqu'un qui se comporte d'une manière socialement inacceptable. Par exemple, un groupe d'ivrognes lançant des bouteilles ou un chahuteur dans une foule hurlant après un orateur",
+      "need": ["Personnage"]
+    },
+    "40": {
+      "valueAction": [0,0],
+      "valueTension": [0,0],
+      "valueMystery": [38,39],
+      "valueSocial": [0,0],
+      "valuePersonal": [0,0],
+      "name": "INFORMATIONS UTILES PROVENANT D'UNE SOURCE CONNUE",
+      "description": "Un Personnage acquiert des informations utiles d'une source connue. Par exemple, un détective enquêtant sur un homicide reçoit un conseil d'un informateur qu'il utilise parfois, lui donnant un indice",
+      "need": ["Personnage", "Personnage"]
+    },
+    "41": {
+      "valueAction": [0,0],
+      "valueTension": [0,0],
+      "valueMystery": [40,40],
+      "valueSocial": [0,0],
+      "valuePersonal": [0,0],
+      "name": "INFORMATIONS SECRÈTES PROVENANT D'UNE SOURCE CONNUE",
+      "description": "Un Personnage acquiert des informations qui ne sont pas immédiatement utiles d'une source connue. Les informations sont secrètes, le Personnage ne sait pas ce que cela signifie. Par exemple, un membre d'équipage laisse une note à trouver qui dit simplement «Kraton», où le Personnage qui reçoit la note n'a aucune idée de ce qu'est «Kraton»",
+      "need": ["Personnage", "Personnage"]
+    }, 
+    "42": {
+      "valueAction": [0,0],
+      "valueTension": [0,0],
+      "valueMystery": [41,42],
+      "valueSocial": [0,0],
+      "valuePersonal": [0,0],
+      "name": "MENSONGE DÉCOUVERT",
+      "description": "Ce Tournant implique la découverte d'un mensonge. Le mensonge aurait pu se produire dans ce Tournant, ou il aurait pu se produire plus tôt dans l'Aventure ou même avant l'Aventure. Par exemple, les Personnages peuvent apprendre que le détective n'a pas détruit l'artefact du culte comme il l'avait dit, mais il l'a plutôt pris à la maison pour essayer d'invoquer la bête de l'au-delà",
+      "need": ["Non"]
+    },
+    "43": {
+      "valueAction": [38,39],
+      "valueTension": [0,0],
+      "valueMystery": [0,0],
+      "valueSocial": [0,0],
+      "valuePersonal": [0,0],
+      "name": "UN PERSONNAGE EST ATTAQUÉ POUR ÊTRE ENLEVÉ",
+      "description": "Un agresseur tente d'enlever un Personnage",
+      "need": ["Personnage", "Personnage"]
+    },
+    "44": {
+      "valueAction": [40,40],
+      "valueTension": [44,44],
+      "valueMystery": [43,43],
+      "valueSocial": [0,0],
+      "valuePersonal": [0,0],
+      "name": "QUELQUE CHOSE D'EXOTIQUE",
+      "description": "Peu importe ce qu'il se passe dans ce Tournant il s'agit d'un élément inhabituel ou exotique. Par exemple, si le Tournant concerne une personne attaquée par un assassin, l'assassin peut avoir une identité ou un mode d'attaque très inhabituel (peut-être qu'il est déguisé en clown et attaque avec une explosion de ballons, ou il est un artiste martial avec des mouvements fantastiques)",
+      "need": ["Non"]
+    },
+    "45": {
+      "valueAction": [41,42],
+      "valueTension": [45,45],
+      "valueMystery": [0,0],
+      "valueSocial": [0,0],
+      "valuePersonal": [0,0],
+      "name": "IMMÉDIATEMENT",
+      "description": "Une action immédiate est requise à ce Tournant, peu importe tout ce qui se passe. Par exemple, si ce Tournant implique une panne de moteur sur un vaisseau, le Personnage n'a pas des jours pour résoudre le problème, il peut ne disposer que d'une heure. Quoi qu'il se passe, cela nécessite une action",
+      "need": ["Non"]
+    },
+    "46": {
+      "valueAction": [0,0],
+      "valueTension": [0,0],
+      "valueMystery": [0,0],
+      "valueSocial": [36,36],
+      "valuePersonal": [0,0],
+      "name": "CÉLÉBRITÉ",
+      "description": "Tout ce qui se passe dans ce Tournant implique quelqu'un de célèbre dans une certaine mesure. Cela ne signifie pas nécessairement qu'un Personnage célèbre est invoqué, juste que le Tournant a un lien avec la célébrité. Par exemple, si ce Tournant implique apprendre un secret sur un autre Personnage, vous apprendrez peut-être qu'il étaient autrefois membre d'un célèbre groupe de super-héros il y a des décennies",
+      "need": ["Personnage"]
+    },
+    "47": {
+      "valueAction": [43,44],
+      "valueTension": [0,0],
+      "valueMystery": [0,0],
+      "valueSocial": [0,0],
+      "valuePersonal": [0,0],
+      "name": "CHASSE",
+      "description": "Ce Tournant implique une poursuite, où un personnage en poursuit un autre",
+      "need": ["Personnage", "Personnage"]
+    },
+    "48": {
+      "valueAction": [0,0],
+      "valueTension": [46,46],
+      "valueMystery": [0,0],
+      "valueSocial": [0,0],
+      "valuePersonal": [39,40],
+      "name": "TRAHISON !",
+      "description": "Un personnage que l'on pensait être un allié ou être bénin, se retourne contre un autre Personnage. Cela peut être une trahison fondamentale, comme ils sont en fait sur des côtés opposés, ou cela peut être une trahison momentanée, comme attaquer quelqu'un par colère",
+      "need": ["Personnage", "Personnage"]
+    },
+    "49": {
+      "valueAction": [0,0],
+      "valueTension": [0,0],
+      "valueMystery": [44,45],
+      "valueSocial": [0,0],
+      "valuePersonal": [0,0],
+      "name": "UN CRIME EST COMMIS",
+      "description": "Un crime est commis soit dans ce Tournant ou est appris dans ce Tournant",
+      "need": ["Non"]
+    },
+    "50": {
+      "valueAction": [0,0],
+      "valueTension": [47,47],
+      "valueMystery": [0,0],
+      "valueSocial": [0,0],
+      "valuePersonal": [41,42],
+      "name": "UN PERSONNAGE EST INCAPABLE",
+      "description": "Un Personnage est rendu hors service pour une raison quelconque. Peut-être sont-ils gravement blessés, ils perdent leurs pouvoirs, sont piégés quelque part...",
+      "need": ["Personnage"]
+    },
+    "51": {
+      "valueAction": [0,0],
+      "valueTension": [0,0],
+      "valueMystery": [46,47],
+      "valueSocial": [0,0],
+      "valuePersonal": [0,0],
+      "name": "C'EST UN SECRET",
+      "description": "Ce Tournant implique une activité qui se fait en secret, comme la contrebande ou le détournement de fonds. L’activité n’a pas à être illégal, mais quoi que ce soit, c'est quelque chose de caché ou se faisant derrière un front par ailleurs légitime. Par exemple, une chaîne de restauration rapide utilise ses camions de livraison pour faire passer de la drogue à travers la frontière",
+      "need": ["Non"]
+    }, 
+    "52": {
+      "valueAction": [0,0],
+      "valueTension": [0,0],
+      "valueMystery": [48,48],
+      "valueSocial": [0,0],
+      "valuePersonal": [0,0],
+      "name": "QUELQUE CHOSE DE PERDU A ÉTÉ TROUVÉ",
+      "description": "Quelque chose qui a été perdu apparaît dans ce Tournant. La chose aurait pu être perdu dans cette Aventure ou avant. Cela peut être un objet, une personne, ou n'importe quoi. Par exemple, un anneau de puissance apparaît soudainement dans un lit de ruisseau, ou un Personnage qui a disparu au début de l'Aventure fait soudain une réapparition",
+      "need": ["Non"]
+    },
+    "53": {
+      "valueAction": [0,0],
+      "valueTension": [0,0],
+      "valueMystery": [0,0],
+      "valueSocial": [37,37],
+      "valuePersonal": [0,0],
+      "name": "BOUC ÉMISSAIRE",
+      "description": "Ce Tournant implique un Personnage innocent accusé d'actes répréhensibles pour dissiper les soupçons du véritable coupable. Par exemple, la femme qui a pris toutes les munitions blâme le nouveau venu dans le groupe de survie des zombies, ou le maire de la petite ville de la Nouvelle-Angleterre blâme les pratiquants d'une religion pour les événements bizarres qui se passent alors qu'il est en fait en faute",
+      "need": ["Personnage"]
+    },
+    "54": {
+      "valueAction": [0,0],
+      "valueTension": [48,48],
+      "valueMystery": [0,0],
+      "valueSocial": [0,0],
+      "valuePersonal": [0,0],
+      "name": "NULLE PART POUR COURIR",
+      "description": "Un Personnage est confronté à un péril sans aucun moyen de s'échapper",
+      "need": ["Personnage"]
+    },
+    "55": {
+      "valueAction": [0,0],
+      "valueTension": [49,50],
+      "valueMystery": [0,0],
+      "valueSocial": [0,0],
+      "valuePersonal": [0,0],
+      "name": "LA NUIT",
+      "description": "Ce Tournant a lieu la nuit",
+      "need": ["Non"]
+    },
+    "56": {
+      "valueAction": [0,0],
+      "valueTension": [0,0],
+      "valueMystery": [49,49],
+      "valueSocial": [38,38],
+      "valuePersonal": [43,43],
+      "name": "L'OBSERVATEUR",
+      "description": "Tout ce qui se passe dans ce Tournant qui est présumé être privé de la part de quelqu'un est en fait observé ou il y a un témoin. Les observés ne sont pas conscients de cet observateur. Par exemple, deux généraux ennemis se rencontrent en secret pour former une alliance et trahir leurs rois respectifs, mais la rencontre est observé par une princesse qui sait exactement ce que cela signifie",
+      "need": ["Personnage"]
+    },
+    "57": {
+      "valueAction": [45,46],
+      "valueTension": [0,0],
+      "valueMystery": [0,0],
+      "valueSocial": [0,0],
+      "valuePersonal": [0,0],
+      "name": "S'ÉCHAPPER",
+      "description": "Ce Tournant implique une sorte d'évasion. Par exemple, un Personnage qui a été capturé par des brigands dans un Tournant parvient à s'échapper de ses ravisseurs et à s'échapper dans la forêt",
+      "need": ["Personnage"]
+    },
+    "58": {
+      "valueAction": [0,0],
+      "valueTension": [51,51],
+      "valueMystery": [50,50],
+      "valueSocial": [0,0],
+      "valuePersonal": [0,0],
+      "name": "UNE ARME SECRÈTE",
+      "description": "Ce Tournant implique la révélation d'une arme secrète en possession d'un Personnage. Cette arme doit être suffisamment importante pour influencer l'équilibre des forces ou pour exiger autrement une solution pour résoudre. Par exemple, la bande hétéroclite des orcs est soutenu de manière inattendue par un grand ogre dont ils ont demandé l'aide. Ou, l'empire galactique dévoile un nouveau navire de guerre qui brise la planète et qui change tout",
+      "need": ["Personnage"]
+    },
+    "59": {
+      "valueAction": [47,48],
+      "valueTension": [52,52],
+      "valueMystery": [0,0],
+      "valueSocial": [0,0],
+      "valuePersonal": [0,0],
+      "name": "FORTEMENT GARDÉ",
+      "description": "Ce Tournant consiste à entrer dans un endroit fortement surveillé et dangereux. Par exemple, il se pourrait qu'il faille infiltrer une installation de sécurité de haute technologie pour voler des informations, ou pénétrer dans le repaire du nécromancien rempli de zombies gardiens pour détruire son cristal magique",
+      "need": ["Non"]
+    },
+    "60": {
+      "valueAction": [49,50],
+      "valueTension": [0,0],
+      "valueMystery": [0,0],
+      "valueSocial": [0,0],
+      "valuePersonal": [0,0],
+      "name": "SAUVETAGE",
+      "description": "Un Personnage doit être sauvé à ce Tournant",
+      "need": ["Personnage"]
+    },
+    "61": {
+      "valueAction": [0,0],
+      "valueTension": [0,0],
+      "valueMystery": [51,52],
+      "valueSocial": [39,39],
+      "valuePersonal": [0,0],
+      "name": "MENTEUR!",
+      "description": "Ce Tournant implique un mensonge actif. Le mensonge est commis dans ce Tournant. Quelque chose que quelqu'un a dit ou prétendu est faux. Par exemple, un seigneur vampire prétend qu'il ne sait rien d'un livre magique, alors qu'il le cherche lui-même. Le mensonge peut ou non être détecté à ce Tournant",
+      "need": ["Personnage"]
+    }, 
+    "62": {
+      "valueAction": [0,0],
+      "valueTension": [0,0],
+      "valueMystery": [0,0],
+      "valueSocial": [0,0],
+      "valuePersonal": [44,45],
+      "name": "HOME SWEET HOME",
+      "description": "Ce Tournant a lieu dans la maison privée d'un Personnage",
+      "need": ["Personnage"]
+    },
+    "63": {
+      "valueAction": [0,0],
+      "valueTension": [0,0],
+      "valueMystery": [53,53],
+      "valueSocial": [0,0],
+      "valuePersonal": [0,0],
+      "name": "UN PERSONNAGE AGIT HORS D'UN PERSONNAGE",
+      "description": "Un Personnage fait quelque chose qui va à l'encontre des objectifs perçus par ce Personnage ou de sa personnalité. L'action peut sembler en contradiction avec la façon dont ils ont agi (comme un membre de confiance d'une équipe sabotant une ressource cruciale) ou l'action est vague sans but perceptible (comme une rencontre entre un Personnage et une personne inconnue en secret)",
+      "need": ["Personnage"]
+    },
+    "64": {
+      "valueAction": [0,0],
+      "valueTension": [0,0],
+      "valueMystery": [0,0],
+      "valueSocial": [40,41],
+      "valuePersonal": [46,46],
+      "name": "SIÈGE SOCIAL",
+      "description": "Un paramètre dans ce Tournant est le siège principal d'un Personnage. Par exemple, il peut s'agir du bar chic où le chef de la mafia dirige son empire, ou la tour sauvage du sorcier",
+      "need": ["Personnage"]
+    },
+    "65": {
+      "valueAction": [51,52],
+      "valueTension": [0,0],
+      "valueMystery": [0,0],
+      "valueSocial": [0,0],
+      "valuePersonal": [0,0],
+      "name": "CONCOURS PHYSIQUE DE COMPÉTENCES",
+      "description": "Ce Tournant implique que les Personnages s'affrontent dans un concours physique de compétences. Cela peut être n'importe quoi comme un combat, un événement sportif, un duel, un concours de bras de fer",
+      "need": ["Non"]
+    },
+    "66": {
+      "valueAction": [0,0],
+      "valueTension": [53,53],
+      "valueMystery": [54,54],
+      "valueSocial": [0,0],
+      "valuePersonal": [0,0],
+      "name": "MORT",
+      "description": "Un Personnage est mort. Cela peut être attendu ou inattendu, mais quelles que soient les circonstances, ce Tournant",
+      "need": ["Personnage"]
+    },
+    "67": {
+      "valueAction": [0,0],
+      "valueTension": [0,0],
+      "valueMystery": [0,0],
+      "valueSocial": [42,43],
+      "valuePersonal": [0,0],
+      "name": "UN RASSEMBLEMENT SOCIAL COMMUN",
+      "description": "Ce Tournant implique un rassemblement social. Cela peut être n'importe quel rassemblement de personnes, généralement dans un but commun, comme se réunir pour le dîner dans une maison ou au restaurant, ou un après-midi dans un centre commercial. Le rassemblement social lui-même devrait être considéré comme étant de nature banale, bien que ce qui se passe d'autre lors du rassemblement ne doit pas nécessairement l'être",
+      "need": ["Non"]
+    },
+    "68": {
+      "valueAction": [0,0],
+      "valueTension": [0,0],
+      "valueMystery": [0,0],
+      "valueSocial": [44,45],
+      "valuePersonal": [0,0],
+      "name": "ENVIRONNEMENT URBAIN LÉGER",
+      "description": "Ce Tournant se déroule dans un environnement urbain léger, comme une petite ville ou un village",
+      "need": ["Non"]
+    },
+    "69": {
+      "valueAction": [0,0],
+      "valueTension": [0,0],
+      "valueMystery": [55,56],
+      "valueSocial": [0,0],
+      "valuePersonal": [0,0],
+      "name": "MYSTÈRE RÉSOLU",
+      "description": "Un mystère est résolu. Cela peut être une grande, question sans réponse dans l'Aventure ou quelque chose de mineur, mais ce n'est pas une Intrigue résolue à moins que ce Tournant ne soit également une Conclusion d'Intrigue. Un mystère résolu peut être un certain nombre de choses, de la découverte de ce que fait un appareil à la localisation du chancelier disparu",
+      "need": ["Non"]
+    },
+    "70": {
+      "valueAction": [0,0],
+      "valueTension": [0,0],
+      "valueMystery": [0,0],
+      "valueSocial": [46,47],
+      "valuePersonal": [0,0],
+      "name": "UN RASSEMBLEMENT LIÉ AU TRAVAIL",
+      "description": "Il s'agit d'un rassemblement social qui implique des professionnels ou des travailleurs. Le rassemblement lui-même peut ou peut ne pas impliquer leur travail réel. Par exemple, les policiers réunis dans un «bar à flics» ou une équipe de super héros réunis à leur quartier général compteraient tous les deux",
+      "need": ["Non"]
+    },
+    "71": {
+      "valueAction": [0,0],
+      "valueTension": [0,0],
+      "valueMystery": [0,0],
+      "valueSocial": [0,0],
+      "valuePersonal": [47,48],
+      "name": "QUESTIONS FAMILIALES",
+      "description": "Ce Tournant implique un membre ou des membres de la famille d'un Personnage. Par exemple, un enquêteur occulte est sur le point de partir en mission lorsque sa sœur apparaît de manière inattendue à sa porte, ou l'un des Personnages a un oncle qui est un seigneur féodal et les convoque pour leur aide à défendre sa terre parce que personne d'autre le soutiendra",
+      "need": ["Personnage"]
+    }, 
+    "72": {
+      "valueAction": [0,0],
+      "valueTension": [0,0],
+      "valueMystery": [57,57],
+      "valueSocial": [0,0],
+      "valuePersonal": [0,0],
+      "name": "FUITE D'INFORMATIONS SECRÈTES",
+      "description": "Des informations qui devraient ne pas tomber entre de mauvaises mains. Par exemple, les hors-la-loi semblent toujours savoir quand la diligence passe par Gateway Gulch avec la masse salariale des chemins de fer. Comment le découvrent-ils ? Ou bien, un espion ennemi a appris les plans militaires secrets du royaume",
+      "need": ["Non"]
+    },
+    "73": {
+      "valueAction": [0,0],
+      "valueTension": [54,54],
+      "valueMystery": [58,59],
+      "valueSocial": [48,48],
+      "valuePersonal": [0,0],
+      "name": "SUSPICION",
+      "description": "Ce Tournant implique qu'un Personnage se méfie d'un autre Personnage pour une raison quelconque. Par exemple, un chef bien-aimé sur une station spatiale est assassiné et soudainement chaque nouveau venu à bord est considéré avec suspicion",
+      "need": ["Personnage", "Personnage"]
+    },
+    "74": {
+      "valueAction": [0,0],
+      "valueTension": [55,55],
+      "valueMystery": [0,0],
+      "valueSocial": [0,0],
+      "valuePersonal": [0,0],
+      "name": "PERDRE OU PERDRE",
+      "description": "Ce Tournant implique un choix où les deux ou toutes les options sont mauvaises d'une manière ou d'une autre",
+      "need": ["Non"]
+    },
+    "75": {
+      "valueAction": [0,0],
+      "valueTension": [0,0],
+      "valueMystery": [0,0],
+      "valueSocial": [0,0],
+      "valuePersonal": [49,49],
+      "name": "UN PERSONNAGE DU PASSÉ",
+      "description": "Un nouveau Personnage rejoint l'Aventure, quelqu'un du passé d'un Personnage. Ce Point d'Intrigue nécessite qu'un nouveau Personnage soit ajouté à la liste des Personnages et appelé",
+      "need": ["Nouveau Personnage"]
+    },
+    "76": {
+      "valueAction": [53,54],
+      "valueTension": [0,0],
+      "valueMystery": [0,0],
+      "valueSocial": [0,0],
+      "valuePersonal": [0,0],
+      "name": "BATAILLE DE MASSE",
+      "description": "Ce Tournant implique un combat entre de nombreux combattants. Cela peut être un lancer entre deux équipes ou une bataille dans une guerre, par exemple",
+      "need": ["Non"]
+    },
+    "77": {
+      "valueAction": [0,0],
+      "valueTension": [56,56],
+      "valueMystery": [0,0],
+      "valueSocial": [0,0],
+      "valuePersonal": [0,0],
+      "name": "À L'AIR LIBRE",
+      "description": "Tout ce qui se passe dans ce Tournant se passe à l'air libre pour que tous puissent le voir. Par exemple, un Personnage est attaqué lors d'un festival public au milieu de la journée, ou quelque chose qu'un personnage fait qu'il pensait être privé est en fait filmé et vu par d'autres",
+      "need": ["Non"]
+    },
+    "78": {
+      "valueAction": [0,0],
+      "valueTension": [0,0],
+      "valueMystery": [60,61],
+      "valueSocial": [0,0],
+      "valuePersonal": [0,0],
+      "name": "PREUVE",
+      "description": "Un Personnage trouve quelque chose qui aide à régler une question existante. Par exemple, l’arme qui a tué une victime est retrouvée cachée sous le lit d’un suspect",
+      "need": ["Personnage"]
+    },
+    "79": {
+      "valueAction": [0,0],
+      "valueTension": [57,58],
+      "valueMystery": [0,0],
+      "valueSocial": [0,0],
+      "valuePersonal": [50,51],
+      "name": "UN PERSONNAGE EST DIMINUÉ",
+      "description": "Un personnage est réduit d'une manière qui le rend moins efficace. Peut-être sont-ils blessés, ou leur énergie est faible, ou ils perdent une certaine autorité... Le Personnage n'est pas entièrement impuissant, mais perd une partie importante de son pouvoir ou de son utilité",
+      "need": ["Personnage"]
+    },
+    "80": {
+      "valueAction": [0,0],
+      "valueTension": [0,0],
+      "valueMystery": [62,63],
+      "valueSocial": [0,0],
+      "valuePersonal": [0,0],
+      "name": "L'INTRIGUE S'ÉPAISSIT",
+      "description": "Une piste ou un indice prometteur pour résoudre une question ouverte se révèle être une impasse. Par exemple, les personnages suivent un conseil pour se rendre dans un entrepôt pour trouver une héritière enlevée, mais au lieu de trouver un nid de méchants, ils trouvent juste un bâtiment vide",
+      "need": ["Non"]
+    },
+    "81": {
+      "valueAction": [0,0],
+      "valueTension": [59,59],
+      "valueMystery": [0,0],
+      "valueSocial": [49,49],
+      "valuePersonal": [52,53],
+      "name": "ENNEMIS",
+      "description": "Ce Tournant implique les ennemis d'un Personnage. Quelle que soit l'activité en cours dans ce Tournant, ces ennemis jouent un rôle important",
+      "need": ["Personnage"]
+    }, 
+    "82": {
+      "valueAction": [0,0],
+      "valueTension": [0,0],
+      "valueMystery": [64,64],
+      "valueSocial": [0,0],
+      "valuePersonal": [0,0],
+      "name": "RAISONNEMENT DOUTEUX",
+      "description": "Un Personnage fait quelque chose qui est en accord avec son Personnage, mais l'action pourrait aussi avoir été pour une autre raison et la raison pour laquelle le personnage a agi n'est pas claire. Par exemple, le PDG entre dans son bureau tard dans la nuit, comme il le fait parfois, la même nuit qu'un autre dirigeant est assassiné. L'action doit paraître innocente, sauf pour d'autres événements ou informations qui jettent un doute sur elle",
+      "need": ["Personnage"]
+    },
+    "83": {
+      "valueAction": [0,0],
+      "valueTension": [60,60],
+      "valueMystery": [0,0],
+      "valueSocial": [0,0],
+      "valuePersonal": [0,0],
+      "name": "TON MENACANT",
+      "description": "Ce Tournant implique une sorte de ton menaçant. Par exemple, un Personnage peut menacer un autre Personnage, ou un méchant peut se réjouir d'un adversaire capturé",
+      "need": ["Personnage"]
+    },
+    "84": {
+      "valueAction": [55,55],
+      "valueTension": [61,61],
+      "valueMystery": [65,65],
+      "valueSocial": [0,0],
+      "valuePersonal": [0,0],
+      "name": "UN SYSTÈME DE SOUTIEN À LA VIE CRUCIAL COMMENCE À ÉCHOUER",
+      "description": "Il peut s'agir d'un véritable système de survie, comme la ventilation à oxygène d'un vaisseau, ou d'un système de sécurité, comme les freins d'une voiture. L'échec constituera une urgence pour les personnages impliqués",
+      "need": ["Non"]
+    },
+    "85": {
+      "valueAction": [0,0],
+      "valueTension": [0,0],
+      "valueMystery": [0,0],
+      "valueSocial": [50,51],
+      "valuePersonal": [0,0],
+      "name": "CADRE URBAIN DENSE",
+      "description": "Ce Tournant a lieu dans une zone fortement urbaine, comme une grande ville",
+      "need": ["Non"]
+    },
+    "86": {
+      "valueAction": [0,0],
+      "valueTension": [0,0],
+      "valueMystery": [0,0],
+      "valueSocial": [0,0],
+      "valuePersonal": [54,54],
+      "name": "FAIRE LA BONNE CHOSE",
+      "description": "Un Personnage qui agit de mauvaise foi d'une manière ou d'une autre change d'avis et décide de faire ce qu'il faut. Par exemple, un escroc qui vole des médicaments à une communauté malade décide qu'il ne peut pas laisser tous ces gens mourir",
+      "need": ["Personnage"]
+    },
+    "87": {
+      "valueAction": [56,57],
+      "valueTension": [62,62],
+      "valueMystery": [0,0],
+      "valueSocial": [0,0],
+      "valuePersonal": [0,0],
+      "name": "VICTOIRE !",
+      "description": "Un Personnage remporte une victoire sur un autre Personnage à ce Tournant. Par exemple, une bande de maraudeurs se fraye un chemin avec succès sur les courriers du roi, ou un pirate se fraye un chemin dans un système informatique d’entreprise",
+      "need": ["Personnage", "Personnage"]
+    },
+    "88": {
+      "valueAction": [58,59],
+      "valueTension": [63,63],
+      "valueMystery": [0,0],
+      "valueSocial": [0,0],
+      "valuePersonal": [0,0],
+      "name": "PRENDRE DES RISQUES",
+      "description": "Un Personnage agit de manière très risquée. Par exemple, un Personnage peut soudainement ne montrer aucun respect pour sa vie alors qu'il traverse une poutre étroite au-dessus d'une vallée pour sauver un ami. Ou, le méchant que vous combattez prend une drogue qui le fait entrer dans une frénésie de bataille où il perd toute prudence",
+      "need": ["Personnage"]
+    },
+    "89": {
+      "valueAction": [0,0],
+      "valueTension": [0,0],
+      "valueMystery": [0,0],
+      "valueSocial": [52,53],
+      "valuePersonal": [0,0],
+      "name": "UN GROUPE EST EN DIFFICULTÉ",
+      "description": "Un groupe, comme une communauté, est en difficulté dans ce Point d'Intrigue. Le groupe ou la communauté fait face à une difficulté. Par exemple, peut-être qu'un village est harcelé par des monstres, ou une société fait face à un procès qui pourrait le détruire. Quel que soit le problème, cela devrait être quelque chose qui peut être résolu et qui constituera probablement un problème pour un Personnage",
+      "need": ["Personnage"]
+    },
+    "90": {
+      "valueAction": [60,61],
+      "valueTension": [64,64],
+      "valueMystery": [0,0],
+      "valueSocial": [0,0],
+      "valuePersonal": [0,0],
+      "name": "UNIQUE SURVIVANT",
+      "description": "Ce Tournant implique une sorte de processus d'élimination où il n'en reste qu'un. Cela peut être une bataille, mais ce n’est pas obligatoire. Par exemple, peut-être qu'un navire en train de couler a un seul survivant qui échoue sur le rivage, ou un groupe de membres d'équipage d'un vaisseau spatial jouant aux échecs avec une intelligence extraterrestre est à leur dernier membre d'équipage qui est maintenant choisi pour le défi ultime de l'alien",
+      "need": ["Personnage"]
+    },
+    "91": {
+      "valueAction": [0,0],
+      "valueTension": [0,0],
+      "valueMystery": [0,0],
+      "valueSocial": [54,54],
+      "valuePersonal": [0,0],
+      "name": "RÉPONSE SYMBOLIQUE",
+      "description": "Un Personnage ou une organisation agissant dans ce Tournant fait le strict minimum pour résoudre un problème, ou fait juste un effort symbolique, au lieu de faire quelque chose de vraiment efficace. Par exemple, un pirate de l'espace notoire a été capturé, mais au lieu de recevoir une peine de prison sérieuse, le gouvernement de la fédération se montre très indulgent à son égard et le libère de prison en une semaine",
+      "need": ["Personnage"]
+    }, 
+    "92": {
+      "valueAction": [0,0],
+      "valueTension": [0,0],
+      "valueMystery": [66,67],
+      "valueSocial": [0,0],
+      "valuePersonal": [0,0],
+      "name": "INFORMATIONS SECRÈTES PROVENANT D'UNE SOURCE INCONNUE",
+      "description": "Des informations dont la signification n'est pas claire sont reçues d'une source anonyme. Peut-être qu'un mot étrange a été trouvé sur un miroir, ou le journal d'un inconnu parle d'événements similaires à l'Intrigue",
+      "need": ["Non"]
+    },
+    "93": {
+      "valueAction": [0,0],
+      "valueTension": [0,0],
+      "valueMystery": [68,69],
+      "valueSocial": [0,0],
+      "valuePersonal": [0,0],
+      "name": "UNE INTRIGUE COMMUNE",
+      "description": "On apprend que les événements qui semblaient sans rapport ont après tout un point commun. Par exemple, une vague de crimes a assailli la ville, des prises de voiture aux cambriolages. Il s'avère que les coupables travaillent tous comme gardes de sécurité dans le même bâtiment",
+      "need": ["Non"]
+    },
+    "94": {
+      "valueAction": [0,0],
+      "valueTension": [65,66],
+      "valueMystery": [0,0],
+      "valueSocial": [0,0],
+      "valuePersonal": [0,0],
+      "name": "UN PROBLÈME REVIENT",
+      "description": "Un problème que l'on pensait résolu revient d'une manière ou d'une autre. Cela peut être un problème lié à cette Aventure, à une Aventure précédente ou à quelque chose déduit du passé. Par exemple, un royaume peut profiter d'une décennie de paix après la victoire du Seigneur des Ténèbres, mais on découvre qu'il n'est pas mort et qu'il revient maintenant. L'ampleur du problème est sujette à interprétation et peut aller de grande à mineure, comme une fuite précédemment scellée dans un bateau s'est à nouveau ouverte",
+      "need": ["Non"]
+    },
+    "95": {
+      "valueAction": [0,0],
+      "valueTension": [67,68],
+      "valueMystery": [0,0],
+      "valueSocial": [0,0],
+      "valuePersonal": [0,0],
+      "name": "COINCÉ",
+      "description": "Un Personnage est coincé dans ce Tournant, incapable d'agir, pendant que les événements du Tournant se produisent. Tout ce qui les a bloqués n'est pas nécessairement permanent, mais pour le moment, cela les rend impuissants ou presque impuissants. Par exemple, peut-être que le personnage est lié ou piégé dans une cellule de prison",
+      "need": ["Personnage"]
+    },
+    "96": {
+      "valueAction": [0,0],
+      "valueTension": [0,0],
+      "valueMystery": [0,0],
+      "valueSocial": [0,0],
+      "valuePersonal": [55,56],
+      "name": "A VOTRE MERCI",
+      "description": "Un Personnage est impuissant et désespéré pour une raison quelconque, et doit compter sur la miséricorde d'un autre Personnage qui a le pouvoir de résoudre son problème. Par exemple, un Personnage est affligé d'une malédiction magique qu'un seul sorcier peut guérir",
+      "need": ["Personnage", "Personnage"]
+    },
+    "97": {
+      "valueAction": [62,63],
+      "valueTension": [0,0],
+      "valueMystery": [0,0],
+      "valueSocial": [0,0],
+      "valuePersonal": [0,0],
+      "name": "ARRÊTEZ CELA",
+      "description": "Un Personnage prend des mesures pour empêcher quelque chose de se produire à ce Tournant. On pouvait s'attendre à l'action, comme un héros mettant une flèche à travers le bourreau avant qu'il ne lâche sa hache. Ou, cela pourrait être inattendu, comme un Personnage tirant soudainement sur un méchant capturé juste avant qu'il n'ait été sur le point de révéler des détails cruciaux",
+      "need": ["Personnage"]
+    },
+    "98": {
+      "valueAction": [0,0],
+      "valueTension": [0,0],
+      "valueMystery": [70,70],
+      "valueSocial": [55,55],
+      "valuePersonal": [0,0],
+      "name": "PAS LEUR MAÎTRE",
+      "description": "Un Personnage dans ce Tournant qui est supposé travailler pour une source se révèle travailler pour une autre. Par exemple, le tueur à gages qui tente de tuer un personnage ne travaille pas pour la mafia comme vous le pensiez, mais pour une société qui a un intérêt dans ce Personnage",
+      "need": ["Personnage"]
+    },
+    "99": {
+      "valueAction": [0,0],
+      "valueTension": [0,0],
+      "valueMystery": [0,0],
+      "valueSocial": [0,0],
+      "valuePersonal": [57,58],
+      "name": "CHUTE DU POUVOIR",
+      "description": "Un Personnage perd son pouvoir à ce Tournant. Par exemple, un roi est considéré comme un imposteur par son frère, qui revendique sa propre prétention au trône et le prend",
+      "need": ["Personnage"]
+    },
+    "100": {
+      "valueAction": [0,0],
+      "valueTension": [0,0],
+      "valueMystery": [0,0],
+      "valueSocial": [0,0],
+      "valuePersonal": [59,60],
+      "name": "UNE AIDE EST OFFERTE, POUR UN PRIX",
+      "description": "Un Personnage propose d'aider un autre Personnage en échange de quelque chose. Ce qui est demandé peut être n'importe quoi, de l'entraide jusqu'à des honoraires. Quel que soit le prix, il doit être suffisamment élevé pour avoir une réelle importance pour le Personnage payant",
+      "need": ["Personnage", "Personnage"]
+    },
+    "101": {
+      "valueAction": [0,0],
+      "valueTension": [0,0],
+      "valueMystery": [0,0],
+      "valueSocial": [56,57],
+      "valuePersonal": [0,0],
+      "name": "LIEU PUBLIC",
+      "description": "Ce Tournant implique un lieu public, comme une place de ville ou un parc en milieu de journée",
+      "need": ["Non"]
+    }, 
+    "102": {
+      "valueAction": [0,0],
+      "valueTension": [0,0],
+      "valueMystery": [0,0],
+      "valueSocial": [58,59],
+      "valuePersonal": [0,0],
+      "name": "LE LEADER",
+      "description": "Ce Tournant implique le leader de quelqu'un ou d'une organisation",
+      "need": ["Personnage"]
+    },
+    "103": {
+      "valueAction": [0,0],
+      "valueTension": [0,0],
+      "valueMystery": [0,0],
+      "valueSocial": [0,0],
+      "valuePersonal": [61,62],
+      "name": "POSSESSION PRISÉE",
+      "description": "Quoi qu'il se passe dans ce Tournant, cela implique une possession importante d'un Personnage.  Par exemple, si le Tournant concerne le vol de quelque chose, peut-être que le bâton magique d'un sorcier est pris",
+      "need": ["Personnage"]
+    },
+    "104": {
+      "valueAction": [0,0],
+      "valueTension": [0,0],
+      "valueMystery": [0,0],
+      "valueSocial": [60,61],
+      "valuePersonal": [0,0],
+      "name": "SAUVEUR",
+      "description": "Un Personnage est impliqué dans ce Tournant qui propose de sauver la situation",
+      "need": ["Personnage"]
+    },
+    "105": {
+      "valueAction": [0,0],
+      "valueTension": [69,70],
+      "valueMystery": [0,0],
+      "valueSocial": [0,0],
+      "valuePersonal": [63,63],
+      "name": "DÉSARMÉ",
+      "description": "Un Personnage perd sa principale méthode de défense. Cela pourrait signifier la perte d’une arme, ou peut-être qu’un bureaucrate puissant est impuissant dans le royaume d’un autre... Le désarmement devrait être temporaire pour le Tournant et priver le Personnage de défenses cruciales",
+      "need": ["Personnage"]
+    },
+    "106": {
+      "valueAction": [0,0],
+      "valueTension": [0,0],
+      "valueMystery": [71,72],
+      "valueSocial": [0,0],
+      "valuePersonal": [0,0],
+      "name": "LE SECRET DU POUVOIR",
+      "description": "Il y a un pouvoir, et il a une source secrète. Par exemple, un sorcier maléfique peut tirer ses capacités de son ancien bâton, ou le navire de guerre traversant l'espace peut dépendre d'un simple noyau de puissance à l'intérieur qui paralysera le navire s'il est endommagé. Ce secret donne aux Personnages une option pour arrêter un problème autrement écrasant ou puissant",
+      "need": ["Non"]
+    },
+    "107": {
+      "valueAction": [0,0],
+      "valueTension": [0,0],
+      "valueMystery": [73,74],
+      "valueSocial": [0,0],
+      "valuePersonal": [0,0],
+      "name": "AGENDA CACHÉ",
+      "description": "Un Personnage révèle, ou se trouve avoir, un motif qu'il n'avait pas exposé auparavant. Par exemple, peut-être que le détective n’enquête pas sur le meurtre par dévouement à son travail, mais la victime était autrefois un de ses intérêts amoureux. Classiquement, cela peut aussi être l'allié qui s'avère être un ennemi. L’agenda caché n’a pas à être quelque chose de néfaste, même s’il peut l’être. Quel que soit le cas, l'agenda devient désormais connu des AUTRES",
+      "need": ["Personnage"]
+    },
+    "108": {
+      "valueAction": [64,65],
+      "valueTension": [0,0],
+      "valueMystery": [0,0],
+      "valueSocial": [0,0],
+      "valuePersonal": [0,0],
+      "name": "DÉFENDRE OU NE PAS DÉFENDRE",
+      "description": "Ce Tournant implique une confrontation entre deux Personnages, où un autre Personnage le voit et a la possibilité d'intervenir ou non. Le Personnage observateur ne fait pas directement partie de la confrontation, mais le deviendra s'il intervient. Ce Point d'Intrigue appelle trois Personnages à invoquer",
+      "need": ["Personnage", "Personnage", "Personnage"]
+    },
+    "109": {
+      "valueAction": [66,67],
+      "valueTension": [0,0],
+      "valueMystery": [0,0],
+      "valueSocial": [0,0],
+      "valuePersonal": [0,0],
+      "name": "CRASH",
+      "description": "Ce Tournant implique qu'un véhicule transportant un Personnage s'écrase ou menace de s'écraser. Le(s) Personnage(s) impliqué(s) doivent soit atténuer les dégâts de l'accident, soit prévenir l'accident en premier lieu, et / ou survivre à l'accident. Le véhicule peut être n'importe quoi, d'un avion à une voiture en passant par un traîneau à neige ... tout ce qui peut transporter un Personnage et son crash serait dangereux",
+      "need": ["Personnage"]
+    },
+    "110": {
+      "valueAction": [0,0],
+      "valueTension": [0,0],
+      "valueMystery": [0,0],
+      "valueSocial": [62,63],
+      "valuePersonal": [0,0],
+      "name": "RENFORTS",
+      "description": "Un Personnage qui manque de ressources humaines reçoit un coup de pouce. Par exemple, la bataille se passe mal pour le roi Léonard, mais juste avant de perdre le roi Ferdinand apparaît sur la colline avec ses forces prêtes à sauver la situation",
+      "need": ["Personnage"]
+    },
+    "111": {
+      "valueAction": [0,0],
+      "valueTension": [0,0],
+      "valueMystery": [0,0],
+      "valueSocial": [64,65],
+      "valuePersonal": [0,0],
+      "name": "GOUVERNEMENT",
+      "description": "Ce Tournant implique le gouvernement d'une manière ou d'une autre. Peut-être qu'un Personnage doit faire face à un point de contrôle frontalier, ou un vaisseau spatial doit obtenir une autorisation appropriée pour quitter le port",
+      "need": ["Non"]
+    }, 
+    "112": {
+      "valueAction": [68,69],
+      "valueTension": [0,0],
+      "valueMystery": [0,0],
+      "valueSocial": [0,0],
+      "valuePersonal": [0,0],
+      "name": "BARRIÈRE PHYSIQUE À SURMONTER",
+      "description": "Un Personnage fait face à une barrière physique qui doit être surmontée. Il pourrait être une falaise à escalader, un pont branlant à traverser, une porte à abattre... Quelle que soit la barrière, il faudra une action physique pour passer",
+      "need": ["Personnage"]
+    },
+    "113": {
+      "valueAction": [0,0],
+      "valueTension": [0,0],
+      "valueMystery": [0,0],
+      "valueSocial": [66,67],
+      "valuePersonal": [0,0],
+      "name": "INJUSTICE",
+      "description": "Ce Tournant implique une injustice sociale quelconque. Par exemple, un politicien corrompu utilise une ordonnance civique pour saisir un immeuble d'habitation où vivent les amis d'un certain héros, qui a bouleversé le politicien",
+      "need": ["Non"]
+    },
+    "114": {
+      "valueAction": [0,0],
+      "valueTension": [71,71],
+      "valueMystery": [0,0],
+      "valueSocial": [0,0],
+      "valuePersonal": [0,0],
+      "name": "CATASTROPHE SILENCIEUSE",
+      "description": "La pire chose qui puisse arriver arrive. Ceci est similaire au Point d'Intrigue d'Action Catastrophe, sauf qu'elle s'accompagne de moins d'action. Par exemple, un vaisseau spatial colonisateur s'arrête au milieu d'un voyage de 40 ans, réveillant tout le monde de son sommeil cryogénique. Ou alors, l'enquêteur découvre que l'ancien vampire qu'il avait détruit est, d'une manière ou d'une autre, de retour",
+      "need": ["Non"]
+    },
+    "115": {
+      "valueAction": [0,0],
+      "valueTension": [0,0],
+      "valueMystery": [75,75],
+      "valueSocial": [0,0],
+      "valuePersonal": [0,0],
+      "name": "UN OBJET D'UTILISATION INCONNUE EST TROUVÉ",
+      "description": "Un Personnage trouve quelque chose qu'il pense utile, mais il ne sait pas de quelle manière. Il peut s’agir d’une baguette magique qu’ils ne savent pas utiliser, d’une clé dont ils ne connaissent pas la serrure, d’un appareil dont l’objet est inconnu mais qui n’est actuellement pas alimenté...",
+      "need": ["Personnage"]
+    },
+    "116": {
+      "valueAction": [0,0],
+      "valueTension": [0,0],
+      "valueMystery": [0,0],
+      "valueSocial": [0,0],
+      "valuePersonal": [64,65],
+      "name": "TOUT EST À PROPOS DE VOUS",
+      "description": "Quelle que soit l'action principale de ce Tournant, il se concentre principalement sur un Personnage",
+      "need": ["Personnage"]
+    },
+    "117": {
+      "valueAction": [0,0],
+      "valueTension": [0,0],
+      "valueMystery": [0,0],
+      "valueSocial": [68,69],
+      "valuePersonal": [0,0],
+      "name": "UNE CÉLÉBRATION",
+      "description": "Ce Point d'Intrigue implique une célébration quelconque, comme une fête d'anniversaire ou une fête de remise des diplômes au lycée",
+      "need": ["Non"]
+    },
+    "118": {
+      "valueAction": [0,0],
+      "valueTension": [72,72],
+      "valueMystery": [0,0],
+      "valueSocial": [70,70],
+      "valuePersonal": [0,0],
+      "name": "IMPASSE",
+      "description": "Ce Tournant implique deux Personnages ou plus dans une impasse tendue. Par exemple, un groupe de mercenaires a les Personnages coincés derrière des décombres avec des coups de feu, tandis que les Personnages ripostent.  Aucun des deux côtés ne peut éliminer l'autre, mais ils ne peuvent pas non plus partir sans résoudre le conflit",
+      "need": ["Personnage", "Personnage"]
+    },
+    "119": {
+      "valueAction": [70,71],
+      "valueTension": [0,0],
+      "valueMystery": [0,0],
+      "valueSocial": [0,0],
+      "valuePersonal": [0,0],
+      "name": "DOUBLE VERS LE BAS",
+      "description": "Quoi qu'il arrive à ce Tournant, ces événements s'intensifieront. Par exemple, si un navire fuit en haute mer pendant une tempête, peut-être que des vents torrentiels déchirent les voiles",
+      "need": ["Non"]
+    },
+    "120": {
+      "valueAction": [0,0],
+      "valueTension": [73,73],
+      "valueMystery": [0,0],
+      "valueSocial": [0,0],
+      "valuePersonal": [0,0],
+      "name": "MENACE CACHÉE",
+      "description": "Il y a une menace dans ce Tournant qui a été dans l'Aventure avant ce Tournant, mais qui n'a pas été détectée. Cela pourrait être n'importe quoi, d'un esprit maléfique caché dans un vase ancien à un virus dans le corps d'une personne en passant par un bon gars qui se révèle être un méchant...",
+      "need": ["Non"]
+    },
+    "121": {
+      "valueAction": [0,0],
+      "valueTension": [0,0],
+      "valueMystery": [0,0],
+      "valueSocial": [0,0],
+      "valuePersonal": [66,67],
+      "name": "CONNEXION DE PERSONNAGE",
+      "description": "Un Personnage forme une connexion avec un autre Personnage. Cette connexion peut être n'importe quoi, de montrer un intérêt personnel pour le personnage jusqu'à lui demander de devenir un partenaire commercial... Quelle que soit la connexion, elle aura un impact durable au-delà de ce Tournant",
+      "need": ["Personnage", "Personnage"]
+    }, 
+    "122": {
+      "valueAction": [0,0],
+      "valueTension": [0,0],
+      "valueMystery": [0,0],
+      "valueSocial": [71,71],
+      "valuePersonal": [0,0],
+      "name": "RELIGION",
+      "description": "Ce Tournant implique certains aspects de la religion ou des croyances religieuses. Par exemple, peut-être qu'un événement a lieu dans une église, ou des personnages tombent sur une secte préparant un rituel magique pour leur dieu d'un autre monde",
+      "need": ["Non"]
+    },
+    "123": {
+      "valueAction": [0,0],
+      "valueTension": [0,0],
+      "valueMystery": [0,0],
+      "valueSocial": [72,72],
+      "valuePersonal": [68,68],
+      "name": "INNOCENCE",
+      "description": "Ce Tournant implique un élément d'innocence, généralement une personne innocente dans une situation autrement moins qu'innocente. Par exemple, un citoyen moyen se retrouve au milieu de deux vampires qui se battent.  Cela peut également être considéré comme un Point d'Intrigue «poisson hors de l'eau», où quelqu'un qui n'appartient pas à une situation se retrouve dans cette situation",
+      "need": ["Non"]
+    },
+    "124": {
+      "valueAction": [0,0],
+      "valueTension": [0,0],
+      "valueMystery": [76,76],
+      "valueSocial": [0,0],
+      "valuePersonal": [0,0],
+      "name": "EFFACER L'ENREGISTREMENT",
+      "description": "Un Personnage est chargé de nettoyer quelqu'un ou quelque chose d'une fausse réclamation. Par exemple, un ami dit qu'il a été condamné à tort pour un crime et que les preuves existent pour le prouver. La tâche peut venir officiellement au Personnage, confiée par un autre Personnage, ou cela peut être quelque chose qui lui revient, comme découvrir la vérité eux-mêmes et eux seuls la connaissent. Par exemple, une puissance étrangère a organisé une catastrophe pour déclencher une guerre, mais une poignée de Personnages connaissent la vérité ... si seulement ils peuvent atteindre leur quartier général à temps pour leur dire avant le lancement des navires de guerre",
+      "need": ["Personnage", "Personnage"]
+    },
+    "125": {
+      "valueAction": [0,0],
+      "valueTension": [0,0],
+      "valueMystery": [0,0],
+      "valueSocial": [0,0],
+      "valuePersonal": [69,70],
+      "name": "VOLONTÉ DE PARLER",
+      "description": "Un Personnage est d'humeur à parler. Quoi qu'ils aient à dire, il est important de faire avancer l'Intrigue",
+      "need": ["Personnage"]
+    },
+    "126": {
+      "valueAction": [72,73],
+      "valueTension": [0,0],
+      "valueMystery": [0,0],
+      "valueSocial": [0,0],
+      "valuePersonal": [0,0],
+      "name": "VOL",
+      "description": "Ce Tournant implique un vol, qu'il soit juste tenté ou réussi. Ce qui est volé est un objet quelconque, ou une information, ou tout ce qui peut être pris. Ce Tournant implique l'activité et l'action réelles du vol ou de la tentative de vol. Par exemple, le Personnage se promène dans un musée lorsqu'un groupe d'hommes fait irruption pour voler un masque rituel",
+      "need": ["Personnage"]
+    },
+    "127": {
+      "valueAction": [0,0],
+      "valueTension": [0,0],
+      "valueMystery": [0,0],
+      "valueSocial": [0,0],
+      "valuePersonal": [71,72],
+      "name": "DOMMAGE AU PERSONNAGE",
+      "description": "Un Personnage blesse un autre Personnage d'une manière personnelle. Par exemple, un méchant nuit au familier d'un sorcier ou un Personnage lance une insulte personnelle à un autre Personnage",
+      "need": ["Personnage", "Personnage"]
+    },
+    "128": {
+      "valueAction": [0,0],
+      "valueTension": [74,75],
+      "valueMystery": [0,0],
+      "valueSocial": [0,0],
+      "valuePersonal": [0,0],
+      "name": "UN BESOIN DE CACHER",
+      "description": "Un Personnage doit se cacher de quelque chose ou de quelqu'un à ce Tournant. Par exemple, le Personnage peut avoir échappé à un chasseur de primes mais doit se cacher suffisamment longtemps pour récupérer ses blessures. Ou bien, une terrible tempête a frappé et le Personnage doit se mettre à l'abri, se cachant de la tempête",
+      "need": ["Personnage", "Personnage"]
+    },
+    "129": {
+      "valueAction": [0,0],
+      "valueTension": [76,77],
+      "valueMystery": [0,0],
+      "valueSocial": [0,0],
+      "valuePersonal": [0,0],
+      "name": "SUIVI",
+      "description": "Un Personnage est suivi par un autre Personnage",
+      "need": ["Personnage", "Personnage"]
+    },
+    "130": {
+      "valueAction": [0,0],
+      "valueTension": [0,0],
+      "valueMystery": [77,77],
+      "valueSocial": [0,0],
+      "valuePersonal": [73,73],
+      "name": "ENCADRÉ",
+      "description": "Un Personnage est injustement encadré par un autre Personnage. Par exemple, un chef de la mafia établit des preuves pour donner l'impression qu'un détective de la police a commis un crime",
+      "need": ["Personnage", "Personnage"]
+    },
+    "131": {
+      "valueAction": [0,0],
+      "valueTension": [0,0],
+      "valueMystery": [0,0],
+      "valueSocial": [73,74],
+      "valuePersonal": [74,75],
+      "name": "PRÉPARATION",
+      "description": "Ce Tournant implique un Personnage qui doit se préparer à quelque chose. Par exemple, un sorcier doit étudier comment bannir les démons avant l'arrivée d'un méchant, ou une ville de prospecteurs et de marchands doit apprendre à se battre avant que la bande de hors-la-loi n'arrive pour se venger d'avoir pendu un camarade",
+      "need": ["Personnage"]
+    }, 
+    "132": {
+      "valueAction": [0,0],
+      "valueTension": [0,0],
+      "valueMystery": [78,78],
+      "valueSocial": [0,0],
+      "valuePersonal": [0,0],
+      "name": "UN CRIME IMPROBABLE",
+      "description": "Ce Tournant implique un crime qui semble improbable ou impossible, comme une personne retrouvée assassinée dans une pièce sécurisée ou une œuvre d'art volée dans un musée sans effraction visible",
+      "need": ["Non"]
+    },
+    "133": {
+      "valueAction": [0,0],
+      "valueTension": [0,0],
+      "valueMystery": [0,0],
+      "valueSocial": [0,0],
+      "valuePersonal": [76,76],
+      "name": "FOCUS AMI",
+      "description": "Quelle que soit l'action principale de ce Tournant, il se concentre sur un ami ou une personne proche d'un Personnage. Cet ami peut être un Personnage déjà existant dans l'Aventure ou quelqu'un qui ne figure pas dans la liste des Personnages. Celui à qui l'ami est attaché, c'est le Personnage invoqué, pas l'ami",
+      "need": ["Personnage"]
+    },
+    "134": {
+      "valueAction": [0,0],
+      "valueTension": [0,0],
+      "valueMystery": [0,0],
+      "valueSocial": [0,0],
+      "valuePersonal": [77,77],
+      "name": "INTOUCHABLE",
+      "description": "Un Personnage est, d'une certaine manière, intouchable par d'autres dans ce Tournant. Par exemple, un méchant qui est un leader mondial et qui ne peut donc pas être directement attaqué sans déclencher un incident international, ou un super-héros qui est presque insensible au mal. L'intouchabilité devrait servir un but d'Intrigue, de sorte que les Personnages soient obligés de prendre d'autres actions pour faire avancer l'Intrigue",
+      "need": ["Personnage"]
+    },
+    "135": {
+      "valueAction": [0,0],
+      "valueTension": [0,0],
+      "valueMystery": [0,0],
+      "valueSocial": [0,0],
+      "valuePersonal": [78,78],
+      "name": "POT-DE-VIN",
+      "description": "Un Personnage se voit offrir un pot-de-vin par un autre Personnage pour faire quelque chose qui n'est pas légitime.  Par exemple, un méchant peut offrir de l'argent à un Personnage s'il s'éloigne d'une scène de meurtre",
+      "need": ["Personnage", "Personnage"]
+    },
+    "136": {
+      "valueAction": [74,75],
+      "valueTension": [0,0],
+      "valueMystery": [0,0],
+      "valueSocial": [0,0],
+      "valuePersonal": [0,0],
+      "name": "GÉRER UNE CALAMITÉ",
+      "description": "Ce Tournant implique qu'un Personnage doit «combattre» une calamité quelconque. Par exemple, peut-être que le Personnage combat un feu pour l'éteindre, ou il doit se frayer un chemin à travers un ancien temple de pierre alors qu'il s'effondre autour de lui",
+      "need": ["Personnage"]
+    },
+    "137": {
+      "valueAction": [76,77],
+      "valueTension": [0,0],
+      "valueMystery": [0,0],
+      "valueSocial": [0,0],
+      "valuePersonal": [0,0],
+      "name": "CESSATION SOUDAINE",
+      "description": "Quoi qu'il se passe dans ce Tournant, cela cessera soudainement. Cela peut se produire à tout moment et les causes peuvent être inconnues. Par exemple, si des Personnages sont attaqués par un groupe, le groupe peut soudainement se séparer et s'enfuir",
+      "need": ["Non"]
+    },
+    "138": {
+      "valueAction": [0,0],
+      "valueTension": [78,79],
+      "valueMystery": [0,0],
+      "valueSocial": [0,0],
+      "valuePersonal": [0,0],
+      "name": "C'EST UN PIÈGE !",
+      "description": "Ce Tournant implique un piège quelconque. Cela peut être un piège physique, comme des aventuriers tombant en proie dans une fosse dans un couloir, jusqu'à d'autres types de pièges, tels que la convocation à la négociation de paix n'était en réalité qu'une ruse pour attirer l'attention du chef sur un assassinat",
+      "need": ["Non"]
+    },
+    "139": {
+      "valueAction": [0,0],
+      "valueTension": [0,0],
+      "valueMystery": [0,0],
+      "valueSocial": [75,75],
+      "valuePersonal": [0,0],
+      "name": "UNE RENCONTRE D'ESPRITS",
+      "description": "Ce Tournant implique que deux Personnages se réunissent pour une discussion d'importance",
+      "need": ["Personnage", "Personnage"]
+    },
+    "140": {
+      "valueAction": [0,0],
+      "valueTension": [80,81],
+      "valueMystery": [0,0],
+      "valueSocial": [0,0],
+      "valuePersonal": [0,0],
+      "name": "LIMITE DE TEMPS",
+      "description": "Une tâche doit être accomplie dans un certain laps de temps ou un Personnage subira des conséquences. Le délai n'a pas besoin d'expirer pendant ce Tournant et pourrait s'étendre au-delà dans l'Aventure, mais il devrait se terminer dans cette Aventure pour donner aux Personnages une raison d'accomplir la tâche. L'incapacité d'accomplir la tâche devrait être importante. Par exemple, si un remède contre une toxine n’est pas trouvé dans la journée, le prince mourra",
+      "need": ["Personnage"]
+    },
+    "141": {
+      "valueAction": [0,0],
+      "valueTension": [0,0],
+      "valueMystery": [79,80],
+      "valueSocial": [0,0],
+      "valuePersonal": [0,0],
+      "name": "LA MAIN CACHÉE",
+      "description": "Quoi qu'il se passe dans ce Tournant, il est clair que cela a été causé exprès par une personne d'identité inconnue. Par exemple, si un Personnage est pris en embuscade par des bandits, le chef de bandit peut faire une mystérieuse référence au fait que leur «bienfaiteur» a payé pour l'attaque. Ou bien, une panne de moteur sur un navire peut être considérée comme ayant été causée par une altération évidente",
+      "need": ["Non"]
+    }, 
+    "142": {
+      "valueAction": [0,0],
+      "valueTension": [82,83],
+      "valueMystery": [0,0],
+      "valueSocial": [0,0],
+      "valuePersonal": [0,0],
+      "name": "UNE RESSOURCE NÉCESSAIRE MANQUE",
+      "description": "Une ressource dont un Personnage a besoin est épuisée et devra être réapprovisionné. Cela pose des problèmes au Personnage. Par exemple, le moteur de distorsion d’un vaisseau fonctionne sur des cristaux qui s'épuisent",
+      "need": ["Personnage"]
+    },
+    "143": {
+      "valueAction": [0,0],
+      "valueTension": [0,0],
+      "valueMystery": [0,0],
+      "valueSocial": [76,76],
+      "valuePersonal": [0,0],
+      "name": "ORGANISATIONS EN CONFLIT",
+      "description": "Ce Tournant implique deux organisations ou plus qui sont en désaccord les unes avec les autres. Par exemple, deux organisations mafieuses rivales peuvent essayer de capturer un maître faussaire pour l'utiliser à leurs propres fins",
+      "need": ["Personnage", "Personnage"]
+    },
+    "144": {
+      "valueAction": [0,0],
+      "valueTension": [84,85],
+      "valueMystery": [0,0],
+      "valueSocial": [0,0],
+      "valuePersonal": [0,0],
+      "name": "MAUVAISES NOUVELLES",
+      "description": "Quelque chose de négatif qui se produit dans ce Tournant ne se produit pas directement dans le Tournant, mais est livré sous forme d'informations. L'événement s'est produit à distance et un Personnage l'apprend. Par exemple, les Personnages peuvent apprendre que leurs alliés ont perdu une bataille cruciale ailleurs",
+      "need": ["Personnage"]
+    },
+    "145": {
+      "valueAction": [0,0],
+      "valueTension": [0,0],
+      "valueMystery": [0,0],
+      "valueSocial": [0,0],
+      "valuePersonal": [79,80],
+      "name": "ASSISTANCE AU PERSONNAGE",
+      "description": "Un Personnage assiste un autre Personnage d'une manière ou d'une autre. Cette aide peut aller de leur aide au combat à leur donner une épaule sur laquelle pleurer",
+      "need": ["Personnage", "Personnage"]
+    },
+    "146": {
+      "valueAction": [0,0],
+      "valueTension": [0,0],
+      "valueMystery": [0,0],
+      "valueSocial": [0,0],
+      "valuePersonal": [81,82],
+      "name": "DEMANDER DE L'AIDE",
+      "description": "Un Personnage s'approche d'un autre Personnage pour lui demander de l'aide",
+      "need": ["Personnage", "Personnage"]
+    },
+    "147": {
+      "valueAction": [0,0],
+      "valueTension": [86,86],
+      "valueMystery": [0,0],
+      "valueSocial": [0,0],
+      "valuePersonal": [0,0],
+      "name": "SE RÉFUGIER",
+      "description": "Ce Tournant implique un Personnage ayant besoin de fortifier un lieu de refuge. Par exemple, un baron doit renforcer les défenses de son château contre une attaque imminente, ou un générateur doit être alimenté pour augmenter la puissance d'un champ de force avant qu'une tempête de météore ne pleuve à la surface de la planète",
+      "need": ["Personnage"]
+    },
+    "148": {
+      "valueAction": [0,0],
+      "valueTension": [87,88],
+      "valueMystery": [0,0],
+      "valueSocial": [0,0],
+      "valuePersonal": [0,0],
+      "name": "ABANDONNÉ",
+      "description": "Quelque chose doit être abandonné ou a déjà été abandonné à ce Tournant. Par exemple, un vaisseau spatial fortement endommagé va exploser dans deux heures et doit être évacué. Ou, un Personnage tombe sur un village vide dans une forêt",
+      "need": ["Non"]
+    },
+    "149": {
+      "valueAction": [0,0],
+      "valueTension": [0,0],
+      "valueMystery": [81,82],
+      "valueSocial": [0,0],
+      "valuePersonal": [0,0],
+      "name": "TROUVEZ-LE OU AUTRE CHOSE",
+      "description": "Quelque chose doit être trouvé dans ce Tournant pour aider à résoudre l'Intrigue. L'acte de trouver la chose pourrait avoir lieu dans ce Tournant, ou un Personnage apprend le besoin de trouver quelque chose. La chose à trouver peut être à peu près n'importe quoi, d'un objet tel qu'un anneau magique pour ouvrir un portail, à une personne spéciale comme le seul témoin d'un crime qui prouve qu'un accusé est innocent",
+      "need": ["Non"]
+    },
+    "150": {
+      "valueAction": [78,78],
+      "valueTension": [89,89],
+      "valueMystery": [0,0],
+      "valueSocial": [0,0],
+      "valuePersonal": [0,0],
+      "name": "UTILISÉE CONTRE EUX",
+      "description": "Une ressource possédée ou alignée avec un Personnage est en quelque sorte retournée contre lui dans ce Tournant. Par exemple, un petit vaisseau spatial est poursuivi par trois croiseurs de combat massifs. Grâce à un pilotage habile, le plus petit navire fait entrer en collision les plus gros navires, utilisant leur taille contre eux. Ou, un sorcier peut commander un puissant golem, mais un autre sorcier jette un sort pour que le golem attaque son maître",
+      "need": ["Personnage"]
+    },
+    "151": {
+      "valueAction": [0,0],
+      "valueTension": [0,0],
+      "valueMystery": [0,0],
+      "valueSocial": [77,77],
+      "valuePersonal": [0,0],
+      "name": "PERSONNE PUISSANTE",
+      "description": "Ce Tournant implique une Personne puissante. Le pouvoir du Personnage peut être de n'importe quelle nature, d'un guerrier physiquement puissant à une figure gouvernementale avec beaucoup d'influence. Invoquez un Personnage. Si le Personnage est puissant, alors c'est la Personne puissante. S'ils ne le sont pas, alors la personne puissante est une personne associée à ce personnage d'une manière ou d'une autre",
+      "need": ["Personnage"]
+    }, 
+    "152": {
+      "valueAction": [0,0],
+      "valueTension": [90,91],
+      "valueMystery": [0,0],
+      "valueSocial": [0,0],
+      "valuePersonal": [0,0],
+      "name": "TON SINISTRE",
+      "description": "Ce Tournant implique un ton effrayant, comme un endroit sombre et interdit ou un Personnage extrêmement menaçant de manière inquiétante",
+      "need": ["Non"]
+    },
+    "153": {
+      "valueAction": [0,0],
+      "valueTension": [0,0],
+      "valueMystery": [0,0],
+      "valueSocial": [0,0],
+      "valuePersonal": [83,83],
+      "name": "BIENVENUE SUR L'INTRIGUE",
+      "description": "Un Personnage apprend qu'il est connecté à cette Intrigue d'une manière ou d'une autre. Peut-être que cela implique quelque chose de leur passé ou de quelqu'un dans leur vie. Par exemple, un détective peut découvrir que le syndicat du crime qu'il tente de démanteler est dirigé par son frère perdu depuis longtemps",
+      "need": ["Personnage"]
+    },
+    "154": {
+      "valueAction": [79,79],
+      "valueTension": [92,92],
+      "valueMystery": [83,83],
+      "valueSocial": [78,78],
+      "valuePersonal": [0,0],
+      "name": "CADRE DE VOYAGE",
+      "description": "Ce Tournant a lieu dans un véhicule itinérant. Par exemple, un navire en mer, un train, un navire traversant l'espace...",
+      "need": ["Non"]
+    },
+    "155": {
+      "valueAction": [0,0],
+      "valueTension": [0,0],
+      "valueMystery": [0,0],
+      "valueSocial": [79,79],
+      "valuePersonal": [0,0],
+      "name": "DEVOIR D'ESCORTE",
+      "description": "Un Personnage doit escorter un autre Personnage quelque part.  Par exemple, cela pourrait être un garde du corps transportant un dirigeant de grande puissance dans un endroit éloigné, ou une bande de guerriers essayant de faire traverser une princesse à travers une vallée pleine de monstres",
+      "need": ["Personnage", "Personnage"]
+    },
+    "156": {
+      "valueAction": [0,0],
+      "valueTension": [0,0],
+      "valueMystery": [84,84],
+      "valueSocial": [80,80],
+      "valuePersonal": [0,0],
+      "name": "UNE ANCIENNE AFFAIRE",
+      "description": "Ce Tournant implique un accord conclu il y a longtemps, probablement même avant le début de cette Aventure. Par exemple, des enquêteurs occultes qui recherchent une mort mystérieuse découvrent que la personne décédée a vendu son âme à un démon il y a dix ans, et ils soupçonnent que la mort est le démon venu la chercher",
+      "need": ["Non"]
+    },
+    "157": {
+      "valueAction": [0,0],
+      "valueTension": [93,93],
+      "valueMystery": [0,0],
+      "valueSocial": [0,0],
+      "valuePersonal": [0,0],
+      "name": "UN NOUVEL ENNEMI",
+      "description": "Ce Tournant présente une nouvelle menace pour un Personnage. C'est une menace qui peut ou non être directement liée à des Intrigues, mais qui doit tout de même être traitée. Par exemple, des explorateurs au plus profond de la terre se déplacent à travers une ancienne ruine pour retrouver leur camarade perdu lorsqu'ils sont assaillis par des dinosaures qui nichent dans la région.  Cela se traduit automatiquement par un nouveau Personnage",
+      "need": ["Personnage", "Nouveau Personnage"]
+    },
+    "158": {
+      "valueAction": [0,0],
+      "valueTension": [0,0],
+      "valueMystery": [0,0],
+      "valueSocial": [81,82],
+      "valuePersonal": [0,0],
+      "name": "ALLIANCE",
+      "description": "Un groupe propose de s'allier avec un autre. Cela peut être une alliance surprise, comme un ennemi souhaitant se joindre à un autre ennemi pour affronter un ennemi commun, ou cela pourrait être quelque chose de moins dramatique, comme l'offre du FBI d'aider les forces de l'ordre locales à résoudre un crime. Les «groupes» en question peuvent être des organisations formelles ou quelque chose de plus souple, comme des groupes d'individus",
+      "need": ["Personnage", "Personnage"]
+    },
+    "159": {
+      "valueAction": [0,0],
+      "valueTension": [0,0],
+      "valueMystery": [0,0],
+      "valueSocial": [83,84],
+      "valuePersonal": [0,0],
+      "name": "POUVOIR SUR LES AUTRES",
+      "description": "Un Personnage a le pouvoir sur les autres Personnages d'une certaine manière ou forme à ce Tournant. Ce pouvoir place le Personnage dans une position dominante par rapport aux autres. Par exemple, le seigneur d'une terre exige que tous les paysans paient des impôts élevés, sinon ses hommes les opprimeront. Ou, le producteur d'un anti-toxine pour une maladie que tout un village a exige qu'ils lui donnent ce qu'il veut afin de recevoir le médicament",
+      "need": ["Personnage"]
+    },
+    "160": {
+      "valueAction": [0,0],
+      "valueTension": [0,0],
+      "valueMystery": [85,85],
+      "valueSocial": [0,0],
+      "valuePersonal": [0,0],
+      "name": "UNE NOUVELLE PERSONNE MYSTÉRIEUSE",
+      "description": "Ce Tournant appelle automatiquement un Nouveau Personnage, ajouté à la Liste, dont l'identité ou le but n'est pas entièrement connu. Peut-être sont-ils un visiteur obscur lors d'une réunion ou quelqu'un qui semble avoir autorité sur quelqu'un d'autre",
+      "need": ["Nouveau Personnage"]
+    },
+    "161": {
+      "valueAction": [80,81],
+      "valueTension": [0,0],
+      "valueMystery": [0,0],
+      "valueSocial": [0,0],
+      "valuePersonal": [0,0],
+      "name": "ACTIVITÉ FRÉNÉTIQUE",
+      "description": "Ce Tournant implique une action rapide et furieuse contre un Personnage. Il devrait s'agir d'une succession de tirs rapides, par exemple une série d'attaquants, un bateau incontrôlable descendant un rapide qui subit péril après péril, courant un défi d'une sorte à travers une série de pièges...",
+      "need": ["Personnage"]
+    }, 
+    "162": {
+      "valueAction": [0,0],
+      "valueTension": [94,94],
+      "valueMystery": [86,86],
+      "valueSocial": [85,85],
+      "valuePersonal": [0,0],
+      "name": "CADRE RURAL",
+      "description": "Ce Tournant implique un milieu rural, comme à la campagne ou dans une ferme",
+      "need": ["Non"]
+    },
+    "163": {
+      "valueAction": [0,0],
+      "valueTension": [0,0],
+      "valueMystery": [0,0],
+      "valueSocial": [0,0],
+      "valuePersonal": [84,84],
+      "name": "SYMPATHIQUE",
+      "description": "Ce Tournant implique un Personnage qui est très sympathique envers un autre Personnage. Qui que ce soit, ce devrait être quelqu'un qui génère de la sympathie. La sympathie du Personnage doit être suffisamment forte pour motiver les actions de l'autre Personnage. Par exemple, un flic blasé pensait avoir tout vu, mais une fille kidnappée suscite en lui le désir de la sauver et de se racheter",
+      "need": ["Personnage", "Personnage"]
+    },
+    "164": {
+      "valueAction": [0,0],
+      "valueTension": [0,0],
+      "valueMystery": [87,88],
+      "valueSocial": [0,0],
+      "valuePersonal": [0,0],
+      "name": "QUELQU'UN EST OÙ IL NE DEVRAIT PAS ÊTRE",
+      "description": "Un Personnage est à un endroit où il ne devrait normalement pas être. Par exemple, un allié est vu au quartier général d'un ennemi, un riche mondain rencontre un chef de la mafia dans un restaurant...",
+      "need": ["Personnage"]
+    },
+    "165": {
+      "valueAction": [82,83],
+      "valueTension": [0,0],
+      "valueMystery": [0,0],
+      "valueSocial": [0,0],
+      "valuePersonal": [0,0],
+      "name": "BARRIÈRE SOURNOISE",
+      "description": "Une barrière doit être surmontée par la furtivité ou la dextérité. Par exemple, un monstre vit dans une grotte qui n'est accessible qu'en escaladant une falaise haute et perfide. Ou bien, il y a trop de ninjas gardant le méchant pour se frayer un chemin, mais vous pouvez passer à côté d'eux sans être vu si vous êtes assez habile",
+      "need": ["Non"]
+    },
+    "166": {
+      "valueAction": [0,0],
+      "valueTension": [0,0],
+      "valueMystery": [0,0],
+      "valueSocial": [86,87],
+      "valuePersonal": [0,0],
+      "name": "CORRUPTION",
+      "description": "Ce Tournant implique la corruption d'un appareil social quelconque. Par exemple, un officier de police pris au piège de la foule, ou le méchant de l'Aventure se révèle être un bureaucrate local utilisant sa position pour donner aux passeurs l'accès à un quai la nuit",
+      "need": ["Non"]
+    },
+    "167": {
+      "valueAction": [0,0],
+      "valueTension": [95,95],
+      "valueMystery": [89,89],
+      "valueSocial": [0,0],
+      "valuePersonal": [0,0],
+      "name": "VULNÉRABILITÉ EXPLOITÉE",
+      "description": "Ce Tournant implique une vulnérabilité quelconque exploitée par un Personnage. Par exemple, quelqu'un qui connaît le crime d'autrui et le fait chanter, des Personnages apprenant la vulnérabilité secrète d'une base stellaire qui lui permet d'être détruite... Ce Tournant peut impliquer la découverte de la vulnérabilité ou son exploitation active",
+      "need": ["Personnage"]
+    },
+    "168": {
+      "valueAction": [0,0],
+      "valueTension": [0,0],
+      "valueMystery": [0,0],
+      "valueSocial": [0,0],
+      "valuePersonal": [85,86],
+      "name": "LA PROMESSE DE RÉCOMPENSE",
+      "description": "Ce Tournant implique un Personnage confronté à une récompense substantielle pour sa participation. Par exemple, peut-être qu'un village est prêt à donner à un groupe d'aventuriers tout ce qu'ils ont s'ils combattent une bande de gobelins en maraude. La récompense devrait être pour faire quelque chose qui est considéré comme légitime ou bon",
+      "need": ["Personnage"]
+    },
+    "169": {
+      "valueAction": [0,0],
+      "valueTension": [0,0],
+      "valueMystery": [90,91],
+      "valueSocial": [0,0],
+      "valuePersonal": [0,0],
+      "name": "FRAUDE",
+      "description": "Un Personnage est une fraude. Quoi qu'ils se présentent comme, ou quelle que soit l'histoire qu'ils ont racontée d'eux-mêmes, est faux. Par exemple, le prince affirmant qu'il est le dirigeant légitime d'un royaume est en fait un sosie métamorphe assumant le rôle",
+      "need": ["Personnage"]
+    },
+    "170": {
+      "valueAction": [0,0],
+      "valueTension": [0,0],
+      "valueMystery": [0,0],
+      "valueSocial": [88,89],
+      "valuePersonal": [0,0],
+      "name": "C'EST LES AFFAIRES",
+      "description": "Ce Tournant concerne les affaires ou le commerce d'une manière ou d'une autre. Cela peut être une transaction commerciale ou une entreprise qui est impliquée dans le Tournant. Par exemple, une société engage un super-héros pour protéger un envoi important, ou un livre d'antiquité contenant un sort nécessaire doit être acheté auprès d'une maison de vente aux enchères",
+      "need": ["Non"]
+    },
+    "171": {
+      "valueAction": [0,0],
+      "valueTension": [0,0],
+      "valueMystery": [0,0],
+      "valueSocial": [90,90],
+      "valuePersonal": [0,0],
+      "name": "JUSTE PARCE QUE ÇA A MAL TOURNÉ",
+      "description": "Ce Tournant implique quelque chose qui a commencé comme une cause juste mais qui a dégénéré en quelque chose d'injuste. Par exemple, un héros abat un groupe d'orcs terrorisant une ville, sauvant le peuple, mais maintenant le héros s'est installé en tant que seigneur de la ville et exige un hommage",
+      "need": ["Non"]
+    }, 
+    "172": {
+      "valueAction": [0,0],
+      "valueTension": [0,0],
+      "valueMystery": [0,0],
+      "valueSocial": [0,0],
+      "valuePersonal": [87,87],
+      "name": "CONNAISSANCES D'EXPERTS",
+      "description": "Ce Tournant implique un Personnage qui possède des connaissances ou des compétences très spécifiques et spécialisées qui entrent en jeu pendant le Tournant. Par exemple, seul le génie du Dr Rayder peut comprendre les subtilités de l'appareil extraterrestre, ou il a découvert qu'un tueur assassine des gens avec sa connaissance des poisons exotiques",
+      "need": ["Personnage"]
+    },
+    "173": {
+      "valueAction": [84,85],
+      "valueTension": [0,0],
+      "valueMystery": [0,0],
+      "valueSocial": [0,0],
+      "valuePersonal": [0,0],
+      "name": "UN MOMENT DE PAIX",
+      "description": "Quoi qu'il se passe d'autre dans ce Tournant, cela devrait globalement être un moment paisible pour un Personnage. Par exemple, il y a une accalmie dans la guerre où les combattants ont la chance de prendre un verre ensemble et de se détendre avant de devoir se battre à nouveau",
+      "need": ["Personnage"]
+    },
+    "174": {
+      "valueAction": [0,0],
+      "valueTension": [0,0],
+      "valueMystery": [0,0],
+      "valueSocial": [0,0],
+      "valuePersonal": [88,89],
+      "name": "UN FOCUS SUR LA BANALITÉ",
+      "description": "Ce Tournant implique une concentration sur quelque chose de banal et d’ordinaire, comme le salon d’une personne ou un repas. Cette chose banale peut être associée à quelque chose d'extraordinaire dans le Tournant. Par exemple, un Personnage est tué lorsque son dîner du soir est empoisonné, ou un portrait de famille s'avère être un objet maudit",
+      "need": ["Non"]
+    },
+    "175": {
+      "valueAction": [0,0],
+      "valueTension": [0,0],
+      "valueMystery": [0,0],
+      "valueSocial": [0,0],
+      "valuePersonal": [90,91],
+      "name": "FUYEZ !",
+      "description": "Un Personnage s'enfuit ou s'est enfui. Le vol réel peut se produire à ce Tournant ou il peut être appris. Par exemple, un Personnage court en hurlant alors qu'un horrible monstre apparaît sur la scène, ou un Personnage qui a disparu plus tôt dans l'Aventure apprend qu'il a quitté la ville en craignant pour sa vie",
+      "need": ["Personnage"]
+    },
+    "176": {
+      "valueAction": [86,87],
+      "valueTension": [0,0],
+      "valueMystery": [92,93],
+      "valueSocial": [0,0],
+      "valuePersonal": [0,0],
+      "name": "BATTEZ-VOUS POUR ÇA",
+      "description": "Quoi qu'il se passe dans ce Tournant qui implique d'arriver à un endroit dans un but précis, un Personnage découvre que quelqu'un d'autre est arrivé avant lui. Par exemple, un Personnage se rend à la morgue pour vérifier un indice et apprend qu'un autre enquêteur s'est déjà présenté et a pris le corps",
+      "need": ["Personnage"]
+    },
+    "177": {
+      "valueAction": [88,89],
+      "valueTension": [0,0],
+      "valueMystery": [0,0],
+      "valueSocial": [91,91],
+      "valuePersonal": [0,0],
+      "name": "CONFRONTATION",
+      "description": "Ce Tournant implique la rencontre des Personnages dans une confrontation qui peut devenir physique si les choses ne se passent pas bien. Par exemple, un Personnage rencontre le chef d'un gang de rue pour obtenir des informations, mais le gang est notoirement nerveux et violent",
+      "need": ["Personnage", "Personnage"]
+    },
+    "178": {
+      "valueAction": [0,0],
+      "valueTension": [0,0],
+      "valueMystery": [0,0],
+      "valueSocial": [92,93],
+      "valuePersonal": [0,0],
+      "name": "ARGUMENT",
+      "description": "Un désaccord entre deux personnages conduit à un conflit dans ce Tournant",
+      "need": ["Personnage", "Personnage"]
+    },
+    "179": {
+      "valueAction": [0,0],
+      "valueTension": [0,0],
+      "valueMystery": [0,0],
+      "valueSocial": [94,94],
+      "valuePersonal": [0,0],
+      "name": "TENSION SOCIALE EN ÉBULLITION",
+      "description": "Un élément de tension sociale extrême est proche du point de rupture. Ce Tournant implique certains aspects de cela, comme un événement qui augmente la tension ou un événement qui est le résultat de la tension. Par exemple, deux pays au bord de la guerre ont une escarmouche à la frontière alors que la pression monte parmi les soldats",
+      "need": ["Non"]
+    },
+    "180": {
+      "valueAction": [90,91],
+      "valueTension": [0,0],
+      "valueMystery": [0,0],
+      "valueSocial": [0,0],
+      "valuePersonal": [92,93],
+      "name": "PROTECTEUR",
+      "description": "Un Personnage doit protéger quelqu'un ou quelque chose dans ce Tournant. S'il s'agit d'un Point d'Intrigue d'Action, le Personnage doit se protéger activement d'une menace à ce Tournant. S'il s'agit d'un Point d'Intrigue Personnel, alors le Personnage reçoit le devoir de protection à ce Tournant",
+      "need": ["Personnage"]
+    },
+    "181": {
+      "valueAction": [92,93],
+      "valueTension": [0,0],
+      "valueMystery": [0,0],
+      "valueSocial": [0,0],
+      "valuePersonal": [0,0],
+      "name": "CRESCENDO",
+      "description": "Une série d'événements qui ont eu lieu dans cette Aventure culmine dans ce Tournant. Si c'est au début de l'Aventure ou de cette Intrigue, alors l'Aventure ou l'Intrigue prend un départ fougueux. Par exemple, les Personnages qui suivent des indices pour suivre un culte découvrent enfin leur repaire, ce qui entraîne une bataille de masse. Ou, une Intrigue sur la récupération d'une gemme volée commence par un vol très élaboré",
+      "need": ["Non"]
+    }, 
+    "182": {
+      "valueAction": [94,95],
+      "valueTension": [0,0],
+      "valueMystery": [0,0],
+      "valueSocial": [0,0],
+      "valuePersonal": [0,0],
+      "name": "DÉTRUIRE LA CHOSE",
+      "description": "Un Personnage doit détruire ou essayer de détruire quelque chose dans ce Tournant. Peut-être qu'un groupe de chercheurs de donjons atteint le cœur de la caverne où ils doivent briser un sceau mystique",
+      "need": ["Personnage"]
+    },
+    "183": {
+      "valueAction": [0,0],
+      "valueTension": [0,0],
+      "valueMystery": [94,94],
+      "valueSocial": [0,0],
+      "valuePersonal": [0,0],
+      "name": "THÉORIE DE LA CONSPIRATION",
+      "description": "Un Personnage croit en un scénario qui explique un problème dans cette Aventure. Le Personnage peut avoir raison ou tort, mais la théorie peut provoquer une action de la part du Personnage. Par exemple, un groupe est enfermé dans un centre commercial lors d'une apocalypse zombie. Un Personnage pense que c'est juste une maladie, alors il encourage les autres à ne pas tirer sur les zombies",
+      "need": ["Personnage"]
+    },
+    "184": {
+      "valueAction": [0,0],
+      "valueTension": [0,0],
+      "valueMystery": [0,0],
+      "valueSocial": [95,95],
+      "valuePersonal": [94,95],
+      "name": "SERVITEUR",
+      "description": "Ce Tournant implique un serviteur ou un mandataire d'un autre Personnage. Invoquer un Personnage que le serviteur doit représenter",
+      "need": ["Personnage"]
+    },
+    "185": {
+      "valueAction": [0,0],
+      "valueTension": [0,0],
+      "valueMystery": [95,95],
+      "valueSocial": [0,0],
+      "valuePersonal": [0,0],
+      "name": "UNE HISTOIRE OPPOSÉE",
+      "description": "Un Personnage apprend une version alternative de quelque chose qu'il sait déjà à partir de cette Aventure. Par exemple, en enquêtant sur un vaisseau spatial qui avait été attaqué par des extraterrestres, les Personnages découvrent un membre d'équipage qui prétend que les attaquants étaient membres d'une guilde rivale et non extraterrestres",
+      "need": ["Personnage"]
+    },
+    "186": {
+      "valueAction": [96,100],
+      "valueTension": [96,100],
+      "valueMystery": [96,100],
+      "valueSocial": [96,100],
+      "valuePersonal": [96,100],
+      "name": "META",
+      "description": "Il s'agit d'une catégorie spéciale de Points d'Intrigue avec des Points d'Intrigue qui modifient la Liste des Personnages ou combinent des Intrigues. Accédez au Tableau des Points d'Intrigue Meta et lancez 1d100 dessus pour votre Point d'Intrigue",
+      "need": ["Non"],
+      "meta": {
+        "1": {
+          "value": [1,18],
+          "name": "LE PERSONNAGE QUITTE L'AVENTURE",
+          "description": "Un Personnage qui n'est pas un Joueur est complètement supprimé de la Liste des Personnages. Barrez toutes les références à ce Personnage dans la Liste des Personnages. S'il n'y a pas de PNJ, relancez pour un autre Point d'Intrigue Meta. Ce changement peut être reflété dans l'activité de ce Tournant ou non. Par exemple, vous pouvez expliquer que le Personnage a été retiré de l'Aventure en faisant mourir ce Personnage dans ce Tournant. Ou, vous les supprimez simplement de la Liste des Personnages et décidez que leur implication dans l'Aventure est terminée. Si, en jetant les dés sur la Liste des Personnages pour déterminer qui est ce Personnage, vous obtenez un Joueur ou «Nouveau Personnage», alors considérez-le comme un résultat de «Choisissez le Personnage le plus logique»",
+          "need": ["Personnage"]
+        },
+        "2": {
+          "value": [19,27],
+          "name": "RETOUR DE PERSONNAGE",
+          "description": "Un Personnage qui avait précédemment été retiré de l'Aventure revient. Réécrivez ce Personnage dans la Liste des Personnages avec une seule entrée. S'il n'y a pas de Personnage à renvoyer, traitez-le comme un résultat «Nouveau Personnage» et utilisez ce Point d'Intrigue pour introduire un nouveau Personnage dans le Tournant. S'il y a plus d'un Personnage qui peut revenir, choisissez le Personnage le plus logique à renvoyer. Ce changement peut être reflété dans l'activité de ce Tournant ou non",
+          "need": ["Personnage"]
+        },
+        "3": {
+          "value": [28,36],
+          "name": "LE PERSONNAGE S'INTENSIFIE",
+          "description": "Un Personnage devient plus important, gagnant un autre emplacement sur la Liste des Personnages même s'il obtient plus de 3 emplacements. Lorsque vous jetez des dés sur la Liste des Personnages pour voir qui est le Personnage concerné, traitez le résultat «Nouveau Personnage» comme un «Choisissez le Personnage le plus logique». Ce changement peut être reflété dans l'activité de ce Tournant ou non",
+          "need": ["Personnage"]
+        },
+        "4": {
+          "value": [37,55],
+          "name": "LE PERSONNAGE RALENTIT",
+          "description": "Un Personnage devient moins important, retirez-le d'un emplacement de la Liste des Personnages même si ça le supprime complètement de la Liste. Si cela supprime complètement un Joueur de la Liste, ou si lorsque vous obtenez le Personnage, vous obtenez le résultat «Nouveau Personnage», alors traitez-le comme un résultat de «Choisissez le Personnage le plus logique». S'il n'y a pas de Personnage possible à choisir sans supprimer complètement un Joueur de la Liste, relancez alors les dés sur le Tableau des Points d'Intrigue Meta. Ce changement peut être reflété dans l'activité de ce Tournant ou non",
+          "need": ["Personnage"]
+        },
+        "5": {
+          "value": [56,73],
+          "name": "PERSONNAGE RÉTROGRADÉ",
+          "description": "Un Personnage devient moins important, retirez-le de deux emplacements de la Liste des Personnages même si ça le supprime complètement de la Liste. Si cela supprime complètement un Joueur de la Liste, ou si lorsque vous obtenez le Personnage, vous obtenez le résultat «Nouveau Personnage», alors traitez-le comme un résultat de «Choisissez le Personnage le plus logique». S'il n'y a pas de Personnage possible à choisir sans supprimer complètement un Joueur de la Liste, relancez alors les dés sur le Tableau des Points d'Intrigue Meta. Ce changement peut être reflété dans l'activité de ce Tournant ou non",
+          "need": ["Personnage"]
+        },
+        "6": {
+          "value": [74,82],
+          "name": "PERSONNAGE PROMU",
+          "description": "Un Personnage devient plus important, gagnant deux emplacements sur la Liste des Personnages même si ça l'amène au-delà de trois emplacements. Lorsque vous jetez les dés sur la Liste des Personnages pour voir qui est le Personnage, traitez le résultat de «Nouveau Personnage» comme «Choisissez le Personnage le plus logique». Ce changement peut se refléter dans l'activité de ce Tournant ou non",
+          "need": ["Personnage"]
+        },
+        "7": {
+          "value": [83,100],
+          "name": "COMBO D'INTRIGUES",
+          "description": "Ce Tournant correspond à plus d'une Intrigue à la fois. Jetez les dés à nouveau sur la Liste des Intrigues et ajouter cette Intrigue à ce Tournant avec l'Intrigue originale obtenue. Si, lorsque vous lancez pour une Intrigue supplémentaire, vous obtenez la même Intrigue déjà utilisée pour ce Tournant, alors traitez le résultat comme «Choisissez l'Intrigue la plus logique». S'il n'y a pas d'autres Intrigues parmi lesquelles choisir, créez une Intrigue en tant qu'Intrigue supplémentaire. Si une Conclusion est lancée comme Point d'Intrigue pendant ce Tournant, appliquez-la à l'Intrigue qui semble la plus appropriée. Si une autre Conclusion est obtenue, continuez à les appliquer aux Intrigues supplémentaires de ce Tournant si vous le pouvez. Il est possible avec les résultats répétés de «Combo d'Intrigues» d'avoir plus de deux Intrigues combinées de cette manière",
+          "need": ["Intrigue"]
+        }
+      }
+    }
+  }
+}

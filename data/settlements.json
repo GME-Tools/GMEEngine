@@ -1,0 +1,68 @@
+{
+  "unmarkedSettlementsFinding": {
+    "1": {
+      "populationDensity": "faible",
+      "chance": 5
+    },
+    "2": {
+      "populationDensity": "moyenne",
+      "chance": 10
+    },
+    "3": {
+      "populationDensity": "élevée",
+      "chance": 20
+    }
+  },
+  "unmarkedSettlementsNature" : {
+    "1": {
+      "value": [1,1],
+      "name": "Grand camp / caravane",
+      "population": [1,20]
+    },
+    "2": {
+      "value": [2,2],
+      "name": "Petite maison / chalet / cabanon",
+      "population": [1,10]
+    },
+    "3": {
+      "value": [3,3],
+      "name": "Grand campement",
+      "population": [50,100]
+    },
+    "4": {
+      "value": [4,4],
+      "name": "Hameau",
+      "population": [50,150]
+    },
+    "5": {
+      "value": [5,5],
+      "name": "Equipe de travail (ex : bûcherons)",
+      "population": [50,200]
+    },
+    "6": {
+      "value": [6,6],
+      "name": "Garnison stationnée",
+      "population": [100,300]
+    },
+    "7": {
+      "value": [7,7],
+      "name": "Fort",
+      "population": [200,400]
+    },
+    "8": {
+      "value": [8,8],
+      "name": "Village",
+      "population": [300,1000]
+    },
+    "9": {
+      "value": [9,9],
+      "name": "Armée campée",
+      "population": [1000,3000]
+    },
+    "10": {
+      "value": [10,10],
+      "name": "Campement de réfugiés",
+      "population": [500,5000]
+    }
+  }
+}

@@ -1,0 +1,3752 @@
+{
+  "potencyTable" : {
+    "1": {
+      "value": [0,4],
+      "name": "Minimum (-75%)",
+      "description": "La statistique de cette créature doit être considérablement diminuée par rapport à la ligne de base, au moins diminuée de 75% de sa puissance réelle. Cette valeur doit être proche de ce que vous considérez comme le score minimum possible pour cette créature",
+      "modifier": -75
+    },
+    "2": {
+      "value": [5,6],
+      "name": "Faible (-50%)",
+      "description": "La statistique est faible, environ la moitié de la valeur de référence réelle",
+      "modifier": -50
+    },
+    "3": {
+      "value": [7,9],
+      "name": "Moins (-10%)",
+      "description": "La statistique est juste un peu en dessous de la ligne de base. Diminuez la d’environ 10%",
+      "modifier": -10
+    },
+    "4": {
+      "value": [10,12],
+      "name": "Ligne de base",
+      "description": "Laissez la statistique au score de base",
+      "modifier": 0
+    },
+    "5": {
+      "value": [13,15],
+      "name": "Plus (+10%)",
+      "description": "La statistique est juste un peu au-dessus du score de base, d'environ 10%",
+      "modifier": 10
+    },
+    "6": {
+      "value": [16,17],
+      "name": "Fort (+50%)",
+      "description": "La statistique est bien au-dessus du score de base, autour de 50%",
+      "modifier": 50
+    },
+    "7": {
+      "value": [18,20],
+      "name": "Maximum (+100% ou plus)",
+      "description": "La statistique est bien au-dessus du score de base, au moins le double, peut-être plus.  Cela devrait être le score le plus élevé auquel vous vous attendriez",
+      "modifier": 100
+    }
+  },
+  "creaturesNumber": {
+    "1": {
+      "value": [1,50],
+      "number": 1,
+      "potencyModifier": 0
+    },
+    "2": {
+      "value": [51,70],
+      "number": 2,
+      "potencyModifier": -2
+    },
+    "3": {
+      "value": [71,80],
+      "number": 3,
+      "potencyModifier": -2
+    },
+    "4": {
+      "value": [81,90],
+      "number": 4,
+      "potencyModifier": -4
+    },
+    "5": {
+      "value": [91,95],
+      "number": 5,
+      "potencyModifier": -4
+    },
+    "6": {
+      "value": [95,100],
+      "number": 6,
+      "potencyModifier": -5
+    }
+  },
+  "creaturesSize" : {
+    "1": {
+      "value": [1,5],
+      "name": "Tout petit",
+      "health": -6,
+      "speed": -4,
+      "defense": -6,
+      "offense": -6
+    },
+    "2": {
+      "value": [6,20],
+      "name": "Petit",
+      "health": -2,
+      "speed": -2,
+      "defense": -2,
+      "offense": -2
+    },
+    "3": {
+      "value": [21,70],
+      "name": "Taille humaine",
+      "health": 0,
+      "speed": 0,
+      "defense": 0,
+      "offense": 0
+    },
+    "4": {
+      "value": [71,85],
+      "name": "Grand",
+      "health": 2,
+      "speed": 0,
+      "defense": 2,
+      "offense": 2
+    },
+    "5": {
+      "value": [86,95],
+      "name": "Très grand",
+      "health": 6,
+      "speed": -2,
+      "defense": 6,
+      "offense": 6
+    },
+    "6": {
+      "value": [96,100],
+      "name": "Gigantesque",
+      "health": 8,
+      "speed": -2,
+      "defense": 8,
+      "offense": 8
+    }
+  },
+  "creatureClassification" : {
+    "1" : {
+      "value": [1,10],
+      "name": "Alien",
+      "description": "Quelque chose qui n'est pas de ce monde, avec une anatomie, des capacités et une mentalité étrange",
+      "darkVision": {
+        "1" : {
+          "darkVisionValue": [1,40],
+          "darkVisionName": "Ne voit pas dans le noir"
+        },
+        "2" : {
+          "darkVisionValue": [41,100],
+          "darkVisionName": "Voit dans le noir"
+        }
+      },
+      "intellligence": {
+        "1" : {
+          "intellligenceValue": [1,50],
+          "intellligenceName": "Intelligence animale"
+        },
+        "2" : {
+          "intellligenceValue": [51,100],
+          "intellligenceName": "Intelligent"
+        }
+      },
+      "health": 2,
+      "speed": 2,
+      "defense": 2,
+      "offense": 2
+    },
+    "2" : {
+      "value": [11,20],
+      "name": "Animal",
+      "description": "Une créature vivante, non humaine et naturelle, bien qu'elle puisse être étrange ou inhabituelle. Elle n'a pas de capacités surnaturelles et seulement une intelligence animale",
+      "sharpSenses": {
+        "1" : {
+          "sharpSensesValue": [1,20],
+          "sharpSensesName": "N'a pas de sens aigus tels que l'ouïe ou l'odorat"
+        },
+        "2" : {
+          "sharpSensesValue": [21,100],
+          "sharpSensesName": "A des sens aigus tels que l'ouïe ou l'odorat"
+        }
+      },
+      "intellligence": {
+        "1" : {
+          "intellligenceValue": [1,100],
+          "intellligenceName": "Intelligence animale"
+        }
+      },
+      "malus": "Ignorez tous les résultats qui donnent à cette créature des capacités magiques ou surnaturelles",
+      "health": 0,
+      "speed": 4,
+      "defense": 0,
+      "offense": 2
+    },
+    "3" : {
+      "value": [21,30],
+      "name": "Animé",
+      "description": "Un être animé ou construit, comme un golem ou un robot. Il peut être aussi un objet comme une voiture ou un livre vivant",
+      "intellligence": {
+        "1" : {
+          "intellligenceValue": [1,80],
+          "intellligenceName": "Stupide"
+        },
+        "2" : {
+          "intellligenceValue": [81,100],
+          "intellligenceName": "Intelligent"
+        }
+      },
+      "darkVision": {
+        "1" : {
+          "darkVisionValue": [1,30],
+          "darkVisionName": "Ne voit pas dans le noir"
+        },
+        "2" : {
+          "darkVisionValue": [31,100],
+          "darkVisionName": "Voit dans le noir"
+        }
+      },
+      "healing": {
+        "1" : {
+          "healingValue": [1,80],
+          "healingName": "Ne peut pas soigner ses dégâts et doit être réparé"
+        },
+        "2" : {
+          "healingValue": [81,100],
+          "healingName": "Peut soigner ses dégâts sans être réparé"
+        }
+      },
+      "bonus": "N'a pas besoin de manger, de dormir ou de respirer",
+      "health": 4,
+      "speed": -2,
+      "defense": 4,
+      "offense": 2
+    },
+    "4" : {
+      "value": [31,40],
+      "name": "Élémentaire",
+      "description": "Une créature faite d'une seule substance, telle que l'eau, le feu ou la terre. Elle peut être faite de substances inhabituelles comme le verre, les ordures ou les insectes",
+      "intellligence": {
+        "1" : {
+          "intellligenceValue": [1,20],
+          "intellligenceName": "Intelligence animale"
+        },
+        "2" : {
+          "intellligenceValue": [21,100],
+          "intellligenceName": "Intelligent"
+        }
+      },
+      "darkVision": {
+        "1" : {
+          "darkVisionValue": [1,20],
+          "darkVisionName": "Ne voit pas dans le noir"
+        },
+        "2" : {
+          "darkVisionValue": [21,100],
+          "darkVisionName": "Voit dans le noir"
+        }
+      },
+      "bonus": "N'a pas besoin de manger, de dormir ou de respirer",
+      "resistance": "Immunisé aux effets qui ciblent la physiologie normale, comme les poisons ou les attaques qui affectent des organes spécifiques",
+      "health": 6,
+      "speed": -2,
+      "defense": 4,
+      "offense": 2
+    },
+    "5" : {
+      "value": [41,50],
+      "name": "Humanoïde",
+      "description": "De forme humanoïde au moins basique (deux bras, deux jambes ...). Notez que c'est la catégorie pour les humains normaux aussi",
+      "intellligence": {
+        "1" : {
+          "intellligenceValue": [1,100],
+          "intellligenceName": "Intelligent"
+        }
+      },
+      "health": 0,
+      "speed": 0,
+      "defense": 0,
+      "offense": 0
+    },
+    "6" : {
+      "value": [51,60],
+      "name": "Bête surnaturelle",
+      "description": "Créature inhabituelle ou animal avec des capacités surnaturelles",
+      "intellligence": {
+        "1" : {
+          "intellligenceValue": [1,50],
+          "intellligenceName": "Intelligence animale"
+        },
+        "2" : {
+          "intellligenceValue": [51,100],
+          "intellligenceName": "Intelligent"
+        }
+      },
+      "darkVision": {
+        "1" : {
+          "darkVisionValue": [1,40],
+          "darkVisionName": "Ne voit pas dans le noir"
+        },
+        "2" : {
+          "darkVisionValue": [41,100],
+          "darkVisionName": "Voit dans le noir"
+        }
+      },
+      "health": 2,
+      "speed": 4,
+      "defense": 2,
+      "offense": 2
+    },
+    "7" : {
+      "value": [61,70],
+      "name": "Amorphe",
+      "description": "Une créature sans forme stable, comme un blob",
+      "intellligence": {
+        "1" : {
+          "intellligenceValue": [1,80],
+          "intellligenceName": "Stupide"
+        },
+        "2" : {
+          "intellligenceValue": [81,95],
+          "intellligenceName": "Intelligence animale"
+        },
+        "3" : {
+          "intellligenceValue": [96,100],
+          "intellligenceName": "Intelligent"
+        }
+      },
+      "resistance": "Immunisé aux effets qui ciblent la physiologie normale, comme les poisons ou les attaques qui affectent des organes spécifiques",
+      "health": 2,
+      "speed": 4,
+      "defense": 2,
+      "offense": 2
+    },
+    "8" : {
+      "value": [71,80],
+      "name": "Plante",
+      "description": "Créature composée de végétation. Cela peut être une plante normale mutée aux proportions monstrueuses, ou toute créature à base de plantes",
+      "intellligence": {
+        "1" : {
+          "intellligenceValue": [1,85],
+          "intellligenceName": "Stupide"
+        },
+        "2" : {
+          "intellligenceValue": [86,95],
+          "intellligenceName": "Intelligence animale"
+        },
+        "3" : {
+          "intellligenceValue": [96,100],
+          "intellligenceName": "Intelligent"
+        }
+      },
+      "darkVision": {
+        "1" : {
+          "darkVisionValue": [1,20],
+          "darkVisionName": "Ne voit pas dans le noir"
+        },
+        "2" : {
+          "darkVisionValue": [21,100],
+          "darkVisionName": "Voit dans le noir"
+        }
+      },
+      "resistance": "Immunisé aux effets qui ciblent la physiologie normale, comme les poisons ou les attaques qui affectent des organes spécifiques",
+      "health": 2,
+      "speed": -4,
+      "defense": 0,
+      "offense": -2
+    },
+    "9" : {
+      "value": [81,90],
+      "name": "Mort-vivant",
+      "description": "Créature morte animée par des forces surnaturelles ou étranges. Cela inclut les morts-vivants corporels comme les vampires et incorporels comme les fantômes",
+      "intellligence": {
+        "1" : {
+          "intellligenceValue": [1,50],
+          "intellligenceName": "Stupide"
+        },
+        "2" : {
+          "intellligenceValue": [51,60],
+          "intellligenceName": "Intelligence animale"
+        },
+        "3" : {
+          "intellligenceValue": [61,100],
+          "intellligenceName": "Intelligent"
+        }
+      },
+      "darkVision": {
+        "1" : {
+          "darkVisionValue": [1,10],
+          "darkVisionName": "Ne voit pas dans le noir"
+        },
+        "2" : {
+          "darkVisionValue": [11,100],
+          "darkVisionName": "Voit dans le noir"
+        }
+      },
+      "resistance": "Immunisé aux effets qui ciblent la physiologie normale, comme les poisons ou les attaques qui affectent des organes spécifiques",
+      "health": 4,
+      "speed": -2,
+      "defense": 2,
+      "offense": 2
+    },
+    "10" : {
+      "value": [91,100],
+      "name": "Insecte",
+      "description": "Insectes, arachnides et autres invertébrés. Peut être un essaim de créatures plus petites ou un seul insecte de taille géante",
+      "intellligence": {
+        "1" : {
+          "intellligenceValue": [1,50],
+          "intellligenceName": "Stupide"
+        },
+        "2" : {
+          "intellligenceValue": [51,95],
+          "intellligenceName": "Intelligence animale"
+        },
+        "3" : {
+          "intellligenceValue": [96,100],
+          "intellligenceName": "Intelligent"
+        }
+      },
+      "darkVision": {
+        "1" : {
+          "darkVisionValue": [1,30],
+          "darkVisionName": "Ne voit pas dans le noir"
+        },
+        "2" : {
+          "darkVisionValue": [31,100],
+          "darkVisionName": "Voit dans le noir"
+        }
+      },
+      "health": 0,
+      "speed": 2,
+      "defense": 2,
+      "offense": 2
+    }
+  },
+  "alienDescriptions": {
+    "1": {
+      "value": [1,5],
+      "name": "Poisson"
+    },
+    "2": {
+      "value": [6,10],
+      "name": "Puant"
+    },
+    "3": {
+      "value": [11,15],
+      "name": "Tentaculaire"
+    },
+    "4": {
+      "value": [16,20],
+      "table": {
+        "1": {
+          "value": [1,5],
+          "name": "Poilu"
+        },
+        "2": {
+          "value": [6,10],
+          "name": "Griffes"
+        },
+        "3": {
+          "value": [11,15],
+          "name": "Dents pointues"
+        },
+        "4": {
+          "value": [16,20],
+          "name": "Queue"
+        },
+        "5": {
+          "value": [21,25],
+          "name": "Poils longs"
+        },
+        "6": {
+          "value": [26,30],
+          "name": "Moche"
+        },
+        "7": {
+          "value": [31,35],
+          "name": "En forme d'oiseau"
+        },
+        "8": {
+          "value": [36,40],
+          "name": "Couleur étrange"
+        },
+        "9": {
+          "value": [41,45],
+          "name": "Grogne"
+        },
+        "10": {
+          "value": [46,50],
+          "name": "Saute"
+        },
+        "11": {
+          "value": [51,55],
+          "name": "Défenses"
+        },
+        "12": {
+          "value": [56,60],
+          "name": "Sabots"
+        },
+        "13": {
+          "value": [61,65],
+          "name": "Mammifères"
+        },
+        "14": {
+          "value": [66,70],
+          "name": "Tacheté"
+        },
+        "15": {
+          "value": [71,75],
+          "name": "Reptilien"
+        },
+        "16": {
+          "value": [76,80],
+          "name": "Aquatique"
+        },
+        "17": {
+          "value": [81,85],
+          "name": "Amphibie"
+        },
+        "18": {
+          "value": [86,90],
+          "name": "Ailé"
+        },
+        "19": {
+          "value": [91,95],
+          "name": "Cornes / Bois"
+        },
+        "20": {
+          "value": [96,100],
+          "name": "Décision du MJ"
+        }
+      }
+    },
+    "5": {
+      "value": [21,25],
+      "name": "Membres supplémentaires"
+    },
+    "6": {
+      "value": [26,30],
+      "name": "Vêtu"
+    },
+    "7": {
+      "value": [31,35],
+      "name": "Cauchemardesque"
+    },
+    "8": {
+      "value": [36,40],
+      "name": "Aux yeux multiples"
+    },
+    "9": {
+      "value": [41,45],
+      "name": "Ruisselant"
+    },
+    "10": {
+      "value": [46,50],
+      "table": {
+        "1": {
+          "value": [1,5],
+          "name": "RELANCER"
+        },
+        "2": {
+          "value": [6,10],
+          "name": "RELANCER"
+        },
+        "3": {
+          "value": [11,15],
+          "name": "RELANCER"
+        },
+        "4": {
+          "value": [16,20],
+          "name": "RELANCER"
+        },
+        "5": {
+          "value": [21,25],
+          "name": "Dents pointues"
+        },
+        "6": {
+          "value": [26,30],
+          "name": "Yeux brillants"
+        },
+        "7": {
+          "value": [31,35],
+          "name": "Combinaison d'animaux"
+        },
+        "8": {
+          "value": [36,40],
+          "name": "Ailé"
+        },
+        "9": {
+          "value": [41,45],
+          "name": "Cornu"
+        },
+        "10": {
+          "value": [46,50],
+          "name": "Ressemble à un oiseau"
+        },
+        "11": {
+          "value": [51,55],
+          "name": "Mammifère"
+        },
+        "12": {
+          "value": [56,60],
+          "name": "Reptilien"
+        },
+        "13": {
+          "value": [61,65],
+          "name": "Aquatique"
+        },
+        "14": {
+          "value": [66,70],
+          "name": "A une queue"
+        },
+        "15": {
+          "value": [71,75],
+          "name": "Yeux multiples"
+        },
+        "16": {
+          "value": [76,80],
+          "name": "Tentacules"
+        },
+        "17": {
+          "value": [81,85],
+          "name": "Couleur bizarre"
+        },
+        "18": {
+          "value": [86,90],
+          "name": "Membres supplémentaires"
+        },
+        "19": {
+          "value": [91,95],
+          "name": "Poilu"
+        },
+        "20": {
+          "value": [96,100],
+          "name": "Décision du MJ"
+        }
+      }
+    },
+    "11": {
+      "value": [51,55],
+      "name": "Lévitation"
+    },
+    "12": {
+      "value": [56,60],
+      "name": "Insecte"
+    },
+    "13": {
+      "value": [61,65],
+      "table": {
+        "1": {
+          "value": [1,5],
+          "name": "Semblable à un insecte"
+        },
+        "2": {
+          "value": [6,10],
+          "name": "RELANCER"
+        },
+        "3": {
+          "value": [11,15],
+          "name": "Carapace"
+        },
+        "4": {
+          "value": [16,20],
+          "name": "Comme une punaise"
+        },
+        "5": {
+          "value": [21,25],
+          "name": "Poilu"
+        },
+        "6": {
+          "value": [26,30],
+          "name": "Mandibules"
+        },
+        "7": {
+          "value": [31,35],
+          "name": "Plusieurs jambes"
+        },
+        "8": {
+          "value": [36,40],
+          "name": "Semblable à un ver"
+        },
+        "9": {
+          "value": [41,45],
+          "name": "Humanoïde"
+        },
+        "10": {
+          "value": [46,50],
+          "name": "Pinces / Griffes"
+        },
+        "11": {
+          "value": [51,55],
+          "name": "Rampe sur les murs"
+        },
+        "12": {
+          "value": [56,60],
+          "name": "Yeux sur des tiges"
+        },
+        "13": {
+          "value": [61,65],
+          "name": "Yeux multiples"
+        },
+        "14": {
+          "value": [66,70],
+          "name": "Aquatique"
+        },
+        "15": {
+          "value": [71,75],
+          "name": "Semblable à une araignée"
+        },
+        "16": {
+          "value": [76,80],
+          "name": "Agile"
+        },
+        "17": {
+          "value": [81,85],
+          "name": "Ailé"
+        },
+        "18": {
+          "value": [86,90],
+          "name": "Couleur étrange"
+        },
+        "19": {
+          "value": [91,95],
+          "name": "A un dard"
+        },
+        "20": {
+          "value": [96,100],
+          "name": "Décision du MJ"
+        }
+      }
+    },
+    "14": {
+      "value": [66,70],
+      "name": "En forme de ver"
+    },
+    "15": {
+      "value": [71,75],
+      "name": "Ressemble à Humanoïde"
+    },
+    "16": {
+      "value": [76,80],
+      "name": "Osseux"
+    },
+    "17": {
+      "value": [81,85],
+      "name": "Couleur bizarre"
+    },
+    "18": {
+      "value": [86,90],
+      "name": "Semblable à un serpent"
+    },
+    "19": {
+      "value": [91,95],
+      "name": "Aquatique"
+    },
+    "20": {
+      "value": [96,100],
+      "name": "Décision du MJ"
+    }
+  },
+  "animalDescriptions": {
+    "1": {
+      "value": [1,5],
+      "name": "Poilu"
+    },
+    "2": {
+      "value": [6,10],
+      "name": "Griffes"
+    },
+    "3": {
+      "value": [11,15],
+      "name": "Dents pointues"
+    },
+    "4": {
+      "value": [16,20],
+      "name": "Queue"
+    },
+    "5": {
+      "value": [21,25],
+      "name": "Poils longs"
+    },
+    "6": {
+      "value": [26,30],
+      "name": "Moche"
+    },
+    "7": {
+      "value": [31,35],
+      "name": "En forme d'oiseau"
+    },
+    "8": {
+      "value": [36,40],
+      "name": "Couleur étrange"
+    },
+    "9": {
+      "value": [41,45],
+      "name": "Grogne"
+    },
+    "10": {
+      "value": [46,50],
+      "name": "Saute"
+    },
+    "11": {
+      "value": [51,55],
+      "name": "Défenses"
+    },
+    "12": {
+      "value": [56,60],
+      "name": "Sabots"
+    },
+    "13": {
+      "value": [61,65],
+      "name": "Mammifères"
+    },
+    "14": {
+      "value": [66,70],
+      "name": "Tacheté"
+    },
+    "15": {
+      "value": [71,75],
+      "name": "Reptilien"
+    },
+    "16": {
+      "value": [76,80],
+      "name": "Aquatique"
+    },
+    "17": {
+      "value": [81,85],
+      "name": "Amphibie"
+    },
+    "18": {
+      "value": [86,90],
+      "name": "Ailé"
+    },
+    "19": {
+      "value": [91,95],
+      "name": "Cornes / Bois"
+    },
+    "20": {
+      "value": [96,100],
+      "name": "Décision du MJ"
+    }
+  },
+  "animatedDescriptions": {
+    "1": {
+      "value": [1,5],
+      "name": "Humanoïde"
+    },
+    "2": {
+      "value": [6,10],
+      "table": {
+        "1": {
+          "value": [1,5],
+          "name": "Très laid"
+        },
+        "2": {
+          "value": [6,10],
+          "name": "RELANCER"
+        },
+        "3": {
+          "value": [11,15],
+          "name": "RELANCER"
+        },
+        "4": {
+          "value": [16,20],
+          "name": "Plein de dents"
+        },
+        "5": {
+          "value": [21,25],
+          "name": "Primitif"
+        },
+        "6": {
+          "value": [26,30],
+          "name": "Défenses"
+        },
+        "7": {
+          "value": [31,35],
+          "name": "Oreilles pointues"
+        },
+        "8": {
+          "value": [36,40],
+          "name": "Beaux traits"
+        },
+        "9": {
+          "value": [41,45],
+          "name": "Vêtements vulgaires"
+        },
+        "10": {
+          "value": [46,50],
+          "name": "Manie une arme"
+        },
+        "11": {
+          "value": [51,55],
+          "name": "Porte une armure"
+        },
+        "12": {
+          "value": [56,60],
+          "name": "Cornu"
+        },
+        "13": {
+          "value": [61,65],
+          "name": "RELANCER"
+        },
+        "14": {
+          "value": [66,70],
+          "name": "Couleur de peau étrange"
+        },
+        "15": {
+          "value": [71,75],
+          "name": "Très intelligent"
+        },
+        "16": {
+          "value": [76,80],
+          "name": "Stupide"
+        },
+        "17": {
+          "value": [81,85],
+          "name": "Reptilien"
+        },
+        "18": {
+          "value": [86,90],
+          "name": "A une queue"
+        },
+        "19": {
+          "value": [91,95],
+          "name": "Magnifique"
+        },
+        "20": {
+          "value": [96,100],
+          "name": "Décision du MJ"
+        }
+      }
+    },
+    "3": {
+      "value": [11,15],
+      "name": "En bois"
+    },
+    "4": {
+      "value": [16,20],
+      "name": "Fait de pierre"
+    },
+    "5": {
+      "value": [21,25],
+      "name": "Inscrit avec des symboles"
+    },
+    "6": {
+      "value": [26,30],
+      "name": "Exclut de la vapeur ou de la fumée"
+    },
+    "7": {
+      "value": [31,35],
+      "name": "Fait d'un ou plusieurs objets communs"
+    },
+    "8": {
+      "value": [36,40],
+      "name": "En forme d'animal"
+    },
+    "9": {
+      "value": [41,45],
+      "table": {
+        "1": {
+          "value": [1,5],
+          "name": "Poilu"
+        },
+        "2": {
+          "value": [6,10],
+          "name": "Griffes"
+        },
+        "3": {
+          "value": [11,15],
+          "name": "Dents pointues"
+        },
+        "4": {
+          "value": [16,20],
+          "name": "Queue"
+        },
+        "5": {
+          "value": [21,25],
+          "name": "Poils longs"
+        },
+        "6": {
+          "value": [26,30],
+          "name": "Moche"
+        },
+        "7": {
+          "value": [31,35],
+          "name": "En forme d'oiseau"
+        },
+        "8": {
+          "value": [36,40],
+          "name": "Couleur étrange"
+        },
+        "9": {
+          "value": [41,45],
+          "name": "Grogne"
+        },
+        "10": {
+          "value": [46,50],
+          "name": "Saute"
+        },
+        "11": {
+          "value": [51,55],
+          "name": "Défenses"
+        },
+        "12": {
+          "value": [56,60],
+          "name": "Sabots"
+        },
+        "13": {
+          "value": [61,65],
+          "name": "Mammifères"
+        },
+        "14": {
+          "value": [66,70],
+          "name": "Tacheté"
+        },
+        "15": {
+          "value": [71,75],
+          "name": "Reptilien"
+        },
+        "16": {
+          "value": [76,80],
+          "name": "Aquatique"
+        },
+        "17": {
+          "value": [81,85],
+          "name": "Amphibie"
+        },
+        "18": {
+          "value": [86,90],
+          "name": "Ailé"
+        },
+        "19": {
+          "value": [91,95],
+          "name": "Cornes / Bois"
+        },
+        "20": {
+          "value": [96,100],
+          "name": "Décision du MJ"
+        }
+      }
+    },
+    "10": {
+      "value": [46,50],
+      "table": {
+        "1": {
+          "value": [1,5],
+          "name": "Semblable à un insecte"
+        },
+        "2": {
+          "value": [6,10],
+          "name": "RELANCER"
+        },
+        "3": {
+          "value": [11,15],
+          "name": "Carapace"
+        },
+        "4": {
+          "value": [16,20],
+          "name": "Comme une punaise"
+        },
+        "5": {
+          "value": [21,25],
+          "name": "Poilu"
+        },
+        "6": {
+          "value": [26,30],
+          "name": "Mandibules"
+        },
+        "7": {
+          "value": [31,35],
+          "name": "Plusieurs jambes"
+        },
+        "8": {
+          "value": [36,40],
+          "name": "Semblable à un ver"
+        },
+        "9": {
+          "value": [41,45],
+          "name": "Humanoïde"
+        },
+        "10": {
+          "value": [46,50],
+          "name": "Pinces / Griffes"
+        },
+        "11": {
+          "value": [51,55],
+          "name": "Rampe sur les murs"
+        },
+        "12": {
+          "value": [56,60],
+          "name": "Yeux sur des tiges"
+        },
+        "13": {
+          "value": [61,65],
+          "name": "Yeux multiples"
+        },
+        "14": {
+          "value": [66,70],
+          "name": "Aquatique"
+        },
+        "15": {
+          "value": [71,75],
+          "name": "Semblable à une araignée"
+        },
+        "16": {
+          "value": [76,80],
+          "name": "Agile"
+        },
+        "17": {
+          "value": [81,85],
+          "name": "Ailé"
+        },
+        "18": {
+          "value": [86,90],
+          "name": "Couleur étrange"
+        },
+        "19": {
+          "value": [91,95],
+          "name": "A un dard"
+        },
+        "20": {
+          "value": [96,100],
+          "name": "Décision du MJ"
+        }
+      }
+    },
+    "11": {
+      "value": [51,55],
+      "name": "Fait de substance inhabituelle"
+    },
+    "12": {
+      "value": [56,60],
+      "name": "Manie une arme"
+    },
+    "13": {
+      "value": [61,65],
+      "name": "Yeux brillants"
+    },
+    "14": {
+      "value": [66,70],
+      "name": "Bruyant"
+    },
+    "15": {
+      "value": [71,75],
+      "name": "Fait de métal"
+    },
+    "16": {
+      "value": [76,80],
+      "name": "S'effondre, en mauvais état"
+    },
+    "17": {
+      "value": [81,85],
+      "name": "Changement de forme"
+    },
+    "18": {
+      "value": [86,90],
+      "name": "Lévitation"
+    },
+    "19": {
+      "value": [91,95],
+      "name": "Robotique"
+    },
+    "20": {
+      "value": [96,100],
+      "name": "Décision du MJ"
+    }
+  },
+  "elementalDescriptions": {
+    "1": {
+      "value": [1,5],
+      "name": "Basé sur l'air"
+    },
+    "2": {
+      "value": [6,10],
+      "table": {
+        "1": {
+          "value": [1,5],
+          "name": "Poisson"
+        },
+        "2": {
+          "value": [6,10],
+          "name": "Puant"
+        },
+        "3": {
+          "value": [11,15],
+          "name": "Tentaculaire"
+        },
+        "4": {
+          "value": [16,20],
+          "name": "RELANCER"
+        },
+        "5": {
+          "value": [21,25],
+          "name": "Membres supplémentaires"
+        },
+        "6": {
+          "value": [26,30],
+          "name": "Vêtu"
+        },
+        "7": {
+          "value": [31,35],
+          "name": "Cauchemardesque"
+        },
+        "8": {
+          "value": [36,40],
+          "name": "Aux yeux multiples"
+        },
+        "9": {
+          "value": [41,45],
+          "name": "Ruisselant"
+        },
+        "10": {
+          "value": [46,50],
+          "name": "RELANCER"
+        },
+        "11": {
+          "value": [51,55],
+          "name": "Lévitation"
+        },
+        "12": {
+          "value": [56,60],
+          "name": "Insecte"
+        },
+        "13": {
+          "value": [61,65],
+          "name": "RELANCER"
+        },
+        "14": {
+          "value": [66,70],
+          "name": "En forme de ver"
+        },
+        "15": {
+          "value": [71,75],
+          "name": "Ressemble à Humanoïde"
+        },
+        "16": {
+          "value": [76,80],
+          "name": "Osseux"
+        },
+        "17": {
+          "value": [81,85],
+          "name": "Couleur bizarre"
+        },
+        "18": {
+          "value": [86,90],
+          "name": "Semblable à un serpent"
+        },
+        "19": {
+          "value": [91,95],
+          "name": "Aquatique"
+        },
+        "20": {
+          "value": [96,100],
+          "name": "Décision du MJ"
+        }
+      }
+    },
+    "3": {
+      "value": [11,15],
+      "table": {
+        "1": {
+          "value": [1,5],
+          "name": "Très laid"
+        },
+        "2": {
+          "value": [6,10],
+          "name": "RELANCER"
+        },
+        "3": {
+          "value": [11,15],
+          "name": "RELANCER"
+        },
+        "4": {
+          "value": [16,20],
+          "name": "Plein de dents"
+        },
+        "5": {
+          "value": [21,25],
+          "name": "Primitif"
+        },
+        "6": {
+          "value": [26,30],
+          "name": "Défenses"
+        },
+        "7": {
+          "value": [31,35],
+          "name": "Oreilles pointues"
+        },
+        "8": {
+          "value": [36,40],
+          "name": "Beaux traits"
+        },
+        "9": {
+          "value": [41,45],
+          "name": "Vêtements vulgaires"
+        },
+        "10": {
+          "value": [46,50],
+          "name": "Manie une arme"
+        },
+        "11": {
+          "value": [51,55],
+          "name": "Porte une armure"
+        },
+        "12": {
+          "value": [56,60],
+          "name": "Cornu"
+        },
+        "13": {
+          "value": [61,65],
+          "name": "RELANCER"
+        },
+        "14": {
+          "value": [66,70],
+          "name": "Couleur de peau étrange"
+        },
+        "15": {
+          "value": [71,75],
+          "name": "Très intelligent"
+        },
+        "16": {
+          "value": [76,80],
+          "name": "Stupide"
+        },
+        "17": {
+          "value": [81,85],
+          "name": "Reptilien"
+        },
+        "18": {
+          "value": [86,90],
+          "name": "A une queue"
+        },
+        "19": {
+          "value": [91,95],
+          "name": "Magnifique"
+        },
+        "20": {
+          "value": [96,100],
+          "name": "Décision du MJ"
+        }
+      }
+    },
+    "4": {
+      "value": [16,20],
+      "name": "Basé sur le feu"
+    },
+    "5": {
+      "value": [21,25],
+      "table": {
+        "1": {
+          "value": [1,5],
+          "name": "Liquide"
+        },
+        "2": {
+          "value": [6,10],
+          "name": "RELANCER"
+        },
+        "3": {
+          "value": [11,15],
+          "name": "Amorphe"
+        },
+        "4": {
+          "value": [16,20],
+          "name": "A plusieurs yeux"
+        },
+        "5": {
+          "value": [21,25],
+          "name": "Collant"
+        },
+        "6": {
+          "value": [26,30],
+          "name": "Tentacules"
+        },
+        "7": {
+          "value": [31,35],
+          "name": "Bouillonnant"
+        },
+        "8": {
+          "value": [36,40],
+          "name": "Semblable à un nuage"
+        },
+        "9": {
+          "value": [41,45],
+          "name": "Transparent"
+        },
+        "10": {
+          "value": [46,50],
+          "name": "Flottant / en lévitation"
+        },
+        "11": {
+          "value": [51,55],
+          "name": "Noir d'encre"
+        },
+        "12": {
+          "value": [56,60],
+          "name": "Vert"
+        },
+        "13": {
+          "value": [61,65],
+          "name": "Violet"
+        },
+        "14": {
+          "value": [66,70],
+          "name": "Marron"
+        },
+        "15": {
+          "value": [71,75],
+          "name": "Semblable à un blob"
+        },
+        "16": {
+          "value": [76,80],
+          "name": "Changements de forme"
+        },
+        "17": {
+          "value": [81,85],
+          "name": "Forme une forme simple"
+        },
+        "18": {
+          "value": [86,90],
+          "name": "Vibrant"
+        },
+        "19": {
+          "value": [91,95],
+          "name": "Rampe sur les murs"
+        },
+        "20": {
+          "value": [96,100],
+          "name": "Décision du MJ"
+        }
+      }
+    },
+    "6": {
+      "value": [26,30],
+      "name": "Semblable à un nuage"
+    },
+    "7": {
+      "value": [31,35],
+      "name": "Basé sur l'eau"
+    },
+    "8": {
+      "value": [36,40],
+      "name": "Lévitation / vol"
+    },
+    "9": {
+      "value": [41,45],
+      "table": {
+        "1": {
+          "value": [1,5],
+          "name": "Humanoïde"
+        },
+        "2": {
+          "value": [6,10],
+          "name": "RELANCER"
+        },
+        "3": {
+          "value": [11,15],
+          "name": "En bois"
+        },
+        "4": {
+          "value": [16,20],
+          "name": "Fait de pierre"
+        },
+        "5": {
+          "value": [21,25],
+          "name": "Inscrit avec des symboles"
+        },
+        "6": {
+          "value": [26,30],
+          "name": "Exclut de la vapeur ou de la fumée"
+        },
+        "7": {
+          "value": [31,35],
+          "name": "Fait d'un ou plusieurs objets communs"
+        },
+        "8": {
+          "value": [36,40],
+          "name": "En forme d'animal"
+        },
+        "9": {
+          "value": [41,45],
+          "name": "RELANCER"
+        },
+        "10": {
+          "value": [46,50],
+          "name": "RELANCER"
+        },
+        "11": {
+          "value": [51,55],
+          "name": "Fait de substance inhabituelle"
+        },
+        "12": {
+          "value": [56,60],
+          "name": "Manie une arme"
+        },
+        "13": {
+          "value": [61,65],
+          "name": "Yeux brillants"
+        },
+        "14": {
+          "value": [66,70],
+          "name": "Bruyant"
+        },
+        "15": {
+          "value": [71,75],
+          "name": "Fait de métal"
+        },
+        "16": {
+          "value": [76,80],
+          "name": "S'effondre, en mauvais état"
+        },
+        "17": {
+          "value": [81,85],
+          "name": "Changement de forme"
+        },
+        "18": {
+          "value": [86,90],
+          "name": "Lévitation"
+        },
+        "19": {
+          "value": [91,95],
+          "name": "Robotique"
+        },
+        "20": {
+          "value": [96,100],
+          "name": "Décision du MJ"
+        }
+      }
+    },
+    "10": {
+      "value": [46,50],
+      "name": "Bruyant"
+    },
+    "11": {
+      "value": [51,55],
+      "name": "Basé sur la terre"
+    },
+    "12": {
+      "value": [56,60],
+      "name": "Substance inhabituelle"
+    },
+    "13": {
+      "value": [61,65],
+      "name": "Humanoïde"
+    },
+    "14": {
+      "value": [66,70],
+      "name": "Humanoïde"
+    },
+    "15": {
+      "value": [71,75],
+      "name": "Solide"
+    },
+    "16": {
+      "value": [76,80],
+      "name": "Griffes"
+    },
+    "17": {
+      "value": [81,85],
+      "name": "A des traits de visage"
+    },
+    "18": {
+      "value": [86,90],
+      "name": "Liquide"
+    },
+    "19": {
+      "value": [91,95],
+      "name": "Composé de petits objets"
+    },
+    "20": {
+      "value": [96,100],
+      "name": "Décision du MJ"
+    }
+  },
+  "humanoidDescriptions": {
+    "1": {
+      "value": [1,5],
+      "name": "Très laid"
+    },
+    "2": {
+      "value": [6,10],
+      "table": {
+        "1": {
+          "value": [1,5],
+          "name": "Poilu"
+        },
+        "2": {
+          "value": [6,10],
+          "name": "Griffes"
+        },
+        "3": {
+          "value": [11,15],
+          "name": "Dents pointues"
+        },
+        "4": {
+          "value": [16,20],
+          "name": "Queue"
+        },
+        "5": {
+          "value": [21,25],
+          "name": "Poils longs"
+        },
+        "6": {
+          "value": [26,30],
+          "name": "Moche"
+        },
+        "7": {
+          "value": [31,35],
+          "name": "En forme d'oiseau"
+        },
+        "8": {
+          "value": [36,40],
+          "name": "Couleur étrange"
+        },
+        "9": {
+          "value": [41,45],
+          "name": "Grogne"
+        },
+        "10": {
+          "value": [46,50],
+          "name": "Saute"
+        },
+        "11": {
+          "value": [51,55],
+          "name": "Défenses"
+        },
+        "12": {
+          "value": [56,60],
+          "name": "Sabots"
+        },
+        "13": {
+          "value": [61,65],
+          "name": "Mammifères"
+        },
+        "14": {
+          "value": [66,70],
+          "name": "Tacheté"
+        },
+        "15": {
+          "value": [71,75],
+          "name": "Reptilien"
+        },
+        "16": {
+          "value": [76,80],
+          "name": "Aquatique"
+        },
+        "17": {
+          "value": [81,85],
+          "name": "Amphibie"
+        },
+        "18": {
+          "value": [86,90],
+          "name": "Ailé"
+        },
+        "19": {
+          "value": [91,95],
+          "name": "Cornes / Bois"
+        },
+        "20": {
+          "value": [96,100],
+          "name": "Décision du MJ"
+        }
+      }
+    },
+    "3": {
+      "value": [11,15],
+      "table": {
+        "1": {
+          "value": [1,5],
+          "name": "RELANCER"
+        },
+        "2": {
+          "value": [6,10],
+          "name": "RELANCER"
+        },
+        "3": {
+          "value": [11,15],
+          "name": "RELANCER"
+        },
+        "4": {
+          "value": [16,20],
+          "name": "RELANCER"
+        },
+        "5": {
+          "value": [21,25],
+          "name": "Dents pointues"
+        },
+        "6": {
+          "value": [26,30],
+          "name": "Yeux brillants"
+        },
+        "7": {
+          "value": [31,35],
+          "name": "Combinaison d'animaux"
+        },
+        "8": {
+          "value": [36,40],
+          "name": "Ailé"
+        },
+        "9": {
+          "value": [41,45],
+          "name": "Cornu"
+        },
+        "10": {
+          "value": [46,50],
+          "name": "Ressemble à un oiseau"
+        },
+        "11": {
+          "value": [51,55],
+          "name": "Mammifère"
+        },
+        "12": {
+          "value": [56,60],
+          "name": "Reptilien"
+        },
+        "13": {
+          "value": [61,65],
+          "name": "Aquatique"
+        },
+        "14": {
+          "value": [66,70],
+          "name": "A une queue"
+        },
+        "15": {
+          "value": [71,75],
+          "name": "Yeux multiples"
+        },
+        "16": {
+          "value": [76,80],
+          "name": "Tentacules"
+        },
+        "17": {
+          "value": [81,85],
+          "name": "Couleur bizarre"
+        },
+        "18": {
+          "value": [86,90],
+          "name": "Membres supplémentaires"
+        },
+        "19": {
+          "value": [91,95],
+          "name": "Poilu"
+        },
+        "20": {
+          "value": [96,100],
+          "name": "Décision du MJ"
+        }
+      }
+    },
+    "4": {
+      "value": [16,20],
+      "name": "Plein de dents"
+    },
+    "5": {
+      "value": [21,25],
+      "name": "Primitif"
+    },
+    "6": {
+      "value": [26,30],
+      "name": "Défenses"
+    },
+    "7": {
+      "value": [31,35],
+      "name": "Oreilles pointues"
+    },
+    "8": {
+      "value": [36,40],
+      "name": "Beaux traits"
+    },
+    "9": {
+      "value": [41,45],
+      "name": "Vêtements vulgaires"
+    },
+    "10": {
+      "value": [46,50],
+      "name": "Manie une arme"
+    },
+    "11": {
+      "value": [51,55],
+      "name": "Porte une armure"
+    },
+    "12": {
+      "value": [56,60],
+      "name": "Cornu"
+    },
+    "13": {
+      "value": [61,65],
+      "table": {
+        "1": {
+          "value": [1,5],
+          "name": "Poisson"
+        },
+        "2": {
+          "value": [6,10],
+          "name": "Puant"
+        },
+        "3": {
+          "value": [11,15],
+          "name": "Tentaculaire"
+        },
+        "4": {
+          "value": [16,20],
+          "name": "RELANCER"
+        },
+        "5": {
+          "value": [21,25],
+          "name": "Membres supplémentaires"
+        },
+        "6": {
+          "value": [26,30],
+          "name": "Vêtu"
+        },
+        "7": {
+          "value": [31,35],
+          "name": "Cauchemardesque"
+        },
+        "8": {
+          "value": [36,40],
+          "name": "Aux yeux multiples"
+        },
+        "9": {
+          "value": [41,45],
+          "name": "Ruisselant"
+        },
+        "10": {
+          "value": [46,50],
+          "name": "RELANCER"
+        },
+        "11": {
+          "value": [51,55],
+          "name": "Lévitation"
+        },
+        "12": {
+          "value": [56,60],
+          "name": "Insecte"
+        },
+        "13": {
+          "value": [61,65],
+          "name": "RELANCER"
+        },
+        "14": {
+          "value": [66,70],
+          "name": "En forme de ver"
+        },
+        "15": {
+          "value": [71,75],
+          "name": "Ressemble à Humanoïde"
+        },
+        "16": {
+          "value": [76,80],
+          "name": "Osseux"
+        },
+        "17": {
+          "value": [81,85],
+          "name": "Couleur bizarre"
+        },
+        "18": {
+          "value": [86,90],
+          "name": "Semblable à un serpent"
+        },
+        "19": {
+          "value": [91,95],
+          "name": "Aquatique"
+        },
+        "20": {
+          "value": [96,100],
+          "name": "Décision du MJ"
+        }
+      }
+    },
+    "14": {
+      "value": [66,70],
+      "name": "Couleur de peau étrange"
+    },
+    "15": {
+      "value": [71,75],
+      "name": "Très intelligent"
+    },
+    "16": {
+      "value": [76,80],
+      "name": "Stupide"
+    },
+    "17": {
+      "value": [81,85],
+      "name": "Reptilien"
+    },
+    "18": {
+      "value": [86,90],
+      "name": "A une queue"
+    },
+    "19": {
+      "value": [91,95],
+      "name": "Magnifique"
+    },
+    "20": {
+      "value": [96,100],
+      "name": "Décision du MJ"
+    }
+  },
+  "insectDescriptions": {
+    "1": {
+      "value": [1,5],
+      "name": "Semblable à un insecte"
+    },
+    "2": {
+      "value": [6,10],
+      "table": {
+        "1": {
+          "value": [1,5],
+          "name": "Poisson"
+        },
+        "2": {
+          "value": [6,10],
+          "name": "Puant"
+        },
+        "3": {
+          "value": [11,15],
+          "name": "Tentaculaire"
+        },
+        "4": {
+          "value": [16,20],
+          "name": "RELANCER"
+        },
+        "5": {
+          "value": [21,25],
+          "name": "Membres supplémentaires"
+        },
+        "6": {
+          "value": [26,30],
+          "name": "Vêtu"
+        },
+        "7": {
+          "value": [31,35],
+          "name": "Cauchemardesque"
+        },
+        "8": {
+          "value": [36,40],
+          "name": "Aux yeux multiples"
+        },
+        "9": {
+          "value": [41,45],
+          "name": "Ruisselant"
+        },
+        "10": {
+          "value": [46,50],
+          "name": "RELANCER"
+        },
+        "11": {
+          "value": [51,55],
+          "name": "Lévitation"
+        },
+        "12": {
+          "value": [56,60],
+          "name": "Insecte"
+        },
+        "13": {
+          "value": [61,65],
+          "name": "RELANCER"
+        },
+        "14": {
+          "value": [66,70],
+          "name": "En forme de ver"
+        },
+        "15": {
+          "value": [71,75],
+          "name": "Ressemble à Humanoïde"
+        },
+        "16": {
+          "value": [76,80],
+          "name": "Osseux"
+        },
+        "17": {
+          "value": [81,85],
+          "name": "Couleur bizarre"
+        },
+        "18": {
+          "value": [86,90],
+          "name": "Semblable à un serpent"
+        },
+        "19": {
+          "value": [91,95],
+          "name": "Aquatique"
+        },
+        "20": {
+          "value": [96,100],
+          "name": "Décision du MJ"
+        }
+      }
+    },
+    "3": {
+      "value": [11,15],
+      "name": "Carapace"
+    },
+    "4": {
+      "value": [16,20],
+      "name": "Comme une punaise"
+    },
+    "5": {
+      "value": [21,25],
+      "name": "Poilu"
+    },
+    "6": {
+      "value": [26,30],
+      "name": "Mandibules"
+    },
+    "7": {
+      "value": [31,35],
+      "name": "Plusieurs jambes"
+    },
+    "8": {
+      "value": [36,40],
+      "name": "Semblable à un ver"
+    },
+    "9": {
+      "value": [41,45],
+      "name": "Humanoïde"
+    },
+    "10": {
+      "value": [46,50],
+      "name": "Pinces / Griffes"
+    },
+    "11": {
+      "value": [51,55],
+      "name": "Rampe sur les murs"
+    },
+    "12": {
+      "value": [56,60],
+      "name": "Yeux sur des tiges"
+    },
+    "13": {
+      "value": [61,65],
+      "name": "Yeux multiples"
+    },
+    "14": {
+      "value": [66,70],
+      "name": "Aquatique"
+    },
+    "15": {
+      "value": [71,75],
+      "name": "Semblable à une araignée"
+    },
+    "16": {
+      "value": [76,80],
+      "name": "Agile"
+    },
+    "17": {
+      "value": [81,85],
+      "name": "Ailé"
+    },
+    "18": {
+      "value": [86,90],
+      "name": "Couleur étrange"
+    },
+    "19": {
+      "value": [91,95],
+      "name": "A un dard"
+    },
+    "20": {
+      "value": [96,100],
+      "name": "Décision du MJ"
+    }
+  },
+  "supernaturalBeastDescriptions": {
+    "1": {
+      "value": [1,5],
+      "table": {
+        "1": {
+          "value": [1,5],
+          "name": "Poilu"
+        },
+        "2": {
+          "value": [6,10],
+          "name": "Griffes"
+        },
+        "3": {
+          "value": [11,15],
+          "name": "Dents pointues"
+        },
+        "4": {
+          "value": [16,20],
+          "name": "Queue"
+        },
+        "5": {
+          "value": [21,25],
+          "name": "Poils longs"
+        },
+        "6": {
+          "value": [26,30],
+          "name": "Moche"
+        },
+        "7": {
+          "value": [31,35],
+          "name": "En forme d'oiseau"
+        },
+        "8": {
+          "value": [36,40],
+          "name": "Couleur étrange"
+        },
+        "9": {
+          "value": [41,45],
+          "name": "Grogne"
+        },
+        "10": {
+          "value": [46,50],
+          "name": "Saute"
+        },
+        "11": {
+          "value": [51,55],
+          "name": "Défenses"
+        },
+        "12": {
+          "value": [56,60],
+          "name": "Sabots"
+        },
+        "13": {
+          "value": [61,65],
+          "name": "Mammifères"
+        },
+        "14": {
+          "value": [66,70],
+          "name": "Tacheté"
+        },
+        "15": {
+          "value": [71,75],
+          "name": "Reptilien"
+        },
+        "16": {
+          "value": [76,80],
+          "name": "Aquatique"
+        },
+        "17": {
+          "value": [81,85],
+          "name": "Amphibie"
+        },
+        "18": {
+          "value": [86,90],
+          "name": "Ailé"
+        },
+        "19": {
+          "value": [91,95],
+          "name": "Cornes / Bois"
+        },
+        "20": {
+          "value": [96,100],
+          "name": "Décision du MJ"
+        }
+      }
+    },
+    "2": {
+      "value": [6,10],
+      "table": {
+        "1": {
+          "value": [1,5],
+          "name": "Poisson"
+        },
+        "2": {
+          "value": [6,10],
+          "name": "Puant"
+        },
+        "3": {
+          "value": [11,15],
+          "name": "Tentaculaire"
+        },
+        "4": {
+          "value": [16,20],
+          "name": "RELANCER"
+        },
+        "5": {
+          "value": [21,25],
+          "name": "Membres supplémentaires"
+        },
+        "6": {
+          "value": [26,30],
+          "name": "Vêtu"
+        },
+        "7": {
+          "value": [31,35],
+          "name": "Cauchemardesque"
+        },
+        "8": {
+          "value": [36,40],
+          "name": "Aux yeux multiples"
+        },
+        "9": {
+          "value": [41,45],
+          "name": "Ruisselant"
+        },
+        "10": {
+          "value": [46,50],
+          "name": "RELANCER"
+        },
+        "11": {
+          "value": [51,55],
+          "name": "Lévitation"
+        },
+        "12": {
+          "value": [56,60],
+          "name": "Insecte"
+        },
+        "13": {
+          "value": [61,65],
+          "name": "RELANCER"
+        },
+        "14": {
+          "value": [66,70],
+          "name": "En forme de ver"
+        },
+        "15": {
+          "value": [71,75],
+          "name": "Ressemble à Humanoïde"
+        },
+        "16": {
+          "value": [76,80],
+          "name": "Osseux"
+        },
+        "17": {
+          "value": [81,85],
+          "name": "Couleur bizarre"
+        },
+        "18": {
+          "value": [86,90],
+          "name": "Semblable à un serpent"
+        },
+        "19": {
+          "value": [91,95],
+          "name": "Aquatique"
+        },
+        "20": {
+          "value": [96,100],
+          "name": "Décision du MJ"
+        }
+      }
+    },
+    "3": {
+      "value": [11,15],
+      "table": {
+        "1": {
+          "value": [1,5],
+          "name": "Basé sur l'air"
+        },
+        "2": {
+          "value": [6,10],
+          "name": "RELANCER"
+        },
+        "3": {
+          "value": [11,15],
+          "name": "RELANCER"
+        },
+        "4": {
+          "value": [16,20],
+          "name": "Basé sur le feu"
+        },
+        "5": {
+          "value": [21,25],
+          "name": "RELANCER"
+        },
+        "6": {
+          "value": [26,30],
+          "name": "Semblable à un nuage"
+        },
+        "7": {
+          "value": [31,35],
+          "name": "Basé sur l'eau"
+        },
+        "8": {
+          "value": [36,40],
+          "name": "Lévitation / vol"
+        },
+        "9": {
+          "value": [41,45],
+          "name": "RELANCER"
+        },
+        "10": {
+          "value": [46,50],
+          "name": "Bruyant"
+        },
+        "11": {
+          "value": [51,55],
+          "name": "Basé sur la terre"
+        },
+        "12": {
+          "value": [56,60],
+          "name": "Substance inhabituelle"
+        },
+        "13": {
+          "value": [61,65],
+          "name": "Humanoïde"
+        },
+        "14": {
+          "value": [66,70],
+          "name": "Humanoïde"
+        },
+        "15": {
+          "value": [71,75],
+          "name": "Solide"
+        },
+        "16": {
+          "value": [76,80],
+          "name": "Griffes"
+        },
+        "17": {
+          "value": [81,85],
+          "name": "A des traits de visage"
+        },
+        "18": {
+          "value": [86,90],
+          "name": "Liquide"
+        },
+        "19": {
+          "value": [91,95],
+          "name": "Composé de petits objets"
+        },
+        "20": {
+          "value": [96,100],
+          "name": "Décision du MJ"
+        }
+      }
+    },
+    "4": {
+      "value": [16,20],
+      "table": {
+        "1": {
+          "value": [1,5],
+          "name": "Semblable à un insecte"
+        },
+        "2": {
+          "value": [6,10],
+          "name": "RELANCER"
+        },
+        "3": {
+          "value": [11,15],
+          "name": "Carapace"
+        },
+        "4": {
+          "value": [16,20],
+          "name": "Comme une punaise"
+        },
+        "5": {
+          "value": [21,25],
+          "name": "Poilu"
+        },
+        "6": {
+          "value": [26,30],
+          "name": "Mandibules"
+        },
+        "7": {
+          "value": [31,35],
+          "name": "Plusieurs jambes"
+        },
+        "8": {
+          "value": [36,40],
+          "name": "Semblable à un ver"
+        },
+        "9": {
+          "value": [41,45],
+          "name": "Humanoïde"
+        },
+        "10": {
+          "value": [46,50],
+          "name": "Pinces / Griffes"
+        },
+        "11": {
+          "value": [51,55],
+          "name": "Rampe sur les murs"
+        },
+        "12": {
+          "value": [56,60],
+          "name": "Yeux sur des tiges"
+        },
+        "13": {
+          "value": [61,65],
+          "name": "Yeux multiples"
+        },
+        "14": {
+          "value": [66,70],
+          "name": "Aquatique"
+        },
+        "15": {
+          "value": [71,75],
+          "name": "Semblable à une araignée"
+        },
+        "16": {
+          "value": [76,80],
+          "name": "Agile"
+        },
+        "17": {
+          "value": [81,85],
+          "name": "Ailé"
+        },
+        "18": {
+          "value": [86,90],
+          "name": "Couleur étrange"
+        },
+        "19": {
+          "value": [91,95],
+          "name": "A un dard"
+        },
+        "20": {
+          "value": [96,100],
+          "name": "Décision du MJ"
+        }
+      }
+    },
+    "5": {
+      "value": [21,25],
+      "name": "Dents pointues"
+    },
+    "6": {
+      "value": [26,30],
+      "name": "Yeux brillants"
+    },
+    "7": {
+      "value": [31,35],
+      "name": "Combinaison d'animaux"
+    },
+    "8": {
+      "value": [36,40],
+      "name": "Ailé"
+    },
+    "9": {
+      "value": [41,45],
+      "name": "Cornu"
+    },
+    "10": {
+      "value": [46,50],
+      "name": "Ressemble à un oiseau"
+    },
+    "11": {
+      "value": [51,55],
+      "name": "Mammifère"
+    },
+    "12": {
+      "value": [56,60],
+      "name": "Reptilien"
+    },
+    "13": {
+      "value": [61,65],
+      "name": "Aquatique"
+    },
+    "14": {
+      "value": [66,70],
+      "name": "A une queue"
+    },
+    "15": {
+      "value": [71,75],
+      "name": "Yeux multiples"
+    },
+    "16": {
+      "value": [76,80],
+      "name": "Tentacules"
+    },
+    "17": {
+      "value": [81,85],
+      "name": "Couleur bizarre"
+    },
+    "18": {
+      "value": [86,90],
+      "name": "Membres supplémentaires"
+    },
+    "19": {
+      "value": [91,95],
+      "name": "Poilu"
+    },
+    "20": {
+      "value": [96,100],
+      "name": "Décision du MJ"
+    }
+  },
+  "amorphousDescriptions": {
+    "1": {
+      "value": [1,5],
+      "name": "Liquide"
+    },
+    "2": {
+      "value": [6,10],
+      "table": {
+        "1": {
+          "value": [1,5],
+          "name": "Basé sur l'air"
+        },
+        "2": {
+          "value": [6,10],
+          "name": "RELANCER"
+        },
+        "3": {
+          "value": [11,15],
+          "name": "RELANCER"
+        },
+        "4": {
+          "value": [16,20],
+          "name": "Basé sur le feu"
+        },
+        "5": {
+          "value": [21,25],
+          "name": "RELANCER"
+        },
+        "6": {
+          "value": [26,30],
+          "name": "Semblable à un nuage"
+        },
+        "7": {
+          "value": [31,35],
+          "name": "Basé sur l'eau"
+        },
+        "8": {
+          "value": [36,40],
+          "name": "Lévitation / vol"
+        },
+        "9": {
+          "value": [41,45],
+          "name": "RELANCER"
+        },
+        "10": {
+          "value": [46,50],
+          "name": "Bruyant"
+        },
+        "11": {
+          "value": [51,55],
+          "name": "Basé sur la terre"
+        },
+        "12": {
+          "value": [56,60],
+          "name": "Substance inhabituelle"
+        },
+        "13": {
+          "value": [61,65],
+          "name": "Humanoïde"
+        },
+        "14": {
+          "value": [66,70],
+          "name": "Humanoïde"
+        },
+        "15": {
+          "value": [71,75],
+          "name": "Solide"
+        },
+        "16": {
+          "value": [76,80],
+          "name": "Griffes"
+        },
+        "17": {
+          "value": [81,85],
+          "name": "A des traits de visage"
+        },
+        "18": {
+          "value": [86,90],
+          "name": "Liquide"
+        },
+        "19": {
+          "value": [91,95],
+          "name": "Composé de petits objets"
+        },
+        "20": {
+          "value": [96,100],
+          "name": "Décision du MJ"
+        }
+      }
+    },
+    "3": {
+      "value": [11,15],
+      "name": "Amorphe"
+    },
+    "4": {
+      "value": [16,20],
+      "name": "A plusieurs yeux"
+    },
+    "5": {
+      "value": [21,25],
+      "name": "Collant"
+    },
+    "6": {
+      "value": [26,30],
+      "name": "Tentacules"
+    },
+    "7": {
+      "value": [31,35],
+      "name": "Bouillonnant"
+    },
+    "8": {
+      "value": [36,40],
+      "name": "Semblable à un nuage"
+    },
+    "9": {
+      "value": [41,45],
+      "name": "Transparent"
+    },
+    "10": {
+      "value": [46,50],
+      "name": "Flottant / en lévitation"
+    },
+    "11": {
+      "value": [51,55],
+      "name": "Noir d'encre"
+    },
+    "12": {
+      "value": [56,60],
+      "name": "Vert"
+    },
+    "13": {
+      "value": [61,65],
+      "name": "Violet"
+    },
+    "14": {
+      "value": [66,70],
+      "name": "Marron"
+    },
+    "15": {
+      "value": [71,75],
+      "name": "Semblable à un blob"
+    },
+    "16": {
+      "value": [76,80],
+      "name": "Changements de forme"
+    },
+    "17": {
+      "value": [81,85],
+      "name": "Forme une forme simple"
+    },
+    "18": {
+      "value": [86,90],
+      "name": "Vibrant"
+    },
+    "19": {
+      "value": [91,95],
+      "name": "Rampe sur les murs"
+    },
+    "20": {
+      "value": [96,100],
+      "name": "Décision du MJ"
+    }
+  },
+  "plantDescriptions": {
+    "1": {
+      "value": [1,5],
+      "name": "En forme d'arbre"
+    },
+    "2": {
+      "value": [6,10],
+      "name": "Vignes / tentacules"
+    },
+    "3": {
+      "value": [11,15],
+      "table": {
+        "1": {
+          "value": [1,5],
+          "name": "Liquide"
+        },
+        "2": {
+          "value": [6,10],
+          "name": "RELANCER"
+        },
+        "3": {
+          "value": [11,15],
+          "name": "Amorphe"
+        },
+        "4": {
+          "value": [16,20],
+          "name": "A plusieurs yeux"
+        },
+        "5": {
+          "value": [21,25],
+          "name": "Collant"
+        },
+        "6": {
+          "value": [26,30],
+          "name": "Tentacules"
+        },
+        "7": {
+          "value": [31,35],
+          "name": "Bouillonnant"
+        },
+        "8": {
+          "value": [36,40],
+          "name": "Semblable à un nuage"
+        },
+        "9": {
+          "value": [41,45],
+          "name": "Transparent"
+        },
+        "10": {
+          "value": [46,50],
+          "name": "Flottant / en lévitation"
+        },
+        "11": {
+          "value": [51,55],
+          "name": "Noir d'encre"
+        },
+        "12": {
+          "value": [56,60],
+          "name": "Vert"
+        },
+        "13": {
+          "value": [61,65],
+          "name": "Violet"
+        },
+        "14": {
+          "value": [66,70],
+          "name": "Marron"
+        },
+        "15": {
+          "value": [71,75],
+          "name": "Semblable à un blob"
+        },
+        "16": {
+          "value": [76,80],
+          "name": "Changements de forme"
+        },
+        "17": {
+          "value": [81,85],
+          "name": "Forme une forme simple"
+        },
+        "18": {
+          "value": [86,90],
+          "name": "Vibrant"
+        },
+        "19": {
+          "value": [91,95],
+          "name": "Rampe sur les murs"
+        },
+        "20": {
+          "value": [96,100],
+          "name": "Décision du MJ"
+        }
+      }
+    },
+    "4": {
+      "value": [16,20],
+      "name": "Comme un champignon"
+    },
+    "5": {
+      "value": [21,25],
+      "name": "Épineux"
+    },
+    "6": {
+      "value": [26,30],
+      "name": "Coloré"
+    },
+    "7": {
+      "value": [31,35],
+      "name": "Aquatique"
+    },
+    "8": {
+      "value": [36,40],
+      "name": "Gueule à dents"
+    },
+    "9": {
+      "value": [41,45],
+      "name": "Fleuri"
+    },
+    "10": {
+      "value": [46,50],
+      "name": "Enraciné dans le sol"
+    },
+    "11": {
+      "value": [51,55],
+      "name": "Peut voler / flotter"
+    },
+    "12": {
+      "value": [56,60],
+      "name": "Forme humanoïde"
+    },
+    "13": {
+      "value": [61,65],
+      "name": "Collection de petites plantes"
+    },
+    "14": {
+      "value": [66,70],
+      "name": "Couvert de feuilles"
+    },
+    "15": {
+      "value": [71,75],
+      "name": "Pue"
+    },
+    "16": {
+      "value": [76,80],
+      "name": "Jambes ambulatoires"
+    },
+    "17": {
+      "value": [81,85],
+      "name": "Des racines en mouvement"
+    },
+    "18": {
+      "value": [86,90],
+      "name": "Recouvert d'écorce"
+    },
+    "19": {
+      "value": [91,95],
+      "name": "Champignon"
+    },
+    "20": {
+      "value": [96,100],
+      "name": "Décision du MJ"
+    }
+  },
+  "undeadDescriptions": {
+    "1": {
+      "value": [1,5],
+      "name": "Pourri"
+    },
+    "2": {
+      "value": [6,10],
+      "name": "Squelettique"
+    },
+    "3": {
+      "value": [11,15],
+      "name": "Incorporel"
+    },
+    "4": {
+      "value": [16,20],
+      "name": "Ombragé"
+    },
+    "5": {
+      "value": [21,25],
+      "name": "Froid"
+    },
+    "6": {
+      "value": [26,30],
+      "table": {
+        "1": {
+          "value": [1,5],
+          "name": "Très laid"
+        },
+        "2": {
+          "value": [6,10],
+          "name": "RELANCER"
+        },
+        "3": {
+          "value": [11,15],
+          "name": "RELANCER"
+        },
+        "4": {
+          "value": [16,20],
+          "name": "Plein de dents"
+        },
+        "5": {
+          "value": [21,25],
+          "name": "Primitif"
+        },
+        "6": {
+          "value": [26,30],
+          "name": "Défenses"
+        },
+        "7": {
+          "value": [31,35],
+          "name": "Oreilles pointues"
+        },
+        "8": {
+          "value": [36,40],
+          "name": "Beaux traits"
+        },
+        "9": {
+          "value": [41,45],
+          "name": "Vêtements vulgaires"
+        },
+        "10": {
+          "value": [46,50],
+          "name": "Manie une arme"
+        },
+        "11": {
+          "value": [51,55],
+          "name": "Porte une armure"
+        },
+        "12": {
+          "value": [56,60],
+          "name": "Cornu"
+        },
+        "13": {
+          "value": [61,65],
+          "name": "RELANCER"
+        },
+        "14": {
+          "value": [66,70],
+          "name": "Couleur de peau étrange"
+        },
+        "15": {
+          "value": [71,75],
+          "name": "Très intelligent"
+        },
+        "16": {
+          "value": [76,80],
+          "name": "Stupide"
+        },
+        "17": {
+          "value": [81,85],
+          "name": "Reptilien"
+        },
+        "18": {
+          "value": [86,90],
+          "name": "A une queue"
+        },
+        "19": {
+          "value": [91,95],
+          "name": "Magnifique"
+        },
+        "20": {
+          "value": [96,100],
+          "name": "Décision du MJ"
+        }
+      }
+    },
+    "7": {
+      "value": [31,35],
+      "name": "Mauvaise odeur"
+    },
+    "8": {
+      "value": [36,40],
+      "name": "Silencieux"
+    },
+    "9": {
+      "value": [41,45],
+      "name": "Sale"
+    },
+    "10": {
+      "value": [46,50],
+      "name": "Semble vivant"
+    },
+    "11": {
+      "value": [51,55],
+      "table": {
+        "1": {
+          "value": [1,5],
+          "name": "Poilu"
+        },
+        "2": {
+          "value": [6,10],
+          "name": "Griffes"
+        },
+        "3": {
+          "value": [11,15],
+          "name": "Dents pointues"
+        },
+        "4": {
+          "value": [16,20],
+          "name": "Queue"
+        },
+        "5": {
+          "value": [21,25],
+          "name": "Poils longs"
+        },
+        "6": {
+          "value": [26,30],
+          "name": "Moche"
+        },
+        "7": {
+          "value": [31,35],
+          "name": "En forme d'oiseau"
+        },
+        "8": {
+          "value": [36,40],
+          "name": "Couleur étrange"
+        },
+        "9": {
+          "value": [41,45],
+          "name": "Grogne"
+        },
+        "10": {
+          "value": [46,50],
+          "name": "Saute"
+        },
+        "11": {
+          "value": [51,55],
+          "name": "Défenses"
+        },
+        "12": {
+          "value": [56,60],
+          "name": "Sabots"
+        },
+        "13": {
+          "value": [61,65],
+          "name": "Mammifères"
+        },
+        "14": {
+          "value": [66,70],
+          "name": "Tacheté"
+        },
+        "15": {
+          "value": [71,75],
+          "name": "Reptilien"
+        },
+        "16": {
+          "value": [76,80],
+          "name": "Aquatique"
+        },
+        "17": {
+          "value": [81,85],
+          "name": "Amphibie"
+        },
+        "18": {
+          "value": [86,90],
+          "name": "Ailé"
+        },
+        "19": {
+          "value": [91,95],
+          "name": "Cornes / Bois"
+        },
+        "20": {
+          "value": [96,100],
+          "name": "Décision du MJ"
+        }
+      }
+    },
+    "12": {
+      "value": [56,60],
+      "name": "Humain tordu"
+    },
+    "13": {
+      "value": [61,65],
+      "name": "Momifié"
+    },
+    "14": {
+      "value": [66,70],
+      "name": "Yeux brillants"
+    },
+    "15": {
+      "value": [71,75],
+      "name": "Hurlement / grognement"
+    },
+    "16": {
+      "value": [76,80],
+      "name": "Griffes"
+    },
+    "17": {
+      "value": [81,85],
+      "name": "Crocs"
+    },
+    "18": {
+      "value": [86,90],
+      "name": "Ressemble à une goule"
+    },
+    "19": {
+      "value": [91,95],
+      "name": "Décharné"
+    },
+    "20": {
+      "value": [96,100],
+      "name": "Décision du MJ"
+    }
+  },
+  "abilityNumber": {
+    "1": {
+      "value": [1,75],
+      "number": 1
+    },
+    "2": {
+      "value": [76,88],
+      "number": 2
+    },
+    "3": {
+      "value": [89,94],
+      "number": 3
+    },
+    "4": {
+      "value": [95,97],
+      "number": 4
+    },
+    "5": {
+      "value": [98,99],
+      "number": 5
+    },
+    "6": {
+      "value": [100,100],
+      "number": 6
+    }
+  },
+  "ability": {
+    "1": {
+      "value": [1,30],
+      "name": "Aucune capacité spéciale",
+      "description": "Cette créature ne possède pas de capacités spéciales ou, si une ou plusieurs ont déjà été lancées, alors il n'en a plus"
+    },
+    "2": {
+      "value": [31,31],
+      "name": "Attaque du regard",
+      "description": "Cette créature peut effectuer une attaque lorsqu'un adversaire la regarde dans les yeux. En cas de contact visuel, la victime doit résister ou en subir les effets. Cela peut être n'importe quoi, des dommages jusqu'à se transformer en pierre, s'endormir ou devenir charmé. Le MJ peut attribuer l'attaque du regard à une attaque préalablement déterminée ou en créer une nouvelle",
+      "subdescription": {
+        "1": {
+          "value": [1,25],
+          "name": "Cause des dégâts physiques"
+        },
+        "2": {
+          "value": [26,50],
+          "name": "Regard mortel : Si résistance ratée, la victime meurt immédiatement"
+        },
+        "3": {
+          "value": [51,75],
+          "name": "Transformation : Si résistance ratée, la victime est transformée d'une manière ou d'une autre (en pierre, en porc...)"
+        },
+        "4": {
+          "value": [76,100],
+          "name": "Contrôle mental : Si résistance ratée, cela entraîne une certaine forme de contrôle de l'esprit, comme l'hypnose"
+        }
+      }
+    },
+    "3": {
+      "value": [32,35],
+      "name": "Résistance aux dégâts",
+      "description": "La créature est capable d'ignorer un certain nombre de dégâts (tous les dégâts ou seulement à certains types de dégâts (attaques perforantes, attaques énergétiques...). Utilisez le tableau de puissance (potency) pour déterminer à quel point la créature peut résister. Toute blessure subie par la créature à laquelle elle peut résister, soustrayez ce montant aux dégâts subis lors des attaques. Si votre système de jeu n'utilise pas des quantités directes de dégâts qui peuvent être facilement soustraites, vous pouvez simuler ce pouvoir soit en augmentant le score défensif de la créature (comme l'armure), soit cette capacité peut réduire le score de dégâts des adversaires. Gardez à l'esprit que cette capacité peut rendre votre créature très puissante si elle est réglée trop haute. Lors de l'attribution du score de base, avant de jeter les dés sur le tableau de puissance, trouvez un chiffre qui semble approprié au niveau de la puissance global de la créature",
+      "subdescription": {
+        "1": {
+          "value": [1,16],
+          "name": "Résistance à toutes les formes de dégâts"
+        },
+        "2": {
+          "value": [17,28],
+          "name": "Résistance seulement aux dommages physiques"
+        },
+        "3": {
+          "value": [29,40],
+          "name": "Résistance aux dégâts physiques, à l'exception des dégâts d'énergie (feu, foudre...)"
+        },
+        "4": {
+          "value": [41,52],
+          "name": "Résistance uniquement aux attaques perforantes (flèches, balles...)"
+        },
+        "5": {
+          "value": [53,64],
+          "name": "Résistance uniquement aux attaques contondantes (bâtons, poings...)"
+        },
+        "6": {
+          "value": [65,76],
+          "name": "Résistance uniquement à une forme particulière d'attaque (capacités psychiques, magie...)"
+        },
+        "7": {
+          "value": [77,88],
+          "name": "Résistance à tous les dommages, à l'exception d'un certain type de dégâts spéciaux (attaques magiques, armes en argent...)"
+        },
+        "8": {
+          "value": [89,100],
+          "name": "2 LANCERS"
+        }
+      }
+    },
+    "4": {
+      "value": [36,36],
+      "name": "Rafale de vitesse",
+      "description": "La créature peut effectuer une rafale de vitesse à court terme, doublant ou plus son mouvement normal. Ce ne devrait être que pour une durée très limitée, mais peut être pour n'importe quel mode de voyage normal pour la créature, comme un animal terrestre qui peut charger ou un calmar qui peut soudainement se propulser dans l'eau. Le MJ devrait déterminer combien de temps dure la rafale, à quelle fréquence elle peut être utilisée et à quelle vitesse la créature peut aller"
+    },
+    "5": {
+      "value": [37,39],
+      "name": "Vol",
+      "description": "La créature peut voler. Décidez quels sont les moyens de vol les plus appropriés pour cette créature en fonction de ce que vous savez déjà sur elle (elle a des ailes, elle peut léviter ...). Déterminez quelle vitesse de vol vous semble la plus appropriée, puis lancez les dés sur la table de puissance pour modifier ce résultat"
+    },
+    "6": {
+      "value": [40,40],
+      "name": "Nage",
+      "description": "La créature peut nager aussi vite qu'une créature terrestre similaire peut courir. Déterminez quelle vitesse vous semble la plus appropriée, puis jetez les dés sur le tableau de puissance pour modifier ce résultat"
+    },
+    "7": {
+      "value": [41,44],
+      "name": "Sens amélioré",
+      "description": "Cette créature a un sens plus fort que celui d'un humain normal. C'est toujours l'un des sens d'origine, mais quelques crans en mieux. Par exemple, la créature peut être capable d'entendre un battement de cœur ou de voir dans l'obscurité",
+      "subdescription": {
+        "1": {
+          "value": [1,20],
+          "name": "Vue"
+        },
+        "2": {
+          "value": [21,40],
+          "name": "Ouïe"
+        },
+        "3": {
+          "value": [41,60],
+          "name": "Odorat"
+        },
+        "4": {
+          "value": [61,80],
+          "name": "Goût"
+        },
+        "5": {
+          "value": [81,100],
+          "name": "2 LANCERS"
+        }
+      }
+    },
+    "8": {
+      "value": [45,46],
+      "name": "Dissimulation",
+      "description": "La créature peut se cacher, partiellement ou totalement. Cela peut être n'importe quoi, de la capacité à changer ses couleurs pour qu'elle se fonde mieux dans le décor jusqu'à devenir complètement invisible. Pour que ce pouvoir fonctionne avec votre système de jeu, il conférera probablement à la créature un modificateur négatif à la capacité d'un personnage à la percevoir. Une fois que vous avez décidé quel type de dissimulation, déterminez quel modificateur approprié ce serait. Vous pouvez ensuite jeter les dés sur la table de puissance pour modifier cette statistique. En plus de rendre la détection plus difficile, si la dissimulation est en cours, comme l'invisibilité, alors la créature peut également gagner des bonus de combat. En plus des formes standard de dissimulation, ce pouvoir pourrait également signifier que la créature a une forme spéciale de dissimulation, comme une créature morte-vivante qui ne peut pas être photographiée ou peut-être un gobelin qui ne peut être vu que par des enfants"
+    },
+    "9": {
+      "value": [47,47],
+      "name": "Paralysie",
+      "description": "La créature peut provoquer la paralysie de la cible. La victime devrait avoir une chance de résister à l'effet. Il appartient au MJ de savoir comment la paralysie est infligée, par exemple par une morsure empoisonnée ou une attaque de regard surnaturel, et si l'effet est temporaire ou permanent. Le MJ peut décider de ces facteurs ou les comparer au tableau de puissance"
+    },
+    "10": {
+      "value": [48,51],
+      "name": "Armes naturelles",
+      "description": "Cette créature possède une forme d'arme naturelle, comme des dents acérées ou des griffes. Elle obtient un bonus de +2 au check de puissance pour déterminer les dégâts infligés par cette arme. Choisissez la forme d'attaque la plus appropriée qui correspond à cette créature",
+      "modifier": 2
+    },
+    "11": {
+      "value": [52,54],
+      "name": "Grimpeur",
+      "description": "Cette créature peut grimper aussi rapidement et naturellement qu'elle peut se déplacer avec sa forme de voyage native (vitesse terrestre, vitesse de nage...). Pour une détermination aléatoire de la vitesse de grimpe, modifiez la vitesse de déplacement normale de la créature avec un jet sur la table de puissance"
+    },
+    "12": {
+      "value": [55,56],
+      "name": "Poison",
+      "description": "La créature a une attaque empoisonnée, généralement transférée par un contact, une morsure ou une piqûre. L'effet du poison est à la charge du MJ. Il peut y avoir de nombreux facteurs aux effets d'un poison. Dans sa forme la plus élémentaire, vous pouvez considérer le poison comme un dommage, peut-être en ajout à la forme normale de dégâts de la créature si un jet de résistance échoue. Le MJ doit également déterminer si le poison prend effet immédiatement ou plus tard. Le MJ pourrait décider que le poison a un autre effet en plus des dégâts, comme fatiguer la cible",
+      "subdescription": {
+        "1": {
+          "value": [1,16],
+          "name": "Inflige des dégâts si un jet de résistance échoue"
+        },
+        "2": {
+          "value": [17,32],
+          "name": "Mortel si un jet de résistance échoue"
+        },
+        "3": {
+          "value": [33,48],
+          "name": "Prend effet immédiatement"
+        },
+        "4": {
+          "value": [49,54],
+          "name": "Effet différé, prenant effet dans l'heure"
+        },
+        "5": {
+          "value": [55,59],
+          "name": "Effet retardé, prenant effet dans la journée"
+        },
+        "6": {
+          "value": [60,64],
+          "name": "Effet retardé, prenant effet dans la semaine"
+        },
+        "7": {
+          "value": [65,80],
+          "name": "Effet inhabituel (endormir la victime, provoquer une paralysie...) si un jet de résistance échoue"
+        },
+        "8": {
+          "value": [81,100],
+          "name": "2 LANCERS"
+        }
+      }
+    },
+    "13": {
+      "value": [57,57],
+      "name": "Charge",
+      "description": "Cette créature est habituée à charger des adversaires. Lors du check du tableau de puissance pour les dommages causés par la charge, donnez au jet un bonus de +4. La créature aura besoin de suffisamment d'espace et de temps pour atteindre une charge complète. Les exemples incluent une charge de rhinocéros ou une créature volante plongeant sur une cible",
+      "modifier": 4
+    },
+    "14": {
+      "value": [58,58],
+      "name": "Distraction",
+      "description": "La créature peut distraire les autres personnages d'une manière ou d'une autre, détournant leur attention. Les exemples incluent un éclair aveuglant de lumière ou un son perçant. La capacité n'inflige aucun dommage réel et durable et l'effet est temporaire. Pour traduire ce pouvoir en termes de jeu, vous pouvez déterminer que la distraction donne à la cible un modificateur négatif pour combattre ou pour les jets d’initiative. Ou peut-être que le pouvoir étourdit efficacement la cible pendant une courte période. Quel que soit l'effet, il doit être de courte durée, pas plus de trois tours"
+    },
+    "15": {
+      "value": [59,59],
+      "name": "Enchevêtrement",
+      "description": "La créature peut enchevêtrer les cibles, par exemple avec des toiles ou une prise, limitant le mouvement de la victime. Le MJ devrait décider du contrôle de l'enchevêtrement (une toile qui peut être pulvérisé ou un membre qui peut être manipulé). L'enchevêtrement peut également prendre d'autres formes, comme une boue collante ou une créature avec une étreinte d'ours jusqu'à un monstre avec des tentacules visqueuses. Cela doit être traité comme une forme d'attaque. Lors d'une attaque réussie, la cible est empêtrée (vous pouvez autoriser un jet de résistance supplémentaire pour la cible, ou offrez à la cible un moyen d’éviter l’enchevêtrement). Vous devez déterminer : comment la créature enchevêtre-t-elle, combien de temps la cible est-elle retenue, et qu'arrive à la victime lorsqu'elle est enchevêtrée. L'enchevêtrement peut être un dispositif de transfert pour d'autres capacités (drainage de vie ou empoisonnement). Utilisez le tableau de puissance pour déterminer les dommages et/ou la résistance",
+      "subdescription": {
+        "1": {
+          "value": [1,20],
+          "name": "Cible maintenue jusqu'à ce qu'elle se libère"
+        },
+        "2": {
+          "value": [21,40],
+          "name": "Enchevêtrement temporaire (comme une colle qui s'use). Le MJ doit déterminer la durée"
+        },
+        "3": {
+          "value": [41,60],
+          "name": "Si enchevêtrée, prend également des dégâts chaque round jusqu'à ce que la cible puisse se libérer. Déterminez les dégâts à l'aide du tableau de puissance"
+        },
+        "4": {
+          "value": [61,80],
+          "name": "Enchevêtrement combiné avec une autre capacité de la créature"
+        },
+        "5": {
+          "value": [81,100],
+          "name": "2 LANCERS"
+        }
+      }
+    },
+    "16": {
+      "value": [60,61],
+      "name": "Vulnérabilité spécifique",
+      "description": "La défense de la créature est plus faible par rapport à une substance spécifique (fer, bois...), contre une forme d'attaque (magie, feu ou perforation...), ou contre certains effets (charme...). La créature peut également perdre d'autres capacités face à cette vulnérabilité. Lorsque vous jetez les dés pour la puissance d'une défense contre ceci, appliquez un modificateur de -4. Le résultat doit être inférieur à sa défense standard. Le MJ peut aussi décider que, à la place d'avoir une défense distincte contre cette vulnérabilité, la créature subit des dégâts supplémentaires des attaques de cette nature. Une forme d'attaque peut automatiquement se suggérer. Par exemple, si votre créature est un mort-vivant ressemblant à un vampire, peut-être que la vulnérabilité est contre les armes bénies. La vulnérabilité n'a pas à provenir de quelque chose de dommageable, mais d'un effet (magie qui altère l'esprit...)",
+      "modifier": -4,
+      "subdescription": {
+        "1": {
+          "value": [1,8],
+          "name": "Vulnérabilité provient d'une substance, d'un effet ou d'une attaque commune (comme lumière du soleil, traumatisme contondant...)"
+        },
+        "2": {
+          "value": [9,16],
+          "name": "Vulnérabilité provient d'une substance, d'un effet ou d'une attaque moins commune, mais pas rare (bois, blessures par perforation...)"
+        },
+        "3": {
+          "value": [17,24],
+          "name": "Vulnérabilité est contre une substance, un effet ou une attaque rare (attaques magiques, forme très rare de rayonnement...)"
+        },
+        "4": {
+          "value": [25,32],
+          "name": "Défense inférieure à la normale contre cette vulnérabilité"
+        },
+        "5": {
+          "value": [33,40],
+          "name": "Vulnérabilité provient d'un contact avec une substance"
+        },
+        "6": {
+          "value": [41,48],
+          "name": "Vulnérabilité contre une attaque"
+        },
+        "7": {
+          "value": [49,56],
+          "name": "Vulnérabilité provient d'un effet (contrôle de l'esprit...)"
+        },
+        "8": {
+          "value": [57,64],
+          "name": "Vulnérabilité provient d'un point faible de la créature (œil, pièce d'armure manquante...). Dans ce cas, les défenses de la créature y sont plus faibles contre toute attaque pouvant atteindre ce point"
+        },
+        "9": {
+          "value": [65,68],
+          "name": "Vulnérabilité se présente sous la forme d'une substance, un contact physique est nécessaire"
+        },
+        "10": {
+          "value": [69,72],
+          "name": "Vulnérabilité se présente sous la forme d'une substance, la créature n'a qu'à être près d'elle pour en ressentir les effets"
+        },
+        "11": {
+          "value": [73,80],
+          "name": "Vulnérabilité cause des dégâts supplémentaires au lieu d'une défense moindre. Le MJ détermine combien de dégâts"
+        },
+        "12": {
+          "value": [81,88],
+          "name": "Si d'autres pouvoirs, elle perd une partie ou la totalité de ces pouvoirs jusqu'à ce que la source de la vulnérabilité soit supprimée"
+        },
+        "13": {
+          "value": [89,100],
+          "name": "2 LANCERS"
+        }
+      }
+    },
+    "17": {
+      "value": [62,63],
+      "name": "Sens inhabituel",
+      "description": "La créature a un sens qui n'est normalement pas possédé par la plupart des animaux, comme la capacité de ressentir des vibrations dans le sol à de grandes distances ou la capacité d’écholocation d’une chauve-souris. Le sens sera probablement important pour la créature, à l'écoute de son environnement, et sera probablement très sensible. Il est possible que certains des autres sens de la créature, tels que la vue, peut être plus faible. Ce sens peut également donner à la créature des capacités supplémentaires, comme être capable de «voir» dans l'obscurité totale. Cette capacité est très subjective pour la créature et pourrait être à peu près n'importe quoi. Vous devriez lui donner le nouveau sens qui semble le plus logique pour votre bête. Par exemple, si la chose vit du sang, elle peut peut-être sentir la présence d'humains. S'il peut voyager dans l'espace, peut-être il a une capacité naturelle à naviguer dans les étoiles"
+    },
+    "18": {
+      "value": [64,65],
+      "name": "Défense supplémentaire",
+      "description": "La créature a une défense accrue contre une forme particulière d'attaque ou de circonstance. Peut-être elle a une plus grande résistance aux poisons, ou est moins affecté par les pouvoirs psioniques. Lorsqu'on fait le lancer pour la puissance, donnez un bonus de +4 au jet et sa défense finale sera supérieure à sa défense standard. Gardez à l'esprit que cette défense n'est pas nécessairement contre les dommages physiques mais peut être contre quelque chose de plus exotiques (résistance accrue aux effets de la peur). La défense supplémentaire peut être contre une forme d'attaque (contondant, armes en fer...) ou un effet (sorts de sommeil...). Au lieu de réduire les dégâts, ce pouvoir peut aussi permettre à la créature de potentiellement l'éviter complètement. La nature de cette défense supplémentaire peut immédiatement se suggérer. Par exemple, si votre monstre est de type élémentaire de feu, vous pourriez décider qu'il a une résistance accrue aux attaques basées sur le feu",
+      "modifier": 4,
+      "subdescription": {
+        "1": {
+          "value": [1,33],
+          "name": "Défense contre un effet ou une attaque commune (armes métalliques...)"
+        },
+        "2": {
+          "value": [34,67],
+          "name": "Défense contre un effet ou une attaque moins commune, bien que pas rare (plaies par perforation...)"
+        },
+        "3": {
+          "value": [68,100],
+          "name": "Défense contre un effet ou une attaque rare (attaques magiques...)"
+        }
+      },
+      "subdescription2": {
+        "1": {
+          "value": [1,50],
+          "name": "Défense contre une forme d'attaque"
+        },
+        "2": {
+          "value": [51,100],
+          "name": "Défense contre un effet et non contre une attaque dommageable (résistance accrue au contrôle mental...)"
+        }
+      }
+    },
+    "19": {
+      "value": [66,66],
+      "name": "Télépathie",
+      "description": "La créature peut communiquer par télépathie avec toute autre créature qui a un esprit, dans la portée déterminée par le MJ. La télépathie peut être simple, comme être capable de communiquer des idées et des sentiments de base, ou complexe, comme être capable de tenir des conversations ou même de transmettre des images. Le pouvoir de la télépathie peut englober de nombreuses variables, telles que jusqu'où la télépathie peut aller en distance, combien d'esprits il peut contacter à la fois et ce qui peut être transmis",
+      "subdescription": {
+        "1": {
+          "value": [1,9],
+          "name": "Ne peut transmettre que des sentiments"
+        },
+        "2": {
+          "value": [10,18],
+          "name": "Peut transmettre un discours complet"
+        },
+        "3": {
+          "value": [19,27],
+          "name": "Peut transmettre des images et des souvenirs complets"
+        },
+        "4": {
+          "value": [28,36],
+          "name": "Portée proche, à quelques dizaines de mètres"
+        },
+        "5": {
+          "value": [37,45],
+          "name": "Portée à moins de 1,5 km"
+        },
+        "6": {
+          "value": [46,54],
+          "name": "Portée grande, 1,5 km ou plus"
+        },
+        "7": {
+          "value": [55,63],
+          "name": "Ne peut qu'émettre et ne pas recevoir"
+        },
+        "8": {
+          "value": [64,72],
+          "name": "Peut envoyer et recevoir des informations similaires depuis une cible"
+        },
+        "9": {
+          "value": [73,81],
+          "name": "Ne peut contacter qu'un seul esprit à la fois"
+        },
+        "10": {
+          "value": [82,90],
+          "name": "Peut contacter plusieurs esprits à la fois"
+        },
+        "11": {
+          "value": [91,100],
+          "name": "2 LANCERS"
+        }
+      }
+    },
+    "20": {
+      "value": [67,70],
+      "name": "Utilisation limitée",
+      "description": "Une ou toutes les capacités de la créature ont des limites sur la fréquence à laquelle elles peuvent être utilisées. C'est au MJ de dire quelles capacités, et quelles sont les limites, mais les limitations courantes incluent le fait de ne pouvoir utiliser le pouvoir qu'une fois un certain nombre de tours ou de fois par jour. La créature peut également être limitée par la quantité, par exemple être capable d'utiliser une capacité uniquement un certain nombre de fois avant qu'il ne soit à court de «munitions» et qu'il doive en générer ou en acquérir davantage. Cette faiblesse est une bonne opportunité pour le MJ de réduire une créature qui pourrait devenir trop puissante. Si tel est le cas, utilisez-la le cas échéant, pour rétrograder une partie ou la totalité des capacités d’une créature",
+      "subdescription": {
+        "1": {
+          "value": [1,34],
+          "name": "Une seule capacité limitée"
+        },
+        "2": {
+          "value": [35,67],
+          "name": "Certaines capacités de la créature limitées (mais pas toutes si possible)"
+        },
+        "3": {
+          "value": [68,100],
+          "name": "Toutes les capacités spéciales de la créature limitées"
+        }
+      },
+      "subdescription2": {
+        "1": {
+          "value": [1,33],
+          "name": "Capacité limitée à une utilisation tous les n tours (le MJ décide du nombre)"
+        },
+        "2": {
+          "value": [34,67],
+          "name": "Capacité limitée à un certain nombre de fois par jour (Le MJ décide combien)"
+        },
+        "3": {
+          "value": [68,100],
+          "name": "Capacité limitée en n'ayant qu'un nombre fini d'utilisations avant de devoir être rechargée (monstre peut cracher du feu mais seulement trois fois avant de devoir consommer des roches de lave pour se recharger)"
+        }
+      }
+    },
+    "21": {
+      "value": [71,74],
+      "name": "Attaque grave",
+      "description": "La créature possède une attaque spéciale, particulière qui inflige une grande quantité de dégâts. Lorsque qu'on check la puissance (potency) des dégâts, donner au jet un bonus de +4 et l'attaque devrait faire plus de dégâts que n'importe quelle autre capacité ou attaque précédemment générée pour cette créature. La nature de l'attaque dépend du MJ, mais elle devrait être quelque chose de particulier à cette créature, comme le souffle ardent d'un dragon ou le contact glaçant d'un fantôme",
+      "modifier": 4
+    },
+    "22": {
+      "value": [75,75],
+      "name": "Invocation",
+      "description": "La créature peut invoquer d'autres créatures pour l'aider. L'invocation peut en appeler d'autres de son genre, ou d'un autre type de créature(s). Le MJ doit déterminer si les créatures invoquées restent indéfiniment ou si elles ont une durée limitée. Un exemple de cette capacité est le pouvoir d’un vampire d’invoquer des loups. Ce pouvoir peut prendre de nombreuses variétés, bien que le dénominateur commun soit que la créature puisse invoquer d'autres créatures pour l'aider",
+      "subdescription": {
+        "1": {
+          "value": [1,7],
+          "name": "Peut invoquer d'autres créatures qui sont inférieures à elle"
+        },
+        "2": {
+          "value": [8,14],
+          "name": "Peut invoquer d'autres créatures qui ont à peu près le même niveau de puissance qu'elle"
+        },
+        "3": {
+          "value": [15,21],
+          "name": "Peut invoquer d'autres créatures qui sont supérieures à elle"
+        },
+        "4": {
+          "value": [22,28],
+          "name": "Ne peut invoquer qu'une seule créature"
+        },
+        "5": {
+          "value": [29,35],
+          "name": "Peut invoquer plusieurs créatures à la fois"
+        },
+        "6": {
+          "value": [36,42],
+          "name": "Ne peut utiliser ce pouvoir qu'un nombre limité de fois (un certain nombre de fois par jour...)"
+        },
+        "7": {
+          "value": [43,49],
+          "name": "Contrôle total sur les créatures qu'elle invoque"
+        },
+        "8": {
+          "value": [50,56],
+          "name": "Aucun contrôle sur les créatures qu'elle invoque"
+        },
+        "9": {
+          "value": [57,63],
+          "name": "Une fois invoquées, les créatures restent en vigueur pendant une durée limitée"
+        },
+        "10": {
+          "value": [64,70],
+          "name": "Une fois invoquées, les créatures resteront aussi longtemps que nécessaire"
+        },
+        "11": {
+          "value": [71,77],
+          "name": "Si la créature a d'autres capacités, elle peut utiliser ses capacités via les créatures invoquées (résistance quelconque...)"
+        },
+        "12": {
+          "value": [78,85],
+          "name": "Peut sentir ce que les créatures invoquées ressentent (c'est-à-dire qu'elle peut voir à travers leurs yeux...)"
+        },
+        "13": {
+          "value": [86,92],
+          "name": "En communication télépathique avec ses créatures invoquées"
+        },
+        "14": {
+          "value": [93,100],
+          "name": "2 LANCERS"
+        }
+      }
+    },
+    "23": {
+      "value": [76,77],
+      "name": "Immunité",
+      "description": "La créature est immunisée contre un type particulier de dommage, comme le feu ou le froid, ou contre un effet, tel que dormir ou étourdir. Toutes les attaques de cette nature qui frappent n'ont aucun effet. Cette capacité est une version améliorée de la Défense Supplémentaire, sauf qu'au lieu de donner à la créature une chance supplémentaire d'éviter les dommages, le monstre est complètement invulnérable à une certaine attaque ou effet. C'est au MJ de déterminer pourquoi la créature a cette immunité, mais cela devrait être quelque chose de très spécifique et conforme à la nature de la créature. Par exemple, un blob amorphe peut être invulnérable aux attaques contondantes, ou un golem de pierre pourrait être indemne contre les dégâts de feu. Recherchez d'abord les immunités qui viennent naturellement à la créature",
+      "subdescription": {
+        "1": {
+          "value": [1,50],
+          "name": "Contre une forme d'attaque"
+        },
+        "2": {
+          "value": [51,100],
+          "name": "Contre un effet (immunisée contre tout effet qui la force à dormir ...)"
+        }
+      },
+      "subdescription2": {
+        "1": {
+          "value": [1,33],
+          "name": "Contre un effet ou une attaque commune (assauts contondants, armes non magiques...)"
+        },
+        "2": {
+          "value": [34,67],
+          "name": "Contre un effet ou une attaque moins commun, mais pas rare (poison, flèches...)"
+        },
+        "3": {
+          "value": [68,100],
+          "name": "Contre un effet ou une attaque rare (effets néfastes du vide de l'espace u d'une épée magique spécifique...)"
+        }
+      }
+    },
+    "24": {
+      "value": [78,78],
+      "name": "Creusement",
+      "description": "Cette créature peut traverser la terre solide aussi vite et naturellement qu'elle peut se déplacer avec sa forme native de voyage (vitesse au sol, vitesse de nage... ).\nPour une détermination aléatoire de la vitesse de tunnel, modifiez la vitesse de déplacement normale de la créature avec un jet sur la table de puissance"
+    },
+    "25": {
+      "value": [79,79],
+      "name": "Attaque ciblée",
+      "description": "La créature a une forme d'attaque qui n'affecte qu'un certain type de cible (la créature a un toucher divin qui brûle les morts-vivants ou un cri sonore qui ne fait que blesser les hommes...). Si d'autres capacités ou attaques ont déjà été générées, cela peut y être appliqué. Sinon, en jetant un dé sur la table de puissance, donnez aux dégâts de cette attaque un bonus de +2. Le MJ peut aussi déterminer que l'attaque n'est pas dommageable mais qu'elle provoque un effet spécial (sommeil, charme...).\nPour déterminer la cible de cette capacité, déterminez si la créature a un ennemi naturel ou une cible qui correspond à son profil (si la créature est un fantôme cherchant à se venger, elle a peut-être une attaque spéciale qui n'affecte que les personnes coupables d'un crime odieux). De plus, l'attaque doit être spéciale, elle inflige plus de dégâts que ses autres capacités, fait autre chose que des dommages, ou est livré d'une manière unique (une chanson spéciale qui endort les gens...)",
+      "modifier": 2,
+      "subdescription": {
+        "1": {
+          "value": [1,16],
+          "name": "Affecte une cible commune (par exemple, un être humain)"
+        },
+        "2": {
+          "value": [17,32],
+          "name": "Affecte une cible moins commune (uniquement les chats)"
+        },
+        "3": {
+          "value": [33,48],
+          "name": "Affecte une cible rare (les dragons par exemple)"
+        },
+        "4": {
+          "value": [49,64],
+          "name": "Inflige des dégâts physiques à la cible"
+        },
+        "5": {
+          "value": [65,80],
+          "name": "Fait autre chose que des dégâts (étourdir la cible...)"
+        },
+        "6": {
+          "value": [81,100],
+          "name": "2 LANCERS"
+        }
+      }
+    },
+    "26": {
+      "value": [80,82],
+      "name": "Méta-Puissance",
+      "description": "Cette créature a une capacité qui peut englober de nombreux pouvoirs (lancer de sorts, capacité psychique...). Cette capacité est caractérisée par trois facteurs : 1) La créature peut utiliser ces pouvoirs à volonté, 2) Le méta-pouvoir englobera une liste finie de capacités (X nombre de sorts), 3) Il y a probablement une limitation sur la fréquence à laquelle elle peut utiliser son méta-pouvoir (lancer un sort un certain nombre de fois par jour, ses pouvoirs psychiques drainent une alimentation interne...). Si ces pouvoirs existent déjà dans votre campagne, vous pouvez utiliser les règles déjà énoncées, sinon vous devez définir le pouvoir plus en détail. Si votre campagne n'a pas de méta-pouvoirs établis d'aucune sorte, lancez un autre dé sur le tableau des capacités et considérez que c'est la capacité de méta-pouvoir de la créature.. Ensuite, décidez à quelle fréquence la créature peut utiliser ce pouvoir",
+      "subdescription": {
+        "1": {
+          "value": [1,12],
+          "name": "Ne possède qu'un seul pouvoir (c'est-à-dire un seul sort qu'elle peut lancer ou une seule capacité psychique...)"
+        },
+        "2": {
+          "value": [13,24],
+          "name": "Possède quelques pouvoirs au sein du méta-pouvoir, le nombre est décidé par le MJ"
+        },
+        "3": {
+          "value": [25,36],
+          "name": "A une gamme complète de capacités dans le méta-pouvoir"
+        },
+        "4": {
+          "value": [37,48],
+          "name": "Possède ces pouvoirs de façon innée, les utilisant naturellement plutôt qu'en s'entraînant"
+        },
+        "5": {
+          "value": [49,60],
+          "name": "Peut utiliser chaque pouvoir au sein de son méta un nombre très limité de fois comme décidé par le MJ"
+        },
+        "6": {
+          "value": [61,72],
+          "name": "Peut utiliser les pouvoirs de son méta-pouvoir aussi souvent que les autres avec le même méta-pouvoir"
+        },
+        "7": {
+          "value": [73,84],
+          "name": "Peut utiliser ses méta-pouvoirs aussi souvent qu'elle le souhaite, sans restriction"
+        },
+        "8": {
+          "value": [85,100],
+          "name": "2 LANCERS"
+        }
+      },
+      "subdescription2": {
+        "1": {
+          "value": [1,12],
+          "name": "Pouvoir de protection (écran télékinésique...)"
+        },
+        "2": {
+          "value": [13,24],
+          "name": "Pouvoir de convocation qui peut créer quelque chose à partir des airs (invoquer des créatures, faire apparaître un objet...)"
+        },
+        "3": {
+          "value": [25,36],
+          "name": "Pouvoir de guérison, que ce soit sur soi-même ou sur les autres (soigner les dommages, ressusciter les morts...)"
+        },
+        "4": {
+          "value": [37,49],
+          "name": "Pouvoir d'information (voir les choses au loin, détecter un mensonge)"
+        },
+        "5": {
+          "value": [50,62],
+          "name": "Pouvoir d'altération de l'esprit (contrôle de l'esprit, charme, faire oublier les gens...)"
+        },
+        "6": {
+          "value": [63,75],
+          "name": "Pouvoir de dégâts (tels que des boules de feu ou des attaques psychiques)"
+        },
+        "7": {
+          "value": [76,87],
+          "name": "Pouvoir d'illusion (faire quelque chose qui semble réel quand ce n'est pas le cas, comme des hallucinations, des déguisements...)"
+        },
+        "8": {
+          "value": [88,100],
+          "name": "Pouvoir d'altération (comme transformer quelqu'un en crapaud, transformer du métal en verre, faire grandir quelqu'un de 0,50 m de plus...)"
+        }
+      }
+    },
+    "27": {
+      "value": [83,86],
+      "name": "Attaque à distance",
+      "description": "La créature a une attaque qui s'étend au-delà d'elle-même, peut-être sous la forme d'un projectile, dans un faisceau, un cône, un nuage ou tout autre moyen. Il peut provenir de ses yeux, de sa bouche ou de n'importe où de son corps, ou même être une arme banale comme un arc ou un pistolet. La nature et la portée de l'attaque sont choisies par le MJ, ce qui semble le plus approprié à la créature. Les checks de puissance sont à +2 pour les dégâts et l'efficacité",
+      "modifier": 2
+    },
+    "28": {
+      "value": [87,88],
+      "name": "Autre forme de voyage",
+      "description": "Outre le mode de déplacement le plus évident de la créature (course, natation, vol...), la créature a un autre mode de voyage. Cela peut simplement signifier qu'il peut voler en plus de courir, ou quelque chose de plus exotique, comme la capacité de se téléporter ou de voyager entre les dimensions. La nature exacte de cette capacité dépend du MJ, même si elle devrait être approprié à la créature"
+    },
+    "29": {
+      "value": [89,90],
+      "name": "Effrayant",
+      "description": "La présence même de cette créature est troublante, provoquant la peur des créatures affectées. Il appartient au MJ de savoir comment fonctionne cette capacité, mais les cibles les plus probables à avoir peur devraient avoir la possibilité de résister à ses effets. Un échec devrait signifier que la cible affectée subit des pénalités d'action d'une sorte jusqu'à quelque chose de plus extrême, comme la panique aveugle et la fuite. Le MJ doit déterminer à quel point l'effet de cette capacité est extrême en fonction de la puissance de la créature. Une version plus puissante de cette capacité est de donner à l'effet effrayant un élément surnaturel, où le pouvoir s'étend au-delà de la créature, que le monstre puisse être vu ou non. La distance est à la guise du MJ, de quelques mètres à peut-être des kilomètres pour une entité très puissante"
+    },
+    "30": {
+      "value": [91,91],
+      "name": "Drain de force vitale",
+      "description": "Une attaque réussie sape la force vitale de la cible et la donne à la créature attaquante, augmentant sa santé. Cela peut être considéré comme une toute nouvelle forme d'attaque, auquel cas le tableau de puissance peut être consulté pour déterminer combien de dégâts seront faits, ou le MJ peut attacher cette capacité à une attaque déjà établie. La cible doit avoir une chance de résister à ses effets. Si la cible échoue, elle subit des dégâts comme habituellement, mais la créature attaquante gagne également une partie de cette santé. Le MJ peut décider que la créature ne peut utiliser ce pouvoir que pour soigner les blessures qu'elle a subies, ou permettre à la créature de stocker des points de vie supplémentaires"
+    },
+    "31": {
+      "value": [92,93],
+      "name": "Guérison rapide",
+      "description": "La créature guérit à un rythme accéléré. Cela se présente généralement sous l'une des deux formes suivantes : guérison normale accélérée ou régénération. Si la guérison est accélérée, alors la créature ne guérit pas instantanément après une blessure, elle prend juste beaucoup moins de temps que la normale pour guérir. Avec la régénération, la créature guérit à une vitesse incroyable, en quelques minutes ou secondes au lieu de quelques jours. Cette capacité peut également donner le pouvoir de faire repousser les membres ou même de revenir d'entre les morts. La version de qualité inférieure signifie que la créature guérit plus rapidement, par exemple 5 fois plus vite, que la normale. La version de régénération signifie que la créature pourrait soigner une certaine quantité de dégâts à chaque tour. Le MJ peut décider si la capacité de la créature cesse de fonctionner après sa mort, ou si une fois qu'elle est morte, elle peut encore se régénérer et revenir à la vie"
+    },
+    "32": {
+      "value": [94,94],
+      "name": "Dégâts d'attribut",
+      "description": "La créature a une attaque qui n'inflige pas de blessures standard, mais attaque à la place l'un des attributs de base du personnage, tels que la force ou l'agilité, et l'affaiblit. Le MJ peut décider si ce pouvoir s'applique à une forme d'attaque déjà existante, ou si cela constitue une nouvelle attaque. Le fonctionnement de cette capacité dépendra en grande partie du système de jeu que vous utilisez, mais les effets de l'attaque affaiblissent le personnage plutôt que de causer des dommages physiques. Le MJ doit choisir quel attribut est affecté, soit en choisissant le plus sensé ou soit par un jet aléatoire. Les effets doivent être temporaires et soigner comme le font les dégâts normaux. Exemples de cette capacité inclut un reptile dont la morsure venimeuse rend la victime plus faible jusqu'à une créature extraterrestre dont les attaques mentales drainent l'intelligence d'une cible"
+    },
+    "33": {
+      "value": [95,95],
+      "name": "Double classification",
+      "description": "La créature est une combinaison de classifications. Lancer à nouveau le dé sur le tableau de classification et appliquer toutes nouvelles capacités de base à la créature. De plus, à partir de maintenant, lorsque vous lancez un dé pour la puissance, utilisez le bonus le plus élevé donné pour chaque catégorie (par exemple, une plante amorphe obtiendrait un +4 à la santé, et non un +2). La créature tire toujours le meilleur parti des deux classifications, y compris les meilleures modifications de la table de puissance et les meilleures capacités de base, quand elles sont en conflit les unes avec les autres. Si vous avez déjà déterminé l'apparence de votre créature, ne la changez pas à moins que vous le vouliez. Cependant, si sa description n'est pas encore gravée dans le marbre, lancez le dé sur le nouveau tableau de description de la classification supplémentaire et ajoutez ce descripteur à la créature"
+    },
+    "34": {
+      "value": [96,96],
+      "name": "Périmètre défensif",
+      "description": "La créature crée un rayon protecteur autour d'elle-même qui améliore la défense de ceux qui se trouvent à l'intérieur de ce périmètre. L'aura peut se limiter à certains types d'attaques (comme le feu) ou pourrait offrir une protection contre tout dommage. Cela peut être n'importe quoi, d'une force magique et invisible jusqu'à un champ visible qui forme une barrière physique. Le MJ devra déterminer la nature du périmètre et sa portée. Cela ne doit pas nécessairement être une puissance surnaturelle (une créature aquatique peut avoir la capacité d'une pieuvre à créer un nuage d'encre pour s'obscurcir, qui donne aux attaquants un modificateur négatif au lieu d'offrir une protection directe). Le MJ peut décider si cette capacité donne aux attaquants un modificateur négatif pour toucher, améliore la défense de ceux qu'elle protège ou crée une toute nouvelle défense remplaçant les leurs. Toutes les valeurs nécessaires peuvent être modifiées avec un jet sur la table de puissance"
+    },
+    "35": {
+      "value": [97,97],
+      "name": "Incorporel",
+      "description": "Cette créature n'a pas de forme physique ou elle peut rendre sa forme physique incorporelle. Les dégâts physiques normaux ne la toucheront pas, bien que des dégâts magiques et incorporels puissent la toucher. La créature peut passer à travers la matière solide. Le MJ devra déterminer si ce pouvoir est toujours activé (comme un fantôme) ou si c'est une capacité qu'il peut activer et désactiver. Le MJ devra déterminer ce qui peut encore affecter la créature lorsqu'elle est incorporelle, bien que tout pouvoir qui affecte le non-physique (la magie qui attaque l'esprit, par exemple) devrait l'affecter normalement. Notez que, lorsqu'elle est incorporelle, rien de physique ne peut toucher la créature, mais cela devrait également fonctionner dans les deux sens (la créature ne peut pas toucher physiquement les autres). Cela peut limiter ses attaques à des capacités spéciales uniquement, ou être une limitation de la créature la forçant à devenir corporelle pour attaquer"
+    },
+    "36": {
+      "value": [98,98],
+      "name": "Animer",
+      "description": "La créature peut animer un objet normalement inanimé et le faire obéir à sa volonté. Par exemple, une créature végétale pourrait être capable de faire bouger et agir les arbres voisins, ou une créature électrique pourrait prendre le contrôle d'appareils mécaniques. La nature de ce que la créature peut animer sera probablement liée à la créature elle-même. Le MJ devra peut-être déterminer les statistiques des objets nouvellement animés (par exemple, combien de dégâts ils peuvent subir et combien de dégâts ils infligent), auquel cas il peut utiliser le tableau de puissance pour modifier les valeurs de base. Le MJ devra déterminer la quantité de matériels que la créature peut animer (depuis un seul objet jusqu'à tout ce qui se trouve à sa portée), le genre de choses qu'elle peut animer, le contrôle de l'animateur sur ses sujets et la durée de l'effet",
+      "subdescription": {
+        "1": {
+          "value": [1,10],
+          "name": "Ne peut animer qu'un seul objet à la fois"
+        },
+        "2": {
+          "value": [11,20],
+          "name": "Affecte une cible moins commune (uniquement les chats)"
+        },
+        "3": {
+          "value": [21,30],
+          "name": "Doit d'abord toucher l'objet pour l'animer"
+        },
+        "4": {
+          "value": [31,40],
+          "name": "Peut animer plusieurs objets dans une large portée (déterminée par le MJ)"
+        },
+        "5": {
+          "value": [41,50],
+          "name": "Peut contrôler les objets tant qu'elle se concentre, mais les objets reviennent à la normale lorsque la créature est partie ou ne se concentre plus"
+        },
+        "6": {
+          "value": [51,60],
+          "name": "Les objets animés continueront à fonctionner pendant un certain temps (déterminé par le MJ) même après le départ de l'animateur (bénéficient d'un certain degré d'autonomie pour contrôler leurs propres actions)"
+        },
+        "7": {
+          "value": [61,70],
+          "name": "Peut animer une substance très courante (eau, air...)"
+        },
+        "8": {
+          "value": [71,80],
+          "name": "Peut animer une substance moins commune (avions, vignes...)"
+        },
+        "9": {
+          "value": [81,90],
+          "name": "Peut animer quelque chose de rare (lave, voiture particulière...)"
+        },
+        "10": {
+          "value": [91,100],
+          "name": "2 LANCERS"
+        }
+      }
+    },
+    "37": {
+      "value": [99,99],
+      "name": "Multi-environnement",
+      "description": "La créature a la capacité de survivre dans un environnement alternatif différent de son environnement commun, comme sous l'eau ou dans le vide de l'espace. La créature peut survivre et se déplacer naturellement dans les deux environnements. Le MJ peut décider si un environnement est principal ou si la créature est également à l'aise dans les deux. Comme limitation, le MJ peut choisir que la créature ne puisse survivre que temporairement dans l'environnement alternatif"
+    },
+    "38": {
+      "value": [100,100],
+      "name": "Transformation",
+      "description": "La créature provoque une transformation physique à moins que la victime ne puisse résister. Le MJ détermine ce en quoi la victime se transforme. Le MJ doit décider si la transformation est d'une durée limitée ou permanente, et comment c'est transmis à la cible. Les exemples incluent un zombie dont les meurtres transforment les victimes en zombies, ou une spore extraterrestre qui transforme lentement la victime en un tas de glu. Puisque cette capacité peut être tellement de choses différentes, le MJ devra évaluer son efficacité par rapport à la puissance globale de la créature. La victime devrait avoir une chance de résister aux effets. Les transformations peuvent être lentes et graduelles, comme les exemples ci-dessus, ou rapide et soudaine, comme une méduse transformant les hommes en pierre. Si la transformation est lente, le MJ peut permettre aux personnages infectés de découvrir un remède"
+    }
+  }
+}

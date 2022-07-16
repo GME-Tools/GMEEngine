@@ -1,0 +1,615 @@
+{
+  "wildernessEncountersNumbers": {
+    "1": {
+      "populationDensity": "faible",
+      "day": 2,
+      "night": 1
+    },
+    "2": {
+      "populationDensity": "moyenne",
+      "day": 4,
+      "night": 2
+    },
+    "3": {
+      "populationDensity": "élevée",
+      "day": 6,
+      "night": 3
+    }
+  },
+  "wildernessEncounters": {
+    "1": {
+      "value": [1,4],
+      "name": "Petit donjon ou crypte trouvé. But et histoire inconnus"
+    },
+    "2": {
+      "value": [5,5],
+      "name": "Camp tout prêt trouvé, ou grotte confortable, qui pourrait potentiellement être utilisée comme abri pour la nuit, ou comme base pour l'exploration"
+    },
+    "3": {
+      "value": [6,6],
+      "name": "Une petite crique, babillant agréablement. Ou une grande fissure, bouillonnant âprement"
+    },
+    "4": {
+      "value": [7,7],
+      "name": "Une tempête à l'horizon, des éclairs dansant sous des nuages gris foncé"
+    },
+    "5": {
+      "value": [8,8],
+      "name": "Un gouffre s'est ouvert à proximité"
+    },
+    "6": {
+      "value": [9,9],
+      "name": "Ville abandonnée et vide"
+    },
+    "7": {
+      "value": [10,15],
+      "name": "PNJ rencontré, qui donne au Joueur des informations sur une quête possible"
+    },
+    "8": {
+      "value": [16,16],
+      "name": "Site de camp abandonné trouvé. Utilisez les jets de dés de questions/réponses pour en savoir plus"
+    },
+    "9": {
+      "value": [17,17],
+      "name": "Un arbre avec ce qui ressemble à des marques de druide"
+    },
+    "10": {
+      "value": [18,18],
+      "name": "Vous trouvez des survivants d'une sorte d'attaque, et ils ont une histoire à raconter ..."
+    },
+    "11": {
+      "value": [19,19],
+      "name": "Tumulus pillé"
+    },
+    "12": {
+      "value": [20,20],
+      "name": "Sur la route, un objet tombé. Un sac à dos, une bourse avec un contenu intéressant / un chapeau avec une note à l'intérieur / une bague gravée … Ça pourrait être n'importe quoi. Utilisez le jet de dés de questions/réponses pour découvrir les détails"
+    },
+    "13": {
+      "value": [21,21],
+      "name": "Voyageur intéressant. Ce personnage a visiblement vu des choses ..."
+    },
+    "14": {
+      "value": [22,22],
+      "name": "Cimetière. Certaines des tombes ont été pillées et la plupart des pierres tombales sont si anciennes que les noms se sont estompés"
+    },
+    "15": {
+      "value": [23,23],
+      "name": "Prisonnier(s) escortés dans une charrette lourdement blindée"
+    },
+    "16": {
+      "value": [24,24],
+      "name": "Caractéristique géologique intéressante. Utilisez les questions/réponses pour savoir ce que c'est"
+    },
+    "17": {
+      "value": [25,25],
+      "name": "Vous trouvez un sac à dos jeté avec un contenu intrigant"
+    },
+    "18": {
+      "value": [26,26],
+      "name": "Un bruit étrange vient d'une certaine distance vers l'avant"
+    },
+    "19": {
+      "value": [27,27],
+      "name": "Des lumières étranges dans les collines voisines attirent votre attention"
+    },
+    "20": {
+      "value": [28,28],
+      "name": "Vous tombez sur un verger, rempli de fruits mûrs et délicieux. Le propriétaire n'est nulle part en vue"
+    },
+    "21": {
+      "value": [29,29],
+      "name": "Des chasseurs de primes, à la recherche d'un fugitif. 'Tu as vu quelqu'un ?' (Pour qui ils travaillent n'est pas clair)"
+    },
+    "22": {
+      "value": [30,30],
+      "name": "Changement soudain et brutal du temps"
+    },
+    "23": {
+      "value": [31,31],
+      "name": "Mine abandonnée, naine ou autre"
+    },
+    "24": {
+      "value": [32,32],
+      "name": "Vous entendez des hurlements au loin. Ce pourrait être des loups, mais le son est étrange d'une certaine manière"
+    },
+    "25": {
+      "value": [33,33],
+      "name": "Débris d'une grande bataille récente. Qui a combattu ici et qui a gagné ? À quel point était-ce récent ?"
+    },
+    "26": {
+      "value": [34,34],
+      "name": "Cadavre humanoïde"
+    },
+    "27": {
+      "value": [35,35],
+      "name": "Un oiseau (ou une autre créature) commence à vous parler, en Commun couramment !  Et ce ne sont pas seulement des perroquets stupides ..."
+    },
+    "28": {
+      "value": [36,36],
+      "name": "Un personnage royal/noble et leur entourage passent dans un somptueux fiacre"
+    },
+    "29": {
+      "value": [37,37],
+      "name": "Une volée d'oiseaux (vautours ? corbeaux ?) tourne autour d'un point quelque part au-dessus"
+    },
+    "30": {
+      "value": [38,38],
+      "name": "Vous trouvez un vieux monument en ruine. Est-ce à un dieu, à une figure locale célèbre ou à autre chose ?"
+    },
+    "31": {
+      "value": [39,39],
+      "name": "Un voyageur avec des informations/un avertissement sur une situation dans la prochaine colonie"
+    },
+    "32": {
+      "value": [40,40],
+      "name": "Colonie non marquée : ville/village/hameau"
+    },
+    "33": {
+      "value": [41,41],
+      "name": "Vous atteignez un pont sur une petite rivière. Le pont est emporté. Les voyageurs attendent ici, ne sachant pas quoi faire"
+    },
+    "34": {
+      "value": [42,42],
+      "name": "Vous trouvez une bête blessée"
+    },
+    "35": {
+      "value": [43,43],
+      "name": "Un agriculteur vous invite dans sa maison pour un repas, et peut-être aussi pour une partie de sa bière/hydromel maison"
+    },
+    "36": {
+      "value": [44,44],
+      "name": "Chariot renversé/en panne"
+    },
+    "37": {
+      "value": [45,50],
+      "name": "Embuscade de monstre. Rencontre facile adaptée au niveau"
+    },
+    "38": {
+      "value": [51,51],
+      "name": "Un animal erre sur votre chemin. Il vous regarde mais ne semble pas particulièrement gêné par votre présence"
+    },
+    "39": {
+      "value": [52,52],
+      "name": "Créature piégée"
+    },
+    "40": {
+      "value": [53,55],
+      "name": "Une structure abandonnée/en ruine quelconque, qui peut ou non avoir une composante souterraine"
+    },
+    "41": {
+      "value": [56,56],
+      "name": "Un vieil ermite. Que babille-t-il ?"
+    },
+    "42": {
+      "value": [57,57],
+      "name": "Un jeton/signe effrayant et troublant"
+    },
+    "43": {
+      "value": [58,58],
+      "name": "Marchand ambulant"
+    },
+    "44": {
+      "value": [59,59],
+      "name": "Un aventurier itinérant qui est impressionné et veut se joindre à votre groupe"
+    },
+    "45": {
+      "value": [60,65],
+      "name": "Rencontre de monstres : rencontre moyenne adaptée au niveau"
+    },
+    "46": {
+      "value": [66,66],
+      "name": "Une voyageuse, se reposant au bord de la route, commence à vous montrer du doigt et à vous rire à tue-tête. Est-elle folle ?"
+    },
+    "47": {
+      "value": [67,67],
+      "name": "Titres de transport bien gardés"
+    },
+    "48": {
+      "value": [68,68],
+      "name": "Sage/archiviste itinérant"
+    },
+    "49": {
+      "value": [69,69],
+      "name": "Les bandits (humains ou autres) vous demandent un péage"
+    },
+    "50": {
+      "value": [70,75],
+      "name": "Monstre : Niveau de rencontre difficile approprié"
+    },
+    "51": {
+      "value": [76,76],
+      "name": "Une famille affamée mendiant de la nourriture ou de l'or"
+    },
+    "52": {
+      "value": [77,77],
+      "name": "Une tribu qui possède la terre vous demande un tribut pour le passage (et en retour vous escortera à travers – que cela vous plaise ou non)"
+    },
+    "53": {
+      "value": [78,78],
+      "name": "Une troupe itinérante d'artistes"
+    },
+    "54": {
+      "value": [79,79],
+      "name": "Un marchand ambulant, mais ses marchandises ne sont pas ordinaires. En effet, une grande partie est illégale d'une manière ou d'une autre. Est-il un contrebandier ? Un trafiquant de drogue ? Un voleur ?"
+    },
+    "55": {
+      "value": [80,80],
+      "name": "Chasseurs/voyageurs/aventuriers. En train de camper et se relaxer"
+    },
+    "56": {
+      "value": [81,81],
+      "name": "Vous voyez une colline rocheuse basse, où les visages ont été sculptés dans les rochers, ainsi que les formes de diverses bêtes. C'est astucieusement fait, et semble raconter une sorte d'histoire"
+    },
+    "57": {
+      "value": [82,82],
+      "name": "Vous voyez une piste qui s'éloigne de la route et pénètre dans la forêt/les collines. Qui sait où ça mène ..."
+    },
+    "58": {
+      "value": [83,83],
+      "name": "Des bandits t'assaillent et exigent tout ton argent"
+    },
+    "59": {
+      "value": [84,84],
+      "name": "Sur un tronçon de route isolé, vous voyez une cabane isolée, mais vous ne pouvez pas dire si elle est habitée ou non"
+    },
+    "60": {
+      "value": [85,85],
+      "name": "Un champ de bataille oublié depuis longtemps. Combien sont morts ici ?"
+    },
+    "61": {
+      "value": [86,86],
+      "name": "Une tour, visible de la route à une certaine distance"
+    },
+    "62": {
+      "value": [87,87],
+      "name": "Patrouille depuis la colonie la plus proche"
+    },
+    "63": {
+      "value": [88,88],
+      "name": "Colonie non marquée"
+    },
+    "64": {
+      "value": [89,89],
+      "name": "La route disparaît et l'endroit ne ressemble en rien à la carte"
+    },
+    "65": {
+      "value": [90,94],
+      "name": "Le PNJ apparaît avec la quête"
+    },
+    "66": {
+      "value": [95,100],
+      "name": "Monstre! Rencontre adaptée au niveau"
+    }
+  },
+  "urbanEncountersNumbers": {
+    "1": {
+      "settlement": "campement",
+      "day": 2,
+      "night": 1
+    },
+    "2": {
+      "settlement": "hameau",
+      "day": 2,
+      "night": 1
+    },
+    "3": {
+      "settlement": "village",
+      "day": 4,
+      "night": 2
+    },
+    "4": {
+      "settlement": "commune",
+      "day": 6,
+      "night": 3
+    },
+    "5": {
+      "settlement": "ville",
+      "day": 8,
+      "night": 4
+    },
+    "6": {
+      "settlement": "métropole",
+      "day": 10,
+      "night": 5
+    }
+  },
+  "urbanEncounters": {
+    "1": {
+      "value": [1,1],
+      "name": "Vous êtes témoin d'un crime et vous avez une chance d'arrêter le criminel. Si vous le faites, vous gagnez la faveur de la garde locale. Si vous essayez mais échouez, le garde vous donne l'occasion de l'aider à traquer le criminel. Si vous ne faites rien, vous devez convaincre le garde que vous n'êtes pas complice"
+    },
+    "2": {
+      "value": [2,2],
+      "name": "Une ruée de cochons"
+    },
+    "3": {
+      "value": [3,3],
+      "name": "Un cri retentit dans la ville. 'Une armée se masse devant les portes !' Sont-ils humains, orcs, flagelleurs mentaux ? Vous feriez mieux d'aller le découvrir, ou de fuir tout de suite !"
+    },
+    "4": {
+      "value": [4,4],
+      "name": "Un mystérieux mendiant à capuchon plonge ostensiblement dans une ruelle alors qu'ils passent - ils semblaient avoir une défiguration. Peut-être qu'ils essayaient juste de se cacher des gens"
+    },
+    "5": {
+      "value": [5,5],
+      "name": "Une visite guidée se déroule alors que le guide laisse tomber un extrait particulièrement savoureux de connaissances locales dont vous n'étiez pas au courant"
+    },
+    "6": {
+      "value": [6,6],
+      "name": "Une silhouette ombragée fait signe depuis une ruelle. Ils ont des objets merveilleux à vendre, disent-ils"
+    },
+    "7": {
+      "value": [7,7],
+      "name": "Deux vieilles dames, des sorcières en quelque sorte par leur apparence, vous supplient de leur enlever une créature des mains. 'Il ne se tait jamais !' elles vous disent. 'S'il vous plaît, nous allons vous payer !  Nous voulons juste nous débarrasser de cette maudite chose  !' La créature est l'âme piégée d'un ancien aventurier..."
+    },
+    "8": {
+      "value": [8,8],
+      "name": "Deux hommes se disputent à propos de quelque chose. L'un d'eux se tourne vers un Joueur et dit : 'Vous avez l'air d'un homme raisonnable. Qu'en pensez-vous ?' Cela pourrait être littéralement n'importe quoi et pourrait entraîner un combat, un travail ou simplement plus de disputes"
+    },
+    "9": {
+      "value": [9,9],
+      "name": "Un tableau de quêtes avec des récompenses pour les actions accomplies. Quelqu'un a des rats dans sa cave, un citadin disparu dans les bois à proximité, des choses simples (ou complexes !) qui vous donnent de petites choses à faire qui vous permettent d'explorer la ville, de nouer des contacts et de gagner de l'or/des objets intéressants"
+    },
+    "10": {
+      "value": [10,10],
+      "name": "Un artiste de cartes requin/escroc se promène dans la rue, une grande foule se rassemble"
+    },
+    "11": {
+      "value": [11,11],
+      "name": "Deux voyous locaux sont en train de pointer fortement leurs armes vers un marchand pour de l'or. Vous pouvez aider le marchand, mais cela agace le gang local. Variante : le marchand est un voleur et les voyous tentent de récupérer l'argent volé"
+    },
+    "12": {
+      "value": [12,12],
+      "name": "Vous remarquez un groupe de villageois qui tentent d'éteindre un incendie dans une maison voisine. On dirait que cela pourrait facilement se propager aux maisons voisines, affectant éventuellement toute la ville"
+    },
+    "13": {
+      "value": [13,13],
+      "name": "Un colporteur tente de vous vendre un bijou ou un objet magique mineur"
+    },
+    "14": {
+      "value": [14,14],
+      "name": "Un rat géant sort d'un égout et se bat avec un chien"
+    },
+    "15": {
+      "value": [15,15],
+      "name": "Un tremblement de terre mineur secoue les choses et dans la panique qui s'ensuit, les pillards en profitent. Est-ce que vous les rejoignez ou les arrêtez ?"
+    },
+    "16": {
+      "value": [16,16],
+      "name": "Un marchand demandant de l'aide pour arrêter les enfants locaux avec des frondes"
+    },
+    "17": {
+      "value": [17,17],
+      "name": "Un jeune polisson est dans une allée, acculé par des voyous ou des chiens errants"
+    },
+    "18": {
+      "value": [18,18],
+      "name": "La rue organise une fête de quartier demain et a besoin d'aide pour s'installer"
+    },
+    "19": {
+      "value": [19,19],
+      "name": "Quelqu'un est condamné à mort : Vous tombez sur la scène de la pendaison/décapitation avant qu'elle ne se termine, que faites-vous ?"
+    },
+    "20": {
+      "value": [20,25],
+      "name": "Monstre : Niveau de rencontre facile approprié "
+    },
+    "21": {
+      "value": [26,26],
+      "name": "Un escroc vend des bijoux et des composants rares dont vous pourriez avoir besoin"
+    },
+    "22": {
+      "value": [27,27],
+      "name": "Un pot de chambre est vidé par le haut"
+    },
+    "23": {
+      "value": [28,28],
+      "name": "Un morceau de papier est pressé dans votre main par un jeune homme, qui vous regarde désespérément avant de se retourner et de s'enfuir. Vous retournez la note et la lisez. « Aidez-moi s'il vous plaît, il vient pour nous tous ! »"
+    },
+    "24": {
+      "value": [29,29],
+      "name": "Un membre de la garde locale vous demande quel est votre commerce en ville"
+    },
+    "25": {
+      "value": [30,30],
+      "name": "« Arrête, voleur ! » Vous sentez que vos bras sont saisis. La garde locale vous appréhende, vous accusant d'avoir volé des bijoux appartenant à un noble/royal. En fouillant vos vêtements, et/ou votre sac, ils trouvent avec succès les bijoux en question. Cependant, vous ne les avez jamais vus auparavant"
+    },
+    "26": {
+      "value": [31,31],
+      "name": "Une dame / un jeune homme sur un balcon vous envoie un baiser puis s'enfuit"
+    },
+    "27": {
+      "value": [32,32],
+      "name": "Un mendiant s'accroupit dans un coin sombre, visiblement malade"
+    },
+    "28": {
+      "value": [33,33],
+      "name": "Quelqu'un vous prend pour un mercenaire, un artiste célèbre ou un vieil ami. Il a la prosopagnosie (trouble de la reconnaissance des visages)"
+    },
+    "29": {
+      "value": [34,34],
+      "name": "Un barde entonne une chanson et commence à vous suivre"
+    },
+    "30": {
+      "value": [35,35],
+      "name": "Un mendiant vous remarque et propose de vous guider en échange d'une pièce de monnaie"
+    },
+    "31": {
+      "value": [36,36],
+      "name": "Une bagarre de bar éclate dans la rue et peut vous impliquer"
+    },
+    "32": {
+      "value": [37,37],
+      "name": "Proposé. La personne de la nuit propose un joueur. Mais ils ne sont peut-être pas tous ce qu'ils semblent ..."
+    },
+    "33": {
+      "value": [38,38],
+      "name": "Un ivrogne vous voit et vous prend pour des amis ou des ennemis ou peut-être vomit sur vous"
+    },
+    "34": {
+      "value": [39,39],
+      "name": "Une personne qui prétend être un fan du vous commence à vous suivre partout"
+    },
+    "35": {
+      "value": [40,40],
+      "name": "Un vendeur d'huile de serpent a rassemblé une foule et a des acteurs dans le groupe pour tromper les gens en leur faisant acheter des potions sans valeur. Bonus : elles ne valent pas rien, mais certainement pas comme annoncé. Une potion de guérison qui est vraiment sous forme gazeuse ? Faites des jets de questions/réponses (Q/A) pour déterminer les résultats"
+    },
+    "36": {
+      "value": [41,41],
+      "name": "Groupe de contrebandiers sortant d'une grille d'égout avec une caisse de marchandises"
+    },
+    "37": {
+      "value": [42,42],
+      "name": "Une vieille diseuse de bonne aventure vous fait signe depuis sa tente"
+    },
+    "38": {
+      "value": [43,43],
+      "name": "Un homme dégringole par la fenêtre d'une taverne. Il est entièrement habillé en costume de noble. Une demi-orque femelle saute après lui, poussant un cri de guerre alors qu'il se lève et court pour sa vie en criant à l'aide. Aidez-vous l'orc et écrasez-vous l'homme ou est-ce que vous vous mettez sur son chemin ? Possible : peu importe qui vous aidez, ils commencent tous les deux à vous attaquer !"
+    },
+    "39": {
+      "value": [44,44],
+      "name": "Un chien des rues passe en courant avec une main humaine dans sa gueule - portant une grande bague ornée de bijoux très évidente. Chassez le chien ou découvrez ce qui est arrivé au propriétaire de l'anneau (et de la main)"
+    },
+    "40": {
+      "value": [45,45],
+      "name": "Le cheval de quelqu'un est effrayé et charge dans les rues. Qu'il traîne un wagon ou juste un cavalier, il est paniqué et doit être arrêté"
+    },
+    "41": {
+      "value": [46,46],
+      "name": "Vous trouvez une carte, jetée, dans la rue, ou juste un fragment de carte, qui éveille votre curiosité. Il montre une ruine, et il y a un croquis d'un artefact. Magique?  Peut-être qu'un mage local pourrait vous aider à décoder cela"
+    },
+    "42": {
+      "value": [47,47],
+      "name": "Un ivrogne vient de se réveiller à proximité. « Quoi… où suis-je ?! Mes… mes armes ! Mes affaires ! Elles ne sont plus là ! »"
+    },
+    "43": {
+      "value": [48,48],
+      "name": "Vous vous arrêtez pour écouter un conteur talentueux raconter l'histoire d'un aventurier célèbre et de sa bête de compagnie. Cependant, une partie de l'histoire n'est pas résolue et vous fait réfléchir..."
+    },
+    "44": {
+      "value": [49,49],
+      "name": "Vous sentez un choc sur le côté de votre tête et vous vous retournez pour voir qu'une bande de jeunes nobles ivres bombardent les passants de légumes pourris, tout en riant !"
+    },
+    "45": {
+      "value": [50,55],
+      "name": "Monstre : niveau de rencontre moyen approprié"
+    },
+    "46": {
+      "value": [56,56],
+      "name": "Votre œil perçant repère un pickpocket qui soulage habilement une noble d'un collier coûteux"
+    },
+    "47": {
+      "value": [57,57],
+      "name": "Un sorcier porte un sac plein de potions quand soudain le sac se déchire (peut-être qu'il s'accroche à un clou qui dépasse d'un bâtiment, ou qu'il s'accroche à un chariot qui passe) et plusieurs potions tombent et s'écrasent au sol, explosant avec divers effets dramatiques"
+    },
+    "48": {
+      "value": [58,58],
+      "name": "Un bijoutier sort de sa boutique en criant qu'il a été volé par des nains. Un nain à proximité lui demande des preuves, mais tout ce qu'il a à dire c'est : 'Bien sûr que ce sont des nains, ils convoitent constamment les gemmes !'"
+    },
+    "49": {
+      "value": [59,59],
+      "name": "Une femme prêtre fustige une femme d'affaires qui a installé ses marchandises devant le temple (de Lathandre, peut-être ? Tout dieu bien aligné). Sauf que cette affaire n'est pas une affaire ordinaire - une femme esclavagiste fait défiler ses marchandises, vendant des esclaves à celui qui achète"
+    },
+    "50": {
+      "value": [60,62],
+      "name": "Quelque chose se produit, ou vous trouvez quelque chose"
+    },
+    "51": {
+      "value": [63,65],
+      "name": "Quelque chose se produit, ou vous trouvez quelque chose"
+    },
+    "52": {
+      "value": [66,69],
+      "name": "PNJ rencontré, qui vous donne des informations sur une quête possible"
+    },
+    "53": {
+      "value": [70,75],
+      "name": "Monstre : rencontre difficile adaptée au niveau. Monstre en liberté, maraudant dans les rues"
+    },
+    "54": {
+      "value": [76,76],
+      "name": "Vous êtes arrêté par le garde local qui veut vous féliciter pour votre récente quête réussie. Comment le sait-t-il ? "
+    },
+    "55": {
+      "value": [77,77],
+      "name": "Vous entendez une rumeur au sujet d'un travail qu'un prêtre local pourrait avoir. Apparemment, c'est du moins ce que dit la rumeur, il se passe quelque chose dans les catacombes sacrées sous les rues"
+    },
+    "56": {
+      "value": [78,78],
+      "name": "Vous passez devant une maison toute barricadée, les grilles fermées. Un passant vous informe qu'il s'agit de la maison d'un noble local qui n'a pas été vu depuis des années"
+    },
+    "57": {
+      "value": [79,79],
+      "name": "Vous voyez un partie de dés se dérouler dans une allée de la rue où vous marchez"
+    },
+    "58": {
+      "value": [80,80],
+      "name": "Un clerc se tient au sommet d'une boîte au bord de la route, crachant du vitriol et des rumeurs désagréables sur le ou les chefs de la ville. Le clerc a attiré pas mal de monde"
+    },
+    "59": {
+      "value": [81,81],
+      "name": "Un groupe de manifestants s'est installé devant la mairie, pour protester contre la nouvelle route qui devrait traverser la colonie, à une certaine distance de la ville"
+    },
+    "60": {
+      "value": [82,82],
+      "name": "Un marchand vous demande de vous occuper de sa charrette pendant qu'il poursuit un voleur qui lui a volé des marchandises. Il part alors, et ne revient pas pendant très longtemps ..."
+    },
+    "61": {
+      "value": [83,83],
+      "name": "Un gamin des rues apparaît, promettant la faveur divine si vous venez et offrez une heure de service dans un temple voisin"
+    },
+    "62": {
+      "value": [84,84],
+      "name": "Un commerçant attaque un nid de guêpes à l'extérieur de sa boutique avec un balai. Il le déloge et il s'écrase au sol, l'engloutissant dans un essaim d'insectes !"
+    },
+    "63": {
+      "value": [85,85],
+      "name": "Deux demi-orques sont engagés dans une bagarre à l'extérieur d'une taverne voisine. Apparemment, l'un pense que l'autre a triché aux dés"
+    },
+    "64": {
+      "value": [86,86],
+      "name": "Des pèlerins religieux qui se frayent un chemin tranquillement dans les rues sont moqués et raillés par un groupe d'adolescents elfes"
+    },
+    "65": {
+      "value": [87,87],
+      "name": "Un manteau en lambeaux traîne dans la rue. En l'attrapant, vous trouvez un billet dans l'une de ses poches"
+    },
+    "66": {
+      "value": [88,88],
+      "name": "Quelqu'un a libéré une substance hallucinogène dans l'air, et les gens sont dans divers états d'intoxication"
+    },
+    "67": {
+      "value": [89,89],
+      "name": "Une mère désemparée ne parvient pas à retrouver son enfant et est persuadée qu'il a été kidnappé. Elle passe d'une personne à l'autre, implorant de l'aide"
+    },
+    "68": {
+      "value": [90,90],
+      "name": "Une rafale de vent soudaine traverse la ville, faisant basculer les étals, les chapeaux volent, les piles de parchemin flottent dans la rue. Peut-être que vous découvrez quelque chose en conséquence"
+    },
+    "69": {
+      "value": [91,91],
+      "name": "Un nain, armé d'une grande hache, menace un halfelin recroquevillé, qui tremble de peur. Le nain vit dans la rage, mais il vient d'être désarmé par la garde de la ville. Quelle est la situation ici ? Le halfelin lui a-t-il fait du tort d'une manière ou d'une autre ?"
+    },
+    "70": {
+      "value": [92,92],
+      "name": "Un chariot renversé en avant provoque des embouteillages - la rue est encombrée de circulation"
+    },
+    "71": {
+      "value": [93,93],
+      "name": "« Ay oop luv, vous cherchez un bon moment ? » Une prostituée (de tout sexe ou race) commence à vous solliciter sérieusement"
+    },
+    "72": {
+      "value": [94,94],
+      "name": "Soudain, à l'improviste, vous voyez une sorte de mage apparaître simplement au milieu de la rue / ruelle"
+    },
+    "73": {
+      "value": [95,99],
+      "name": "Le PNJ apparaît avec une quête"
+    },
+    "74": {
+      "value": [100,100],
+      "name": "Monstre : Niveau de rencontre mortelle approprié"
+    }
+  }
+}

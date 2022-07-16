@@ -1,0 +1,64 @@
+{
+  "season": {
+    "1": {
+      "value": [1,1],
+      "name": "été"
+    },
+    "2": {
+      "value": [2,2],
+      "name": "automne"
+    },
+    "3": {
+      "value": [3,3],
+      "name": "hiver"
+    },
+    "4": {
+      "value": [4,4],
+      "name": "printemps"
+    }
+  },
+  "weather": {
+    "1": {
+      "value": [-5,1],
+      "été": "Froid inhabituel pour la saison",
+      "automne": "Neige fondue ou Blizzard",
+      "hiver": "Beaucoup de neige",
+      "printemps": "Neige fondue ou Blizzard"
+    },
+    "2": {
+      "value": [2,4],
+      "été": "Pluvieux",
+      "automne": "Pluvieux",
+      "hiver": "Tempête de neige",
+      "printemps": "Pluie"
+    },
+    "3": {
+      "value": [5,8],
+      "été": "Couvert",
+      "automne": "Pluie légère",
+      "hiver": "Pluie",
+      "printemps": "Couvert"
+    },
+    "4": {
+      "value": [9,11],
+      "été": "Clair, Chaud",
+      "automne": "Couvert",
+      "hiver": "Couvert",
+      "printemps": "Ciel clair"
+    },
+    "5": {
+      "value": [12,18],
+      "été": "Clair, Très chaud",
+      "automne": "Ciel clair",
+      "hiver": "Ciel clair",
+      "printemps": "Chaud"
+    },
+    "6": {
+      "value": [19,25],
+      "été": "Très très chaud",
+      "automne": "Très chaud",
+      "hiver": "Chaleur inhabituelle pour la saison",
+      "printemps": "Très chaud"
+    }
+  }
+}

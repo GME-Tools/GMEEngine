@@ -1,6 +1,5 @@
 const dice = require('../dice');
 const detailData = require('../../data/detail');
-const eventData = require('../../data/event');
 
 const detailCheck = (chaos) => {
   const chaosmod = -2 * Math.trunc(chaos-4.5);
@@ -22,7 +21,8 @@ const detailCheck = (chaos) => {
 
   return {
     detailName: detailName,
-    detailDescription: detailDescription
+    detailDescription: detailDescription,
+    detailNeed: detailNeed
   }
 }
 

@@ -1,28 +1,34 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
+const cors = require('cors');
+// require('./keep_alive.js');
 
 const app = express();
+app.use(cors());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.json());
 app.use('/', require('./router/index'));
 
 const connectionString =
-	'mongodb+srv://' +
-	process.env.MDB_USER +
-	':' +
-	process.env.MDB_PASS +
-	'@cluster0.qtcwk.mongodb.net/gmeengine?retryWrites=true&w=majority';
+  'mongodb+srv://' +
+  process.env.MDB_USER +
+  ':' +
+  process.env.MDB_PASS +
+  '@cluster0.qtcwk.mongodb.net/gmeengine?retryWrites=true&w=majority';
 
-mongoose.connect(connectionString, {
-		useUnifiedTopology: true,
-		useNewUrlParser: true
-	}
-)
-	.then(() => {
-		console.log('Connected to Database');
-	})
-	.catch(error => console.error(error));
+mongoose
+  .connect(
+    connectionString,
+    {
+      useUnifiedTopology: true,
+      useNewUrlParser: true
+    }
+  )
+  .then(() => {
+    console.log('Connected to Database');
+  })
+  .catch(error => console.error(error));
 
 const i18n = require('i18n');
 const cookieParser = require('cookie-parser');
@@ -33,10 +39,10 @@ i18n.configure({
 
   // you may alter a site wide default locale
   defaultLocale: 'en',
- 
+
   // sets a custom cookie name to parse locale settings from
   cookie: 'yourcookiename',
- 
+
   // where to store json files - defaults to './locales'
   directory: __dirname + '/locales'
 });
@@ -48,5 +54,5 @@ app.use(cookieParser());
 app.use(i18n.init);
 
 app.listen(3000, function() {
-	console.log('listening on 3000');
+  console.log('listening on 3000');
 });

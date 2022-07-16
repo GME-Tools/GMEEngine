@@ -1,0 +1,259 @@
+{
+  "questsTable": {
+    "1": {
+      "value": [1,4],
+      "problem": "Tuer injustement",
+      "resultantQuest": "Vengeance"
+    },
+    "2": {
+      "value": [5,8],
+      "problem": "Crime commis, criminel disparu",
+      "resultantQuest": "Appréhender / Chasse aux primes"
+    },
+    "3": {
+      "value": [9,12],
+      "problem": "Objet perdu",
+      "resultantQuest": "Récupération"
+    },
+    "4": {
+      "value": [13,16],
+      "problem": "Le(s) tyran(s) menace(nt) la ville/le commerce/la population (monstre/humanoïde)",
+      "resultantQuest": "Repousser / Saboter / Tromper / Extorquer / Piéger"
+    },
+    "5": {
+      "value": [17,20],
+      "problem": "Perturbation de l'environnement / Temps étrange / Infestation / Peste",
+      "resultantQuest": "Enquêter / Résoudre"
+    },
+    "6": {
+      "value": [21,24],
+      "problem": "Chaos magique / Malédiction",
+      "resultantQuest": "Enquêter / Lever la malédiction / Détruire la magie"
+    },
+    "7": {
+      "value": [25,28],
+      "problem": "Enlèvement / Prise d'otage",
+      "resultantQuest": "Sauvetage / Récupération"
+    },
+    "8": {
+      "value": [29,32],
+      "problem": "L'aventurier est parti il y a quelque temps, mais est perdu",
+      "resultantQuest": "Porter secours"
+    },
+    "9": {
+      "value": [33,36],
+      "problem": "Quelque chose est connu, mais non découvert (artefact, lieu légendaire)",
+      "resultantQuest": "Explorer / Découvrir"
+    },
+    "10": {
+      "value": [37,40],
+      "problem": "Des rumeurs de richesses se trouvent dans un lieu sécurisé et gardé",
+      "resultantQuest": "Butin"
+    },
+    "11": {
+      "value": [41,44],
+      "problem": "Invasion",
+      "resultantQuest": "Repousser / Détourner"
+    },
+    "12": {
+      "value": [45,48],
+      "problem": "Personne suspectée de quelque chose",
+      "resultantQuest": "Espionner / Recueillir des informations"
+    },
+    "13": {
+      "value": [49,52],
+      "problem": "Objet / message / personne à transporter important",
+      "resultantQuest": "Transport / contrebande / escorte"
+    },
+    "14": {
+      "value": [53,56],
+      "problem": "Objet transporté infâme / dangereux",
+      "resultantQuest": "Attaquer / Détourner"
+    },
+    "15": {
+      "value": [57,60],
+      "problem": "Objet dangereux exposé / à gagner",
+      "resultantQuest": "Trouver / Détruire"
+    },
+    "16": {
+      "value": [61,64],
+      "problem": "Noble corrompu",
+      "resultantQuest": "Enquêter / Impliquer / Incriminer / Exposer"
+    },
+    "17": {
+      "value": [65,68],
+      "problem": "Pénurie de marchandises (marchandises, main-d'oeuvre)",
+      "resultantQuest": "Fournitures de transport"
+    },
+    "18": {
+      "value": [69,72],
+      "problem": "Mystère non résolu",
+      "resultantQuest": "Rechercher / Explorer / Décoder"
+    },
+    "19": {
+      "value": [73,76],
+      "problem": "Aventurier jeté dans une situation mettant sa vie en danger (environnementale ou autre)",
+      "resultantQuest": "Survivre"
+    },
+    "20": {
+      "value": [77,80],
+      "problem": "La vie d'une créature digne est menacée (humanoïde / animal / monstre)",
+      "resultantQuest": "Protéger, éliminer la menace"
+    },
+    "21": {
+      "value": [81,84],
+      "problem": "Exécution d'un innocent prévue",
+      "resultantQuest": "Prévenir"
+    },
+    "22": {
+      "value": [85,88],
+      "problem": "Siège (n'importe quoi depuis un petit groupe de gobelins entourant une ferme à une armée de lames impériales entourant une ville !)",
+      "resultantQuest": "Briser"
+    },
+    "23": {
+      "value": [89,92],
+      "problem": "Énorme bataille sur le point d'éclater",
+      "resultantQuest": "Négocier / Préparer / Médiation / Participer"
+    },
+    "24": {
+      "value": [93,96],
+      "problem": "Endroit spirituellement bénéfique selon la rumeur",
+      "resultantQuest": "Visiter / Gagner une aubaine"
+    },
+    "25": {
+      "value": [97,100],
+      "problem": "Un individu insensé a commis une erreur innocente",
+      "resultantQuest": "Joueur engagé pour dissimuler des preuves / Retourner l'objet / Apaiser"
+    }
+  },
+  "questsSourcesTable": {
+    "1": {
+      "value": [1,3],
+      "source": "Tableau d'affichage"
+    },
+    "2": {
+      "value": [4,6],
+      "source": "PNJ"
+    },
+    "3": {
+      "value": [7,9],
+      "source": "Rumeurs de taverne"
+    },
+    "4": {
+      "value": [10,13],
+      "source": "Tomber dans la situation"
+    },
+    "5": {
+      "value": [14,16],
+      "source": "Affilié de guilde"
+    },
+    "6": {
+      "value": [17,19],
+      "source": "Ami aventurier"
+    },
+    "7": {
+      "value": [20,22],
+      "source": "Parchemin mystérieux avec des informations dessus"
+    },
+    "8": {
+      "value": [23,25],
+      "source": "Feuille de papier cachée à l'intérieur d'une récompense / achat de base fait par un joueur"
+    },
+    "9": {
+      "value": [26,28],
+      "source": "Carte au trésor"
+    },
+    "10": {
+      "value": [29,31],
+      "source": "Journal trouvé - Propriétaire manquant"
+    },
+    "11": {
+      "value": [32,34],
+      "source": "Carte partielle"
+    },
+    "12": {
+      "value": [35,37],
+      "source": "Héritage - qu'il s'agisse d'un lieu, d'un élément ou d'un titre"
+    },
+    "13": {
+      "value": [38,40],
+      "source": "Geis ou sort de quête"
+    },
+    "14": {
+      "value": [41,43],
+      "source": "Visions impies"
+    },
+    "15": {
+      "value": [44,46],
+      "source": "Une carte perdue ou une lettre retrouvée"
+    },
+    "16": {
+      "value": [47,49],
+      "source": "Envoyé en mission par un ami ou un parent"
+    },
+    "17": {
+      "value": [50,52],
+      "source": "Un rêve"
+    },
+    "18": {
+      "value": [53,55],
+      "source": "Le temple local vous donne la quête"
+    },
+    "19": {
+      "value": [56,58],
+      "source": "Rumeur recueillie au poste de garde"
+    },
+    "20": {
+      "value": [59,61],
+      "source": "Guilde des marchands / marchands"
+    },
+    "21": {
+      "value": [62,64],
+      "source": "La famille noble vous la confie"
+    },
+    "22": {
+      "value": [65,67],
+      "source": "L'événement suscite un souvenir"
+    },
+    "23": {
+      "value": [68,70],
+      "source": "Inspiration divine"
+    },
+    "24": {
+      "value": [71,73],
+      "source": "Conversation entendue"
+    },
+    "25": {
+      "value": [74,76],
+      "source": "Voyageur de passage"
+    },
+    "26": {
+      "value": [77,79],
+      "source": "Chargé de livrer un colis.  Quelque chose vous oblige à jeter un coup d'œil à l'intérieur !"
+    },
+    "27": {
+      "value": [80,83],
+      "source": "Chargé de livrer un colis.  Quelque chose vous oblige à jeter un coup d'œil à l'intérieur !"
+    },
+    "28": {
+      "value": [84,87],
+      "source": "Ordres du commandement supérieur, de la guilde ou de la société (de loin peut-être)"
+    },
+    "29": {
+      "value": [88,90],
+      "source": "Note sur la créature morte"
+    },
+    "30": {
+      "value": [91,93],
+      "source": "Vous vous réveillez avec une carte tatouée sur vous !"
+    },
+    "31": {
+      "value": [94,97],
+      "source": "Une catastrophe naturelle révèle quelque chose"
+    },
+    "32": {
+      "value": [98,100],
+      "source": "Un ami est décédé des suites de cette situation, vous devez vous venger !"
+    }
+  }
+}

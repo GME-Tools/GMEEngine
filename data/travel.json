@@ -1,0 +1,53 @@
+{
+  "travelMode": {
+    "1": {
+      "mode": "Pieds",
+      "KMPerDay": 38,
+      "KMPerDay2": 48,
+      "comments": "si 48 = -5 pénalité à la perception passive",
+      "costPO": 0
+    },
+    "2": {
+      "mode": "Cheval",
+      "KMPerDay": 48,
+      "KMPerDay2": 97,
+      "comments": "97 avec des montures fraîches disponibles, tous les 13-16 km",
+      "costPO": 75
+    },
+    "3": {
+      "mode": "Cheval de trait",
+      "KMPerDay": 64,
+      "KMPerDay2": "",
+      "comments": "Pour une charrette",
+      "costPO": 50
+    },
+    "4": {
+      "mode": "Cheval de guerre",
+      "KMPerDay": 97,
+      "KMPerDay2": "",
+      "comments": "",
+      "costPO": 400
+    }, 
+    "5": {
+      "mode": "Âne",
+      "KMPerDay": 64,
+      "KMPerDay2": "",
+      "comments": "Mule",
+      "costPO": 8
+    },
+    "6": {
+      "mode": "Charrette",
+      "KMPerDay": 48,
+      "KMPerDay2": "",
+      "comments": "Besoin de chevaux de trait",
+      "costPO": 15
+    },
+    "7": {
+      "mode": "Mastiff",
+      "KMPerDay": 64,
+      "KMPerDay2": "",
+      "comments": "Convient pour les petits humanoïdes",
+      "costPO": 25
+    }
+  }
+}

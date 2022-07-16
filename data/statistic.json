@@ -1,0 +1,107 @@
+{
+  "statisticCheckModifiers": {
+    "1": {
+      "value": "important",
+      "name": "PNJ IMPORTANT",
+      "description": "Cela signifie que le PNJ pour lequel vous calculez la statistique est important dans l'aventure, au lieu d'être un serviteur, mook ou autre type de chair à canon. Habituellement, il s'agit d'un PNJ avec un nom et quelqu'un qui est probablement un personnage récurrent. Si vous n'êtes pas sûr au moment de la rencontre si le PNJ est important ou non, alors faites votre meilleure estimation ou simplement décider qu'ils ne sont pas importants jusqu'à ce que vous découvriez qu'ils le sont. Un PNJ important reçoit un bonus de +2 sur la Statistique",
+      "modifier": 2
+    },
+    "2": {
+      "value": "moyen",
+      "name": "ATTRIBUT MOYEN",
+      "description": "",
+      "modifier": 0
+    },
+    "3": {
+      "value": "faible",
+      "name": "ATTRIBUT FAIBLE",
+      "description": "Le PNJ ou l'objet a un certain nombre de statistiques associées avec, et celui que vous vérifiez est censé être parmi ses plus faibles. Une bonne règle d'or est de penser au PNJ ou à l'objet comme une collection d'attributs forts, moyens et faibles. Si un attribut va à l'encontre du stéréotype du PNJ, alors considérez-le faible. Un attribut faible reçoit un modificateur de -2 sur la statistique. N'oubliez pas qu'un attribut faible est considéré comme faible lorsque ce PNJ ou cet objet est comparé à la population à laquelle vous avez choisi de l'associer afin de déterminer l'Expected Baseline",
+      "modifier": -2
+    },
+    "4": {
+      "value": "fort",
+      "name": "ATTRIBUT FORT",
+      "description": "Ce sont des traits qui sont fortement associé au PNJ ou à l'objet en question et qui se tiennent en dehors de la population à laquelle vous les comparez. Un attribut fort reçoit un bonus de +2 sur la statistique. N'oubliez pas qu'un attribut fort est considéré comme fort lorsque ce PNJ ou cet objet est comparé à la population à laquelle vous avez choisi de l'associer afin de déterminer l'Expected Baseline",
+      "modifier": 2
+    },
+    "5": {
+      "value": "principal",
+      "name": "ATTRIBUT PRINCIPAL",
+      "description": "C'est un attribut fort spécial du PNJ ou de l'objet. Il ne peut y avoir qu'un seul attribut principal pour un PNJ ou un objet, et c'est ce qui les définit le plus. L'attribut principal reçoit un bonus de +4 sur la Statistique. Ceci remplace, et non en plus, le bonus en tant qu'Attribut Fort. L'attribut ne peut pas être Fort et Principal car Principal remplace Fort. N'oubliez pas qu'un attribut Principal est considéré comme Principal lorsque ce PNJ ou cet objet est comparé à la population à laquelle vous avez choisi de l'associer afin de déterminer l'Expected Baseline. L'attribut principal devrait être encore plus exceptionnel",
+      "modifier": 4
+    }
+  },
+  "statisticCheckTable" : {
+    "1": {
+      "value": [0,2],
+      "name": "TRÈS FAIBLE -75%",
+      "description": "Réduisez la valeur de référence attendue de 75%, ce qui donne environ un quart du score de base. Alternativement, faites la valeur aussi faible que possible. Cela devrait représenter la valeur la plus basse possible et raisonnable pour cette Statistique",
+      "modifier": -75
+    },
+    "2": {
+      "value": [3,4],
+      "name": "FAIBLE -50%",
+      "description": "Réduisez la valeur de référence attendue de 50%, ce qui la donne environ la moitié du score de base. Alternativement, choisissez une valeur significativement plus faible que la valeur de référence attendue",
+      "modifier": -50
+    },
+    "3": {
+      "value": [5,6],
+      "name": "MOINS -10%",
+      "description": "Réduisez la valeur de référence attendue de 10%, ce qui donne une valeur légèrement inférieure au score original. Alternativement, choisissez une valeur juste un peu plus faible que la valeur de référence attendue",
+      "modifier": -10
+    },
+    "4": {
+      "value": [7,11],
+      "name": "RÉFÉRENCE ATTENDUE",
+      "description": "Conservez la Statistique à la valeur de référence attendue. Il n'y a aucun ajustement",
+      "modifier": 0
+    },
+    "5": {
+      "value": [12,14],
+      "name": "PLUS +10%",
+      "description": "Augmentez la valeur de référence attendue de 10%, ce qui donne une valeur légèrement supérieure au score initial. Alternativement, choisissez une valeur juste un peu plus forte que la valeur de référence attendue",
+      "modifier": 10
+    },
+    "6": {
+      "value": [15,16],
+      "name": "FORT +50%",
+      "description": "Augmentez la valeur de référence attendue de 50%, ce qui donne environ une valeur une demie fois plus forte que le score original. Alternativement, choisissez une valeur significativement plus élevée que la valeur de référence attendue",
+      "modifier": 50
+    },
+    "7": {
+      "value": [17,18],
+      "name": "TRÈS FORT +100%",
+      "description": "Augmentez la valeur de référence attendue de 100%, ce qui donne environ le double du score de base. Alternativement, choisissez une valeur aussi forte que possible. Cela devrait représenter la valeur la plus élevée possible et raisonnable pour cette Statistique",
+      "modifier": 100
+    },
+    "8": {
+      "value": [19,20],
+      "name": "JOUEUR DE BASE",
+      "description": "Gardez la statistique à la valeur de base du joueur. Il n'y a pas d'ajustement",
+      "modifier": 0
+    },
+    "9": {
+      "value": [21,22],
+      "name": "JOUEUR PLUS +10%",
+      "description": "Augmentez la valeur de base du joueur de 10%, ce qui la rend légèrement supérieure au score initial. Alternativement, choisissez une valeur juste un peu plus forte que la valeur de base du joueur",
+      "modifier": 10
+    },
+    "10": {
+      "value": [21,22],
+      "name": "JOUEUR PLUS +10%",
+      "description": "Augmentez la valeur de base du joueur de 10%, ce qui la rend légèrement supérieure au score initial. Alternativement, choisissez une valeur juste un peu plus forte que la valeur de base du joueur",
+      "modifier": 10
+    },
+    "11": {
+      "value": [23,24],
+      "name": "JOUEUR FORT +50%",
+      "description": "Augmentez la valeur de base du joueur de 50%, ce qui donne une valeur une demie fois plus forte que le score original. Alternativement, choisissez une valeur significativement plus élevée que la valeur de base du joueur",
+      "modifier": 50
+    }, "12": {
+      "value": [25,26],
+      "name": "JOUEUR TRÈS FORT +100%",
+      "description": "Augmentez la valeur de base du PC de 100%, ce qui donne une valeur deux fois plus forte que celle du score de base. Alternativement, choisissez une valeur aussi forte que possible. Cela devrait représenter la plus haute valeur possible et raisonnable pour cette Statistique",
+      "modifier": 100
+    }
+  }
+}

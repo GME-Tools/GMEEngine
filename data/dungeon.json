@@ -1,0 +1,1462 @@
+{
+  "dungeonSize": {
+    "1": {
+      "value": [1,3],
+      "size": "Tout petit",
+      "roomsNumber": [1,4,2]
+    },
+    "2": {
+      "value": [4,8],
+      "size": "Petit",
+      "roomsNumber": [1,6,4]
+    },
+    "3": {
+      "value": [9,16],
+      "size": "Moyen",
+      "roomsNumber": [4,4,6]
+    },
+    "4": {
+      "value": [17,18],
+      "size": "Grand",
+      "roomsNumber": [5,6,12]
+    },
+    "5": {
+      "value": [19,19],
+      "size": "Énorme",
+      "roomsNumber": [10,6,24]
+    },
+    "6": {
+      "value": [20,20],
+      "size": "Illimité",
+      "roomsNumber": [0,0,0]
+    }
+  },
+  "dungeonTypes": {
+    "1": {
+      "value": [1,1],
+      "type": "Repaire"
+    },
+    "2": {
+      "value": [2,2],
+      "type": "Tombeau / Crypte"
+    },
+    "3": {
+      "value": [3,3],
+      "type": "Forteresse abandonnée"
+    },
+    "4": {
+      "value": [4,4],
+      "type": "Temple ou sanctuaire"
+    },
+    "5": {
+      "value": [5,5],
+      "type": "Grottes naturelles"
+    },
+    "6": {
+      "value": [6,6],
+      "type": "Labyrinthe"
+    },
+    "7": {
+      "value": [7,7],
+      "type": "Mine"
+    },
+    "8": {
+      "value": [8,8],
+      "type": "Porte planaire"
+    },
+    "9": {
+      "value": [9,9],
+      "type": "Quartier général de guilde / culte"
+    },
+    "10": {
+      "value": [10,10],
+      "type": "Piège mortel"
+    }
+  },
+  "encountersNumber": {
+    "1": {
+      "activity": "mortellement calme",
+      "rollsNumber": 1
+    },
+    "2": {
+      "activity": "calme",
+      "rollsNumber": 2
+    },
+    "3": {
+      "activity": "assez tranquille",
+      "rollsNumber": 3
+    },
+    "4": {
+      "activity": "actif",
+      "rollsNumber": 4
+    },
+    "5": {
+      "activity": "anime",
+      "rollsNumber": 5
+    },
+    "6": {
+      "activity": "fou",
+      "rollsNumber": 6
+    }
+  },
+  "randomDungeonEncounters": {
+    "1": {
+      "value": [1,5],
+      "name": "Quelque chose se produit, ou vous trouvez quelque chose"
+    },
+    "2": {
+      "value": [6,10],
+      "name": "Quelque chose se produit, ou vous trouvez quelque chose"
+    },
+    "3": {
+      "value": [11,15],
+      "name": "Le PNJ vous donne des informations sur une possible quête"
+    },
+    "4": {
+      "value": [16,20],
+      "name": "Monstre : rencontre facile adaptée au niveau"
+    },
+    "5": {
+      "value": [21,25],
+      "name": "Monstre : rencontre moyenne adaptée au niveau"
+    },
+    "6": {
+      "value": [26,30],
+      "name": "Niveau de rencontre difficile approprié"
+    },
+    "7": {
+      "value": [31,35],
+      "name": "Niveau de rencontre mortelle approprié. Vous pourriez vouloir fuir !"
+    },
+    "8": {
+      "value": [36,36],
+      "name": "Bête morte ou carcasse de monstre. Que s'est-il passé ici ?"
+    },
+    "9": {
+      "value": [37,37],
+      "name": "Vous trouvez une étrange pousse dans cette zone, sur les murs du donjon. Est-ce une mousse quelconque ?"
+    },
+    "10": {
+      "value": [38,38],
+      "name": "Une partie du sol s'est effondrée, révélant un espace noir et vide en dessous"
+    },
+    "11": {
+      "value": [39,39],
+      "name": "Une porte recouverte de mousse, avec un gros heurtoir. On dirait qu'il a été transplanté ici du jardin de quelqu'un"
+    },
+    "12": {
+      "value": [40,40],
+      "name": "Vous entrez dans une zone tombale. Tous les cercueils sont de taille enfant"
+    },
+    "13": {
+      "value": [41,41],
+      "name": "D'étranges vignes ont poussé partout ici, rampant autour de la maçonnerie et progressivement, au fil du temps, détruisant des parties de la maçonnerie. Comment sont-elles entrées ici ?"
+    },
+    "14": {
+      "value": [42,42],
+      "name": "Vous voyez une statue d'un sorcier au milieu de cette zone. La plaque en dessous indique 'Je suis Fennishaw Eldsight. Dites mon nom et donnez-moi vie, si vous l'osez !'"
+    },
+    "15": {
+      "value": [43,43],
+      "name": "Vous entendez des voix devant vous, et tournez au coin pour voir un barbare parlementer avec un ogre ! Apparemment ils discutent du prix de l'ogre pour libérer le demi-orc qu'il tient actuellement en otage"
+    },
+    "16": {
+      "value": [44,44],
+      "name": "Une voix murmure à plusieurs reprises : 'Que cherchez-vous ?'. Peu importe comment vous répondez, il répète la même question. (Peut-être que jusqu'à ce que vous donniez la vraie réponse, à ce moment-là, vous obtiendrez peut-être ce que vous cherchez, mais pas comme vous l'espériez !) À qui appartient cette voix, le cas échéant ?"
+    },
+    "17": {
+      "value": [45,45],
+      "name": "Le plafond au-dessus de vous s'ouvre et un PNJ inattendu tombe en hurlant, frappant le sol devant vous !"
+    },
+    "18": {
+      "value": [46,46],
+      "name": "Cette zone abrite une exploitation minière. Des enfants humanoïdes asservis travaillent dur, chargeant des roches dans des chariots de mine pour le traitement du minerai. Leurs maîtres les fouettent et les obligent à continuer, malgré leur fatigue évidente"
+    },
+    "19": {
+      "value": [47,47],
+      "name": "Une femme d'âge moyen est affalée contre le mur en sanglotant. Elle est vêtue de haillons"
+    },
+    "20": {
+      "value": [48,48],
+      "name": "De nulle part, vous entendez une voix tonitruante : 'Prends ton arme, aventurier ! Vous osez entrer ici, maintenant vous m'affronterez au combat !' Mais personne n'apparaît. Du moins pas encore ... Vous entendez rire ..."
+    },
+    "21": {
+      "value": [49,49],
+      "name": "Soudain, une vision oscille devant vous, une vision de votre but ultime dans ce donjon. Vous ne reconnaissez pas la pièce, mais obtenez des informations préalables sur ce vers quoi vous pourriez vous diriger"
+    },
+    "22": {
+      "value": [50,55],
+      "name": "PIÈGE !"
+    },
+    "23": {
+      "value": [56,56],
+      "name": "Graffiti sur le mur : 'Stop ! Pont en avant ! Retournez, votre fin est proche !'"
+    },
+    "24": {
+      "value": [57,57],
+      "name": "A proximité, vous entendez un chien aboyer follement, puis une autre voix lui dit de se taire !"
+    },
+    "25": {
+      "value": [58,58],
+      "name": "Vous entendez des cris, très faibles, comme si ça venait de loin, de très loin"
+    },
+    "26": {
+      "value": [59,59],
+      "name": "Vous tournez au coin suivant et voyez deux humanoïdes engagés dans une querelle passionnée"
+    },
+    "27": {
+      "value": [60,60],
+      "name": "Quelqu'un essaye de vous voler quelque chose !"
+    },
+    "28": {
+      "value": [61,61],
+      "name": "Vous arrivez devant une porte sur laquelle est cloué un parchemin. 'Gardien du donjon. Demande d'informations/réclamations à l'intérieur'"
+    },
+    "29": {
+      "value": [62,62],
+      "name": "Soudain, le mur derrière vous explose et deux aventuriers y pénètrent. L'un est un goliath qui vient de se frayer un chemin à travers la maçonnerie, l'autre semble être un sorcier halfelin"
+    },
+    "30": {
+      "value": [63,63],
+      "name": "Devant, deux gardes orcs sont assis à un poste de garde. Ils semblent jouer aux dés"
+    },
+    "31": {
+      "value": [64,64],
+      "name": "Un rat géant passe devant vous, suivi de près par trois gobelins affamés. Ils ne vous prêtent aucune attention"
+    },
+    "32": {
+      "value": [65,65],
+      "name": "En vous déplaçant dans cette zone,"
+    },
+    "33": {
+      "value": [66,66],
+      "name": "Dans un coin, un énorme tas d'ordures suppure. Il est en train d'être ramassé par une horrible bête ou autre chose"
+    },
+    "34": {
+      "value": [67,67],
+      "name": "Vous avez la nette impression d'être suivi. Vous pensez même que vous pouvez sentir qui que ce soit, et ils sentent le rang"
+    },
+    "35": {
+      "value": [68,68],
+      "name": "Vous tombez sur un massacre. Les cadavres d'une dizaine d'humanoïdes sont éparpillés"
+    },
+    "36": {
+      "value": [69,69],
+      "name": "Une brume tourbillonne autour de vos pieds"
+    },
+    "37": {
+      "value": [70,70],
+      "name": "Vous ressentez une forte poussée dans votre dos. Quand vous regardez, est-ce que quelqu'un est là ?"
+    },
+    "38": {
+      "value": [71,71],
+      "name": ""
+    },
+    "39": {
+      "value": [72,72],
+      "name": "Un vieil homme, clairement fou, est perché sur une caisse à savon à côté de ce passage, fulminant sur l'état actuel des affaires politiques devant un public d'épouvantards légèrement amusé"
+    },
+    "40": {
+      "value": [73,73],
+      "name": "Au prochain virage, vous apercevez un humanoïde solitaire"
+    },
+    "41": {
+      "value": [74,74],
+      "name": "Vous tombez sur un véritable donjon - une pièce fermée à clé avec des barreaux, dans laquelle vous voyez plusieurs prisonniers en lambeaux. 'Vite, faites-nous sortir !' s'exclame l'un d'eux en vous voyant"
+    },
+    "42": {
+      "value": [75,75],
+      "name": "Vous tombez sur une porte ornée, assistée d'une figure spectrale vêtue de vêtements opulents. La chose n'est pas hostile, et tient cette porte, comme un portier. Le portier spectral ne peut pas être attaqué ou déplacé et la porte ne s'ouvre que pour lui"
+    },
+    "43": {
+      "value": [76,76],
+      "name": "Un gentil petit gobelin apparaît avec un chapeau à la main et implore votre aide pour le débarrasser d'un problème. Il vient de rentrer d'un voyage dans la ville la plus proche pour constater que sa maison a été prise ! Deux niveaux plus bas, son humble petite demeure qu'il partage avec sa femme et ses deux petits gobelins, a été envahie par un horrible monstre. S'il pouvait obtenir votre aide pour se débarrasser de ce fléau, il vous récompensera de tous ses bénéfices de son récent voyage de vente - 250 po ! Et sa femme vous préparera un délicieux pot de ragoût de Tunnelslug, le meilleur du donjon, dit-on !"
+    },
+    "44": {
+      "value": [77,77],
+      "name": "Vous rencontrez des aventuriers rivaux, qui suivent les mêmes pistes que vous. Ferez-vous équipe avec ces PNJ ?"
+    },
+    "45": {
+      "value": [78,78],
+      "name": "Vous faites un pas de plus et ... BOUM ! Vous êtes dans une partie totalement inconnue du donjon.  Abandonnez la carte que vous avez jusqu'à présent. Vous avez franchi un portail et vous n'êtes même plus sûr de vous trouver dans le même donjon, royaume ou monde ! Où avez-vous été transporté ?"
+    },
+    "46": {
+      "value": [79,79],
+      "name": "Vous trouvez une entrée secrète dans une pièce opulente, bordée d'étagères. Un feu crépite dans l'âtre, et des tapis et des meubles aux riches motifs décorent cet espace confortable. Qui vit ici ?"
+    },
+    "47": {
+      "value": [80,80],
+      "name": "Vous trouvez de petites ouvertures circulaires dans les murs. Chacun contient un parchemin. En les retirant, vous voyez qu'ils portent l'écriture d'une civilisation ancienne. Ceux-ci pourraient être d'une grande valeur pour un archéologue, mais vous devrez d'abord les faire traduire. Quels secrets détiennent-ils ?"
+    },
+    "48": {
+      "value": [81,81],
+      "name": ""
+    },
+    "49": {
+      "value": [82,82],
+      "name": "Vous trouvez le sanctuaire d'une divinité oubliée depuis longtemps. Peut-être que cette divinité essaie de communier avec vous, essayant de trouver un nouvel adorateur ?"
+    },
+    "50": {
+      "value": [83,83],
+      "name": "Vous voyez une fresque historique ornée sur un mur voisin, flétrie mais manifestement peinte / sculptée par un maître artiste. Pendant que vous regardez, les personnages de la peinture murale prennent vie et commencent à jouer une scène jusqu'alors inconnue de vous. Vous acquérez des connaissances sur cet épisode de l'histoire, et peut-être sur certains lieux/quêtes/reliques précédemment inconnus qui lui sont associés. (Consultez l'historique de votre environnement / utilisez les tests Q/A pour savoir quoi)"
+    },
+    "51": {
+      "value": [84,84],
+      "name": "Vous entrez dans une salle où se déroule une cérémonie sacrificielle. Plusieurs humanoïdes sont rassemblés autour d'un socle, sur le point de sacrifier une bête vivante. Qui sait quel sera l'issue de ce rituel ?"
+    },
+    "52": {
+      "value": [85,85],
+      "name": "Vous avez l'impression d'être traqué par quelque chose, une force invisible. Vous voyez des ombres, entendez des bruits, sentez une présence, mais chaque fois que vous vous retournez, vous ne voyez rien. Peut-être qu'il finira par se montrer. C'est peut-être un autre aventurier, ou peut-être ... quelque chose de plus sinistre"
+    },
+    "53": {
+      "value": [86,86],
+      "name": "Dans la pièce voisine, un gnome est assis à une table dans une pièce clairsemée devant un échiquier. Il vous invite à jouer. Jouer nécessite un jet de tromperie ou d'intelligence, DD 15. En cas de succès, le gnome vous offrira un bijou utile d'invention gnome, ou 50 PO. En cas d'échec, vous donnez un objet d'une valeur de 50 PO. Vous pouvez refuser cette invitation si vous le souhaitez. Le gnome parlera également si vous le souhaitez - il accueillera la compagnie et il est une mine d'informations sur le donjon"
+    },
+    "54": {
+      "value": [87,87],
+      "name": "Vous trouvez une taverne souterraine, où les habitants du donjon aiment s'arrêter et prendre une bière de temps en temps avant de retourner à leurs exploits meurtriers ! Elle s'appelle Le Repos de l'Explorateur et le patronage est sérieux !"
+    },
+    "55": {
+      "value": [88,88],
+      "name": "Vous trouvez une porte secrète menant à une chambre où un alchimiste s'affaire à préparer des potions et des teintures de toutes sortes. Il est peut-être ouvert au troc, mais il essaie actuellement de préparer quelque chose qui « empêchera tout enfer d'éclater dans cet endroit ». Si vous essayez de l'attaquer, vous découvrirez qu'il est protégé par une barrière magique impénétrable, que lui seul peut abaisser"
+    },
+    "56": {
+      "value": [89,89],
+      "name": "Vous trouvez une porte dimensionnelle vers une forêt, mais vous ne pouvez pas être sûr que cette nature sauvage soit réelle, ou simplement une illusion pour vous conduire vers un danger encore plus grand"
+    },
+    "57": {
+      "value": [90,90],
+      "name": "Dans cette zone se trouvent des mares de vase gris-vert de nature inconnue"
+    },
+    "58": {
+      "value": [91,91],
+      "name": "Si le groupe tient des torches, ou s'il y a des torches ou des bougies dans la zone, quelque chose les éteint soudainement"
+    },
+    "59": {
+      "value": [92,92],
+      "name": "La zone est remplie d'une épaisse brume / brouillard, qui pend lourdement et bas au sol"
+    },
+    "60": {
+      "value": [93,93],
+      "name": "Au loin, une petite fille vêtue de haillons peut être vue debout près du mur. Si les joueurs se dirigent vers elle, elle se retournera et traversera le mur le plus proche et disparaîtra"
+    },
+    "61": {
+      "value": [94,94],
+      "name": "De l'autre côté, trois squelettes sont suspendus à des menottes"
+    },
+    "62": {
+      "value": [95,95],
+      "name": "Le sol est ici en terre et recouvert d'une terre végétale. Il sent fortement le moût et la saleté. Des vrilles ressemblant à des racines commenceront à apparaître hors du sol et commenceront à pousser sur les murs"
+    },
+    "63": {
+      "value": [96,96],
+      "name": "Un joueur est mordu à la main (causant peu ou pas de dégâts). Qu'est-ce que ça a fait ?"
+    },
+    "64": {
+      "value": [97,97],
+      "name": "Un faible grondement, puis un bruit de craquement profond se fait entendre directement au-dessus. La zone tremble légèrement, de la poussière et des petits débris tombent du plafond, puis ça s'arrête"
+    },
+    "65": {
+      "value": [98,98],
+      "name": "Un barde s'est arrêté dans cette zone pour chanter une chanson rapide pour essayer de se remonter le moral. Il est perdu ici depuis des jours ! Il vous dit qu'il a réussi à trouver son chemin jusqu'à ce niveau avec quelques difficultés, mais que ce donjon descend de plusieurs niveaux vers le bas. Il a été retenu captif par une sorte d'humanoïde jusqu'à tout récemment. Il est absolument affamé, ayant dû se nourrir de mousse de donjon et de limaces de tunnel pendant des semaines"
+    },
+    "66": {
+      "value": [99,99],
+      "name": "Vous entendez le son de quelque chose de lourd qu'on traîne, venant de l'avant"
+    },
+    "67": {
+      "value": [100,100],
+      "name": "Un grand groupe d'humanoïdes descend le tunnel vers vous, leurs expressions montrant une terreur absolue et abjecte. 'COURS!'  le chef vous crie dessus. 'Sauve-toi, cours, maintenant !!!'  Derrière eux, vous voyez quelque chose de GROS suivre ..."
+    }
+  },
+  "startingArea": {
+    "1": {
+      "value": [1,2],
+      "startingArea": "Passage",
+      "rollOn": ["Passage"]
+    },
+    "2": {
+      "value": [3,4],
+      "startingArea": "Pièce",
+      "rollOn": ["Room"]
+    },
+    "3": {
+      "value": [5,6],
+      "startingArea": "Porte",
+      "rollOn": ["Door"]
+    },
+    "4": {
+      "value": [7,8],
+      "startingArea": "Escaliers",
+      "rollOn": ["Stairs"]
+    },
+    "5": {
+      "value": [9,10],
+      "startingArea": "Entrée ouverte",
+      "rollOn": ["Passage", "Passage", "Room", "Room"]
+    }
+  },
+  "passageTable": {
+    "1": {
+      "value": [1,1],
+      "name": "Le passage continue sur ",
+      "rollOn": ["Passage"]
+    },
+    "2": {
+      "value": [2,2],
+      "name": "Le passage fait 4,5 m et se termine par une porte",
+      "rollOn": ["Door"]
+    },
+    "3": {
+      "value": [3,3],
+      "name": "Le passage fait 9 m et se termine par des escaliers",
+      "rollOn": ["Stairs"]
+    },
+    "4": {
+      "value": [4,4],
+      "name": "Le passage tourne à gauche de 90 degrés",
+      "rollOn": ["Passage"]
+    },
+    "5": {
+      "value": [5,5],
+      "name": "Le passage tourne à droite de 90 degrés",
+      "rollOn": ["Passage"]
+    },
+    "6": {
+      "value": [6,6],
+      "name": "Passage sans issue",
+      "rollOn": ["Non"]
+    },
+    "7": {
+      "value": [7,7],
+      "name": "Le passage continue sur ",
+      "name2": " et arrive à une intersection à quatre voies",
+      "rollOn": ["Passage"]
+    },
+    "8": {
+      "value": [8,8],
+      "name": "Le passage continue sur ",
+      "name2": " et arrive à une jonction en T",
+      "rollOn": ["Passage"]
+    },
+    "9": {
+      "value": [9,9],
+      "name": "Le passage continue sur ",
+      "name2": " puis vous voyez un passage latéral partant vers la gauche",
+      "rollOn": ["Passage"]
+    },
+    "10": {
+      "value": [10,10],
+      "name": "Le passage continue sur ",
+      "name2": " puis vous voyez un passage latéral partant vers la droite",
+      "rollOn": ["Passage"]
+    },
+    "11": {
+      "value": [11,11],
+      "name": "Le passage se termine par une entrée ouverte vers une pièce",
+      "rollOn": ["Room"]
+    },
+    "12": {
+      "value": [12,12],
+      "name": "Porte dans le mur de droite",
+      "rollOn": ["Door"]
+    },
+    "13": {
+      "value": [13,13],
+      "name": "Porte dans le mur de gauche",
+      "rollOn": ["Door"]
+    },
+    "14": {
+      "value": [14,14],
+      "name": "",
+      "rollOn": ["Non"]
+    },
+    "15": {
+      "value": [15,15],
+      "name": "Passage étroit de ",
+      "rollOn": ["Passage"]
+    },
+    "16": {
+      "value": [16,16],
+      "name": "Passage élargi de ",
+      "rollOn": ["Passage"]
+    },
+    "17": {
+      "value": [17,17],
+      "name": "Ouverture à gauche, escalier",
+      "rollOn": ["Stairs"]
+    },
+    "18": {
+      "value": [18,18],
+      "name": "Ouverture à droite, escalier",
+      "rollOn": ["Stairs"]
+    },
+    "19": {
+      "value": [19,19],
+      "name": "Ouverture dans le sol, descendez tout droit de ",
+      "rollOn": ["Passage", "Room"]
+    },
+    "20": {
+      "value": [20,20],
+      "name": "",
+      "rollOn": ["Architecture"]
+    }
+  },
+  "contentPassageTable": {
+    "1": {
+      "value": [1,69],
+      "name": "Vide"
+    },
+    "2": {
+      "value": [70,80],
+      "name": "Vide à l'exception des décombres"
+    },
+    "3": {
+      "value": [81,84],
+      "name": "Vide à part le cadavre"
+    },
+    "4": {
+      "value": [85,88],
+      "name": "Vide à part plusieurs cadavres"
+    },
+    "5": {
+      "value": [89,90],
+      "name": "Vide en dehors des ennemis"
+    },
+    "6": {
+      "value": [91,92],
+      "name": "Vide en dehors des ennemis"
+    },
+    "7": {
+      "value": [93,94],
+      "name": "Vide en dehors des ennemis"
+    },
+    "8": {
+      "value": [95,98],
+      "name": "Piège !"
+    },
+    "9": {
+      "value": [99,150],
+      "name": ""
+    }
+  },
+  "doorTable": {
+    "1": {
+      "value": [1,20],
+      "name": "Porte en bois standard, consolidée avec du métal, déverrouillée",
+      "rollOn": ["Non"]
+    },
+    "2": {
+      "value": [21,25],
+      "name": "Barres de fer (herse) avec levier sur le côté. Vous pouvez voir à travers la pièce",
+      "rollOn": ["Room"]
+    },
+    "3": {
+      "value": [26,30],
+      "name": "Porte vide",
+      "rollOn": ["Non"]
+    },
+    "4": {
+      "value": [31,35],
+      "name": "Porte en bois, verrouillée. Check des outils de voleur (Furtivité) DC 15, ou elle devra être brisée (ou une autre méthode valide, telle que le sort Knock). La porte a AC 12 et 20 HP",
+      "rollOn": ["Room"]
+    },
+    "5": {
+      "value": [36,40],
+      "name": "Porte en fer, verrouillée. Check des outils de voleurs (Furtivité) DC 14 (ou toute autre méthode valide, telle que le sort Knock ou sa démolition)",
+      "rollOn": ["Non"]
+    },
+    "6": {
+      "value": [41,45],
+      "name": "Porte en pierre verrouillée",
+      "rollOn": ["Non"]
+    },
+    "7": {
+      "value": [46,50],
+      "name": "Porte secrète",
+      "rollOn": ["Non"]
+    },
+    "8": {
+      "value": [51,55],
+      "name": "Entrée, puis 3 m jusqu'à un passage adjacent. Voûte vide, pas de porte",
+      "rollOn": ["Passage"]
+    },
+    "9": {
+      "value": [56,60],
+      "name": "Porte en pierre verrouillée, sécurisée avec un puzzle",
+      "rollOn": ["Non"]
+    },
+    "10": {
+      "value": [61,75],
+      "name": "",
+      "rollOn": ["Room"]
+    },
+    "11": {
+      "value": [76,80],
+      "name": "Porte piégée",
+      "rollOn": ["Non"]
+    },
+    "12": {
+      "value": [81,85],
+      "name": "Porte verrouillée, ne peut être ouverte qu'avec une clé qui se trouve sur le corps d'un monstre humanoïde quelque part dans ce donjon. Il y a une raison pour laquelle ils ne veulent pas que quiconque entre",
+      "rollOn": ["Secret Room"]
+    },
+    "13": {
+      "value": [86,90],
+      "name": "Porte composée d'énergie élémentaire, comme le feu ou la foudre. Vous pouvez le traverser, mais vous subirez 3d8 dégâts de quelque type que ce soit",
+      "rollOn": ["Room"]
+    },
+    "14": {
+      "value": [91,95],
+      "name": "Porte en pierre lourde. Nécessite un check d'Athlétisme pour s'ouvrir (DC 16). -1 PV tous les 2 checks de Force ratés",
+      "rollOn": ["Room"]
+    },
+    "15": {
+      "value": [96,100],
+      "name": "La porte est brisée et pend de ses gonds (pourquoi ?). Mène dans une pièce",
+      "rollOn": ["Room"]
+    }
+  },
+  "stairsTable": {
+    "1": {
+      "value": [1,8],
+      "name": "Descendez d'un niveau vers",
+      "rollOn": ["Non"]
+    },
+    "2": {
+      "value": [9,9],
+      "name": "Descendez d'un niveau dans une pièce",
+      "rollOn": ["Room"]
+    },
+    "3": {
+      "value": [10,10],
+      "name": "Descendez d'un niveau dans une pièce",
+      "rollOn": ["Room"]
+    },
+    "4": {
+      "value": [11,11],
+      "name": "Descendre d'un niveau jusqu'à un passage",
+      "rollOn": ["Passage"]
+    },
+    "5": {
+      "value": [12,12],
+      "name": "Descendez d'un niveau dans un passage, ajoutez 15 au jet de Passage Contents",
+      "rollOn": ["Passage"]
+    },
+    "6": {
+      "value": [13,13],
+      "name": "Descendez d'un niveau dans un passage, ajoutez 30 au jet de Passage Contents",
+      "rollOn": ["Passage"]
+    },
+    "7": {
+      "value": [14,14],
+      "name": "Descendez de deux niveaux vers",
+      "rollOn": ["Non"]
+    },
+    "8": {
+      "value": [15,15],
+      "name": "Montez d'un niveau dans une pièce, ajoutez 15 au jet de Room Contents",
+      "rollOn": ["Room"]
+    },
+    "9": {
+      "value": [16,16],
+      "name": "Montez d'un niveau dans une pièce, ajoutez 30 au jet de Room Contents",
+      "rollOn": ["Room"]
+    },
+    "10": {
+      "value": [17,17],
+      "name": "Montez d'un niveau dans un passage",
+      "rollOn": ["Passage"]
+    },
+    "11": {
+      "value": [18,18],
+      "name": "Montez d'un niveau dans un passage, ajoutez 15 au jet de Passage Contents",
+      "rollOn": ["Passage"]
+    },
+    "12": {
+      "value": [19,19],
+      "name": "Montez d'un niveau dans un passage, ajoutez 30 au jet de Passage Contents",
+      "rollOn": ["Passage"]
+    },
+    "13": {
+      "value": [20,20],
+      "name": "Montez de deux niveaux vers",
+      "rollOn": ["Non"]
+    }
+  },
+  "roomTable": {
+    "1": {
+      "value": [1,2],
+      "size": "Pièce rectangulaire"
+    },
+    "2": {
+      "value": [3,4],
+      "size": "Pièce carrée"
+    },
+    "3": {
+      "value": [5,6],
+      "size": "Pièce carrée"
+    },
+    "4": {
+      "value": [7,8],
+      "size": "Pièce carrée"
+    },
+    "5": {
+      "value": [9,10],
+      "size": "Pièce rectangulaire"
+    },
+    "6": {
+      "value": [11,12],
+      "size": "Pièce rectangulaire"
+    },
+    "7": {
+      "value": [13,14],
+      "size": "Pièce circulaire"
+    },
+    "8": {
+      "value": [15,15],
+      "size": "Pièce triangulaire"
+    },
+    "9": {
+      "value": [16,16],
+      "size": "Pièce pentagonale"
+    },
+    "10": {
+      "value": [17,17],
+      "size": "Pièce hexagonale"
+    },
+    "11": {
+      "value": [18,18],
+      "size": "Pièce octogonale"
+    },
+    "12": {
+      "value": [19,19],
+      "size": "Pièce trapézoïdale"
+    },
+    "13": {
+      "value": [20,20],
+      "size": "Grotte brute"
+    }
+  },
+  "roomContentTable": {
+    "1": {
+      "value": [1,4],
+      "name": "Rencontre mortelle appropriée au niveau"
+    },
+    "2": {
+      "value": [5,8],
+      "name": "Restes / preuve du boss ou Grand Méchant. On dirait qu'ils ont fait des bêtises dans cette pièce"
+    },
+    "3": {
+      "value": [9,12],
+      "name": "Minions de bas niveau du Grand Méchant dans cette pièce"
+    },
+    "4": {
+      "value": [13,20],
+      "name": "Danger de donjon : "
+    },
+    "5": {
+      "value": [21,32],
+      "name": "Rencontre difficile appropriée au niveau"
+    },
+    "6": {
+      "value": [33,36],
+      "name": "Un PNJ dans la chambre enquête"
+    },
+    "7": {
+      "value": [37,40],
+      "name": "Un piège précédemment déclenché se trouve dans cette pièce, avec un ennemi d'une rencontre difficile appropriée au niveau qui y est pris dedans. "
+    },
+    "8": {
+      "value": [41,52],
+      "name": "Rencontre facile appropriée au niveau"
+    },
+    "9": {
+      "value": [53,56],
+      "name": "Obstacle de quelque sorte (par exemple décombres, crevasse, gouffre, ruisseau souterrain, champ de magie sauvage). Un jet d'athlétisme ou d'acrobatie peut être requis pour le réussir, ou il peut être infranchissable"
+    },
+    "10": {
+      "value": [57,67],
+      "name": "Rencontre moyenne appropriée au niveau"
+    },
+    "11": {
+      "value": [68,71],
+      "name": "PNJ (ennemi ou allié du Joueur) proche de la mort, inconscient, rencontre difficile appropriée au niveau. Une bataille s'est évidemment déroulée ici - le PNJ a combattu une créature puissante et a perdu, mais l'a quelque peu endommagée"
+    },
+    "12": {
+      "value": [72,74],
+      "name": "Deux créatures de niveau approprié sont engagées dans la bataille les unes avec les autres. Vous trébuchez juste au début de la bataille. Comment réagissez-vous ? Se cacher et attendre qu'un vainqueur émerge ? Pourquoi se battent-ils ? Puisqu'ils sont engagés par ailleurs, vous avez un avantage sur les checks de furtivité pour vous frayer un chemin. (DC est la perception passive de la créature)"
+    },
+    "13": {
+      "value": [75,76],
+      "name": "Abandonnée mais pour quelques runes et symboles étranges sur le sol. Magique ? Peut-être"
+    },
+    "14": {
+      "value": [77,80],
+      "name": "Un PNJ puissant vient de vaincre une rencontre mortelle de niveau approprié"
+    },
+    "15": {
+      "value": [81,84],
+      "name": "Vide"
+    },
+    "16": {
+      "value": [85,88],
+      "name": "Rencontre facile de niveau approprié (voir Chapitre 16). Indice, PNJ, bénédiction à 30%"
+    },
+    "17": {
+      "value": [89,92],
+      "name": "Relique maudite ou bénie, gardée par une rencontre mortelle appropriée au niveau. Jets de questions/réponses pour déterminer la nature de la relique"
+    },
+    "18": {
+      "value": [93,200],
+      "name": "BOSS / Grand Méchant / Rencontre significative de PNJ !"
+    }
+  },
+  "architectureFeatureTable": {
+    "1": {
+      "value": [1,1],
+      "name": "Statue"
+    },
+    "2": {
+      "value": [2,2],
+      "name": "Série d'alcôves"
+    },
+    "3": {
+      "value": [3,3],
+      "name": "Fontaine"
+    },
+    "4": {
+      "value": [4,4],
+      "name": ""
+    },
+    "5": {
+      "value": [5,5],
+      "name": "Trou dans le sol"
+    },
+    "6": {
+      "value": [6,6],
+      "name": "Terrarium souterrain"
+    },
+    "7": {
+      "value": [7,7],
+      "name": "Piliers de chaque côté. Quelque chose s'y cache ?"
+    },
+    "8": {
+      "value": [8,8],
+      "name": "Catacombes"
+    },
+    "9": {
+      "value": [9,9],
+      "name": "Puzzle de quelque sorte"
+    },
+    "10": {
+      "value": [10,10],
+      "name": "Socle sacrificiel"
+    },
+    "11": {
+      "value": [11,11],
+      "name": "Temple / sanctuaire"
+    },
+    "12": {
+      "value": [12,12],
+      "name": "Poste de garde"
+    },
+    "13": {
+      "value": [13,13],
+      "name": "Trappe avec échelle"
+    },
+    "14": {
+      "value": [14,14],
+      "name": "Ruisseau souterrain"
+    },
+    "15": {
+      "value": [15,15],
+      "name": "Caverne naturelle"
+    },
+    "16": {
+      "value": [16,16],
+      "name": "Conduit de ventilation"
+    },
+    "17": {
+      "value": [17,17],
+      "name": "Croissance cristalline"
+    },
+    "18": {
+      "value": [18,18],
+      "name": "Site de campement, abandonné"
+    },
+    "19": {
+      "value": [19,19],
+      "name": "Portail. Vous emmène dans une autre partie aléatoire du donjon"
+    },
+    "20": {
+      "value": [20,20],
+      "name": "Ferme de champignons comestibles / mousse"
+    }
+  },
+  "secretDoorTable": {
+    "1": {
+      "value": [1,2],
+      "name": "Une porte secrète s'ouvre sur une pièce",
+      "rollOn": ["Room"]
+    },
+    "2": {
+      "value": [3,4],
+      "name": "La porte secrète s'ouvre sur un passage",
+      "rollOn": ["Passage"]
+    },
+    "3": {
+      "value": [5,6],
+      "name": "Porte secrète piégée",
+      "rollOn": ["Non"]
+    }
+  },
+  "trapTable": {
+    "1": {
+      "value": [1,6],
+      "name": "Fléchettes empoisonnées",
+      "noticeDC": 11,
+      "saveDC": 10,
+      "level": 3,
+      "calcul": "-",
+      "damage": "(Niveau Joueur - 3) d6 (mini 1d6)"
+    },
+    "2": {
+      "value": [7,12],
+      "name": "Toit qui s'effondre",
+      "noticeDC": 11,
+      "saveDC": 10,
+      "level": 2,
+      "calcul": "-",
+      "damage": "(Niveau Joueur - 2) d6 (mini 1d6)"
+    },
+    "3": {
+      "value": [13,19],
+      "name": "Fosse simple",
+      "noticeDC": 11,
+      "saveDC": 11,
+      "level": 1,
+      "calcul": "-",
+      "damage": "(Niveau Joueur - 1) d6 (mini 1d6)"
+    },
+    "4": {
+      "value": [20,26],
+      "name": "Fosse cachée",
+      "noticeDC": 11,
+      "saveDC": 12,
+      "level": 1,
+      "calcul": "-",
+      "damage": "(Niveau Joueur - 1) d6 (min 1d6)"
+    },
+    "5": {
+      "value": [27,32],
+      "name": "Fosse de verrouillage",
+      "noticeDC": 11,
+      "saveDC": 12,
+      "level": 1,
+      "calcul": "",
+      "damage": "(Niveau Joueur) d6"
+    },
+    "6": {
+      "value": [33,38],
+      "name": "Fosse à pointes",
+      "noticeDC": 12,
+      "saveDC": 13,
+      "level": 1,
+      "calcul": "",
+      "damage": "(Niveau Joueur) d6"
+    },
+    "7": {
+      "value": [39,44],
+      "name": "Sphère roulante",
+      "noticeDC": 12,
+      "saveDC": 14,
+      "level": 1,
+      "calcul": "",
+      "damage": "(Niveau Joueur) d6"
+    },
+    "8": {
+      "value": [45,50],
+      "name": "Lame de faux",
+      "noticeDC": 13,
+      "saveDC": 14,
+      "level": 1,
+      "calcul": "+",
+      "damage": "(Niveau Joueur + 1) d6"
+    },
+    "9": {
+      "value": [51,56],
+      "name": "Piège à glyphes",
+      "noticeDC": 14,
+      "saveDC": 15,
+      "level": 1,
+      "calcul": "+",
+      "damage": "(Niveau Joueur + 1) d6"
+    },
+    "10": {
+      "value": [57,63],
+      "name": "Sort de missile magique",
+      "noticeDC": 14,
+      "saveDC": 15,
+      "level": 1,
+      "calcul": "+",
+      "damage": "(Niveau Joueur + 1) d6"
+    },
+    "11": {
+      "value": [64,69],
+      "name": "Gaz toxique libéré / Spray acide",
+      "noticeDC": 15,
+      "saveDC": 16,
+      "level": 1,
+      "calcul": "+",
+      "damage": "(Niveau Joueur + 1) d6"
+    },
+    "12": {
+      "value": [70,76],
+      "name": "La chambre se remplit d'eau",
+      "noticeDC": 15,
+      "saveDC": 16,
+      "level": 2,
+      "calcul": "+",
+      "damage": "(Niveau Joueur + 2) d6"
+    },
+    "13": {
+      "value": [77,82],
+      "name": "Les murs commencent à se fermer",
+      "noticeDC": 16,
+      "saveDC": 17,
+      "level": 2,
+      "calcul": "+",
+      "damage": "(Niveau Joueur + 2) d6"
+    },
+    "14": {
+      "value": [83,88],
+      "name": "Des lances sortent du sol",
+      "noticeDC": 17,
+      "saveDC": 18,
+      "level": 2,
+      "calcul": "+",
+      "damage": "(Niveau Joueur + 2) d6"
+    },
+    "15": {
+      "value": [89,93],
+      "name": "Chutes de grille à pointes",
+      "noticeDC": 17,
+      "saveDC": 19,
+      "level": 1.5,
+      "calcul": "*",
+      "damage": "(Niveau Joueur x 1.5 arrondi) d6"
+    },
+    "16": {
+      "value": [94,100],
+      "name": "Trappe (serpents/acide dessous ?)",
+      "noticeDC": 18,
+      "saveDC": 20,
+      "level": 2,
+      "calcul": "*",
+      "damage": "(Niveau Joueur x2) d6"
+    }
+  },
+  "cluesTable": {
+    "1": {
+      "value": [1,1],
+      "name": "Une flèche brisée d'un type distinctif"
+    },
+    "2": {
+      "value": [2,2],
+      "name": "L'arme du monstre / PNJ a du sang séché dessus. Mais quel genre ?"
+    },
+    "3": {
+      "value": [3,3],
+      "name": "La carcasse ou la zone a une odeur étrange"
+    },
+    "4": {
+      "value": [4,4],
+      "name": "Il y a un bruit étrange venant de quelque part dans cette zone"
+    },
+    "5": {
+      "value": [5,5],
+      "name": "Vous voyez des pistes partant de cette zone"
+    },
+    "6": {
+      "value": [6,6],
+      "name": " pièces de platine dans une pochette richement brodée. La broderie mentionne le nom de quelqu'un"
+    },
+    "7": {
+      "value": [7,7],
+      "name": "Boussole magique, le joueur doit trouver le mot de commande pour l'activer"
+    },
+    "8": {
+      "value": [8,8],
+      "name": "Le cadavre tient une enveloppe. La cire est scellée avec un sceau inconnu"
+    },
+    "9": {
+      "value": [9,9],
+      "name": "Vous voyez des tâches de sang frais éclaboussées sur le mur. Une partie coule encore lorsque vous entrez dans la pièce"
+    },
+    "10": {
+      "value": [10,10],
+      "name": "Le corps est couvert de symboles cartographiques"
+    },
+    "11": {
+      "value": [11,11],
+      "name": "Le corps est couvert de tatouages runiques"
+    },
+    "12": {
+      "value": [12,12],
+      "name": "Le corps est déformé, montrant des signes de chirurgie reconstructive de la tête et de la cavité thoracique, avec des pièces jointes et des implants sous la peau"
+    },
+    "13": {
+      "value": [13,13],
+      "name": "Le corps est marqué d'un numéro, directement derrière le cou"
+    },
+    "14": {
+      "value": [14,14],
+      "name": "Le corps a un nombre important de plaies cicatrisées, suggérant une punition continue et des coups de fouet"
+    },
+    "15": {
+      "value": [15,15],
+      "name": "Un vieux cheval-jouet en bois, avec lequel vous jouiez enfant et que vous avez oublié jusqu'à maintenant"
+    },
+    "16": {
+      "value": [16,16],
+      "name": "Vous entendez des corbeaux crier sans arrêt à proximité"
+    },
+    "17": {
+      "value": [17,17],
+      "name": "Vous trouvez un pendentif avec une pièce manquante"
+    },
+    "18": {
+      "value": [18,18],
+      "name": "Vous trouvez des sacs de maïs et de blé sanglants"
+    },
+    "19": {
+      "value": [19,19],
+      "name": "Vous remarquez un flash lumineux de lumière violacée juste du coin de l'œil"
+    },
+    "20": {
+      "value": [20,20],
+      "name": "La pièce/le cadavre est recouvert d'une fine couche de givre"
+    },
+    "21": {
+      "value": [21,21],
+      "name": "Une note avec seulement le nom de la ville voisine écrite dedans"
+    },
+    "22": {
+      "value": [22,22],
+      "name": "Pierres modelées dans une flèche directionnelle avec les mots 'Aidez-moi' en dessous"
+    },
+    "23": {
+      "value": [23,23],
+      "name": "Partie d'une carte"
+    },
+    "24": {
+      "value": [24,24],
+      "name": "Arme cassée avec des runes dessus"
+    },
+    "25": {
+      "value": [25,25],
+      "name": "Un symbole sacré"
+    },
+    "26": {
+      "value": [26,26],
+      "name": "Un sac à dos d'aventurier contenant un journal, avec des entrées qui s'arrêtent brusquement"
+    },
+    "27": {
+      "value": [27,27],
+      "name": "Une corde suspendue au-dessus. Elle semble avoir été grossièrement piratée à l'extrémité inférieure"
+    },
+    "28": {
+      "value": [28,28],
+      "name": "Graffiti sur le mur. 'Attention à la Grande Salle !'"
+    },
+    "29": {
+      "value": [29,29],
+      "name": "Dans le sol il y a un trou, et à côté une bêche. On dirait que quelqu'un a commencé à creuser puis a abandonné. Ou alors ..."
+    },
+    "30": {
+      "value": [30,30],
+      "name": "Un piège à ours ou à homme posé dans une mare de sang. Peut-être un membre coupé à proximité"
+    },
+    "31": {
+      "value": [31,31],
+      "name": "Des traces, seulement elles sont faites dans de la farine"
+    },
+    "32": {
+      "value": [32,32],
+      "name": "Une lanterne cassée"
+    },
+    "33": {
+      "value": [33,33],
+      "name": "Un cercueil vide, le couvercle cassé"
+    },
+    "34": {
+      "value": [34,34],
+      "name": "Allongé sur le sol, une pièce d'échecs en verre"
+    },
+    "35": {
+      "value": [35,35],
+      "name": "Lame cassée d'une épée"
+    },
+    "36": {
+      "value": [36,36],
+      "name": "Chant, distant et triste"
+    },
+    "37": {
+      "value": [37,37],
+      "name": "Chuchotement, de quelque part dans la pièce, désincarné. Il s'arrête et recommence, d'une manière inquiétante"
+    },
+    "38": {
+      "value": [38,38],
+      "name": "Un tas de pierres soigneusement empilées est situé au milieu de cette zone"
+    },
+    "39": {
+      "value": [39,39],
+      "name": "Bruit sourd au-dessus ou au-dessous de la zone actuelle dans laquelle vous vous trouvez"
+    },
+    "40": {
+      "value": [40,40],
+      "name": "Vous remarquez une brique lâche dans le mur. En regardant derrière, vous trouvez un parchemin caché. Qu'est-ce qui est écrit dessus ? (Q/R)"
+    },
+    "41": {
+      "value": [41,41],
+      "name": "Un trou a été percé à travers le mur dans une chambre adjacente. Cette chambre ne semble pas avoir d'autre moyen d'entrer ou de sortir"
+    },
+    "42": {
+      "value": [42,42],
+      "name": "Un sac et son contenu éparpillés sur le sol"
+    },
+    "43": {
+      "value": [43,43],
+      "name": "Il y a des décombres ici, mais quelqu'un les a balayés contre les murs en tas bien nets, à l'aide évidemment d'un balai"
+    },
+    "44": {
+      "value": [44,44],
+      "name": "Vous entendez des chuchotements juste derrière vous, mais lorsque vous vous retournez, il n'y a personne"
+    },
+    "45": {
+      "value": [45,45],
+      "name": "Une main coupée couverte de points de suture se trouve sur le sol "
+    },
+    "46": {
+      "value": [46,46],
+      "name": "Un livre d'images dessinées à la main de divers humanoïdes, certains d'entre eux avec de grandes croix rouges à travers eux"
+    },
+    "47": {
+      "value": [47,47],
+      "name": "Un corps est là, et a été attaqué férocement, comme par un animal sauvage"
+    },
+    "48": {
+      "value": [48,48],
+      "name": "Un bouclier repose sur le sol en deux morceaux. Tout ce qui a déchiré cela possède évidemment une grande force"
+    },
+    "49": {
+      "value": [49,49],
+      "name": "Une pièce en platine, collée au sol"
+    },
+    "50": {
+      "value": [50,50],
+      "name": "Un petit rayon de lumière brille à travers une fissure dans le plafond"
+    },
+    "51": {
+      "value": [51,51],
+      "name": "Une traînée de sang, comme si un corps était traîné, s'éloigne. Il s'arrête subitement"
+    },
+    "52": {
+      "value": [52,52],
+      "name": "Une longue liste de noms, tous barrés sauf les 5-10 derniers. Près de la fin se trouve le nom du Joueur"
+    },
+    "53": {
+      "value": [53,53],
+      "name": "Une carte en couleur détaillée de la région, marquée de plusieurs ruines jusque-là inconnues"
+    },
+    "54": {
+      "value": [54,54],
+      "name": "Un vent froid, comme si quelqu'un ouvrait une porte sur une toundra arctique, souffle brièvement dans cette zone"
+    },
+    "55": {
+      "value": [55,55],
+      "name": "Vous entendez le bruit du métal traîné sur la pierre. Cela continue un moment puis s'arrête"
+    },
+    "56": {
+      "value": [56,56],
+      "name": "Soudain, vous réalisez que vos pas sont devenus complètement silencieux"
+    },
+    "57": {
+      "value": [57,57],
+      "name": "Des roulements à billes ou des chausse-trapes jonchent le sol dans cette zone"
+    },
+    "58": {
+      "value": [58,58],
+      "name": "Des formes géométriques dessinées à la craie sur le sol"
+    },
+    "59": {
+      "value": [59,59],
+      "name": "Le sol est recouvert d'un tapis. Une inspection minutieuse révélera quelques taches d'un liquide sombre, peut-être du sang."
+    },
+    "60": {
+      "value": [60,60],
+      "name": "Une carte d'un labyrinthe soigneusement faite sur un morceau de parchemin"
+    },
+    "61": {
+      "value": [61,61],
+      "name": "Une lettre de recommandation d'un noble dont personne n'a entendu parler"
+    },
+    "62": {
+      "value": [62,62],
+      "name": "Les restes d'un aventurier gisent affalé contre le mur. Dans sa main il tient une fiole ou une note"
+    },
+    "63": {
+      "value": [63,63],
+      "name": "Des pas précipités, venant de quelque part devant nous"
+    },
+    "64": {
+      "value": [64,64],
+      "name": "Une petite bête (cafard ?) est assise dans une alcôve. En passant, il vous parle !"
+    },
+    "65": {
+      "value": [65,65],
+      "name": "Seau d'entrailles d'une créature inconnue"
+    },
+    "66": {
+      "value": [66,66],
+      "name": "Le mannequin d'entraînement à la cible est à proximité"
+    },
+    "67": {
+      "value": [67,67],
+      "name": "Le bruit du bris de verre vient de quelque part, se répercutant sur les murs"
+    },
+    "68": {
+      "value": [68,68],
+      "name": "Un beau poignard à lame rétractable. À qui est-ce que cela appartenait ?"
+    },
+    "69": {
+      "value": [69,69],
+      "name": "Un morceau de coquille qui semble provenir d'un gros œuf"
+    },
+    "70": {
+      "value": [70,70],
+      "name": "Le mur a été creusé et une grande pierre dressée a été placée dans l'alcôve nouvellement formée. Il est couvert d'une écriture étrange"
+    },
+    "71": {
+      "value": [71,71],
+      "name": "Un grand rôti est disposé sur une table, avec des couverts. Il est fumant et a l'air délicieux, mais il est totalement intact"
+    },
+    "72": {
+      "value": [72,72],
+      "name": "Graffiti gobelin sur les murs"
+    },
+    "73": {
+      "value": [73,73],
+      "name": "Une grande collection d'os d'animaux, organisée en tas"
+    },
+    "74": {
+      "value": [74,74],
+      "name": "Un chaudron se trouve dans le coin"
+    },
+    "75": {
+      "value": [75,75],
+      "name": "Une main… elle a l'air coupée, mais ce qui est étrange, c'est qu'elle est en pierre"
+    },
+    "76": {
+      "value": [76,76],
+      "name": "Vous trouvez un pot de pierre contenant des dents de toutes sortes"
+    },
+    "77": {
+      "value": [77,77],
+      "name": "Un journal d'aventurier. En lisant, tu vois les entrées s'arrêter soudainement"
+    },
+    "78": {
+      "value": [78,78],
+      "name": "Une table et une seule chaise sont dans le coin. La table est éclaboussée de grosses boules de cire"
+    },
+    "79": {
+      "value": [79,79],
+      "name": "Un filet vide sur le sol, déchiré en lambeaux"
+    },
+    "80": {
+      "value": [80,80],
+      "name": "Une pile de tablettes d'argile, toutes avec des runes indéchiffrables"
+    },
+    "81": {
+      "value": [81,81],
+      "name": "Un luth, mais le manche a été brisé du corps et pend par les cordes"
+    },
+    "82": {
+      "value": [82,82],
+      "name": "La tête réduite d'un kobold"
+    },
+    "83": {
+      "value": [83,83],
+      "name": "Un livre contenant une histoire du monde - pas de ce monde cependant"
+    },
+    "84": {
+      "value": [84,84],
+      "name": "Un puits, au milieu du donjon. Une corde pend de son sommet"
+    },
+    "85": {
+      "value": [85,85],
+      "name": "Vous marchez sur une pierre et entendez un déclic ..."
+    },
+    "86": {
+      "value": [86,86],
+      "name": "Un cliquetis, suivi d'un sifflement, quelque part en dessous ..."
+    },
+    "87": {
+      "value": [87,87],
+      "name": "Un pot d'yeux marinés"
+    },
+    "88": {
+      "value": [88,88],
+      "name": "Il y a un cercle de feu de camp contenant un feu préparé, mais il n'a pas été allumé"
+    },
+    "89": {
+      "value": [89,89],
+      "name": "Martelé sur une porte à proximité ou fixé au mur se trouve un morceau de parchemin encadré - complètement vierge"
+    },
+    "90": {
+      "value": [90,90],
+      "name": "Une bouteille de cognac vide"
+    },
+    "91": {
+      "value": [91,91],
+      "name": "Un dé à six faces où il y a que des uns"
+    },
+    "92": {
+      "value": [92,92],
+      "name": "Un crâne de halfelin, intact à l'exception d'un cercle parfait enlevé au sommet"
+    },
+    "93": {
+      "value": [93,93],
+      "name": "Un large assortiment de pots en argile dans des alcôves, tous contenant des liquides à l'odeur nocive"
+    },
+    "94": {
+      "value": [94,94],
+      "name": "Un râtelier d'armes est accroché au mur, contenant plusieurs armes anciennes et rouillées. Certains d'entre eux pourraient être restaurés s'ils sont confiés à un expert"
+    },
+    "95": {
+      "value": [95,95],
+      "name": "Un flux constant d'humidité le long d'un mur voisin vous amène à penser que vous pourriez être en dessous d'un plan d'eau"
+    },
+    "96": {
+      "value": [96,96],
+      "name": "Le son des rires des enfants, résonnant dans toutes les directions"
+    },
+    "97": {
+      "value": [97,97],
+      "name": "Un sac de plumes"
+    },
+    "98": {
+      "value": [98,98],
+      "name": "Vous trouvez un parchemin contenant ce qui ressemble à une recette pour un type particulier de potion"
+    },
+    "99": {
+      "value": [99,99],
+      "name": "Une pochette de composants de sorts"
+    },
+    "100": {
+      "value": [100,100],
+      "name": "Objet magique ! "
+    }
+  }
+}

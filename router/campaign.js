@@ -1,33 +1,25 @@
 const campaign = require('express').Router();
-const Campaign = require('../models/campaign');
+
+const { Campaign } = require('../models/campaign');
 const campaignCreation = require('../rules/campaign/campaign').campaignCreation;
 const campaignDeleting = require('../rules/campaign/campaign').campaignDeleting;
 
-const campaignPost = (req, res) => {
-  Campaign.find({campaignID: req.body.campaignID}).exec()
+const campaignGet = (req, res) => {
+  Campaign.find({_id: req.params.id}).exec()
     .then(campaign => {
-      console.log(req.body);
-
-      let campaignID = "";
-      let isNew = false;
-
-      if (campaign.length !== 0) {
-        campaignID = campaign[0].campaignID;
-      } else {
-        campaignID = req.body.campaignID;
-        isNew = true;
-      }
-
-      const campaignres = campaignCreation(campaignID, isNew);
-
-      if (campaignres.hasOwnProperty('error')) {
-        res.status(400).send(campaignres.error);
-      }
-      else {
-        res.status(200).json(campaignres);
-      }
+      res.status(200).json(campaign[0]);
     })
-    .catch(error => {console.log(error)});
+}
+
+const campaignPost = (req, res) => {
+  const campaignres = campaignCreation(req.body.campaignID);
+
+  if (campaignres.hasOwnProperty('error')) {
+    res.status(400).send(campaignres.error);
+  }
+  else {
+    res.status(200).json(campaignres);
+  }
 }
 
 const campaignDelete = (req, res) => {
@@ -57,6 +49,7 @@ const campaignDelete = (req, res) => {
     .catch(error => {console.log(error)});
 }
 
+campaign.get('/:id', campaignGet);
 campaign.post('/create', campaignPost);
 campaign.delete('/delete', campaignDelete);
 
