@@ -12,13 +12,17 @@ const fatecheck = (req, res) => {
 
       if (fateres.hasOwnProperty('error')) {
         res.status(400).send(fateres.error);
-      }
-      else {
+      } else {
         res.status(200).json(fateres);
       }
     })
-    .catch(error => {console.log(error)});
+    .catch(error => 
+      {
+        console.log(error)
+      }
+    );
 }
+
 fate.post('/', fatecheck);
 
 module.exports = fate;

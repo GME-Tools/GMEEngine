@@ -5,7 +5,7 @@ const odds = {
   VL: 4,
   ST: 6,
   HB: 8,
-  50: 0,
+  NS: 0,
   UL: -2,
   VU: -4,
   NW: -6,
@@ -13,14 +13,21 @@ const odds = {
 }
 
 const fateCheck = (chaos, odd, yesorno) => {
-  if (Object.keys(odds).includes(odd.toString().toUpperCase()) && (yesorno === "y" || yesorno === 'n')) {
+  if (Object.keys(odds).includes(odd.toString().toUpperCase()) && (yesorno === "Yes" || yesorno === 'No')) {
     const oddmod = odds[odd.toString().toUpperCase()];
-    const chaosmod = (yesorno === 'y'?-1:1) * 2 * Math.trunc(chaos-4.5);
+    const chaosmod = (yesorno === 'Yes'?-1:1) * 2 * Math.trunc(chaos-4.5);
     const roll1 = dice.die(10);
     const roll2 = dice.die(10);
     const chaosroll = dice.die(10);
 
-    const isYes = roll1 + roll2 + oddmod + chaosmod > 10;
+    let isYes = roll1 + roll2 + oddmod + chaosmod >= 10;
+
+    /* if (yesorno === "Yes") {
+        isYes = roll1 + roll2 + oddmod + chaosmod >= 10;
+      } else {
+        isYes = roll1 + roll2 + oddmod + chaosmod < 10;
+      } */
+    
     let isExceptional = false;
     let randomEvent = false;
 
